@@ -1,7 +1,7 @@
 # SpatialStack
 Beyond the pixel: Stacking time and depth to give AI a sense of space.
 
-Try it out: www.spatial-ml.tech
+Try it out: www.spatialstack.tech
 
 Built for Hacktech 2026
 
