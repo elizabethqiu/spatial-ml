@@ -1,0 +1,55 @@
+{
+  "session_id": "demo-trench-edge-distance",
+  "summary": "A worker is positioned close to a trench edge. The nearest edge appears within a few metres, suggesting a fall hazard if the ground is unstable or unprotected.",
+  "cot_trace": "Spatial context (precomputed demo): worker adjacent to trench; edge line visible; estimate worker-to-edge lateral distance from image geometry; report in metres.",
+  "estimates": [
+    { "description": "Worker → trench edge distance", "value_m": 2.1 },
+    { "description": "Camera → worker depth", "value_m": 7.4 }
+  ],
+  "safety_alerts": [
+    "SAFETY: worker appears within 2.1m of trench edge"
+  ],
+  "scene_graph": {
+    "timestamp": 0,
+    "frame_count": 1,
+    "nodes": [
+      {
+        "id": "w1",
+        "label": "worker",
+        "bbox_xyxy": [180, 160, 260, 360],
+        "depth_m": 7.4,
+        "position_3d": [-0.3, 0.0, 7.4],
+        "confidence": 0.84,
+        "last_seen": 0,
+        "in_frame": true,
+        "user_corrected": false
+      },
+      {
+        "id": "t1",
+        "label": "trench edge",
+        "bbox_xyxy": [260, 250, 640, 420],
+        "depth_m": 7.0,
+        "position_3d": [1.8, 0.0, 7.0],
+        "confidence": 0.66,
+        "last_seen": 0,
+        "in_frame": true,
+        "user_corrected": false
+      },
+      {
+        "id": "c1",
+        "label": "concrete barrier",
+        "bbox_xyxy": [40, 240, 170, 420],
+        "depth_m": 6.3,
+        "position_3d": [-2.1, 0.0, 6.3],
+        "confidence": 0.72,
+        "last_seen": 0,
+        "in_frame": true,
+        "user_corrected": false
+      }
+    ],
+    "edges": [
+      { "source": "w1", "target": "t1", "relation": "proximity", "distance_m": 2.1, "confidence": 0.7 },
+      { "source": "w1", "target": "c1", "relation": "proximity", "distance_m": 1.9, "confidence": 0.7 }
+    ]
+  }
+}

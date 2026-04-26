@@ -1,0 +1,55 @@
+{
+  "session_id": "demo-forklift-proximity",
+  "summary": "A worker is standing near a forklift with pallets nearby. The forklift is close enough to present a collision risk if it moves unexpectedly.",
+  "cot_trace": "Spatial context (precomputed demo): worker near forklift; pallets stacked; clear ground plane; forklift forks low. Safety rule: alert if worker-equipment distance < 2m.",
+  "estimates": [
+    { "description": "Worker → forklift distance", "value_m": 1.6 },
+    { "description": "Forklift → pallet stack distance", "value_m": 2.4 }
+  ],
+  "safety_alerts": [
+    "SAFETY: worker within 1.6m of forklift"
+  ],
+  "scene_graph": {
+    "timestamp": 0,
+    "frame_count": 1,
+    "nodes": [
+      {
+        "id": "w1",
+        "label": "worker",
+        "bbox_xyxy": [120, 140, 210, 360],
+        "depth_m": 5.2,
+        "position_3d": [-0.6, 0.0, 5.2],
+        "confidence": 0.86,
+        "last_seen": 0,
+        "in_frame": true,
+        "user_corrected": false
+      },
+      {
+        "id": "f1",
+        "label": "forklift",
+        "bbox_xyxy": [260, 170, 470, 380],
+        "depth_m": 4.1,
+        "position_3d": [0.8, 0.0, 4.1],
+        "confidence": 0.81,
+        "last_seen": 0,
+        "in_frame": true,
+        "user_corrected": false
+      },
+      {
+        "id": "p1",
+        "label": "pallet stack",
+        "bbox_xyxy": [500, 200, 640, 380],
+        "depth_m": 6.0,
+        "position_3d": [2.7, 0.0, 6.0],
+        "confidence": 0.74,
+        "last_seen": 0,
+        "in_frame": true,
+        "user_corrected": false
+      }
+    ],
+    "edges": [
+      { "source": "w1", "target": "f1", "relation": "proximity", "distance_m": 1.6, "confidence": 0.8 },
+      { "source": "f1", "target": "p1", "relation": "proximity", "distance_m": 2.4, "confidence": 0.7 }
+    ]
+  }
+}

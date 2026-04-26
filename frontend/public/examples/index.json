@@ -1,0 +1,18 @@
+{
+  "examples": [
+    {
+      "id": "forklift_proximity",
+      "title": "Forklift proximity check",
+      "imageUrl": "/examples/warehouse_rgb.jpg",
+      "question": "Is any worker within 2 metres of heavy equipment?",
+      "resultPath": "/examples/forklift_proximity.result.json"
+    },
+    {
+      "id": "trench_edge_distance",
+      "title": "Distance to trench edge",
+      "imageUrl": "/examples/spooky_doggy.png",
+      "question": "How far is the worker from the trench edge?",
+      "resultPath": "/examples/trench_edge_distance.result.json"
+    }
+  ]
+}
