@@ -18,6 +18,7 @@ data/vqa_pairs/
 data/eval/
 data/corrections.jsonl
 data/annotation.log
+data/hf_upload.log
 data/qa_generation.log
 
 # Model checkpoints

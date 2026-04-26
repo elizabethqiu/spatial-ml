@@ -23,6 +23,24 @@ frontend:
 kill all processes:
 `lsof -ti :8000 | xargs kill -9; lsof -ti :3000 | xargs kill -9; lsof -ti :3001 | xargs kill -9`
 
+### upload frames to HuggingFace (one-time, required before finetuning)
+
+```bash
+python3 -c "
+from huggingface_hub import HfApi
+api = HfApi(token='YOUR_HF_TOKEN')
+api.upload_large_folder(
+    repo_id='elizqiu/spatial-ml',
+    repo_type='dataset',
+    folder_path='data',
+    allow_patterns='frames/**',
+)
+print('Done')
+"
+```
+
+Then open `finetune.ipynb` in Google Colab (H100 runtime) and run all cells.
+
 ---
 
 ## summary

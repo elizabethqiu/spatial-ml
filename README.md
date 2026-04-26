@@ -22,5 +22,25 @@ We are proud of achieving cross-domain spatial generalization. The model accurat
 ## What we learned
 Geometry is much more important than labels - for spatial tasks, high-quality depth data is often more important than high-quality text labels.
 
-## What's next for SpatialStack
-We want to deepen the fine-tuning process. Given the brief nature of HackTech, we’ve only scratched the surface of what is possible. We plan to explore more intensive fine-tuning methods, such as LoRA (Low-Rank Adaptation) or QLoRA, to further refine the model's metric precision.
+## What’s next for SpatialStack
+We want to deepen the fine-tuning process. Given the brief nature of HackTech, we’ve only scratched the surface of what is possible. We plan to explore more intensive fine-tuning methods, such as LoRA (Low-Rank Adaptation) or QLoRA, to further refine the model’s metric precision.
+
+## Fine-tuning Setup
+
+Before running `finetune.ipynb` in Colab, you need to upload the frames to HuggingFace from your local machine (one-time step):
+
+```bash
+python3 -c "
+from huggingface_hub import HfApi
+api = HfApi(token=’YOUR_HF_TOKEN’)
+api.upload_large_folder(
+    repo_id=’elizqiu/spatial-ml’,
+    repo_type=’dataset’,
+    folder_path=’data’,
+    allow_patterns=’frames/**’,
+)
+print(‘Done’)
+"
+```
+
+Then open `finetune.ipynb` in Colab, select an H100 GPU runtime, fill in your HF token in the config cell, and run all cells.
