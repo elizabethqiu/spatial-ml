@@ -1,0 +1,28 @@
+# Installable on macOS (no CUDA deps).
+# VQASynth/open3d/depth-pro/sam2 require Linux+CUDA; skip them here.
+
+# API server
+fastapi>=0.111
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.7
+
+# ML core
+torch>=2.3
+torchvision>=0.18
+transformers>=4.41
+peft>=0.11
+accelerate>=0.30
+numpy>=1.26
+Pillow>=10.3
+scipy>=1.13
+scikit-learn>=1.4
+
+# Pipeline / annotation
+opencv-python-headless>=4.9
+
+# LLM for QA generation / CoT reasoning
+anthropic>=0.28
+
+# Utilities
+tqdm>=4.66

@@ -1,0 +1,58 @@
+
+
+Step 1 — Extract frames (runs on Mac now, CLIP filter via transformers fallback):
+
+source .venv/bin/activate
+python pipeline/extract_frames.py --video_dir data/raw_videos --out_dir data/frames --fps 2.0
+
+11,625 frames extracted and CLIP-filtered across 5 videos. The metadata.json is missing (the script probably interrupted before writing it), but all the frames are there.
+
+Notice 13_transit_prep_mp.mp4 is missing — it probably failed or was skipped. Not a blocker.
+
+
+# Step 2 — Annotate frames (runs on Mac with DETR/Depth-Anything fallback; run on GPU with VQASynth for metric depth + SAM2):
+
+source .venv/bin/activate
+python pipeline/expert_annotation.py --frames_dir data/frames --out_dir data/annotations
+
+
+CHECK - MULTIPLE HOURS
+# how many frames annotated so far
+
+find data/annotations -name "depth.npy" | wc -l   # out of 11,625
+tail -3 data/annotation.log
+
+# tail the log
+tail -f data/annotation.log
+
+
+# Step 3 — Generate VQA pairs (needs ANTHROPIC_API_KEY):
+ANTHROPIC_API_KEY=sk-ant-... python pipeline/generate_qa.py
+
+source .venv/bin/activate
+export $(grep -v '^#' .env | xargs)
+nohup python pipeline/generate_qa.py > data/qa_generation.log 2>&1 &
+echo $!
+
+
+# Step 4 — Fine-tune (needs GPU — run on Vultr/Colab):
+
+python model/finetune.py \
+  --base_model remyxai/SpaceLLaVA \
+  --vqa_dir data/vqa_pairs \
+  --out_dir checkpoints/spatialvlm-construction
+
+
+export $(grep -v '^#' .env | xargs)
+python model/finetune.py \
+  --base_model remyxai/SpaceLLaVA \
+  --vqa_dir data/vqa_pairs \
+  --out_dir checkpoints/spatialvlm-construction
+
+find data/vqa_pairs -name "*.json" | wc -l
+
+# Step 5 — Run inference (set VISION_MODEL_PATH to your checkpoint after training, or leave as remyxai/SpaceLLaVA to use pretrained):
+
+VISION_MODEL_PATH=checkpoints/spatialvlm-construction \
+LOAD_REASONING=0 \  # skip K2 locally; it's 70B
+uvicorn api.main:app --reload

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Environment
+.env
+
+# Generated data (large, not versioned)
+data/raw_videos/
+data/frames/
+data/annotations/
+data/vqa_pairs/
+data/eval/
+data/corrections.jsonl
+data/annotation.log
+data/qa_generation.log
+
+# Model checkpoints
+checkpoints/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
