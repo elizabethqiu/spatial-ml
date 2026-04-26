@@ -44,3 +44,9 @@ print(‘Done’)
 ```
 
 Then open `finetune.ipynb` in Colab, select an H100 GPU runtime, fill in your HF token in the config cell, and run all cells.
+
+## How to run website locally
+```
+cd frontend
+npm run dev
+```
