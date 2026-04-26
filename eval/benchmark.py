@@ -23,7 +23,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from PIL import Image
-from transformers import AutoModelForVision2Seq, AutoProcessor
+from transformers import AutoModelForCausalLM, AutoProcessor
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from model.scene_graph import SceneGraph
@@ -35,7 +35,7 @@ from model.scene_graph import SceneGraph
 
 def load_model(model_path: str, device: str):
     processor = AutoProcessor.from_pretrained(model_path)
-    model = AutoModelForVision2Seq.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         model_path, torch_dtype=torch.bfloat16
     ).to(device).eval()
     return model, processor
