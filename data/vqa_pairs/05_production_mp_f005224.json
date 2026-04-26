@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005224.jpg"
+  },
+  {
+    "question": "Is there a motorcycle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005224.jpg"
+  },
+  {
+    "question": "Are there more people than motorcycles in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005224.jpg"
+  },
+  {
+    "question": "What is the closest object distance detected in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005224.jpg"
+  },
+  {
+    "question": "What is the furthest object distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005224.jpg"
+  },
+  {
+    "question": "Is there heavy equipment present on this construction site?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005224.jpg"
+  },
+  {
+    "question": "What is the average depth of detected objects?",
+    "answer": "15.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005224.jpg"
+  }
+]

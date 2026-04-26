@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the laptop?",
+    "answer": "18.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003940.jpg"
+  },
+  {
+    "question": "Is the laptop closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003940.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of or behind the laptop based on depth?",
+    "answer": "The person and laptop are at similar depths, approximately 18 metres away from the camera viewpoint",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003940.jpg"
+  },
+  {
+    "question": "Are there any safety hazards due to proximity between the person and equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003940.jpg"
+  }
+]

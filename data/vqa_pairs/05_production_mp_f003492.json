@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How many TVs are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003492.jpg"
+  },
+  {
+    "question": "Is the banana closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003492.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003492.jpg"
+  },
+  {
+    "question": "Is the person positioned between the two TVs?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003492.jpg"
+  },
+  {
+    "question": "Where is the banana positioned relative to the TVs?",
+    "answer": "The banana is in the foreground at minimum depth (0.00 metres), while the TVs are positioned further back in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003492.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in metres?",
+    "answer": "14.96 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003492.jpg"
+  }
+]

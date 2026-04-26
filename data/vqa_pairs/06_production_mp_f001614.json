@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many bicycles are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001614.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Are there more bicycles than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001614.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "12.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to or farther from the camera than the mean depth?",
+    "answer": "Cannot be determined from scene data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001614.jpg"
+  }
+]

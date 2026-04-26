@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  },
+  {
+    "question": "How many televisions are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  },
+  {
+    "question": "Is there a television in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  },
+  {
+    "question": "Are there more persons than televisions?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene in metres?",
+    "answer": "23.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  },
+  {
+    "question": "Is this an indoor office or living space environment?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  },
+  {
+    "question": "Are the objects in this scene typical of a construction site?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005576.jpg"
+  }
+]

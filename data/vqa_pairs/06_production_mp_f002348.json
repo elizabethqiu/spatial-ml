@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002348.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002348.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002348.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "15.38 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002348.jpg"
+  },
+  {
+    "question": "Are all three people within a safe working distance from each other?",
+    "answer": "Unable to determine - insufficient spatial proximity data between individual persons",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002348.jpg"
+  },
+  {
+    "question": "Is any worker in dangerous proximity to machinery?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002348.jpg"
+  }
+]

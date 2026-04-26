@@ -1,0 +1,67 @@
+[
+  {
+    "question": "What is the maximum distance between any two objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004950.jpg"
+  },
+  {
+    "question": "Is the pizza closer to the camera than the bottle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004950.jpg"
+  },
+  {
+    "question": "Is the dog positioned between the pizza and the bottle in depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "pizza",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004950.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "19.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004950.jpg"
+  },
+  {
+    "question": "Is there any object at the minimum depth position in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza",
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004950.jpg"
+  },
+  {
+    "question": "Which object is closest to the camera in this scene?",
+    "answer": "At least one object is at 0.00 metres depth",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza",
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004950.jpg"
+  }
+]

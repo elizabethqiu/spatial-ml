@@ -1,0 +1,75 @@
+[
+  {
+    "question": "How far is the person from the cell phone?",
+    "answer": "Unable to determine from available depth data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002142.jpg"
+  },
+  {
+    "question": "What is the distance between the chair and the cell phone?",
+    "answer": "Unable to determine from available depth data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002142.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002142.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the person than to the chair?",
+    "answer": "Unable to determine from available depth data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002142.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the chair?",
+    "answer": "The relative position cannot be determined from depth data alone; spatial orientation information is not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002142.jpg"
+  },
+  {
+    "question": "Is the cell phone positioned between the person and the chair?",
+    "answer": "Unable to determine from available depth data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002142.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002142.jpg"
+  }
+]

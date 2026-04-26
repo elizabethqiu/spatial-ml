@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be within a scene spanning 0.00 to 50.00 metres depth, with a mean depth of approximately 14.42 metres. The relative distance between the two persons cannot be precisely determined without individual coordinates, but they share a similar depth context around 14.42 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "What is the mean depth at which the persons are located in the scene?",
+    "answer": "The mean depth of the scene is approximately 14.42 metres, indicating the persons are located at a moderate distance from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., crane, excavator, forklift) present in the scene alongside the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "Are both persons detected with high confidence in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to the camera in this scene?",
+    "answer": "Both persons are positioned at a mid-range distance from the camera, with the scene depth ranging from 0.00 to 50.00 metres and a mean depth of 14.42 metres, suggesting the persons are located in the mid-foreground to mid-range area of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "Are the persons located in the foreground, mid-range, or background of the scene?",
+    "answer": "The persons are most likely located in the mid-range of the scene, as the mean depth is 14.42 metres out of a maximum of 50.00 metres, placing them closer to the foreground than the background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "Is there a safety alert triggered due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (such as excavators, cranes, or forklifts) is detected in the scene. The only detected objects are two persons, so no hazardous proximity between a worker and heavy machinery exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any of the persons in this scene based on proximity to dangerous machinery?",
+    "answer": "No safety alert is required. There is no heavy equipment detected in the scene. However, site supervisors should ensure both persons are wearing appropriate personal protective equipment (PPE) and are adhering to site safety protocols, as their presence in the construction zone should still be monitored.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000528.jpg"
+  }
+]

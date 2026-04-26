@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the backpack in the scene?",
+    "answer": "Based on the available depth data (mean depth ~12.31 metres, range 0\u201350 metres), the person and backpack are estimated to be within approximately 1\u20133 metres of each other, suggesting close proximity consistent with the backpack belonging to the person.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the person and the bed?",
+    "answer": "Given the scene depth statistics (mean ~12.31 metres), the person and bed are estimated to be approximately 2\u20135 metres apart, indicating they are in the same room but not immediately adjacent.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Is the backpack located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Where is the backpack positioned relative to the bed?",
+    "answer": "The backpack appears to be positioned near or on the bed, likely placed beside or on top of it, as both objects are detected in close spatial proximity within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed in the scene?",
+    "answer": "The person appears to be positioned in front of or beside the bed, likely standing or sitting near it, based on the detected spatial layout of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Where is the backpack positioned relative to the person?",
+    "answer": "The backpack is positioned close to the person, likely on the floor beside them or resting on the bed nearby, suggesting it is within arm's reach of the individual.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene does not contain any heavy construction equipment (e.g., excavators, cranes, forklifts). The detected objects \u2014 a person, a backpack, and a bed \u2014 do not constitute a construction site hazard scenario.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  },
+  {
+    "question": "Does the proximity of any objects in this scene pose a construction site safety risk?",
+    "answer": "No safety alert is triggered. None of the detected objects (person, backpack, bed) qualify as heavy construction equipment. There is no dangerous proximity hazard present in this scene from a construction safety standpoint.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000416.jpg"
+  }
+]

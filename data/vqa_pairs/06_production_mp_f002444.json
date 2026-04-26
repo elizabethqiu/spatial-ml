@@ -1,0 +1,60 @@
+[
+  {
+    "question": "Is there a person holding scissors in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002444.jpg"
+  },
+  {
+    "question": "Are there two people visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002444.jpg"
+  },
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002444.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002444.jpg"
+  },
+  {
+    "question": "Is the scissors object closer to the camera than the farthest person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002444.jpg"
+  },
+  {
+    "question": "What is the average depth distance in this scene?",
+    "answer": "14.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002444.jpg"
+  }
+]

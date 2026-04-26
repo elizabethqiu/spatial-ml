@@ -1,0 +1,68 @@
+[
+  {
+    "question": "How many books are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "book",
+      "book",
+      "book",
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Are there any books in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000792.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "book",
+      "book",
+      "book",
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000792.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "13.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "book",
+      "book",
+      "book",
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance less than 1 metre?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Are all detected objects books?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book",
+      "book",
+      "book",
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000792.jpg"
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "question": "What is the approximate mean depth of the detected persons in the scene?",
+    "answer": "The mean depth of the detected persons is approximately 15.71 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera at which a person is detected in this scene?",
+    "answer": "The maximum detected depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded for any object in this scene?",
+    "answer": "The minimum depth recorded is 0.00 metres, indicating at least one person is at or very close to the camera position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "Are there any persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavator, crane, forklift) detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "Are all three detected persons located at the same depth in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "Which person is closest to the camera, and where are the other persons relative to them?",
+    "answer": "One person is located at approximately 0.00 metres (closest to the camera). The remaining two persons are positioned further away, with the scene's mean depth at 15.71 metres and the farthest person at approximately 50.00 metres, meaning the other persons are behind the closest individual at significantly greater depths.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "How are the three persons distributed in terms of depth relative to each other?",
+    "answer": "The three persons are spread across a wide depth range: one is at or near 0.00 metres (foreground), one is near the mean depth of approximately 15.71 metres (mid-ground), and one is near 50.00 metres (background). They are distributed from foreground to far background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "Is any person in this scene in close proximity to heavy equipment that could pose a safety risk?",
+    "answer": "No heavy equipment has been detected in this scene, so no worker-equipment proximity hazard can be identified. However, the minimum depth of 0.00 metres should be investigated to confirm no undetected machinery is present at very close range.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  },
+  {
+    "question": "Does the presence of a person at approximately 0.00 metres depth raise any safety concerns on this construction site?",
+    "answer": "Yes \u2014 a person detected at 0.00 metres is extremely close to the camera or sensor. On a construction site, this could indicate the worker is in an immediate hazard zone (e.g., near site boundary, camera-mounted equipment, or a vehicle). Site supervisors should verify this person's position and ensure they are wearing appropriate PPE and are clear of any moving equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000194.jpg"
+  }
+]

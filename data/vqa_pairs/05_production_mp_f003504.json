@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  },
+  {
+    "question": "Is there a backpack in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the suitcase?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth of all objects in the scene in metres?",
+    "answer": "14.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "backpack",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  },
+  {
+    "question": "Are both persons positioned at a safe distance from each other (more than 2 metres apart)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  },
+  {
+    "question": "Is the suitcase the farthest object from the camera in this scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "bottle",
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in metres from the nearest to farthest object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "backpack",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  },
+  {
+    "question": "Is the backpack closer to the camera than the mean depth of all objects?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "bottle",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003504.jpg"
+  }
+]

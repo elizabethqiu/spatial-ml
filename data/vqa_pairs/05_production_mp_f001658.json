@@ -1,0 +1,77 @@
+[
+  {
+    "question": "How many bowls are present in the scene?",
+    "answer": "3 bowls",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  },
+  {
+    "question": "How many cups are visible in this kitchen scene?",
+    "answer": "2 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  },
+  {
+    "question": "Is there a cake in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  },
+  {
+    "question": "Are there more bowls than cups?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  },
+  {
+    "question": "Is the number of persons equal to the number of cups?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  },
+  {
+    "question": "What is the total count of tableware items (bowls and cups) in the scene?",
+    "answer": "5 items",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  },
+  {
+    "question": "How many people are in this scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  },
+  {
+    "question": "Is there exactly one cake present?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001658.jpg"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the potted plant and the refrigerator?",
+    "answer": "16.53 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000902.jpg"
+  },
+  {
+    "question": "Is the potted plant closer than 5 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000902.jpg"
+  },
+  {
+    "question": "How far apart are the potted plant and refrigerator at maximum?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000902.jpg"
+  },
+  {
+    "question": "Are the potted plant and refrigerator within the same immediate work zone (less than 10 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000902.jpg"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the bus from the camera viewpoint?",
+    "answer": "The bus is approximately 11.25 metres away from the camera (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth in the scene containing the bus?",
+    "answer": "The maximum detected depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  },
+  {
+    "question": "Is there a bus present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  },
+  {
+    "question": "Is the bus the only object detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  },
+  {
+    "question": "Where is the bus positioned relative to the camera?",
+    "answer": "The bus is positioned in the mid-range of the scene, approximately 11.25 metres in front of the camera, with scene depth extending up to 50.00 metres behind it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  },
+  {
+    "question": "Is the bus located in the foreground, mid-ground, or background of the scene?",
+    "answer": "The bus is located in the mid-ground of the scene, as its mean depth of 11.25 metres places it between the near edge (0.00 metres) and the far edge (50.00 metres) of the detected depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard involving a worker within 2 metres of the bus?",
+    "answer": "No worker is detected in the scene, so no proximity hazard between a worker and the bus can be confirmed. However, site personnel should maintain a minimum safe clearance of 2 metres from the bus at all times, especially when it is manoeuvring.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  },
+  {
+    "question": "Should site workers be alerted about the presence of the bus in this area?",
+    "answer": "Yes. A large vehicle (bus) has been detected on site at approximately 11.25 metres from the observation point. All ground workers should be made aware of its presence, maintain at least 2 metres of clearance, wear high-visibility clothing, and ensure the bus operator has clear sightlines before any movement occurs.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000058.jpg"
+  }
+]

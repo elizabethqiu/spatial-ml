@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Are there any workers visible in this construction site?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002122.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected on the site?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002122.jpg"
+  },
+  {
+    "question": "What is the average depth distance of visible objects in the scene?",
+    "answer": "17.84 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002122.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002122.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002122.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected due to worker-equipment proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002122.jpg"
+  }
+]

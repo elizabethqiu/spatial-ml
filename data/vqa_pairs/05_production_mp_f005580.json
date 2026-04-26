@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  },
+  {
+    "question": "Is there a bowl present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  },
+  {
+    "question": "Are there more people than bowls in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "23.29 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  },
+  {
+    "question": "Are all people positioned at a safe distance from the bowl?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  },
+  {
+    "question": "Is the bowl closer to the camera than the average object depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  },
+  {
+    "question": "Are the three people located in close proximity to each other?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005580.jpg"
+  }
+]

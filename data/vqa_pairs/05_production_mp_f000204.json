@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 16.00 metres apart on average, given the mean scene depth of 15.99 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "What is the estimated depth range within which the persons are located?",
+    "answer": "The persons are located within a depth range of approximately 0.00 metres (closest point) to 50.00 metres (farthest point) from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, forklift, crane) present in the scene alongside the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "Are all detected persons at roughly the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "Which person appears to be closer to the camera?",
+    "answer": "Based on depth statistics, one person is positioned near the minimum depth of approximately 0.00 metres, making them significantly closer to the camera than the other person, who is positioned further away near the mean depth of ~15.99 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other in terms of depth?",
+    "answer": "One person is positioned in the foreground (near 0.00 metres depth) while the other is positioned further in the background (near the mean depth of ~15.99 metres), indicating they are at significantly different distances from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "Is either person in close proximity (less than 2 metres) to any heavy equipment that would constitute a safety hazard?",
+    "answer": "No heavy equipment has been detected in this scene. Therefore, no proximity-based safety alert between a person and heavy equipment is triggered. However, site supervisors should verify the full scene context, as detection confidence and occlusions may limit visibility of all objects.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to two persons being in dangerously close proximity to each other?",
+    "answer": "Based on the depth statistics, at least one person is near the 0.00 metre minimum depth while the mean separation is ~15.99 metres, suggesting the persons are not in immediate close proximity to each other. No person-to-person proximity safety alert is warranted at this time. However, if the minimum depth of 0.00 metres reflects an actual position, that individual may be very close to the camera or sensor \u2014 this should be physically verified on-site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000204.jpg"
+  }
+]

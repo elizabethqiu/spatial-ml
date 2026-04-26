@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "Based on the available depth data, the two beds are estimated to be approximately 0.00 to 50.00 metres apart, with a mean scene depth of 21.00 metres. Without distinct individual depth values, the separation is estimated at roughly 21.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  },
+  {
+    "question": "What is the mean depth at which the beds are located in the scene?",
+    "answer": "The mean depth of the scene containing both beds is approximately 21.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  },
+  {
+    "question": "Are there two beds present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene alongside the beds?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  },
+  {
+    "question": "Where is the second bed positioned relative to the first bed in the scene?",
+    "answer": "Both beds are detected within the same scene. Based on the depth range of 0.00 to 50.00 metres and a mean of 21.00 metres, the second bed is positioned at a similar depth plane relative to the first bed, suggesting they are roughly side by side or at comparable distances from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  },
+  {
+    "question": "Are the two beds located at approximately the same depth in the scene?",
+    "answer": "Based on the scene's mean depth of 21.00 metres and the shared depth statistics, both beds appear to be positioned at roughly the same depth plane within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only two beds and no detected workers or heavy construction equipment. There are no proximity hazards to report.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  },
+  {
+    "question": "Does the presence of beds in this scene indicate any construction site safety concern?",
+    "answer": "No immediate safety alert is generated. Beds are not construction site equipment, and no workers or heavy machinery have been detected within a dangerous proximity threshold of 2 metres. However, the presence of beds on what may be a construction site could indicate an unauthorized rest area, which should be reviewed by site management for compliance.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001164.jpg"
+  }
+]

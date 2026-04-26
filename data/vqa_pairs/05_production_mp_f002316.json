@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002316.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002316.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "12.88 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002316.jpg"
+  },
+  {
+    "question": "Is there a person at the minimum depth position in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002316.jpg"
+  },
+  {
+    "question": "Are all three people positioned at the same depth range?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002316.jpg"
+  },
+  {
+    "question": "Is the closest person within safe proximity distance (< 2 metres) to any equipment?",
+    "answer": "No equipment detected in scene; safety assessment not applicable",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002316.jpg"
+  }
+]

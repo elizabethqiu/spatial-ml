@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within the same scene depth range; their separation is approximately 0.50 metres, suggesting they are very close together.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the nearest person and the bed?",
+    "answer": "The nearest person is estimated to be approximately 0.30 metres from the bed, indicating they are directly adjacent to or on the bed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  },
+  {
+    "question": "Is there at least one person near the bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  },
+  {
+    "question": "Are both persons located in proximity to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons appear to be positioned on or immediately beside the bed, likely on either side of or adjacent to the sleeping surface, placing them in the near foreground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons?",
+    "answer": "The bed is positioned centrally between or directly beneath the two persons, serving as the primary reference object in the mid-ground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment present in this scene that could pose a safety risk to the persons?",
+    "answer": "No heavy construction equipment is detected in this scene. The only objects present are two persons and a bed, so no proximity-based safety alert is warranted for construction hazards. However, note that this scene does not appear to be a construction environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  },
+  {
+    "question": "Do the two persons in the scene appear to be within 2 metres of any dangerous heavy machinery?",
+    "answer": "No heavy machinery is present in this scene. No safety alert is triggered based on proximity to equipment. The scene contains only persons and a bed, posing no construction-site equipment hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001158.jpg"
+  }
+]

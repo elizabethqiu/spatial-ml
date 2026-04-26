@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a car in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001514.jpg"
+  },
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001514.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001514.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of the car in this scene?",
+    "answer": "18.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Is the car located at the closest point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment within 2 metres of a worker?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001514.jpg"
+  }
+]

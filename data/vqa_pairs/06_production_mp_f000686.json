@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is the distance between the person and the refrigerator?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000686.jpg"
+  },
+  {
+    "question": "Is the person closer to the TV or the refrigerator?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000686.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and any equipment?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000686.jpg"
+  },
+  {
+    "question": "Is the refrigerator visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000686.jpg"
+  },
+  {
+    "question": "Is the person standing between the TV and the refrigerator?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000686.jpg"
+  },
+  {
+    "question": "Are all three objects (TV, person, refrigerator) present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000686.jpg"
+  }
+]

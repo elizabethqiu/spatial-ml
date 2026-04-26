@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Are there more people than benches in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the camera than the average depth of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene in metres?",
+    "answer": "24.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Is the bench located at the nearest point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002420.jpg"
+  }
+]

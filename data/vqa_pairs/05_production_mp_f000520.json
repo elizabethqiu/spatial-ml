@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  },
+  {
+    "question": "How many sharp tools (knives and scissors) are present in the scene?",
+    "answer": "3 tools (1 knife and 2 scissors)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  },
+  {
+    "question": "Is there a knife in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  },
+  {
+    "question": "Are there more scissors than knives in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy machinery?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "18.86 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  },
+  {
+    "question": "What is the maximum distance range covered by objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  },
+  {
+    "question": "Are sharp implements (knife and scissors) present alongside multiple people in this workspace?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000520.jpg"
+  }
+]

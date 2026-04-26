@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How far apart are the bicycle and person in this scene?",
+    "answer": "11.47 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001642.jpg"
+  },
+  {
+    "question": "Is the bicycle closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001642.jpg"
+  },
+  {
+    "question": "What is the maximum distance visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001642.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001642.jpg"
+  },
+  {
+    "question": "Is a bicycle visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001642.jpg"
+  },
+  {
+    "question": "What is the closest distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001642.jpg"
+  }
+]

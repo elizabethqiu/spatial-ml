@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Is there a refrigerator in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Are there more persons than vehicles in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  },
+  {
+    "question": "What is the minimum recorded depth in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Is any person dangerously close to the car (within 2 metres)?",
+    "answer": "Unable to determine - specific 3D coordinates not provided for individual objects",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  },
+  {
+    "question": "What is the average depth distance to objects in this scene?",
+    "answer": "12.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000586.jpg"
+  }
+]

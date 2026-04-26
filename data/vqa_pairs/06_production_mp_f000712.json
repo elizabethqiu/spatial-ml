@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the person and the refrigerator?",
+    "answer": "15.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Is the refrigerator in front of the person?",
+    "answer": "Unable to determine - depth information only",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person's proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000712.jpg"
+  }
+]

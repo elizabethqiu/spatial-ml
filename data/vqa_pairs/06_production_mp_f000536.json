@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "How many refrigerators are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "Is there a car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "Are there more people than refrigerators?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "Are there more refrigerators than people?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "14.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "What is the maximum distance range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "Is the car positioned between any people and refrigerators?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "Are all objects at a safe distance from each other (more than 2 metres)?",
+    "answer": "unknown",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  },
+  {
+    "question": "Is there any person within 2 metres of the car?",
+    "answer": "unknown",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000536.jpg"
+  }
+]

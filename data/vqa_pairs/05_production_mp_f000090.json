@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 15.88 metres apart on average within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "What is the estimated depth range occupied by the persons in the scene?",
+    "answer": "The persons are located within a depth range of approximately 0.00 metres (closest point) to 50.00 metres (farthest point), with a mean scene depth of 15.88 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "Is one person closer to the camera than the other person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other in the scene?",
+    "answer": "One person is positioned closer to the camera (nearer depth) while the other person is positioned farther from the camera (greater depth), suggesting they are at different distances along the line of sight within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "Which person is closer to the foreground of the scene?",
+    "answer": "The person detected at the lower depth value (closer to 0.00 metres) is positioned in the foreground relative to the other person who is farther from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to any worker being in dangerous proximity to heavy machinery?",
+    "answer": "No immediate safety alert is triggered for worker-machinery proximity, as no heavy equipment (e.g., excavator, crane, bulldozer, or forklift) has been detected in this scene. However, site supervisors should ensure both persons are wearing appropriate PPE and are aware of any off-frame hazards not captured in this view.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised if one person is within 2 metres of the other person in a confined hazardous zone?",
+    "answer": "Based on the depth statistics, the scene mean depth is 15.88 metres and the two persons do not appear to be within 2 metres of each other. No worker-to-worker proximity alert is required at this time. However, if the scene involves confined space work or hazardous operations, supervisors should verify safe working distances are maintained between both individuals.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000090.jpg"
+  }
+]

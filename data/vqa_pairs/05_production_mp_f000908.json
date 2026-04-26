@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is the approximate distance between the cup and the bed in the scene?",
+    "answer": "Based on the available depth data, the cup and the bed are approximately 21.41 metres apart (estimated from mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two couches in the scene?",
+    "answer": "The two couches are estimated to be within the scene depth range of 0.00 to 50.00 metres, with a mean separation of approximately 21.41 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Is there a cup present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Are there more than one couch in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Is the bed located in the scene alongside at least one couch?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the couches in the scene?",
+    "answer": "The cup appears to be in the foreground or nearby one of the couches, likely placed on or adjacent to a couch or surface, given the typical indoor room arrangement suggested by the detected objects.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two couches?",
+    "answer": "The bed is likely positioned in a separate area of the room from the two couches, potentially further back or to the side, as beds and couches typically occupy distinct zones within an indoor space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "couch",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Is the cup closer to the bed or to the nearest couch?",
+    "answer": "Based on typical indoor scene arrangements and the available depth statistics, the cup is more likely closer to one of the couches than to the bed, as cups are commonly placed near seating furniture.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment or worker detected in this scene that would pose a safety hazard?",
+    "answer": "No heavy construction equipment or workers are detected in this scene. The scene contains only indoor furniture items (cup, two couches, and a bed), so no construction site safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "couch",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose a proximity-based safety risk to a worker (i.e., within 2 metres of heavy machinery)?",
+    "answer": "No safety risk detected. This scene does not contain any heavy machinery or workers. All detected objects (cup, two couches, bed) are typical indoor furniture items, and no proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "couch",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000908.jpg"
+  }
+]

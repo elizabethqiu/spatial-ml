@@ -1,0 +1,102 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "scissors",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "17.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "scissors",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "Is there a scissors present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "Are there more than 3 people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "Is a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "What is the closest object to the camera in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "scissors",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "Are all people at a safe distance from potentially hazardous objects like scissors?",
+    "answer": "Unable to determine - no heavy equipment detected and proximity data between specific objects not provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  },
+  {
+    "question": "Is there any person-to-equipment proximity concern in this scene?",
+    "answer": "No safety alert - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002788.jpg"
+  }
+]

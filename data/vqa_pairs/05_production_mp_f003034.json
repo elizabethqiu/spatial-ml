@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003034.jpg"
+  },
+  {
+    "question": "Is there a bus present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003034.jpg"
+  },
+  {
+    "question": "Are both people standing closer to the camera than the bus?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003034.jpg"
+  },
+  {
+    "question": "What is the approximate average distance from the camera to objects in the scene in metres?",
+    "answer": "17.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003034.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to the bus (within 2 metres)?",
+    "answer": "unknown - insufficient spatial coordinate data",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003034.jpg"
+  },
+  {
+    "question": "How far is the nearest object detected from the camera in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003034.jpg"
+  }
+]

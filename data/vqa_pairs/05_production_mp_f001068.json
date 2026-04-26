@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How far is the person from the tv in this scene?",
+    "answer": "Based on the available depth statistics, the estimated distance between the person and the tv is approximately 20.00 metres (scene mean depth), though exact separation depends on individual object depths not fully resolved.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bed and the tv?",
+    "answer": "The estimated distance between the bed and the tv is approximately 20.00 metres based on the mean scene depth; the depth range spans 0.00 to 50.00 metres, suggesting objects are spread across a moderately deep scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  },
+  {
+    "question": "Is the tv located in the same scene as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  },
+  {
+    "question": "Is the person closer to the tv or to the bed?",
+    "answer": "Based on the scene description, the person, tv, and bed are all detected within the same spatial volume. Without precise per-object depth values, the person appears to be at a similar relative distance to both the tv and the bed, as all objects share the same mean scene depth of approximately 20.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  },
+  {
+    "question": "Where is the tv positioned relative to the bed in this scene?",
+    "answer": "The tv and bed are both detected within the scene at a mean depth of approximately 20.00 metres. The tv is typically positioned in front of or across from the bed, consistent with a standard bedroom layout suggested by the scene caption.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (less than 2 metres) to any heavy construction equipment in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The detected objects are a tv, a bed, and a person \u2014 none of which qualify as heavy equipment. Therefore, no proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  },
+  {
+    "question": "Does the presence of the person near the bed and tv in this scene raise any construction site safety concerns?",
+    "answer": "No construction site safety concerns are raised. This scene depicts a domestic or indoor environment containing a tv, bed, and person. No heavy machinery, vehicles, or hazardous equipment are present, so no worker-equipment proximity alert (threshold: < 2 metres) is applicable.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001068.jpg"
+  }
+]

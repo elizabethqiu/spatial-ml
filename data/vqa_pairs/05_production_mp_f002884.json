@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many objects are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002884.jpg"
+  },
+  {
+    "question": "Is there a television in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002884.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002884.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002884.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002884.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the tv?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002884.jpg"
+  },
+  {
+    "question": "Note: This is an indoor scene with a television and a person. No heavy construction equipment is present, so standard construction site safety protocols regarding proximity hazards do not apply to this scene.",
+    "answer": "No safety alert - no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002884.jpg"
+  }
+]

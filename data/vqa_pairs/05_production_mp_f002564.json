@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many sinks are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002564.jpg"
+  },
+  {
+    "question": "Is there a person near the sinks?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002564.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002564.jpg"
+  },
+  {
+    "question": "Are there more sinks than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002564.jpg"
+  },
+  {
+    "question": "What is the average depth measurement across all objects?",
+    "answer": "16.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002564.jpg"
+  },
+  {
+    "question": "Is the person positioned at the minimum depth point in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002564.jpg"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "question": "Is the bottle closer to the camera than the television?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  },
+  {
+    "question": "Are both beds at approximately the same depth from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  },
+  {
+    "question": "Is the person located between the bottle and the television?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the bottle to the camera in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of all objects from the camera in metres?",
+    "answer": "19.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed",
+      "bed",
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  },
+  {
+    "question": "What is the maximum distance span between the closest and farthest objects in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed",
+      "bed",
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy equipment?",
+    "answer": "No heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of machinery that poses a safety risk?",
+    "answer": "No machinery or workers in hazardous proximity",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001114.jpg"
+  }
+]

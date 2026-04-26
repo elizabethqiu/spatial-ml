@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is there a sink visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001394.jpg"
+  },
+  {
+    "question": "What is the average distance to objects in this scene in metres?",
+    "answer": "12.26 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001394.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance to any object in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001394.jpg"
+  },
+  {
+    "question": "What is the minimum distance to the closest object in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001394.jpg"
+  }
+]

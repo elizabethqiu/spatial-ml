@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the bicycle?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005620.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the bicycle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005620.jpg"
+  },
+  {
+    "question": "How many objects are detected in this construction scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005620.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005620.jpg"
+  },
+  {
+    "question": "Is the bicycle positioned in front of the person?",
+    "answer": "Unable to determine - spatial coordinate data insufficient",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005620.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005620.jpg"
+  }
+]

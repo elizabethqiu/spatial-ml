@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  },
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "4 cars",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  },
+  {
+    "question": "Is there a cell phone detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "13.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  },
+  {
+    "question": "Are there more persons than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  },
+  {
+    "question": "What is the maximum distance range detected in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the camera than the average object distance?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003256.jpg"
+  }
+]

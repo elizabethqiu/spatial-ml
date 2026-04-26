@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many backpacks are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  },
+  {
+    "question": "Are both backpacks at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "20.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  },
+  {
+    "question": "Is the person positioned behind the motorcycle?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  },
+  {
+    "question": "Are the backpacks located in front of the motorcycle?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person and motorcycle proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004730.jpg"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the TV and the parking meter?",
+    "answer": "12.13 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Is the TV closer than 5 metres to the parking meter?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Is the parking meter positioned in front of the TV?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment or workers within 2 metres of each other in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000666.jpg"
+  }
+]

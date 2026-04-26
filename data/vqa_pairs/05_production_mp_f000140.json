@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene (approximate straight-line distance)?",
+    "answer": "Based on the depth statistics and typical lateral spread in the scene, the two persons are estimated to be approximately 2\u20135 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "What is the average depth (distance from camera) of the persons detected in the scene?",
+    "answer": "The average depth of the detected persons in the scene is approximately 15.49 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) present in the scene alongside the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "Is either person located closer to the camera than 1 metre?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "Which person appears to be closer to the camera \u2014 the first detected person or the second?",
+    "answer": "Both persons share a similar mean depth of approximately 15.49 metres; without additional lateral or depth differentiation, neither person is clearly closer to the camera than the other based on available data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "Are the two persons on the same depth plane (i.e., roughly the same distance from the camera)?",
+    "answer": "Based on the scene's mean depth of 15.49 metres and the available depth statistics, the two persons appear to be at roughly the same depth plane, suggesting they are positioned at a similar distance from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a person being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (e.g., excavator, bulldozer, crane, or forklift) has been detected in this scene. Only two persons are present, so there is no person\u2013heavy equipment proximity hazard at this time. However, supervisors should remain vigilant if equipment enters the area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised because the two persons are dangerously close to each other in a confined or high-risk zone?",
+    "answer": "No immediate safety alert is required solely due to person-to-person proximity under standard construction safety rules (which flag person\u2013heavy equipment proximity < 2 metres). However, if the area is a confined space or blast zone, site supervisors should verify that both persons are authorised to be there and following buddy-system protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000140.jpg"
+  }
+]

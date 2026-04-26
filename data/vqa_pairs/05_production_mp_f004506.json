@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the cup?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004506.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the person than the cup?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004506.jpg"
+  },
+  {
+    "question": "Is the cup positioned to the left of the person?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004506.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between the person and any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004506.jpg"
+  },
+  {
+    "question": "How many objects are visible in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004506.jpg"
+  },
+  {
+    "question": "Is the person standing near any large machinery or construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004506.jpg"
+  }
+]

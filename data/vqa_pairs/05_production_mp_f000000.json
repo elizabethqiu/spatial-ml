@@ -1,0 +1,58 @@
+[
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "What is the average depth of the construction site scene?",
+    "answer": "The average depth of the scene is approximately 12.49 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "What is the maximum observable depth range captured in this construction site scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres, while the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "Are there any workers or heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "Is there any identifiable object present in the foreground of this construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "Where are the majority of scene elements located relative to the camera, based on the mean depth value?",
+    "answer": "Based on the mean depth of 12.49 metres, the majority of scene elements are located in the mid-range distance from the camera, neither in the immediate foreground nor the far background.",
+    "type": "relative_position",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "Is the deepest part of the scene closer to or farther from the camera than the average depth?",
+    "answer": "The deepest part of the scene (50.00 metres) is farther from the camera than the average depth of 12.49 metres, indicating the scene extends significantly beyond its mean depth into the background.",
+    "type": "relative_position",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "Is there any immediate safety concern involving a worker within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert can be raised at this time because no workers or heavy equipment have been detected in the scene. However, the site should be continuously monitored as conditions may change.",
+    "type": "safety_alert",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000000.jpg",
+    "question": "Given that no objects have been detected, should this construction scene still be considered a potential safety risk?",
+    "answer": "Yes \u2014 even though no specific objects were detected, a construction site inherently poses safety risks. The lack of detections may indicate sensor limitations, occlusion, or poor visibility conditions. Workers and supervisors should remain vigilant, ensure PPE is worn, and verify the area is safe before proceeding. Continuous monitoring is strongly recommended.",
+    "type": "safety_alert",
+    "objects_referenced": []
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a cup visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005226.jpg"
+  },
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "1 cup",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005226.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005226.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "19.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005226.jpg"
+  },
+  {
+    "question": "Is the cup located at the closest point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005226.jpg"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  },
+  {
+    "question": "How many cars are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  },
+  {
+    "question": "Is there at least one car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  },
+  {
+    "question": "Are there more persons than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects in this scene?",
+    "answer": "11.90 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  },
+  {
+    "question": "Is the minimum detected depth distance less than 2 metres from the camera?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  },
+  {
+    "question": "Do persons outnumber cars in this construction scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000788.jpg"
+  }
+]

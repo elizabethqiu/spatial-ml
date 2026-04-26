@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a toilet visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001384.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001384.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "12.49 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Is the toilet positioned at ground level or elevated?",
+    "answer": "Unable to determine from spatial data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001384.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment or machinery in proximity to the toilet that poses a safety concern?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001384.jpg"
+  }
+]

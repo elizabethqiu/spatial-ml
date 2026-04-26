@@ -1,0 +1,105 @@
+[
+  {
+    "question": "What is the approximate mean depth of all detected objects in the scene?",
+    "answer": "The approximate mean depth of all detected objects in the scene is 14.95 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all objects in the scene?",
+    "answer": "The maximum depth range observed is 50.00 metres, spanning from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Is there a cup present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Are there more than two dogs detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the three dogs in the scene?",
+    "answer": "The cup is detected alongside three dogs in the scene. Based on depth statistics, objects span from near 0.00 metres to 50.00 metres, with the cup and dogs distributed across this range at a mean depth of approximately 14.95 metres. Without individual per-object coordinates, the cup's exact lateral and depth position relative to each dog cannot be precisely determined, but all objects share the same general scene space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Are the three dogs positioned near each other or spread apart in the scene?",
+    "answer": "Based on the depth range of 0.00 to 50.00 metres and a mean of 14.95 metres, the three dogs may be spread across different depths within the scene rather than clustered together, suggesting they are potentially distributed at varying distances from the observer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Is there any safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only a cup and three dogs \u2014 no workers or heavy construction equipment are detected. Therefore, no proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Do any objects in this scene pose a construction site safety risk based on their proximity to one another?",
+    "answer": "No construction site safety risk is identified. The scene does not contain any workers or heavy machinery. The detected objects (one cup and three dogs) do not constitute a safety hazard under construction site proximity guidelines, even if any objects are within the critical 2-metre threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001588.jpg"
+  }
+]

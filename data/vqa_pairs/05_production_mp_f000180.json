@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many persons are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000180.jpg"
+  },
+  {
+    "question": "Is there a car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000180.jpg"
+  },
+  {
+    "question": "Are there more persons than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000180.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth distance of objects in this scene in metres?",
+    "answer": "12.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000180.jpg"
+  },
+  {
+    "question": "Is the car positioned closer to the camera than the maximum depth recorded?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000180.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000180.jpg"
+  }
+]

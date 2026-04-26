@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many persons are detected in this construction scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001550.jpg"
+  },
+  {
+    "question": "Is there more than one person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001550.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001550.jpg"
+  },
+  {
+    "question": "What is the average distance of detected persons from the camera?",
+    "answer": "21.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001550.jpg"
+  },
+  {
+    "question": "Are all persons within a close proximity of less than 10 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001550.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded for any person in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001550.jpg"
+  }
+]

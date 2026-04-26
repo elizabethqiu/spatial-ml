@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the umbrella?",
+    "answer": "20.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005274.jpg"
+  },
+  {
+    "question": "Is the umbrella closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005274.jpg"
+  },
+  {
+    "question": "Is the person holding or in close proximity to the umbrella?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005274.jpg"
+  },
+  {
+    "question": "What is the relative position of the umbrella with respect to the person?",
+    "answer": "The umbrella is approximately 20.17 metres away from the person, indicating they are separated and not in immediate proximity.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005274.jpg"
+  },
+  {
+    "question": "Are there any safety hazards due to proximity between the person and objects in this scene?",
+    "answer": "No safety alerts. The person and umbrella are 20.17 metres apart, well above the 2-metre safety threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005274.jpg"
+  }
+]

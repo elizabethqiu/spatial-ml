@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005762.jpg"
+  },
+  {
+    "question": "What is the average distance to detected objects in this scene?",
+    "answer": "16.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005762.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005762.jpg"
+  },
+  {
+    "question": "Is the person located at the closest point in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005762.jpg"
+  },
+  {
+    "question": "How far away is the detected person from the camera on average?",
+    "answer": "16.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005762.jpg"
+  },
+  {
+    "question": "Are there any workers in immediate proximity to heavy equipment (within 2 metres)?",
+    "answer": "no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005762.jpg"
+  }
+]

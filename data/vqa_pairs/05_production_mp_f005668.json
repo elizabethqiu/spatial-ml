@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the distance between the cell phone and the clock?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005668.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the clock?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005668.jpg"
+  },
+  {
+    "question": "Is the cell phone to the left of the dog?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005668.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to heavy equipment?",
+    "answer": "No - this scene contains only personal items and an animal; no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005668.jpg"
+  }
+]

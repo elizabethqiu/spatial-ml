@@ -1,0 +1,44 @@
+[
+  {
+    "question": "What is the approximate distance between the dining table and the chair?",
+    "answer": "Unable to determine - 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Is the chair closer to the dining table than to the bed?",
+    "answer": "Unable to determine - 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Is the bed positioned to the right of the dining table?",
+    "answer": "Unable to determine - 3D coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this indoor residential scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dining table",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000860.jpg"
+  }
+]

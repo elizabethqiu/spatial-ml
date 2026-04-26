@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the cup?",
+    "answer": "19.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001904.jpg"
+  },
+  {
+    "question": "Is the cup closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001904.jpg"
+  },
+  {
+    "question": "Is the cup positioned in front of the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001904.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001904.jpg"
+  },
+  {
+    "question": "Are there any safety hazards due to proximity of equipment to personnel?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001904.jpg"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001104.jpg"
+  },
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001104.jpg"
+  },
+  {
+    "question": "Are there more beds than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001104.jpg"
+  },
+  {
+    "question": "Is at least one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001104.jpg"
+  },
+  {
+    "question": "Are the people positioned closer to the camera than the beds?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001104.jpg"
+  },
+  {
+    "question": "Given the maximum depth of 50 metres, are the beds positioned further from the camera than the average scene depth of 21.34 metres?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001104.jpg"
+  }
+]

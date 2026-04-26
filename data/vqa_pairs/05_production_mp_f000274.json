@@ -1,0 +1,98 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "16.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  },
+  {
+    "question": "Is there a minimum depth distance of 0 metres recorded in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  },
+  {
+    "question": "Are all five people at approximately the same depth distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  },
+  {
+    "question": "Do the detected people span a depth range greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of the workers in this scene.",
+    "answer": "Five people are spread across a wide depth range from 0.00 to 50.00 metres, with an average distance of 16.56 metres from the camera position, indicating they are distributed at varying distances across the construction site.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  },
+  {
+    "question": "Based on the depth statistics, are the workers concentrated near the camera or spread throughout the scene?",
+    "answer": "The workers are spread throughout the scene, with a 50-metre depth span indicating dispersed positioning rather than clustering near any single location.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000274.jpg"
+  }
+]

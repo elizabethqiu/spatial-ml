@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  },
+  {
+    "question": "How many motorcycles are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  },
+  {
+    "question": "Is there a carrot in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  },
+  {
+    "question": "Is there a cup present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of objects from the camera?",
+    "answer": "16.07 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "carrot",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "carrot",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  },
+  {
+    "question": "Are there more persons than motorcycles in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  },
+  {
+    "question": "Are there any food items visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "carrot",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005602.jpg"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  },
+  {
+    "question": "Is the television closer to the camera than the beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  },
+  {
+    "question": "Are both persons positioned at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "18.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  },
+  {
+    "question": "Is there a person located between the television and the farthest bed?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  },
+  {
+    "question": "Are the two beds positioned on opposite sides of the room?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance detected in this indoor scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001194.jpg"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  },
+  {
+    "question": "How many trains are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  },
+  {
+    "question": "Is there at least one person in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  },
+  {
+    "question": "Are there more persons than trains in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in this scene?",
+    "answer": "17.84 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  },
+  {
+    "question": "Is there a person positioned at the minimum depth in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are any workers within 2 metres of the trains?",
+    "answer": "Potential hazard - minimum depth is 0.00 metres, indicating at least one object is extremely close to the camera viewpoint. Verify if any person is within 2 metres of train equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005748.jpg"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the approximate distance between the TV and the dog in the scene?",
+    "answer": "Based on the available depth data, the estimated distance between the TV and the dog is approximately 19.02 metres (scene mean depth), though individual object depths may vary.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the TV in the scene?",
+    "answer": "Both the TV and the dog are detected in the scene; without precise individual X/Y/Z coordinates, their exact relative lateral positions cannot be fully determined, but both objects exist within the same scene depth range of 0.00 to 50.00 metres. The dog appears to share the general viewing area near the TV.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Is the dog closer to the foreground or the background of the scene relative to the TV?",
+    "answer": "Based on the scene depth statistics (min: 0.00 m, max: 50.00 m, mean: 19.02 m), both objects are positioned within the mid-range depth of the scene. Without individual object depth values, the dog and TV are estimated to be at similar depth positions relative to the scene's overall foreground-to-background range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is warranted. This scene contains only a TV and a dog \u2014 no workers or heavy construction equipment are detected. No proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Does the presence of the dog near any detected machinery in this scene pose a construction site safety risk?",
+    "answer": "No construction site safety risk is identified. Neither workers nor heavy equipment are present in this scene. The only detected objects are a TV and a dog, which do not constitute a construction hazard scenario.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001006.jpg"
+  }
+]

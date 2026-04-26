@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the dog and the bicycle?",
+    "answer": "Unable to determine - precise 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003212.jpg"
+  },
+  {
+    "question": "Is the dog closer than 5 metres to the bicycle?",
+    "answer": "Unable to determine - precise spatial coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003212.jpg"
+  },
+  {
+    "question": "Is the dog positioned to the left of the bicycle?",
+    "answer": "Unable to determine - relative positioning data not available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003212.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No - this is a non-construction scene with no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003212.jpg"
+  }
+]

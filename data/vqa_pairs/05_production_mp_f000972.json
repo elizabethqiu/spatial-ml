@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many chairs are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000972.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000972.jpg"
+  },
+  {
+    "question": "Is the person sitting on a chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000972.jpg"
+  },
+  {
+    "question": "Is there a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000972.jpg"
+  },
+  {
+    "question": "Are the chairs positioned closer to the camera than the bed?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000972.jpg"
+  },
+  {
+    "question": "Is the person located between the two chairs?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000972.jpg"
+  }
+]

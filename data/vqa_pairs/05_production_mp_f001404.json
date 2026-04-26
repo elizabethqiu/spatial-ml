@@ -1,0 +1,84 @@
+[
+  {
+    "question": "What is the approximate distance between the first tie and the person in the scene?",
+    "answer": "Based on the depth statistics, the objects are distributed across a range of 0.00 to 50.00 metres, with a mean depth of approximately 16.63 metres. The estimated distance between the first tie and the person is approximately 16.63 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tie",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two ties detected in the scene?",
+    "answer": "Given the depth range of 0.00 to 50.00 metres and mean depth of 16.63 metres, the estimated separation between the two tie objects is approximately 16.63 metres, though their exact positions within the depth range are uncertain.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tie",
+      "tie"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  },
+  {
+    "question": "Are there more than one tie detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tie",
+      "tie"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two ties in the scene?",
+    "answer": "The person is positioned between the two ties in the scene sequence (tie \u2192 person \u2192 tie), suggesting the person is centrally located relative to the two tie objects along the scene's depth axis, at a mean depth of approximately 16.63 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tie",
+      "person",
+      "tie"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  },
+  {
+    "question": "Where is the second tie positioned relative to the person in the scene?",
+    "answer": "The second tie appears to be positioned after (behind or to one side of) the person in the detected sequence, placing it further along the scene layout relative to the person, within a depth range of up to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tie"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  },
+  {
+    "question": "Is the person in this scene in proximity (less than 2 metres) to any heavy equipment that poses a safety risk?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The detected objects are limited to a person and two ties. No safety alert is warranted based on equipment proximity.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tie",
+      "tie"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  },
+  {
+    "question": "Are any of the detected objects within a dangerously close range (less than 2 metres) of the person that could indicate a safety hazard?",
+    "answer": "Based on the depth statistics, the minimum depth in the scene is 0.00 metres and the mean is 16.63 metres. While an object could theoretically be at 0.00 metres, no heavy machinery or hazardous equipment has been detected. The only objects present are ties (likely personal accessories), which do not constitute a construction safety hazard. No critical safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tie",
+      "tie"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001404.jpg"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  },
+  {
+    "question": "Is a cell phone present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  },
+  {
+    "question": "Is a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  },
+  {
+    "question": "What is the maximum depth range of objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  },
+  {
+    "question": "What is the mean depth of detected objects in metres?",
+    "answer": "25.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  },
+  {
+    "question": "Are both a person and a cell phone visible in this construction scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  },
+  {
+    "question": "What is the minimum depth value detected in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005162.jpg"
+  }
+]

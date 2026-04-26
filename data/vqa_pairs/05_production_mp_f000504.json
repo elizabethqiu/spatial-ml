@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How many scissors are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "17.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "Are there more people than scissors in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance zero?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "Are all scissors at the same depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "Are the scissors positioned closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  },
+  {
+    "question": "Are there more objects classified as people than as tools in this scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000504.jpg"
+  }
+]

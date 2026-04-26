@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  },
+  {
+    "question": "Is the person standing next to the fire hydrant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  },
+  {
+    "question": "Are there any cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "10.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  },
+  {
+    "question": "Is the person positioned between the two cars?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  },
+  {
+    "question": "Is the fire hydrant closer to the camera than the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "fire hydrant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to nearby vehicles?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005924.jpg"
+  }
+]

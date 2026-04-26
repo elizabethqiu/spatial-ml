@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the cat from the camera?",
+    "answer": "The cat is approximately 16.20 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth in the scene?",
+    "answer": "The maximum detected depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  },
+  {
+    "question": "Is there a cat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  },
+  {
+    "question": "Is the cat within 2 metres of any heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  },
+  {
+    "question": "Where is the cat positioned relative to the camera viewpoint?",
+    "answer": "The cat is positioned at a mid-to-far range in the scene, roughly centred in depth at approximately 16.20 metres from the camera, with the scene extending as close as 0.00 metres and as far as 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  },
+  {
+    "question": "Is the cat closer to the near end or the far end of the detected depth range?",
+    "answer": "The cat is closer to the near end of the depth range. Its mean depth of 16.20 metres is roughly one-third of the way through the full 0.00\u201350.00 metre range, placing it in the nearer portion of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  },
+  {
+    "question": "Does the presence of the cat near construction equipment pose a safety risk to workers?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: No heavy equipment or workers are detected in this scene, so no immediate worker-safety risk is identified. However, an unattended animal on a construction site can be a distraction hazard and should be reported to site management. Ensure the animal is safely removed from the work zone in accordance with site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  },
+  {
+    "question": "Should workers be alerted if the cat moves within 2 metres of active machinery?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes. If the cat were to enter within 2 metres of any active heavy machinery or a worker operating equipment, an immediate safety alert should be issued. Animals in construction zones can startle operators, causing loss of control of machinery. The cat should be escorted off the site as a precautionary measure.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000072.jpg"
+  }
+]

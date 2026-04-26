@@ -1,0 +1,129 @@
+[
+  {
+    "question": "What is the approximate distance between the first person and the second person in the scene?",
+    "answer": "Based on the depth distribution across the scene, the estimated distance between the first and second person is approximately 5.2 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the book and the nearest person?",
+    "answer": "The book and the nearest person are estimated to be approximately 3.8 metres apart based on their relative depth positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the second person and the third person in the scene?",
+    "answer": "The estimated distance between the second and third person is approximately 6.1 metres based on depth analysis.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Are all three persons present within the same scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Is the book located in the scene alongside at least one person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Are any two persons within 2 metres of each other in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Is the book closer to the scene foreground than the persons?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Where is the book positioned relative to the three persons in the scene?",
+    "answer": "The book appears to be positioned in the foreground of the scene, closer to the viewer than the three persons, who are distributed at varying depths in the mid-to-background area of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "book",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Which person appears to be closest to the book in terms of depth?",
+    "answer": "The first person appears to be closest in depth to the book, both being positioned toward the nearer depth range of the scene relative to the other two persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "How are the three persons arranged relative to each other in the scene?",
+    "answer": "The three persons are spread across the scene at varying depths. One person is positioned in the foreground-to-mid range, one is in the mid-range, and one is further in the background, suggesting a staggered arrangement rather than a clustered grouping.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any person being within 2 metres of heavy equipment in this scene?",
+    "answer": "No heavy equipment has been detected in this scene. The objects present are a book and three persons. There is no safety alert triggered for proximity between workers and heavy machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  },
+  {
+    "question": "Are any of the three persons dangerously close (within 2 metres) to one another in a way that could indicate a crowd safety concern?",
+    "answer": "Based on depth analysis, no two persons appear to be within 2 metres of each other in this scene. No immediate crowd-proximity safety alert is warranted, though monitoring is recommended if persons are moving.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000358.jpg"
+  }
+]

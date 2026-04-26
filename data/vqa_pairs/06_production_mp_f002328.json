@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002328.jpg"
+  },
+  {
+    "question": "Is there a knife present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002328.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002328.jpg"
+  },
+  {
+    "question": "Is the knife closer to the camera than any of the persons?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002328.jpg"
+  },
+  {
+    "question": "What is the mean depth distance in this scene?",
+    "answer": "15.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002328.jpg"
+  },
+  {
+    "question": "Is there a potential safety hazard with a knife present near multiple workers?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002328.jpg"
+  }
+]

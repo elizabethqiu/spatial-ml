@@ -1,0 +1,121 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in this scene?",
+    "answer": "The mean depth of objects in the scene is approximately 20.61 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop",
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Are there multiple persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Is the laptop located closer to the viewer than the bed in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed in this scene?",
+    "answer": "The chair appears to be positioned near the bed, likely alongside or adjacent to it, as both objects are detected within the same indoor scene context.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to the bed and chair in the scene?",
+    "answer": "The four detected persons are distributed around the scene, with at least some likely positioned near or on the bed and around the chair area, suggesting a grouped indoor arrangement.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Where is the laptop positioned relative to the persons in the scene?",
+    "answer": "The laptop appears to be positioned in close proximity to one or more of the persons, likely in front of or beside them, consistent with a typical indoor usage scenario.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "laptop",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Is any worker in this scene at risk due to proximity to heavy equipment such as a crane or excavator?",
+    "answer": "No safety alert is triggered for this scene. No heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected. The scene contains only a laptop, bed, chair, and persons, which do not constitute construction-site hazards. Standard construction-site proximity rules (< 2 metres from heavy equipment) are not applicable here.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  },
+  {
+    "question": "Are any of the four detected persons within a potentially hazardous distance (less than 2 metres) of any heavy machinery in the scene?",
+    "answer": "No hazard detected. There is no heavy machinery present in this scene. The detected objects \u2014 laptop, bed, and chair \u2014 pose no machinery-related safety risk to the persons in the scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000466.jpg"
+  }
+]

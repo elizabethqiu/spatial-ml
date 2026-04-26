@@ -1,0 +1,99 @@
+[
+  {
+    "question": "What is the approximate average depth of the detected persons from the observation point?",
+    "answer": "The average depth of the detected persons is approximately 15.90 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "What is the range of distances (minimum to maximum) across all detected persons in the scene?",
+    "answer": "The distances range from 0.00 metres (minimum) to 50.00 metres (maximum), spanning a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "Are there any persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "Is any person located beyond 40.00 metres from the observation point?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to each other in terms of depth?",
+    "answer": "The persons are spread across a wide depth range. At least one person is very close to the observation point (near 0.00 metres), one or more are at a mid-range depth around 15.90 metres (the scene mean), and at least one person is at a far distance near 50.00 metres. This suggests the three persons are distributed at varying distances along the depth axis rather than clustered together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "Which person is positioned furthest from the observation point, and how does their position compare to the nearest person?",
+    "answer": "The furthest person is located at approximately 50.00 metres from the observation point, while the nearest person is at approximately 0.00 metres. The furthest person is therefore approximately 50.00 metres farther away than the nearest person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any person being in extremely close proximity (under 2.00 metres) to the observation point or a potential hazard zone?",
+    "answer": "SAFETY ALERT: At least one person appears to be at or near 0.00 metres depth, which is within the critical 2.00-metre proximity threshold. While no heavy equipment is detected in this scene, this individual's position is flagged as potentially hazardous \u2014 they may be in a blind spot, at the edge of a drop, or in the path of incoming equipment not yet captured in the scene. Immediate verification of this person's location and awareness of their surroundings is strongly recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  },
+  {
+    "question": "Should a site supervisor be alerted about any unsafe worker positioning in this scene?",
+    "answer": "SAFETY ALERT: Yes. One person is detected at a depth of approximately 0.00 metres, placing them in immediate close-range proximity to the camera or sensor position. This could indicate the person is in an unsafe or unmonitored zone. Additionally, the wide spread of persons (0.00 m to 50.00 m) means not all workers may be visible to one another, increasing the risk of uncoordinated movement and collision. A supervisor should verify all workers are in designated safe zones and wearing appropriate PPE.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000354.jpg"
+  }
+]

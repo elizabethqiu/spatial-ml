@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000830.jpg"
+  },
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000830.jpg"
+  },
+  {
+    "question": "Is there a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000830.jpg"
+  },
+  {
+    "question": "Are there more cups than people in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000830.jpg"
+  },
+  {
+    "question": "Is the average scene depth greater than 15 metres?",
+    "answer": "yes",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000830.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000830.jpg"
+  }
+]

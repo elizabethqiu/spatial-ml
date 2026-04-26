@@ -1,0 +1,75 @@
+[
+  {
+    "question": "How many persons are detected in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001782.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001782.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all detected objects?",
+    "answer": "17.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001782.jpg"
+  },
+  {
+    "question": "Is there any person within dangerous proximity (less than 2 metres) to another person in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001782.jpg"
+  },
+  {
+    "question": "Are all persons visible in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001782.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance at ground level (0 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001782.jpg"
+  },
+  {
+    "question": "Describe the relative positioning of the persons in this scene based on depth.",
+    "answer": "The three persons are distributed across varying depths from ground level (0 metres) to the far distance (50 metres), with an average depth of 17.21 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001782.jpg"
+  }
+]

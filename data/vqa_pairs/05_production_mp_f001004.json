@@ -1,0 +1,103 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 18.85 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "Is any person detected in close proximity (less than 2 metres) to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the persons in the scene?",
+    "answer": "The bed appears to be in the same general area as the three detected persons, likely within the same room or resting space, positioned in close spatial proximity to at least one of the individuals based on the depth data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "Where are the persons located relative to each other in the scene?",
+    "answer": "The three persons are detected within the same scene space. Given the shared mean depth of approximately 18.85 metres and a depth range from 0 to 50 metres, they may be distributed at varying distances from the camera but are generally grouped in the same environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are any persons detected within a critically close proximity (less than 2 metres) to any heavy equipment or hazardous machinery in this scene?",
+    "answer": "No heavy equipment or hazardous machinery has been detected in this scene. The only non-person object is a bed, which does not constitute a construction hazard. No safety alert is triggered for equipment proximity in this scene. However, note that the minimum depth value of 0.00 metres suggests at least one object or person may be extremely close to the camera or sensor, which warrants a check of the detection setup.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Does the scene environment appear consistent with an active construction site requiring standard PPE and safety protocols?",
+    "answer": "No. The detected objects \u2014 three persons and a bed \u2014 do not indicate an active construction site environment. The presence of a bed suggests this is a residential or rest area rather than a construction zone. No immediate construction-related safety hazards are identified, but if this area is adjacent to a worksite, ensure proper zoning and access controls are in place.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001004.jpg"
+  }
+]

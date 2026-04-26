@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many cell phones are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  },
+  {
+    "question": "Is there at least one cell phone in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  },
+  {
+    "question": "Are there more people than cell phones?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "12.88 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  },
+  {
+    "question": "Is the maximum depth in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  },
+  {
+    "question": "What is the range of depths detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  },
+  {
+    "question": "Are cell phones and people equally distributed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001830.jpg"
+  }
+]

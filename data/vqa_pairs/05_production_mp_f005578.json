@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many persons are present in this scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "bowl",
+      "person",
+      "tv",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the camera than the tv?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  },
+  {
+    "question": "Is there a handbag in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  },
+  {
+    "question": "Are there more persons than electronic devices in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "23.67 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "bowl",
+      "person",
+      "tv",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  },
+  {
+    "question": "Is the bowl positioned deeper in the scene than the minimum depth recorded?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  },
+  {
+    "question": "What is the minimum depth value detected in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "bowl",
+      "person",
+      "tv",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005578.jpg"
+  }
+]

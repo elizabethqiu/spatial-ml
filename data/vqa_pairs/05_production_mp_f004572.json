@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "banana",
+      "sink",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  },
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  },
+  {
+    "question": "Is there a refrigerator visible in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "banana",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  },
+  {
+    "question": "Is the sink closer to the camera than the car?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of or behind the car?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between the person and the car?",
+    "answer": "Unable to assess - no precise 3D coordinates provided for distance calculation",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  },
+  {
+    "question": "Are any cups located within 2 metres of the person?",
+    "answer": "Unable to assess - no precise 3D coordinates provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004572.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a hair drier visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002550.jpg"
+  },
+  {
+    "question": "How many hair driers are detected in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002550.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002550.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "16.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002550.jpg"
+  },
+  {
+    "question": "Is the hair drier positioned at the minimum depth in the scene?",
+    "answer": "Unable to determine - insufficient spatial positioning data for individual object",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002550.jpg"
+  }
+]

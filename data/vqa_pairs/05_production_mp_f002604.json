@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many sinks are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002604.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002604.jpg"
+  },
+  {
+    "question": "Are there more sinks than cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002604.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "16.14 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002604.jpg"
+  },
+  {
+    "question": "Is the cup positioned between the two sinks?",
+    "answer": "unknown - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002604.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002604.jpg"
+  }
+]

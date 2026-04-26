@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the camera than the bus?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  },
+  {
+    "question": "Are both persons at approximately the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  },
+  {
+    "question": "Is the suitcase positioned between the two persons?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  },
+  {
+    "question": "Is the bus further away from the camera than the average depth of all objects?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bus",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  },
+  {
+    "question": "Is there a safety hazard regarding proximity between persons and the bus?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  },
+  {
+    "question": "Are any persons within 2 metres of the bus?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003974.jpg"
+  }
+]

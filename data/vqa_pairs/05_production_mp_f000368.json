@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  },
+  {
+    "question": "Is there a suitcase in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  },
+  {
+    "question": "Are there more people than suitcases in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the camera than the furthest detected object?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene?",
+    "answer": "19.10 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  },
+  {
+    "question": "Are all people at approximately the same depth distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  },
+  {
+    "question": "What is the depth range (difference between maximum and minimum depth) in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000368.jpg"
+  }
+]

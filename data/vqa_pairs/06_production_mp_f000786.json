@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000786.jpg"
+  },
+  {
+    "question": "What is the maximum depth measurement recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000786.jpg"
+  },
+  {
+    "question": "What is the minimum depth measurement in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000786.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "15.69 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000786.jpg"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  },
+  {
+    "question": "What is the average depth of detected objects?",
+    "answer": "14.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  },
+  {
+    "question": "Is there at least one person within 5 metres of the camera viewpoint?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  },
+  {
+    "question": "Are all detected people at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  },
+  {
+    "question": "Is there a person visible beyond 40 metres depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of workers in this scene.",
+    "answer": "Three people are distributed across varying depths, with a minimum depth of 0 metres and maximum depth of 50 metres, suggesting they are spread across different areas of the construction site.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity in this scene?",
+    "answer": "No heavy equipment detected in scene; unable to assess worker-equipment safety distances.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001846.jpg"
+  }
+]

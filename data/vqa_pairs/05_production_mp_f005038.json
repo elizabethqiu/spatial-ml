@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the banana?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005038.jpg"
+  },
+  {
+    "question": "Is the dog closer to the person than to the banana?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005038.jpg"
+  },
+  {
+    "question": "Is the banana positioned to the left of the person?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005038.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to any objects?",
+    "answer": "No - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005038.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005038.jpg"
+  },
+  {
+    "question": "Are there any workers near heavy machinery that poses a safety risk?",
+    "answer": "No - scene contains only a person, dog, and banana with no heavy equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005038.jpg"
+  }
+]

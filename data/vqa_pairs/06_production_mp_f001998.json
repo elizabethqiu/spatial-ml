@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  },
+  {
+    "question": "Is there a surfboard present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "surfboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  },
+  {
+    "question": "Are there more people than surfboards in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene less than 20 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  },
+  {
+    "question": "What is the mean depth of all detected objects in metres?",
+    "answer": "17.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  },
+  {
+    "question": "Is this a construction site scene with heavy equipment posing safety risks?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001998.jpg"
+  }
+]

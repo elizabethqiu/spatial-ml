@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the laptop and the sink?",
+    "answer": "14.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004580.jpg"
+  },
+  {
+    "question": "Is the laptop closer than 5 metres to the sink?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004580.jpg"
+  },
+  {
+    "question": "Are the laptop and sink in the same spatial zone?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "laptop",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004580.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004580.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the laptop and sink positioning on a construction site?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "laptop",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004580.jpg"
+  }
+]

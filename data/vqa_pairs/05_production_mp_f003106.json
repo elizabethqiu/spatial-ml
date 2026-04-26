@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003106.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003106.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects detected in this scene?",
+    "answer": "17.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003106.jpg"
+  },
+  {
+    "question": "What is the minimum distance to any detected object?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003106.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003106.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a chair visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000148.jpg"
+  },
+  {
+    "question": "How many chairs are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000148.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000148.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "10.34 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000148.jpg"
+  },
+  {
+    "question": "Is the chair positioned at the closest point in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000148.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in close proximity (less than 2 metres) to the chair?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000148.jpg"
+  }
+]

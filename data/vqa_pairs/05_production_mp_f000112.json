@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the bench from the camera viewpoint?",
+    "answer": "The bench is approximately 15.62 metres away, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the bench?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  },
+  {
+    "question": "Is the bench present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  },
+  {
+    "question": "Is the bench located more than 10 metres from the camera viewpoint on average?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  },
+  {
+    "question": "Where is the bench positioned relative to the nearest foreground point in the scene?",
+    "answer": "The bench is positioned in the mid-to-far range of the scene. The nearest foreground point is at 0.00 metres, while the bench's mean estimated depth is approximately 15.62 metres, placing it well behind the closest foreground elements.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  },
+  {
+    "question": "Is the bench located in the far half of the scene's total depth range?",
+    "answer": "The bench's mean depth of 15.62 metres places it in the nearer half of the total 50.00-metre depth range, so it is positioned in the closer half of the scene rather than the far half.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  },
+  {
+    "question": "Is there a safety alert triggered by the proximity of any worker to heavy equipment near the bench?",
+    "answer": "No safety alert is triggered. No workers or heavy equipment are detected in this scene \u2014 only a bench is present. However, if this bench is located on or near an active construction site, workers should ensure it is placed in a designated rest area away from vehicle and equipment travel paths, and at least 2 metres clear of any operational machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  },
+  {
+    "question": "Does the placement of the bench at approximately 15.62 metres depth pose any immediate safety concern related to proximity to heavy equipment?",
+    "answer": "No immediate safety alert is triggered, as no heavy equipment or workers are detected within the scene. Nevertheless, site supervisors should verify that the bench is not positioned within 2 metres of any active equipment lanes or machinery operating areas, as the depth range extends up to 50.00 metres and potential hazards outside the detected object list cannot be ruled out.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000112.jpg"
+  }
+]

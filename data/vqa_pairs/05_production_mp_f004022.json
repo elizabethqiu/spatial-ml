@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How many TVs are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004022.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004022.jpg"
+  },
+  {
+    "question": "Are there more TVs than beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004022.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "14.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004022.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004022.jpg"
+  }
+]

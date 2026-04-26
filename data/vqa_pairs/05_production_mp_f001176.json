@@ -1,0 +1,93 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the bed is approximately 18.47 metres (mean scene depth), though precise individual object depths are unavailable.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the available depth statistics, the two persons are estimated to be within a range of 0.00 to 50.00 metres apart, with a mean scene depth of 18.47 metres. Precise separation cannot be determined without individual object coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "Is any person located near or on the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons in the scene?",
+    "answer": "The bed is detected within the same scene as the two persons. Based on the depth range (0.00\u201350.00 metres) and mean depth (18.47 metres), the bed appears to be in the mid-to-background region of the scene, with at least one person likely in close proximity to or on the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "What is the relative position of the second person with respect to the bed?",
+    "answer": "The second person is detected in the same scene as the bed. Given the scene's depth range, the second person may be positioned nearby or at a distance from the bed, but exact directional positioning (e.g., left, right, behind) cannot be determined without precise 3D coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present that poses a safety risk to the persons in the scene?",
+    "answer": "No heavy construction equipment (e.g., cranes, excavators, forklifts) has been detected in this scene. The detected objects are a bed and two persons. Therefore, no construction-related proximity safety alert is triggered. However, note that this appears to be a non-construction indoor scene, and standard construction site safety protocols may not apply.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  },
+  {
+    "question": "Are either of the two persons within a dangerous proximity (less than 2 metres) of any heavy equipment?",
+    "answer": "No heavy equipment is detected in this scene. The only objects present are a bed and two persons. No safety alert for worker-equipment proximity is required. This scene does not appear to represent a construction site environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001176.jpg"
+  }
+]

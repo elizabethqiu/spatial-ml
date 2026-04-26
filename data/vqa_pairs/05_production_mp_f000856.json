@@ -1,0 +1,90 @@
+[
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed",
+      "dining table",
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  },
+  {
+    "question": "Is the person sitting on the couch?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  },
+  {
+    "question": "Is there a dining table in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "19.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed",
+      "dining table",
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  },
+  {
+    "question": "Is the person closer to the chair or the dining table?",
+    "answer": "Unable to determine from available data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  },
+  {
+    "question": "What is the minimum recorded depth in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed",
+      "dining table",
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  },
+  {
+    "question": "Are there more beds or couches in this scene?",
+    "answer": "More beds (2 beds vs 1 couch)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000856.jpg"
+  }
+]

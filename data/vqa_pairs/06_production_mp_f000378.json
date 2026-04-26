@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the umbrella and the chair?",
+    "answer": "10.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Is the umbrella closer than 5 metres to the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Are there any objects in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000378.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Is the umbrella positioned at the closest point in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000378.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "10.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000378.jpg"
+  }
+]

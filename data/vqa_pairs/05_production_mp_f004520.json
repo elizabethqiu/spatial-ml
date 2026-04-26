@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many potted plants are visible in this scene?",
+    "answer": "5 potted plants",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  },
+  {
+    "question": "Is there a television in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  },
+  {
+    "question": "Is there a chair present in this indoor space?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "tv",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "14.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "tv",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  },
+  {
+    "question": "Are potted plants the most abundant object type in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "tv",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  },
+  {
+    "question": "Do potted plants outnumber other furniture items in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "chair",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004520.jpg"
+  }
+]

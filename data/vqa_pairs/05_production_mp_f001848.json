@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many bowls are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001848.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001848.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001848.jpg"
+  },
+  {
+    "question": "Are there more bowls than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001848.jpg"
+  },
+  {
+    "question": "What is the average depth distance across all objects?",
+    "answer": "19.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001848.jpg"
+  },
+  {
+    "question": "Is the minimum recorded depth zero metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001848.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002376.jpg"
+  },
+  {
+    "question": "What is the average distance to detected objects in this scene?",
+    "answer": "17.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002376.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002376.jpg"
+  },
+  {
+    "question": "Is the detected person at the closest point in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002376.jpg"
+  },
+  {
+    "question": "How far is the closest detected object from the camera?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002376.jpg"
+  }
+]

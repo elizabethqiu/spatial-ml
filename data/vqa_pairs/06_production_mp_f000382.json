@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there an umbrella visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000382.jpg"
+  },
+  {
+    "question": "How many umbrellas are detected in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000382.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance measured in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000382.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "10.39 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000382.jpg"
+  },
+  {
+    "question": "Is the umbrella closer than 5 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000382.jpg"
+  }
+]

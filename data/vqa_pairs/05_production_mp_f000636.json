@@ -1,0 +1,91 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed in the scene?",
+    "answer": "Based on the depth statistics, the person and bed are estimated to be within the scene's depth range of 0.00 to 50.00 metres, with a mean scene depth of approximately 19.03 metres. The relative distance between the two objects is estimated at approximately 19.03 metres (mean scene depth as reference).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "What is the mean depth of all detected objects in the scene?",
+    "answer": "The mean depth of all detected objects in the scene is approximately 19.03 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "Is the bed located within the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the person in the scene?",
+    "answer": "Based on the available scene data, the bed is detected within the same spatial environment as the person. Both objects share overlapping depth ranges, suggesting the bed is in the general vicinity of the person, likely in front of or beside them within the scene frame.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is detected in proximity to the bed. Given the scene's depth range (0.00\u201350.00 metres) and mean depth (19.03 metres), the person appears to be near the bed, potentially beside or in front of it, though exact lateral positioning cannot be determined without precise coordinate data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "Does the presence of the person near the bed in this scene pose any construction site safety hazard?",
+    "answer": "No immediate construction site safety alert is triggered. The detected objects are a person and a bed \u2014 neither of which constitutes heavy construction equipment (e.g., excavators, cranes, forklifts). No hazardous proximity (< 2 metres between a worker and heavy machinery) is identified in this scene. However, a bed in a construction context is an unusual object and may warrant a site inspection to ensure the area is not being misused or poses an indirect safety concern.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the person being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is required. There is no heavy construction equipment detected in this scene. The only objects present are a person and a bed, and neither poses a machinery-related proximity hazard. The scene does not meet the threshold for a worker-heavy equipment safety alert.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000636.jpg"
+  }
+]

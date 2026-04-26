@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How many bottles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "bottle",
+      "surfboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "13.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "bottle",
+      "surfboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "Is the surfboard closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "surfboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "Are there more bottles than backpacks in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "Is the backpack present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "Describe the relative position of the bottles with respect to the person.",
+    "answer": "The bottles are distributed across the scene at varying depths, with at least one bottle positioned at the minimum depth of 0.00 metres, suggesting close proximity to the camera relative to the person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "What objects are located nearest to the camera in this scene?",
+    "answer": "The bottle and possibly the backpack are at the minimum depth of 0.00 metres, making them the nearest objects to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present in this scene involving a worker and heavy equipment?",
+    "answer": "No safety alert - no heavy equipment is detected in this scene. The person is present with recreational/personal items only.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "bottle",
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003836.jpg"
+  }
+]

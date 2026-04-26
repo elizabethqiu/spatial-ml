@@ -1,0 +1,101 @@
+[
+  {
+    "question": "What is the approximate distance between the first person and the dining table?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the dining table is approximately 20.74 metres (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the closest and farthest objects in the scene?",
+    "answer": "The distance range across all objects in the scene spans approximately 50.00 metres (from minimum depth of 0.00 m to maximum depth of 50.00 m).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "Is there a dining table present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "Are there more than two people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "Is any person located within 2 metres of heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "Where is the dining table positioned relative to the persons in the scene?",
+    "answer": "The dining table appears to be centrally located within the scene relative to the three persons, likely in front of or between them given the dining context, with all objects distributed across a depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dining table",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "Where is the third person positioned relative to the first person in the scene?",
+    "answer": "The third person is positioned within the same general depth field as the first person, with both located near the mean scene depth of approximately 20.74 metres. Their lateral (left-right) relationship cannot be precisely determined without additional spatial coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "Is there any immediate safety concern involving workers and heavy equipment in this scene?",
+    "answer": "No immediate safety alert is triggered. This scene depicts persons near a dining table, and no heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected. There is no hazardous proximity risk between workers and machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to any person being within 2 metres of a dangerous object in this scene?",
+    "answer": "No safety alert is required. The only non-person object detected is a dining table, which is not classified as heavy or dangerous construction equipment. No worker-machinery proximity violation (< 2 m threshold) is present in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000876.jpg"
+  }
+]

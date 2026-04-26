@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 0.00 to 50.00 metres apart, with a mean scene depth of 19.09 metres. Precise lateral separation cannot be determined without individual object coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bed and the nearest person?",
+    "answer": "Given the mean scene depth of 19.09 metres and a depth range of 0.00\u201350.00 metres, the nearest person is estimated to be within approximately 0.00\u201319.09 metres of the bed. Exact distance requires per-object depth coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "Are both persons in the scene in close proximity to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "Where is the bed located relative to the two persons?",
+    "answer": "The bed is detected in the same scene as the two persons. Based on the scene composition, the bed appears to be in the central or background area of the scene, with the two persons positioned in the foreground or alongside the bed. Exact relative positioning (left/right/front/behind) requires per-object bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other?",
+    "answer": "The two persons are detected within the same scene. Without individual bounding box or depth coordinates, they are likely positioned side by side or at varying depths relative to the camera. One person may be closer to the foreground (nearer to 0.00 metres) while the other is further back, within the 0.00\u201350.00 metre depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The detected objects are two persons and a bed, which do not constitute a construction site proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  },
+  {
+    "question": "Are any of the persons within a dangerous 2-metre proximity of a hazardous machine or vehicle?",
+    "answer": "No. Neither person is near any detected heavy equipment or vehicle. The only non-person object in the scene is a bed, which poses no mechanical safety hazard. No safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000758.jpg"
+  }
+]

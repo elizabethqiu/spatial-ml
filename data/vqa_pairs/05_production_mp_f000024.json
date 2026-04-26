@@ -1,0 +1,58 @@
+[
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "What is the average depth of the construction site scene?",
+    "answer": "The average depth of the scene is approximately 14.12 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "What is the maximum depth range visible in this construction site scene?",
+    "answer": "The maximum depth visible in the scene is 50.00 metres, while the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "Are there any workers or heavy equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "Is there any identifiable object present in the foreground (within 5 metres) of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "Where is the majority of the scene's content located in terms of depth?",
+    "answer": "The majority of the scene's content is located at a mid-to-far range, as the mean depth is 14.12 metres, suggesting most observable elements are neither in the immediate foreground nor at the far 50-metre boundary.",
+    "type": "relative_position",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "Based on the depth statistics, is there likely any structure or surface very close to the camera?",
+    "answer": "The minimum depth is 0.00 metres, which suggests there may be a surface or object immediately at or very near the camera position, though no specific objects were detected by the object detector.",
+    "type": "relative_position",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "Are there any safety hazards involving workers in close proximity to heavy equipment in this scene?",
+    "answer": "No safety hazards involving worker-equipment proximity can be identified in this scene, as no workers or heavy equipment were detected. However, the absence of detected objects does not guarantee a safe site \u2014 manual inspection is strongly recommended to verify site safety conditions.",
+    "type": "safety_alert",
+    "objects_referenced": []
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000024.jpg",
+    "question": "Should a safety officer be concerned about undetected personnel or machinery operating in the depth range of 0\u20132 metres in this scene?",
+    "answer": "Yes, a safety alert is warranted. While no objects were automatically detected, the depth range includes values as low as 0.00 metres. Any undetected worker or equipment operating within the 0\u20132 metre zone would constitute a critical safety hazard. A manual review of this construction scene is urgently advised.",
+    "type": "safety_alert",
+    "objects_referenced": []
+  }
+]

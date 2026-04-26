@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is the distance between the two cars in this scene?",
+    "answer": "Unable to determine - insufficient depth information to calculate precise inter-object distances",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004642.jpg"
+  },
+  {
+    "question": "Is the bus closer to the camera than both cars?",
+    "answer": "Unable to determine - depth statistics provided are scene-wide, not object-specific",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004642.jpg"
+  },
+  {
+    "question": "Are there more cars than buses in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004642.jpg"
+  },
+  {
+    "question": "How many vehicles are present in total?",
+    "answer": "3 vehicles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "bus",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004642.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding worker proximity to heavy equipment?",
+    "answer": "No workers detected in scene - safety alert not applicable",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004642.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004642.jpg"
+  }
+]

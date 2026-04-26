@@ -1,0 +1,63 @@
+[
+  {
+    "question": "What is the distance between the person and the chair?",
+    "answer": "Unable to determine - object positions not provided in coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003668.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the person than to the chair?",
+    "answer": "Unable to determine - specific 3D coordinates not available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003668.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to equipment?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003668.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003668.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "Unable to determine - spatial relationships not specified",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003668.jpg"
+  },
+  {
+    "question": "Is the cell phone in the person's hand?",
+    "answer": "Unable to determine - relative positioning data insufficient",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003668.jpg"
+  }
+]

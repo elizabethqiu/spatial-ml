@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two people in the scene?",
+    "answer": "Based on the depth map statistics, the two people are estimated to be approximately 18.40 metres apart on average, with depths ranging from 0.00 to 50.00 metres across the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "What is the approximate depth (distance from camera) of the persons detected in this scene?",
+    "answer": "The mean scene depth is approximately 18.40 metres, with a minimum of 0.00 metres and a maximum of 50.00 metres, suggesting the persons are positioned at varying distances from the camera within that range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Are there two or more people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Are the two people in the scene at the same depth (distance from the camera)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person in the scene?",
+    "answer": "Without precise individual bounding-box depth assignments, the second person is detected within the same scene frame as the first person. Given the wide depth range (0.00 \u2013 50.00 metres) and mean depth of 18.40 metres, the second person may be positioned further in the background or at a laterally offset position relative to the first person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Are both persons detected in the foreground, mid-ground, or background of the scene?",
+    "answer": "The scene depth ranges from 0.00 to 50.00 metres with a mean of 18.40 metres, suggesting the persons are distributed across the mid-ground to background of the scene rather than both being in the immediate foreground.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (e.g., excavators, forklifts, cranes, bulldozers) has been detected in this scene \u2014 only two persons are present. However, supervisors should remain vigilant if machinery enters the area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Should a proximity warning be issued for either person in this scene based on their distance to detected hazards?",
+    "answer": "No proximity warning is required at this time. No hazardous machinery or equipment has been detected within the scene. Both detected objects are persons, and no person-to-equipment distance violation (< 2 metres) applies.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001630.jpg"
+  }
+]

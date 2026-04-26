@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the bicycle?",
+    "answer": "Unable to determine from scene data - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001618.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the bicycle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001618.jpg"
+  },
+  {
+    "question": "Is the bicycle positioned to the right of the person?",
+    "answer": "Unable to determine from scene data - specific spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001618.jpg"
+  },
+  {
+    "question": "How many objects are present in the construction site?",
+    "answer": "2 objects (1 person, 1 bicycle)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001618.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person and bicycle proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001618.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001618.jpg"
+  }
+]

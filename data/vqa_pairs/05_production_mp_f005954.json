@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Are there any workers visible in this construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this construction site?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in this scene?",
+    "answer": "19.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  },
+  {
+    "question": "Is there any safety risk due to worker-equipment proximity in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in this construction site scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  },
+  {
+    "question": "Are construction materials or debris visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  },
+  {
+    "question": "Is the construction site currently operational with visible activity?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005954.jpg"
+  }
+]

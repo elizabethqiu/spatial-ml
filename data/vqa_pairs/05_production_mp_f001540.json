@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the pizza from the camera?",
+    "answer": "The pizza is approximately 15.90 metres away from the camera (based on the mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  },
+  {
+    "question": "What is the depth range of the scene containing the pizza?",
+    "answer": "The scene depth ranges from 0.00 metres (minimum) to 50.00 metres (maximum).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  },
+  {
+    "question": "Is there a pizza detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment (e.g., excavator, crane, bulldozer) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  },
+  {
+    "question": "Where is the pizza located relative to the camera viewpoint?",
+    "answer": "The pizza is located at a mid-to-far distance in the scene, roughly centred in the depth field at approximately 15.90 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  },
+  {
+    "question": "Is the pizza closer to the near end or the far end of the observed depth range?",
+    "answer": "The pizza (mean depth ~15.90 metres) is closer to the near end of the depth range (0.00\u201350.00 metres), sitting roughly in the first third of the total depth span.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker in close proximity to heavy equipment in this scene?",
+    "answer": "No safety hazard is detected. This scene contains only a pizza and no workers or heavy construction equipment are present. No proximity alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  },
+  {
+    "question": "Should a construction site safety alert be raised based on the objects detected in this scene?",
+    "answer": "No alert should be raised. The only detected object is a pizza, which is not a construction hazard. No workers or heavy machinery are present within a dangerous proximity threshold of less than 2 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001540.jpg"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is there a toilet in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is the person standing directly next to the toilet?",
+    "answer": "unknown - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001326.jpg"
+  },
+  {
+    "question": "What is the primary sanitary fixture visible in this scene?",
+    "answer": "toilet",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Based on the depth statistics, what is the maximum distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001326.jpg"
+  }
+]

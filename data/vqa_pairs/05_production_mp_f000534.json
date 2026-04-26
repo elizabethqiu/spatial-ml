@@ -1,0 +1,101 @@
+[
+  {
+    "question": "What is the approximate average depth (distance from camera) of the people in the scene?",
+    "answer": "The average depth of the people in the scene is approximately 14.27 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "What is the range of distances (min to max) across all detected objects in the scene?",
+    "answer": "The detected objects span a distance range from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Are there any people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Are all three detected persons located at the same depth in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to each other in terms of depth?",
+    "answer": "The three persons are distributed across various depths in the scene. Given the depth range of 0.00 to 50.00 metres and a mean of 14.27 metres, at least one person appears to be very close to the camera (near 0 metres), while others are positioned further away, with the farthest potentially approaching 50 metres. The distribution is skewed toward nearer distances given the mean of 14.27 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera?",
+    "answer": "Based on the minimum depth value of 0.00 metres, one of the three detected persons is positioned at or very near the camera \u2014 effectively at the closest observable distance in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Is there a safety alert triggered due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for worker-equipment proximity. No heavy equipment (e.g., excavators, bulldozers, cranes, or forklifts) has been detected in this scene. Only three persons are present, so there is no risk of dangerous worker-equipment proximity in this frame.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Should a safety review be conducted regarding the person detected at approximately 0.00 metres depth?",
+    "answer": "A precautionary safety review is recommended. One person appears to be at an extremely close distance (near 0.00 metres from the camera/reference point). While no heavy equipment is present in the scene to trigger a formal proximity alert, the unusually close position warrants verification to ensure the individual is not in an unsafe or obstructed area on the construction site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000534.jpg"
+  }
+]

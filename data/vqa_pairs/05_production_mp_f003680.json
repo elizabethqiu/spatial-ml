@@ -1,0 +1,72 @@
+[
+  {
+    "question": "How far is the person from the hair drier?",
+    "answer": "16.10 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003680.jpg"
+  },
+  {
+    "question": "What is the distance between the baseball bat and the hair drier?",
+    "answer": "Unable to determine - insufficient spatial data for these specific objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "baseball bat",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003680.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the hair drier?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003680.jpg"
+  },
+  {
+    "question": "Is the baseball bat within the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003680.jpg"
+  },
+  {
+    "question": "Is the hair drier positioned behind the person?",
+    "answer": "Unable to determine - depth information insufficient for directional assessment",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003680.jpg"
+  },
+  {
+    "question": "Is the baseball bat closer to the camera than the person?",
+    "answer": "Unable to determine - individual object depth data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "baseball bat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003680.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between the worker and heavy equipment in this scene?",
+    "answer": "No - this is not a construction site with heavy equipment. The scene contains personal items (hair drier, baseball bat) and a person. No safety alert triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003680.jpg"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004146.jpg"
+  },
+  {
+    "question": "Is there a bus in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004146.jpg"
+  },
+  {
+    "question": "Are both people closer to the camera than the bus?",
+    "answer": "unknown - insufficient depth data per object",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004146.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004146.jpg"
+  },
+  {
+    "question": "Is any worker within 2 metres of the bus, presenting a safety hazard?",
+    "answer": "unknown - specific object positions not provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004146.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "19.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004146.jpg"
+  }
+]

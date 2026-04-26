@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How many scissors are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "scissors",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004710.jpg"
+  },
+  {
+    "question": "Are there scissors visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004710.jpg"
+  },
+  {
+    "question": "What is the average depth distance of the detected objects in the scene?",
+    "answer": "15.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "scissors",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004710.jpg"
+  },
+  {
+    "question": "Is the closest object in the scene at ground level?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004710.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance reached by any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "scissors",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004710.jpg"
+  },
+  {
+    "question": "Are all detected objects the same type?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors",
+      "scissors",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004710.jpg"
+  }
+]

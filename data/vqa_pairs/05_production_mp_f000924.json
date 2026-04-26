@@ -1,0 +1,63 @@
+[
+  {
+    "question": "What is the distance between the person and the chair?",
+    "answer": "approximately 5.2 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000924.jpg"
+  },
+  {
+    "question": "What is the distance between the couch and the bed?",
+    "answer": "approximately 8.7 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000924.jpg"
+  },
+  {
+    "question": "Is the person sitting on the couch?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000924.jpg"
+  },
+  {
+    "question": "Is the chair closer to the person than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000924.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the person?",
+    "answer": "the chair is to the right and slightly forward of the person",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000924.jpg"
+  },
+  {
+    "question": "How are the couch and bed arranged in the room?",
+    "answer": "the couch is positioned to the left of the bed with approximately 8.7 metres separation",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000924.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a bus in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000144.jpg"
+  },
+  {
+    "question": "How many buses are visible in the scene?",
+    "answer": "1 bus",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000144.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000144.jpg"
+  },
+  {
+    "question": "What is the average distance to objects in this scene?",
+    "answer": "11.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000144.jpg"
+  },
+  {
+    "question": "Is the bus closer than 5 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000144.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in this construction scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000144.jpg"
+  }
+]

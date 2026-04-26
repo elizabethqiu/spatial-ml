@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the motorcycle and the bicycle?",
+    "answer": "Unable to determine - 3D positions not provided in object list",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005622.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer to the camera than the bicycle?",
+    "answer": "Unable to determine - relative depth positions not specified",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005622.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005622.jpg"
+  },
+  {
+    "question": "Is the bicycle positioned to the left of the motorcycle?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005622.jpg"
+  },
+  {
+    "question": "How many vehicles are visible in this scene?",
+    "answer": "2 vehicles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005622.jpg"
+  },
+  {
+    "question": "Does this scene present any worker safety concerns regarding proximity to equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005622.jpg"
+  }
+]

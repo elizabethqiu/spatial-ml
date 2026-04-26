@@ -1,0 +1,100 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "6 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "potted plant",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "How many vases are present in the scene?",
+    "answer": "3 vases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects?",
+    "answer": "13.51 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "potted plant",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "Are there potted plants in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "Are there more cups than vases in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance zero metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "potted plant",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment visible in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "How many potted plants are there compared to the number of vases?",
+    "answer": "2 potted plants, which is fewer than the 3 vases",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  },
+  {
+    "question": "Are cups the most abundant object type in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "potted plant",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002622.jpg"
+  }
+]

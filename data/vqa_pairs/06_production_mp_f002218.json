@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002218.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any detected person?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002218.jpg"
+  },
+  {
+    "question": "What is the average depth of all people in the scene?",
+    "answer": "16.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002218.jpg"
+  },
+  {
+    "question": "Is there at least one person within 5 metres of the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002218.jpg"
+  },
+  {
+    "question": "Are all three people located beyond 10 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002218.jpg"
+  },
+  {
+    "question": "Is any person in close proximity (less than 2 metres) to heavy equipment?",
+    "answer": "No heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002218.jpg"
+  }
+]

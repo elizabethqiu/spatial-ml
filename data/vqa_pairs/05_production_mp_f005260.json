@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005260.jpg"
+  },
+  {
+    "question": "How many potted plants are visible in the scene?",
+    "answer": "4 potted plants",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005260.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005260.jpg"
+  },
+  {
+    "question": "Are there more potted plants than people?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005260.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "20.05 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005260.jpg"
+  },
+  {
+    "question": "Is there exactly one cup visible?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005260.jpg"
+  }
+]

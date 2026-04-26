@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the mouse?",
+    "answer": "12.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003248.jpg"
+  },
+  {
+    "question": "Is the mouse closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003248.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving the person and mouse?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003248.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003248.jpg"
+  },
+  {
+    "question": "Is the person in close proximity to the mouse?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003248.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003248.jpg"
+  }
+]

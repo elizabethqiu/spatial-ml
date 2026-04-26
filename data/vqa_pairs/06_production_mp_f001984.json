@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all people in this scene?",
+    "answer": "17.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  },
+  {
+    "question": "Is there a person at the minimum depth position?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  },
+  {
+    "question": "Are all 5 people within 30 metres depth distance?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  },
+  {
+    "question": "Is there significant depth variation among the people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of people across the depth range.",
+    "answer": "People are distributed across a 50-metre depth range with an average depth of 17.17 metres, indicating some are much closer to the camera while others are further away.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  },
+  {
+    "question": "Are there any people positioned at extreme distances from the scene center?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001984.jpg"
+  }
+]

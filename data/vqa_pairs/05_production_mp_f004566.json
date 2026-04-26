@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many potted plants are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004566.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004566.jpg"
+  },
+  {
+    "question": "Are there more potted plants than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004566.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "12.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004566.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004566.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004566.jpg"
+  }
+]

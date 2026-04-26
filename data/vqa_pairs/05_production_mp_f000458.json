@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  },
+  {
+    "question": "Is there a pizza in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  },
+  {
+    "question": "Are there more people than food items?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of objects from the camera in metres?",
+    "answer": "19.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  },
+  {
+    "question": "Is the pizza positioned closer to or farther from the camera than the average depth?",
+    "answer": "Cannot determine from given data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  },
+  {
+    "question": "Are all people at approximately the same distance from the camera?",
+    "answer": "Cannot determine from given data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000458.jpg"
+  }
+]

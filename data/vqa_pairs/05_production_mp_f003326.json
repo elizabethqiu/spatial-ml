@@ -1,0 +1,66 @@
+[
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003326.jpg"
+  },
+  {
+    "question": "Is the backpack closer to the camera than the handbag?",
+    "answer": "unknown - insufficient depth data for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003326.jpg"
+  },
+  {
+    "question": "How many personal items are visible in the scene?",
+    "answer": "2 items (backpack and handbag)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003326.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "14.14 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "chair",
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003326.jpg"
+  },
+  {
+    "question": "Is the handbag positioned to the right of the person?",
+    "answer": "unknown - spatial arrangement data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003326.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment items present that pose a proximity hazard?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "chair",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003326.jpg"
+  }
+]

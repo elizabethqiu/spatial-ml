@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How far is the person from the car?",
+    "answer": "24.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  },
+  {
+    "question": "What is the distance between the baseball glove and the cup?",
+    "answer": "Unable to determine - insufficient spatial data for small objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "baseball glove",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  },
+  {
+    "question": "Is the baseball glove closer to the camera than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball glove",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  },
+  {
+    "question": "Is the cup positioned between the person and the car?",
+    "answer": "Unable to determine - insufficient depth data for positional ordering",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  },
+  {
+    "question": "Is the person standing closer to the foreground or background compared to the car?",
+    "answer": "Background - the person is approximately 24.73 metres away",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person and car proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  },
+  {
+    "question": "Does the scene present any workers in close proximity (< 2 m) to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004886.jpg"
+  }
+]

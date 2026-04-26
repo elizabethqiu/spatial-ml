@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is the distance between the person and the refrigerator?",
+    "answer": "14.43 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000516.jpg"
+  },
+  {
+    "question": "Is the person standing closer than 5 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000516.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to proximity between the person and refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000516.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000516.jpg"
+  },
+  {
+    "question": "Is the refrigerator located within the minimum depth range of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000516.jpg"
+  }
+]

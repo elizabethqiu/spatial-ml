@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002750.jpg"
+  },
+  {
+    "question": "Is there a clock in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002750.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth of objects in this scene?",
+    "answer": "18.52 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002750.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the clock?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002750.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002750.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment?",
+    "answer": "no safety alert - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002750.jpg"
+  }
+]

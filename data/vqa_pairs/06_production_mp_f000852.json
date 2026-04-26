@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  },
+  {
+    "question": "How many people are in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  },
+  {
+    "question": "Are there more cars than refrigerators in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  },
+  {
+    "question": "Is there at least one refrigerator in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "15.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  },
+  {
+    "question": "Is the maximum distance between any two objects greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  },
+  {
+    "question": "Are persons positioned closer to the scene (within 20 metres) compared to the overall mean depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  },
+  {
+    "question": "Do the cars occupy a larger spatial footprint than the refrigerators in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000852.jpg"
+  }
+]

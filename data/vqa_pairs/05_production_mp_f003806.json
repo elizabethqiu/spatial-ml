@@ -1,0 +1,66 @@
+[
+  {
+    "question": "What is the distance between the skis and the dog?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003806.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the skis?",
+    "answer": "Unable to determine - specific depth coordinates required",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "skis"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003806.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "dog",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003806.jpg"
+  },
+  {
+    "question": "Is the dog positioned between the skis and bottle?",
+    "answer": "Unable to determine - XY positional coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "skis",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003806.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No - this scene contains recreational items and an animal, with no heavy equipment or workers present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "skis",
+      "dog",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003806.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "dog",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003806.jpg"
+  }
+]

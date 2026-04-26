@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a cow in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cow"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005172.jpg"
+  },
+  {
+    "question": "How many cows are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cow"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005172.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cow"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005172.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "23.94 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cow"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005172.jpg"
+  },
+  {
+    "question": "Is the cow at ground level (minimum depth)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cow"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005172.jpg"
+  }
+]

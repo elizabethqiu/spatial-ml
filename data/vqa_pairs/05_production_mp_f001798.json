@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many forks are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001798.jpg"
+  },
+  {
+    "question": "Is there a person visible in this construction scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001798.jpg"
+  },
+  {
+    "question": "Are there more forks than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001798.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "17.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001798.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the farthest object in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001798.jpg"
+  },
+  {
+    "question": "Given the depth range of 0-50 metres, is the person at a safe distance from potential equipment hazards?",
+    "answer": "Unable to assess - person depth unknown; forks (equipment) present in scene with mean depth 17.15 metres",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001798.jpg"
+  }
+]

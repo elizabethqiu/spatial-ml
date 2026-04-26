@@ -1,0 +1,61 @@
+[
+  {
+    "question": "Is the person standing closer to the sink or the toilet?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001812.jpg"
+  },
+  {
+    "question": "What is the distance between the sink and the toilet in metres?",
+    "answer": "Unable to determine - specific coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001812.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment in this bathroom scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001812.jpg"
+  },
+  {
+    "question": "Does the scene show a toilet positioned to the left of the sink?",
+    "answer": "Unable to determine - specific spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001812.jpg"
+  },
+  {
+    "question": "How many sanitary fixtures (sink and toilet) are visible in this bathroom?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001812.jpg"
+  },
+  {
+    "question": "Is there a person present in the bathroom?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001812.jpg"
+  }
+]

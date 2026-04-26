@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many trucks are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003118.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003118.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "13.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003118.jpg"
+  },
+  {
+    "question": "Are there any workers present in close proximity to the trucks?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003118.jpg"
+  },
+  {
+    "question": "Is this a safe construction site with respect to worker-equipment proximity?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003118.jpg"
+  },
+  {
+    "question": "Are both trucks at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003118.jpg"
+  }
+]

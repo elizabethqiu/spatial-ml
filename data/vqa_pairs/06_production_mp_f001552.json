@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a tennis racket in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001552.jpg"
+  },
+  {
+    "question": "How many tennis rackets are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001552.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "11.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001552.jpg"
+  },
+  {
+    "question": "Is the tennis racket closer than 5 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001552.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001552.jpg"
+  }
+]

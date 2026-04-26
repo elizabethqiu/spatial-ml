@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the distance between the clock and the dog?",
+    "answer": "17.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002802.jpg"
+  },
+  {
+    "question": "Is the clock closer to the camera than the dog?",
+    "answer": "Unable to determine from scene data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002802.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "No workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002802.jpg"
+  },
+  {
+    "question": "How many objects are present in this construction scene?",
+    "answer": "2 objects (clock and dog)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002802.jpg"
+  }
+]

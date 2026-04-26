@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the tv?",
+    "answer": "13.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001244.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the tv?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001244.jpg"
+  },
+  {
+    "question": "Is the tv positioned in front of the person?",
+    "answer": "unknown - insufficient spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001244.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the person and tv?",
+    "answer": "no - distance of 13.74 metres exceeds safe working distance",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001244.jpg"
+  }
+]

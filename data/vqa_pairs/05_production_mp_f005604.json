@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many bowls are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "bottle",
+      "spoon",
+      "person",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  },
+  {
+    "question": "Is there a motorcycle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  },
+  {
+    "question": "Are there more than one person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  },
+  {
+    "question": "Is the bottle located closer to the camera than the motorcycle?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  },
+  {
+    "question": "Are the persons positioned near the motorcycle?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to the motorcycle?",
+    "answer": "Unable to assess - precise XYZ coordinates not provided for proximity calculation",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "16.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "bottle",
+      "spoon",
+      "person",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005604.jpg"
+  }
+]

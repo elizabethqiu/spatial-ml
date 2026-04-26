@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Is there a laptop present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Are there more people than electronic devices in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002356.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "17.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002356.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Are both people positioned at the same depth in the scene?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002356.jpg"
+  }
+]

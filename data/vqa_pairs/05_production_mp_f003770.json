@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the bird and the person?",
+    "answer": "approximately 13.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003770.jpg"
+  },
+  {
+    "question": "Is the bird closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003770.jpg"
+  },
+  {
+    "question": "Is the person positioned at a greater depth than the bird?",
+    "answer": "Cannot be determined from scene data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003770.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the person and bird?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003770.jpg"
+  },
+  {
+    "question": "What is the maximum observable depth in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003770.jpg"
+  },
+  {
+    "question": "Is the bird within 2 metres of the person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003770.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the laptop?",
+    "answer": "22.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002446.jpg"
+  },
+  {
+    "question": "How far is the cat from the person?",
+    "answer": "Unable to determine precise distance from available data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002446.jpg"
+  },
+  {
+    "question": "Is the cat closer to the person than the laptop is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002446.jpg"
+  },
+  {
+    "question": "Is the laptop within arm's reach of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002446.jpg"
+  },
+  {
+    "question": "Where is the cat positioned relative to the person?",
+    "answer": "The cat's exact spatial position relative to the person cannot be determined from depth data alone; additional positional coordinates are needed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002446.jpg"
+  },
+  {
+    "question": "Is the laptop positioned between the person and the cat?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop",
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002446.jpg"
+  }
+]

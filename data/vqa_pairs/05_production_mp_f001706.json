@@ -1,0 +1,67 @@
+[
+  {
+    "question": "How many people are visible in this construction scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001706.jpg"
+  },
+  {
+    "question": "Are there any workers present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001706.jpg"
+  },
+  {
+    "question": "Is this scene free of any personnel?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001706.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001706.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in this construction area?",
+    "answer": "18.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001706.jpg"
+  },
+  {
+    "question": "Are both persons within close proximity to potential hazards?",
+    "answer": "Insufficient data - no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001706.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001706.jpg"
+  }
+]

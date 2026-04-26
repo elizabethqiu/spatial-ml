@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many beds are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002362.jpg"
+  },
+  {
+    "question": "Are there any beds visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002362.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy machinery and workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002362.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002362.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "17.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002362.jpg"
+  },
+  {
+    "question": "Are both beds at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002362.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001350.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "13.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001350.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Is the person at the closest point in the depth range?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment objects detected near the person that pose a safety risk?",
+    "answer": "No heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001350.jpg"
+  }
+]

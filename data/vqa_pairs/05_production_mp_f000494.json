@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many persons are visible in this construction site scene?",
+    "answer": "3 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000494.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000494.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects in this scene?",
+    "answer": "16.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000494.jpg"
+  },
+  {
+    "question": "Are there more persons than pieces of equipment in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000494.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000494.jpg"
+  },
+  {
+    "question": "Is the cell phone located closer to the camera than the furthest person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000494.jpg"
+  }
+]

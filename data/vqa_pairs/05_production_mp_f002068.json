@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far is the person from the sink?",
+    "answer": "18.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002068.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the sink?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002068.jpg"
+  },
+  {
+    "question": "Where is the sink positioned relative to the person?",
+    "answer": "The sink is located at a considerable distance from the person, approximately 18.59 metres away.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002068.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity of the person to the sink?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002068.jpg"
+  }
+]

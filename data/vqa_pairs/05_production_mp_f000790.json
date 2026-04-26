@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the person from the nearest bed?",
+    "answer": "Based on the mean scene depth of approximately 18.64 metres, the person is estimated to be within the same depth plane as the beds, suggesting a proximity of roughly 0\u20135 metres to the nearest bed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "Given the depth range of 0.00 to 50.00 metres and the mean depth of 18.64 metres, the two beds are estimated to be separated by approximately 2\u201310 metres, depending on their lateral and depth offsets within the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Is the person located between the two beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two beds?",
+    "answer": "The person appears to be positioned centrally between the two beds, suggesting a bedroom or dormitory layout where the individual is in the space separating the two sleeping surfaces.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Where is the second bed located relative to the first bed?",
+    "answer": "The second bed is positioned laterally adjacent to or parallel with the first bed, likely on the opposite side of the room or alongside it, as is typical in a shared bedroom or dormitory setting.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Is the person closer to the first bed or the second bed?",
+    "answer": "Based on the scene layout and object ordering, the person appears to be roughly equidistant between the two beds, though slightly closer to the first detected bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment near the person that poses a safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The scene contains only a person and two beds, so no proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose a crush or entrapment hazard to the person within a 2-metre danger zone?",
+    "answer": "No construction machinery or heavy equipment is present in this scene. The detected objects are beds, which do not constitute a recognised heavy-equipment safety hazard. No safety alert is warranted under the 2-metre proximity rule for construction sites.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000790.jpg"
+  }
+]

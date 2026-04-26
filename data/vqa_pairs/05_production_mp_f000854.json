@@ -1,0 +1,94 @@
+[
+  {
+    "question": "Is there a person sitting on the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Are both chairs positioned at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Is the wine glass closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene in metres?",
+    "answer": "19.88 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Is the wine glass positioned in front of any chairs?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Are the two persons standing closer to the camera or further away?",
+    "answer": "The depth range suggests they are at varying distances, with the closest object at 0.00 metres and furthest at 50.00 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Which object is at the minimum depth distance?",
+    "answer": "wine glass at 0.00 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000854.jpg"
+  }
+]

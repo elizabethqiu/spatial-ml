@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005320.jpg"
+  },
+  {
+    "question": "Is there a television in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005320.jpg"
+  },
+  {
+    "question": "Is the person closer to the television or to one of the beds?",
+    "answer": "Unable to determine from depth data alone - requires spatial coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005320.jpg"
+  },
+  {
+    "question": "Are there more beds than televisions in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005320.jpg"
+  },
+  {
+    "question": "What is the maximum depth range of objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005320.jpg"
+  },
+  {
+    "question": "Is the person at a safe distance from any heavy equipment?",
+    "answer": "N/A - No heavy construction equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005320.jpg"
+  }
+]

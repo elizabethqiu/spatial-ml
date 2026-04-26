@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Are there any workers or equipment visible in this construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000110.jpg"
+  },
+  {
+    "question": "What is the average depth range visible in this scene?",
+    "answer": "12.03 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000110.jpg"
+  },
+  {
+    "question": "What is the maximum visible distance in this construction site?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Is the minimum depth reading at ground level?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000110.jpg"
+  },
+  {
+    "question": "How much deeper is the maximum visible distance compared to the mean depth?",
+    "answer": "37.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detectable from proximity violations in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000110.jpg"
+  }
+]

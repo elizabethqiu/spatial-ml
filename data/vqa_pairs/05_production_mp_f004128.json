@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004128.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004128.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in the scene?",
+    "answer": "14.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004128.jpg"
+  },
+  {
+    "question": "Is the person located at ground level (minimum depth)?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004128.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004128.jpg"
+  },
+  {
+    "question": "How far away is the person from the camera on average?",
+    "answer": "14.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004128.jpg"
+  }
+]

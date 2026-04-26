@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  },
+  {
+    "question": "How many surfboards are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  },
+  {
+    "question": "Is there a backpack in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  },
+  {
+    "question": "Is there a cup present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  },
+  {
+    "question": "Are all the surfboards positioned at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "13.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "surfboard",
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "surfboard",
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  },
+  {
+    "question": "Are there more people than surfboards in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003840.jpg"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the person from the camera?",
+    "answer": "The person is approximately 12.28 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the person?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) detected in the scene alongside the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the nearest depth boundary of the scene?",
+    "answer": "The person is positioned at a mean depth of approximately 12.28 metres, placing them roughly in the near-to-mid range of the scene, which spans from 0.00 metres to 50.00 metres. They are closer to the near boundary than to the far boundary.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  },
+  {
+    "question": "Is the person located in the foreground, mid-ground, or background of the scene?",
+    "answer": "The person is located in the mid-ground of the scene. With a mean depth of 12.28 metres and the scene ranging from 0.00 to 50.00 metres, the person occupies approximately the first quarter of the total depth range, leaning toward the foreground-to-mid-ground transition zone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  },
+  {
+    "question": "Is the person in a potentially dangerous proximity (less than 2 metres) to any detected heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (such as excavators, cranes, bulldozers, or forklifts) has been detected in this scene. However, site supervisors should remain vigilant, as the minimum scene depth registers at 0.00 metres, suggesting objects may be very close to the camera. A continuous sweep for equipment entering the frame is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the person being within 2 metres of any heavy machinery?",
+    "answer": "No safety alert is required at this time based on detected objects. Only one person is identified in the scene with no heavy machinery present. Nevertheless, given the 0.00 metre minimum depth reading, there may be undetected objects in very close proximity. A manual visual inspection is advised to rule out off-camera hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000538.jpg"
+  }
+]

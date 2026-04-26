@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many cell phones are visible in this scene?",
+    "answer": "3 cell phones",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  },
+  {
+    "question": "Are there more dogs than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  },
+  {
+    "question": "Is the average depth distance in this scene greater than 15 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  },
+  {
+    "question": "Are the two dogs positioned closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  },
+  {
+    "question": "Which objects are present at the minimum depth distance of 0.00 metres?",
+    "answer": "At least one object is positioned at the camera plane (0.00 metres depth)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between workers and heavy equipment in this scene?",
+    "answer": "No heavy equipment detected in this scene; no safety alert applicable",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  },
+  {
+    "question": "How many more cell phones are there compared to dogs?",
+    "answer": "1 cell phone more than dogs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005098.jpg"
+  }
+]

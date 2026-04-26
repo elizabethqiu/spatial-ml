@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many bears are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear",
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004806.jpg"
+  },
+  {
+    "question": "Are there any bears visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004806.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear",
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004806.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "34.88 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear",
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004806.jpg"
+  },
+  {
+    "question": "Are both bears at the same depth distance?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bear",
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004806.jpg"
+  },
+  {
+    "question": "Is the minimum observed depth greater than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bear",
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004806.jpg"
+  },
+  {
+    "question": "What is the closest distance to any object in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004806.jpg"
+  }
+]

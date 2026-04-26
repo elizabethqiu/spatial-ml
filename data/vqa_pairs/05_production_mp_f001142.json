@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the depth statistics available, the estimated distance between the first person and the bed is approximately 22.18 metres (mean scene depth), though exact per-object depth is not resolved.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Given the mean scene depth of 22.18 metres and a depth range of 0.00 to 50.00 metres, the two persons are estimated to be within roughly 0\u201350 metres of each other; without individual depth values, a precise separation cannot be confirmed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Are there two or more persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Is any person located in close proximity (less than 2 metres) to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons in the scene?",
+    "answer": "The bed appears to be centrally located within the scene relative to the two detected persons, likely positioned between or alongside them based on a mean depth of 22.18 metres shared across all objects.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person?",
+    "answer": "The second person is positioned in the same general depth plane as the first person, both sharing a scene mean depth of approximately 22.18 metres. Their lateral (left/right) relationship cannot be precisely determined without bounding-box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Where is the bed located relative to the overall scene depth?",
+    "answer": "The bed is located somewhere within the mid-range of the scene depth, as the overall depth spans 0.00 to 50.00 metres with a mean of 22.18 metres, placing it approximately at a mid-depth position.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Safety Alert: Are any persons detected within 2 metres of heavy construction equipment?",
+    "answer": "No heavy construction equipment (e.g., cranes, forklifts, excavators) is detected in this scene. The only objects present are a bed and two persons, so no construction-related proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  },
+  {
+    "question": "Safety Alert: Given the minimum depth of 0.00 metres, is any person dangerously close to an object in the scene?",
+    "answer": "The minimum depth of 0.00 metres suggests at least one object or person may be at the camera's immediate foreground. If a person is within 0\u20132 metres of another object, caution is advised. However, since no heavy machinery is present, no critical construction safety hazard is flagged. General proximity awareness is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001142.jpg"
+  }
+]

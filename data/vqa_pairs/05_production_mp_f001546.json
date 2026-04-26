@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far is the book from the nearest person in the scene?",
+    "answer": "Based on the available depth data, the book is approximately 17.84 metres from the mean scene depth reference; precise separation from the nearest person is estimated at roughly 0\u201318 metres depending on exact positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Given the scene depth range of 0.00 to 50.00 metres with a mean of 17.84 metres, the two persons are estimated to be separated by approximately 17.84 metres on average, though they could range from 0.00 to 50.00 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "Is there a book present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "Is any person in the scene within 2 metres of heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "Where is the book positioned relative to the two persons in the scene?",
+    "answer": "The book appears to be located between or in proximity to the two persons, likely held or placed near one of them, given that all three objects are detected within the same scene frame.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "book",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "Which object is closest to the foreground (minimum depth) of the scene?",
+    "answer": "Based on the depth range starting at 0.00 metres, at least one of the detected objects \u2014 either a person or the book \u2014 is positioned at or very near the foreground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "Is either person in the scene in a potentially unsafe proximity (less than 2 metres) to any heavy construction equipment?",
+    "answer": "No safety alert is triggered. No heavy equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The only objects present are two persons and a book, posing no proximity-based construction safety hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  },
+  {
+    "question": "Does the presence of a book in a construction site scene suggest a potential distraction hazard for the persons present?",
+    "answer": "Caution advised: A person reading a book on an active construction site could indicate a distraction hazard. Workers should remain alert to their surroundings at all times. While no heavy equipment proximity violation (< 2 metres) is detected here, inattentiveness near machinery or hazardous zones could pose a serious safety risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001546.jpg"
+  }
+]

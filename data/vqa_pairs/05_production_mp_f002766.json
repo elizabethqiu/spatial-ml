@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many scissors are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  },
+  {
+    "question": "Is the person closer to the cup than to the scissors?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  },
+  {
+    "question": "Are both scissors objects positioned at the same depth location?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  },
+  {
+    "question": "Is the person positioned between the two scissors?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in metres?",
+    "answer": "15.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to sharp objects (scissors)?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  },
+  {
+    "question": "Is the cup located closer to the person than either of the scissors objects?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002766.jpg"
+  }
+]

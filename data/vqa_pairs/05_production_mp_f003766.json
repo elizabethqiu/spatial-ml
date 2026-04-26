@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003766.jpg"
+  },
+  {
+    "question": "Is there a teddy bear present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003766.jpg"
+  },
+  {
+    "question": "Are there more persons than teddy bears in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003766.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003766.jpg"
+  },
+  {
+    "question": "Is the teddy bear positioned closer to the camera than the average depth of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003766.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in metres?",
+    "answer": "11.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003766.jpg"
+  }
+]

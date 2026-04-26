@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is there a refrigerator present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is there a toilet in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Are there more than 2 cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in this scene?",
+    "answer": "11.46 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is the minimum depth value greater than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000570.jpg"
+  }
+]

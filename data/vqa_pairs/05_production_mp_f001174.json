@@ -1,0 +1,95 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the bed is approximately 20.93 metres (mean scene depth), though exact individual object depths are not separately resolved.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Given the scene depth range of 0.00 to 50.00 metres with a mean of 20.93 metres, the two persons are estimated to be within a range of 0 to 50.00 metres of each other; without individual depth resolution they likely share a similar depth plane around 20.93 metres apart from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "Is any person in close proximity (less than 2 metres) to heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons appear to be in the general vicinity of the bed within the scene. Without precise individual depth coordinates, they are likely positioned near or around the bed, which is the primary reference object in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "Is the bed positioned between the two persons or to one side of them?",
+    "answer": "Based on the scene description and the presence of all three objects (bed and two persons) in the same scene, the bed is likely centrally located or to one side relative to the two persons, but exact lateral positioning requires pixel-level bounding box data not available here.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "Is there any safety alert triggered for workers near heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a bed and two persons \u2014 no heavy construction equipment (e.g., excavators, cranes, forklifts) is detected. There is no hazardous proximity risk identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  },
+  {
+    "question": "Are either of the two persons within 2 metres of any hazardous machinery or equipment?",
+    "answer": "No hazardous machinery or heavy equipment is present in this scene. The only objects detected are a bed and two persons, so no proximity safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001174.jpg"
+  }
+]

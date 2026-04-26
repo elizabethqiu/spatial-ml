@@ -1,0 +1,98 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "Is there at least one car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "Are there more cars than people?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "Is the scene depth range greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "Are there any people present on this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "14.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  },
+  {
+    "question": "Is there potential collision risk between vehicles and personnel given the scene composition?",
+    "answer": "Unable to determine - spatial positions of individual objects required for safety assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003396.jpg"
+  }
+]

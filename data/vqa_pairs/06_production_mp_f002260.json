@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many spoons are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "spoon"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "spoon",
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  },
+  {
+    "question": "Is there a knife present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  },
+  {
+    "question": "Are there more spoons than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  },
+  {
+    "question": "What is the average depth distance across all detected objects?",
+    "answer": "14.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "spoon",
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  },
+  {
+    "question": "Is the knife located closer or farther than the mean depth compared to the overall scene?",
+    "answer": "Unable to determine - knife depth not specified individually",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  },
+  {
+    "question": "Are the two persons positioned at the same depth in the scene?",
+    "answer": "Unable to determine - individual person positions not specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  },
+  {
+    "question": "Is there any safety hazard due to proximity between workers and sharp objects?",
+    "answer": "No safety alert - this is a kitchen/dining setting with utensils and people, not a construction site with heavy equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife",
+      "spoon"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002260.jpg"
+  }
+]

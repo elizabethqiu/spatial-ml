@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a motorcycle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001680.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001680.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "14.25 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001680.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer than 10 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001680.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001680.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001680.jpg"
+  }
+]

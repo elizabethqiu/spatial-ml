@@ -1,0 +1,74 @@
+[
+  {
+    "question": "What is the distance between the person and the airplane?",
+    "answer": "approximately 21.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005352.jpg"
+  },
+  {
+    "question": "How far apart are the dog and the airplane?",
+    "answer": "approximately 21.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005352.jpg"
+  },
+  {
+    "question": "Is the person closer to the dog than to the airplane?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005352.jpg"
+  },
+  {
+    "question": "Are the person and dog within 2 metres of each other?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005352.jpg"
+  },
+  {
+    "question": "Is the airplane visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005352.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the person?",
+    "answer": "The dog is positioned near the person, both significantly closer than the airplane which is in the background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005352.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement of all three objects.",
+    "answer": "The person and dog are in the foreground at similar depths, while the airplane is positioned much further away in the background at approximately 50 metres distance.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005352.jpg"
+  }
+]

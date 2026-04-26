@@ -1,0 +1,79 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 11.07 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "What is the maximum depth captured in the scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in the scene?",
+    "answer": "The minimum depth value recorded in the scene is 0.00 metres, indicating a surface or object at the camera plane.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "Is the scene depth range greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "Are there any detected objects in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "Is the mean scene depth closer to the near end (0 m) or the far end (50 m) of the depth range?",
+    "answer": "The mean scene depth of 11.07 metres is closer to the near end (0 m) of the depth range, suggesting the bulk of the scene content is concentrated in the foreground-to-mid range rather than the far background.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "Where in the depth range does the average scene content fall \u2014 foreground, mid-ground, or background?",
+    "answer": "With a mean depth of 11.07 metres against a maximum of 50.00 metres, the average scene content falls in the foreground-to-mid-ground region, roughly the first quarter of the total depth range.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving workers and heavy equipment in close proximity that require an alert?",
+    "answer": "No specific workers or heavy equipment were detected in this scene, so no proximity-based safety alert can be issued. However, the absence of detected objects may indicate a sensor or detection failure \u2014 it is strongly recommended to verify that the object detection system is functioning correctly on this active construction site, as undetected personnel or machinery near the 0.00 m depth region could pose an unmonitored hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "Given no objects were detected, should site supervisors be concerned about the reliability of the safety monitoring system?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "Is the depth range of this scene sufficient to monitor typical construction site equipment such as cranes and excavators operating at distances beyond 20 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  },
+  {
+    "question": "What safety concern arises from having a minimum depth of 0.00 metres with no objects detected?",
+    "answer": "A minimum depth of 0.00 metres suggests something may be at or immediately adjacent to the camera, yet the detection system registered no objects. This is a potential safety alert: an unidentified person or piece of equipment may be extremely close (< 1 metre) to the sensor without being classified. Immediate manual inspection of the camera's immediate surroundings is recommended to rule out an undetected worker or hazard within the critical 2-metre safety exclusion zone.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000048.jpg"
+  }
+]

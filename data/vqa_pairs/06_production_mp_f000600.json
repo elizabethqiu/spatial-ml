@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many toilets are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Is there a bottle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Are there more toilets than bottles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000600.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "14.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000600.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Are toilets and bottles the only objects detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000600.jpg"
+  }
+]

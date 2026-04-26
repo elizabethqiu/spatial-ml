@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  },
+  {
+    "question": "Is there a pair of scissors visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  },
+  {
+    "question": "Are there more people than cutting tools in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "11.60 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  },
+  {
+    "question": "Is the scissors the closest object to the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  },
+  {
+    "question": "Are all people positioned within 25 metres depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004330.jpg"
+  }
+]

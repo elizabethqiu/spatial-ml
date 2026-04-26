@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  },
+  {
+    "question": "Is there a baseball bat in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the baseball bat?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "13.46 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  },
+  {
+    "question": "What is the range of depths captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity (less than 2 metres) to the car?",
+    "answer": "Unable to determine - insufficient spatial coordinate data for proximity assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  },
+  {
+    "question": "Is a baseball bat being held by any of the persons?",
+    "answer": "Unable to determine - insufficient spatial relationship data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003360.jpg"
+  }
+]

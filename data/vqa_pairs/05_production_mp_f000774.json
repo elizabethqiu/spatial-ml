@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many beds are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000774.jpg"
+  },
+  {
+    "question": "Is there a person sitting on a chair in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000774.jpg"
+  },
+  {
+    "question": "Is the person closer to a bed or a chair?",
+    "answer": "Unable to determine - insufficient spatial positioning data provided for definitive comparison",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000774.jpg"
+  },
+  {
+    "question": "How many furniture items (beds and chairs combined) are in this scene?",
+    "answer": "3 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000774.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000774.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000774.jpg"
+  }
+]

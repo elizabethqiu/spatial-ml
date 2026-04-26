@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a television visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000782.jpg"
+  },
+  {
+    "question": "How many televisions are detected in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000782.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000782.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "12.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000782.jpg"
+  },
+  {
+    "question": "Is the television positioned at the minimum depth distance?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000782.jpg"
+  }
+]

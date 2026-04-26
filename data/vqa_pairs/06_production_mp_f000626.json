@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many toilets are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000626.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000626.jpg"
+  },
+  {
+    "question": "Are there more toilets than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000626.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "15.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000626.jpg"
+  },
+  {
+    "question": "Is the person positioned in the foreground of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000626.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000626.jpg"
+  }
+]

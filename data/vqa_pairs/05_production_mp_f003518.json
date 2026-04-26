@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many suitcases are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003518.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003518.jpg"
+  },
+  {
+    "question": "Are there more suitcases than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003518.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "13.10 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003518.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the farthest object in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003518.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003518.jpg"
+  }
+]

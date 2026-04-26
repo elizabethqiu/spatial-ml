@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  },
+  {
+    "question": "Is there a car visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  },
+  {
+    "question": "Are there more persons than animals in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene?",
+    "answer": "16.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  },
+  {
+    "question": "Is the dog closer than the mean depth distance?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000126.jpg"
+  }
+]

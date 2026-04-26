@@ -1,0 +1,88 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in the scene?",
+    "answer": "The approximate mean depth of objects in the scene is 18.60 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "tv",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth range observed is 50.00 metres, with objects spanning from 0.00 metres to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "tv",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "tv",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  },
+  {
+    "question": "Is a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  },
+  {
+    "question": "Is the cup located closer to the viewer than the bed in this scene?",
+    "answer": "Based on available depth data, both objects fall within the 0.00\u201350.00 metre range. Without individual per-object depth values, the cup and bed cannot be definitively ranked, but both are within the scene's depth envelope centred around 18.60 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  },
+  {
+    "question": "Where is the tv positioned relative to the bed in the scene?",
+    "answer": "The tv and the bed are both detected within the same scene depth range (0.00\u201350.00 metres, mean 18.60 metres). Without individual depth coordinates, the tv appears to share a similar depth plane as the bed, suggesting they are at a comparable distance from the viewer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  },
+  {
+    "question": "Does this scene present any construction site safety hazards involving workers and heavy equipment within 2 metres of each other?",
+    "answer": "No safety alert is triggered. This scene does not appear to be a construction site \u2014 detected objects include a cup, tv, dog, and bed, and no workers or heavy equipment are present. No proximity hazard of less than 2 metres between a worker and heavy equipment is identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "tv",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  },
+  {
+    "question": "Is the dog at risk from any heavy machinery detected within 2 metres proximity in this scene?",
+    "answer": "No safety alert is triggered. There is no heavy machinery detected in this scene. The dog is not at risk from any construction equipment proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001336.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  },
+  {
+    "question": "Is the cup located on the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  },
+  {
+    "question": "What is the relative position of the dining table with respect to the bed?",
+    "answer": "The dining table is positioned in front of the bed",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  },
+  {
+    "question": "Are the two persons standing next to each other?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  },
+  {
+    "question": "What objects are on the dining table?",
+    "answer": "The cup is on the dining table",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  },
+  {
+    "question": "Is this an indoor residential setting?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "dining table",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  },
+  {
+    "question": "How many objects are visible in total in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000868.jpg"
+  }
+]

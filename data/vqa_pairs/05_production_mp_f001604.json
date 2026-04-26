@@ -1,0 +1,127 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in this scene?",
+    "answer": "The mean depth of objects in this scene is approximately 11.03 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth range in this scene?",
+    "answer": "The maximum depth range in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "What is the minimum detected depth in this scene?",
+    "answer": "The minimum detected depth in this scene is 0.00 metres, indicating at least one object is at or very near the camera position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Are there any cars present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Is there a parking meter visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Are there more than two cars detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Is the parking meter located in close proximity to at least one of the cars?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Where is the parking meter positioned relative to the two cars in the scene?",
+    "answer": "The parking meter is positioned alongside the cars, likely at the curb or roadside, consistent with typical urban parking infrastructure where meters are placed adjacent to parked vehicles.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "How are the two cars positioned relative to each other?",
+    "answer": "The two cars appear to be positioned near each other, likely parked side by side or in sequence along a parking area, given the shared scene context with the parking meter.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Is the parking meter positioned between the two cars?",
+    "answer": "Based on the scene description, the parking meter is likely positioned at the roadside adjacent to or between the parked cars, which is the standard placement in an urban parking setting.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment in this scene that poses a safety risk to workers?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, bulldozers) is detected in this scene. The objects present are two cars and a parking meter, none of which constitute heavy construction equipment. No worker-equipment proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  },
+  {
+    "question": "Given that the minimum depth is 0.00 metres, is there any object extremely close to the observer that could pose an immediate collision or safety hazard?",
+    "answer": "Yes \u2014 caution is advised. The minimum detected depth of 0.00 metres suggests an object (potentially one of the cars) is extremely close to or touching the camera/observer position. If personnel are present near this object, an immediate proximity hazard exists. Workers or bystanders should maintain a safe clearance distance of at least 2 metres from any moving or parked vehicle.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001604.jpg"
+  }
+]

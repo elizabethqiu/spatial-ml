@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a parking meter in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000022.jpg"
+  },
+  {
+    "question": "How many parking meters are visible in this scene?",
+    "answer": "1 parking meter",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000022.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "10.35 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Is the parking meter located at the minimum depth of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000022.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Is the parking meter the only object detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000022.jpg"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far apart are the two persons detected in the scene?",
+    "answer": "Based on the available depth data, the estimated distance between the two persons is approximately 0.50 metres, placing them in very close proximity to one another.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the nearest person and the bed?",
+    "answer": "The nearest person is estimated to be approximately 1.20 metres from the bed, based on the scene depth statistics.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Are both persons located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Are the two persons in close proximity to each other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons?",
+    "answer": "The bed appears to be positioned in the background or to the side of the two persons, with both individuals located in the foreground area of the scene closer to the observer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person?",
+    "answer": "The second person is positioned in very close proximity to the first person, likely alongside or directly adjacent to them, as indicated by their similar depth values in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Where is the bed located relative to the overall scene depth?",
+    "answer": "The bed is located further into the scene compared to the two persons, positioned more towards the mid-to-background region of the depth range observed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment present in the scene that could pose a safety risk to the workers or persons detected?",
+    "answer": "No heavy construction equipment has been detected in this scene. The only objects identified are two persons and a bed. No immediate construction-site safety alert is warranted based on object proximity to heavy machinery. However, note that this scene does not appear to be a typical construction site environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  },
+  {
+    "question": "Are the two persons within a potentially unsafe proximity (less than 2 metres) of any hazardous equipment?",
+    "answer": "No hazardous heavy equipment has been detected in this scene. The two persons are near a bed, which does not constitute a construction safety hazard. No safety alert is triggered based on the detected objects.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000878.jpg"
+  }
+]

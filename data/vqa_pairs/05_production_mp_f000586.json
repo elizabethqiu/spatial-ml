@@ -1,0 +1,124 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 2.50 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the bed and the nearest person?",
+    "answer": "The nearest person is estimated to be approximately 1.80 metres from the bed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the wine glass and the nearest person?",
+    "answer": "The wine glass is estimated to be approximately 0.80 metres from the nearest person.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Are both persons located in the same general area of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Is the wine glass closer to the bed than to either person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present near workers in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Where is the wine glass positioned relative to the bed?",
+    "answer": "The wine glass appears to be positioned on or near the bed, likely on a bedside surface or on the bed itself, placing it at a similar or slightly closer depth relative to the viewer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons appear to be positioned in front of or beside the bed, at a closer depth to the viewer than the far background, suggesting they are standing or seated near the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "Where is the bed located relative to the two persons?",
+    "answer": "The bed is positioned behind or alongside the two persons, serving as a background element relative to their standing or seated positions in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Are any workers in dangerous proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy construction equipment (e.g., excavators, forklifts, cranes) has been detected in this scene. The objects present are a bed, a wine glass, and two persons. No safety proximity alert is warranted for equipment hazards. However, note that this does not appear to be a construction site scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Is the wine glass positioned in a location where it could pose a trip or fall hazard to either person?",
+    "answer": "Potentially yes \u2014 the wine glass is estimated to be within approximately 0.80 metres of the nearest person. If placed on the floor or an unstable surface near a walking path, it could pose a minor slip or breakage hazard. Caution is advised to ensure the glass is placed securely on a stable surface.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "wine glass",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000586.jpg"
+  }
+]

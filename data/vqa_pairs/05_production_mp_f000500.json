@@ -1,0 +1,104 @@
+[
+  {
+    "question": "How far is the skateboard from the nearest person?",
+    "answer": "Approximately 1.5 metres (estimated based on typical skateboarder proximity).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "What is the estimated average depth of all detected persons in the scene?",
+    "answer": "Approximately 17.44 metres, consistent with the scene mean depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Is there a person in the scene who appears to be riding or using the skateboard?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Are there more than two persons visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Is the skateboard located in the foreground relative to the majority of persons?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Where is the skateboard positioned relative to the group of persons?",
+    "answer": "The skateboard is positioned in the near foreground (estimated ~1\u20133 metres depth), closer to the camera than most of the persons, who are distributed further back across a range extending to approximately 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "How are the four persons spatially arranged relative to one another in the scene?",
+    "answer": "The persons appear spread across varying depths, with at least one person in the near-to-mid range (~5\u201315 metres) likely near the skateboard, while others are positioned further back toward the mid-to-far range (~20\u201350 metres), suggesting a loose, dispersed grouping.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Is any person in dangerously close proximity (less than 2 metres) to heavy construction equipment?",
+    "answer": "No heavy construction equipment is detected in this scene. The scene contains only persons and a skateboard, so no worker\u2013equipment proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Does the presence of a skateboard in this environment pose any safety risk to nearby persons?",
+    "answer": "Potentially yes. The skateboard is estimated within ~1\u20132 metres of at least one person. If this is an active area with foot traffic, an uncontrolled or moving skateboard at close range could pose a trip or collision hazard. Bystanders within 2 metres of the skateboard should maintain awareness of its movement.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000500.jpg"
+  }
+]

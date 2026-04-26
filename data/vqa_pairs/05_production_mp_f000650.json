@@ -1,0 +1,115 @@
+[
+  {
+    "question": "What is the approximate distance between the cup and the wine glass?",
+    "answer": "Based on their depth positions within the scene, the cup and wine glass are approximately 2.50 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the dog and the bed?",
+    "answer": "The dog and the bed are approximately 3.80 metres apart based on their estimated 3D positions in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the cup and the dog?",
+    "answer": "The cup and the dog are approximately 12.40 metres apart in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Is the dog near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Is the wine glass on or near the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Is the cup closer to the wine glass than to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the wine glass?",
+    "answer": "The cup is positioned to the left of and slightly in front of the wine glass, at a roughly similar depth in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the bed?",
+    "answer": "The dog is positioned in front of and to the right of the bed, appearing to be resting close to it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Where is the wine glass positioned relative to the bed?",
+    "answer": "The wine glass is positioned in the foreground, considerably closer to the viewer than the bed, which is further back in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Is there a safety concern in this scene regarding a wine glass or cup being within falling distance of the dog?",
+    "answer": "Caution advised: The wine glass and cup are estimated to be within approximately 2.50 metres of the dog's position. A wine glass in proximity to an animal poses a risk of breakage and potential injury to the dog. It is recommended to move glassware to a secure, elevated location out of the dog's reach.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "wine glass",
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  },
+  {
+    "question": "Is there a safety concern related to the wine glass being near the edge of the bed where the dog could knock it over?",
+    "answer": "Caution advised: If the wine glass is placed on or near the bed where the dog is resting, there is a significant risk the dog could knock it over, causing breakage and potential injury. Glassware should be kept on stable, dedicated surfaces away from pets and sleeping areas.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "wine glass",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000650.jpg"
+  }
+]

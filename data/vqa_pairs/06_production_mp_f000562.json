@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  },
+  {
+    "question": "How many cars are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Is there a refrigerator in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Are there more persons than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene in metres?",
+    "answer": "11.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the furthest car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment within 2 metres of a person that poses a safety concern?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000562.jpg"
+  }
+]

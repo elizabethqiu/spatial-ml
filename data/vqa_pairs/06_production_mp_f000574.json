@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Is there at least one person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Are there multiple workers on the construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000574.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000574.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "12.34 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Is there a minimum depth distance of zero metres detected?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000574.jpg"
+  }
+]

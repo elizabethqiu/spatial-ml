@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the approximate distance between the two cell phones in the scene?",
+    "answer": "Based on the available depth data, the two cell phones are estimated to be within the scene at a mean depth of approximately 20.45 metres, with a separation that cannot be precisely determined from depth statistics alone; the estimated range spans 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "What is the mean depth at which the objects in this scene are located?",
+    "answer": "The mean depth of objects in the scene is approximately 20.45 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Are there two cell phones present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Are the two cell phones located at the same depth position in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Which object is closer to the camera \u2014 the first cell phone or the second cell phone?",
+    "answer": "Based on the depth range of 0.00 to 50.00 metres with a mean of 20.45 metres, one cell phone appears closer to the minimum depth end (near 0.00 metres) while the other is positioned further away; however, precise individual depth values for each phone are not separately available to definitively distinguish which is closer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Are the two cell phones positioned on the same side (left or right) of the scene frame?",
+    "answer": "The scene description does not provide horizontal positional data sufficient to determine whether both cell phones are on the same side of the frame; their lateral positions relative to each other are undetermined.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Is there a safety risk involving a worker and heavy equipment in proximity (less than 2 metres) in this scene?",
+    "answer": "No safety alert is warranted. The scene contains only two cell phones and no workers or heavy equipment are detected. Therefore, no proximity hazard of less than 2 metres between a worker and heavy equipment exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Could the presence of cell phones on a construction site indicate a potential distraction hazard for workers?",
+    "answer": "Yes, cell phone use on an active construction site can be a significant distraction hazard. Workers using cell phones may lose situational awareness of nearby heavy equipment or other hazards, increasing the risk of accidents. Site safety protocols should address and restrict personal device use in active work zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000156.jpg"
+  }
+]

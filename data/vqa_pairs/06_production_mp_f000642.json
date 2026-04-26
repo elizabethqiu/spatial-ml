@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000642.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000642.jpg"
+  },
+  {
+    "question": "What is the minimum distance to any detected object in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000642.jpg"
+  },
+  {
+    "question": "What is the average distance of detected objects from the camera?",
+    "answer": "12.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000642.jpg"
+  },
+  {
+    "question": "Is the person located within the near field of view (closer than 10 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000642.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment objects detected in proximity to the person that would pose a safety risk?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000642.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects in this scene?",
+    "answer": "0 to 50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Are both people visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Where is the refrigerator positioned relative to the people?",
+    "answer": "The refrigerator is located further from the camera than the average position of the people in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement of the car relative to the people and refrigerator.",
+    "answer": "The car is positioned at a moderate distance, situated between the closer people and the more distant refrigerator in the depth ordering of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between workers and heavy equipment?",
+    "answer": "No safety alert: The people and car are separated by adequate distance (mean scene depth 14.73 metres), with no workers detected within 2 metres of the vehicle.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Are any personnel positioned dangerously close to the refrigerator unit?",
+    "answer": "No safety hazard detected. Based on depth statistics, the refrigerator is at a safe distance from all personnel in the scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000514.jpg"
+  }
+]

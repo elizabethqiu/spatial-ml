@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many people are present in the construction site?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  },
+  {
+    "question": "Is the carrot closer to the camera than the truck?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "carrot",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  },
+  {
+    "question": "Are there any people standing directly next to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "truck",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "15.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "person",
+      "carrot",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer than 2 metres to any worker?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  },
+  {
+    "question": "Is the cup positioned in front of the truck?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "person",
+      "carrot",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005592.jpg"
+  }
+]

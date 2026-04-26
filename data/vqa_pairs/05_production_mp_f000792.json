@@ -1,0 +1,73 @@
+[
+  {
+    "question": "How far is the person from the chair?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000792.jpg"
+  },
+  {
+    "question": "What is the distance between the cup and the bed?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Is the cup on the bed?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Is there a person near any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Which object is closest to the person?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000792.jpg"
+  },
+  {
+    "question": "Is the chair to the left of the bed?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000792.jpg"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the horse and the car?",
+    "answer": "13.86 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "horse",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005910.jpg"
+  },
+  {
+    "question": "Is the horse closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "horse",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005910.jpg"
+  },
+  {
+    "question": "Is the car positioned in front of or behind the horse?",
+    "answer": "Unable to determine from spatial data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005910.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the horse and car in proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "horse",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005910.jpg"
+  }
+]

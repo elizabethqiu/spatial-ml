@@ -1,0 +1,51 @@
+[
+  {
+    "question": "How far apart are the bed and the person?",
+    "answer": "20.16 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003030.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003030.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003030.jpg"
+  },
+  {
+    "question": "Is the bed positioned in front of the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003030.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person being too close to heavy equipment?",
+    "answer": "no hazard detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003030.jpg"
+  }
+]

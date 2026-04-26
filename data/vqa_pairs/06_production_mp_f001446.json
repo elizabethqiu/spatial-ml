@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many cars are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001446.jpg"
+  },
+  {
+    "question": "Are there any cars visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001446.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001446.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "12.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001446.jpg"
+  },
+  {
+    "question": "Are both cars located at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001446.jpg"
+  },
+  {
+    "question": "Is there any object closer than 5 metres to the camera position?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001446.jpg"
+  }
+]

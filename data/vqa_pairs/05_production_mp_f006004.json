@@ -1,0 +1,68 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006004.jpg"
+  },
+  {
+    "question": "Is there a skateboard present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006004.jpg"
+  },
+  {
+    "question": "Are both people closer to the camera than 25 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006004.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth distance of all objects in the scene?",
+    "answer": "17.79 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006004.jpg"
+  },
+  {
+    "question": "Is the skateboard positioned between the two people?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006004.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006004.jpg"
+  },
+  {
+    "question": "Are there any workers in immediate proximity hazard (< 2 metres) to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006004.jpg"
+  }
+]

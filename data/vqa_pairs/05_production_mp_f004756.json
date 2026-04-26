@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004756.jpg"
+  },
+  {
+    "question": "How many people are detected in this construction site?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004756.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004756.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "23.30 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004756.jpg"
+  },
+  {
+    "question": "Is the detected person in the immediate foreground of the image?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004756.jpg"
+  }
+]

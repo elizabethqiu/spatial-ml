@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000904.jpg"
+  },
+  {
+    "question": "Is there a toilet present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000904.jpg"
+  },
+  {
+    "question": "Is the person standing directly in front of the toilet?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000904.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving heavy equipment near the person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000904.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000904.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy machinery?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000904.jpg"
+  }
+]

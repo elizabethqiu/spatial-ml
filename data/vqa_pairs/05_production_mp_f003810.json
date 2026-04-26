@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the sink and the toilet?",
+    "answer": "14.09 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003810.jpg"
+  },
+  {
+    "question": "Is the sink closer than 5 metres to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003810.jpg"
+  },
+  {
+    "question": "Are the sink and toilet both present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003810.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003810.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with workers near heavy equipment in this restroom facility?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003810.jpg"
+  }
+]

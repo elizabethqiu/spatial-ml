@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many cats are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004138.jpg"
+  },
+  {
+    "question": "Is there a dog in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004138.jpg"
+  },
+  {
+    "question": "Are there more cats than dogs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004138.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004138.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene greater than 15 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004138.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all detected objects in metres?",
+    "answer": "17.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004138.jpg"
+  }
+]

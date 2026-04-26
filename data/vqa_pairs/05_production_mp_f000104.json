@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Is there a person within 2 metres of the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "Is the skateboard closer to the camera than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "Are both persons visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "Is the cell phone being held by a person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the closest object in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the farthest object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "14.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "car",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "Is the car positioned behind the persons in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "Is the skateboard positioned in front of the car?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  },
+  {
+    "question": "Are the two persons at approximately the same depth in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000104.jpg"
+  }
+]

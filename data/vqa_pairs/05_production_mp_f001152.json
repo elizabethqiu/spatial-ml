@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed in the scene?",
+    "answer": "Based on the depth statistics and object positions, the person and the bed are estimated to be approximately 18.60 metres apart on average, though local proximity may vary within the 0.00\u201350.00 metre depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "What is the minimum possible distance detected between any two objects in the scene?",
+    "answer": "The minimum depth detected in the scene is 0.00 metres, indicating at least one object or surface is at or extremely close to the camera/reference point.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "Is the bed detected with high confidence in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "Is the person located near the bed (within 2 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is detected in the same scene as the bed. Based on the depth range (0.00\u201350.00 metres) and mean depth (~18.60 metres), the person is likely positioned in the mid-to-far field of the scene, potentially alongside or adjacent to the bed, though exact lateral positioning (left/right/above/below) cannot be determined without bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "Is the bed in the foreground or background of the scene relative to the person?",
+    "answer": "Without precise per-object depth values, both the bed and the person share a scene with a mean depth of 18.60 metres. The bed and person are likely at a similar depth plane, though one may be slightly closer to the camera (foreground) depending on their individual depth readings within the 0.00\u201350.00 metre range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving heavy equipment and a worker in this scene?",
+    "answer": "No heavy equipment is detected in this scene \u2014 only a bed and a person are present. Therefore, no construction-site proximity safety alert is triggered. However, note that the minimum depth of 0.00 metres suggests an object may be extremely close to the reference point, which should be verified in context.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for the person being dangerously close to any hazardous equipment in this scene?",
+    "answer": "No safety alert is required for heavy equipment proximity, as no heavy machinery is present in the scene. The only detected objects are a bed and a person. If this scene is unexpectedly appearing on a construction site monitoring system, the presence of a bed may itself warrant an administrative review.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001152.jpg"
+  }
+]

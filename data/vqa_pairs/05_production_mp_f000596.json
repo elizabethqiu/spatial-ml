@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the TV in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the TV is approximately 19.88 metres (scene mean depth), though individual object separations may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "What is the maximum possible distance any object in this scene could be from the camera?",
+    "answer": "The maximum depth recorded in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "Is the TV within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, bulldozer) detected near the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the person in the scene?",
+    "answer": "The TV is detected in the same scene as the person. Given the scene's depth range of 0.00 to 50.00 metres and a mean depth of 19.88 metres, the TV is likely positioned in front of or across from the person, at a moderate distance within the environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "Is the person closer to or farther from the camera than the TV, based on the scene context?",
+    "answer": "The scene does not distinguish individual object depths explicitly, but both the person and the TV fall within the 0.00\u201350.00 metre depth range. Without individual depth values, it cannot be definitively determined which object is closer; however, persons are typically positioned in the foreground relative to mounted TVs.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "Does this scene present any construction site safety hazards requiring an immediate alert?",
+    "answer": "No immediate safety alert is warranted. The scene contains only a person and a TV \u2014 no heavy construction equipment (e.g., excavators, forklifts, cranes) is detected. There is no proximity hazard (< 2 metres between a worker and heavy machinery) to flag in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  },
+  {
+    "question": "Is the person at risk due to proximity to any detected heavy equipment in this scene?",
+    "answer": "No safety alert required. The only non-person object detected is a TV, which is not heavy construction equipment. The person is not within a dangerous 2-metre proximity threshold of any hazardous machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000596.jpg"
+  }
+]

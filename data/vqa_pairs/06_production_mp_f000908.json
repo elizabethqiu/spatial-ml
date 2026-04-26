@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Is there a toilet in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Are there more people than toilets in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "14.94 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  },
+  {
+    "question": "What is the maximum visible distance range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Is the toilet closer to the camera than the farthest person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  },
+  {
+    "question": "Are all four people within 25 metres of the camera based on the depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000908.jpg"
+  }
+]

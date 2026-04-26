@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Is the cup closer to the person than the bottle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000610.jpg"
+  },
+  {
+    "question": "Is the dining table positioned between the bed and the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000610.jpg"
+  },
+  {
+    "question": "How far is the person from the cup in metres?",
+    "answer": "Unable to determine precise distance from scene data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000610.jpg"
+  },
+  {
+    "question": "What is the approximate distance in metres between the bottle and the dining table?",
+    "answer": "Approximately 15-20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000610.jpg"
+  },
+  {
+    "question": "Is the bed located behind the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000610.jpg"
+  },
+  {
+    "question": "Are the cup and bottle on the same surface?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000610.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person's proximity to any objects?",
+    "answer": "No safety alert - this is a residential scene without heavy equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "bottle",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000610.jpg"
+  }
+]

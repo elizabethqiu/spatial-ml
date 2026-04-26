@@ -1,0 +1,91 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed in the scene?",
+    "answer": "Based on the depth statistics, the mean scene depth is approximately 19.29 metres, suggesting the person and bed are in close proximity within the same room, estimated at roughly 1\u20133 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene?",
+    "answer": "The maximum depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment visible in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "Is the person located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is detected in the same scene as the bed, likely adjacent to or on the bed, given that both objects are present within a shared depth range and the scene context suggests an indoor bedroom setting.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the person in the scene?",
+    "answer": "The bed appears to be in close proximity to the person, likely positioned alongside or beneath them, consistent with a typical indoor bedroom arrangement based on the scene depth data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene depicts a bedroom environment with only a person and a bed detected. There is no heavy construction equipment present, so no proximity hazard between a worker and heavy machinery exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  },
+  {
+    "question": "Does the scene pose any construction site safety risks based on the detected objects?",
+    "answer": "No construction site safety risks are detected. The scene contains only a person and a bed, neither of which constitutes heavy equipment or a hazardous construction-site element. No safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001154.jpg"
+  }
+]

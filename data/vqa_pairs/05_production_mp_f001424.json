@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What is the mean depth of the scene?",
+    "answer": "The mean depth of the scene is approximately 15.18 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene?",
+    "answer": "The maximum depth range captured in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in this scene?",
+    "answer": "The minimum depth value recorded is 0.00 metres, indicating an object or surface at the sensor origin.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "Is the average scene depth greater than 10 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "Are any objects detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "Is there any detected heavy equipment present in the foreground of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "Where is the primary depth concentration located relative to the sensor in this scene?",
+    "answer": "Based on the mean depth of 15.18 metres and the range of 0.00 to 50.00 metres, the primary depth concentration is in the mid-range of the scene, roughly 15 metres from the sensor. No specific foreground objects were detected.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "Relative to the sensor origin, how far into the scene does the detectable environment extend?",
+    "answer": "The detectable environment extends from 0.00 metres (immediately at the sensor) to 50.00 metres in the background, covering a full depth span of 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to heavy equipment in this scene?",
+    "answer": "No safety alert can be issued at this time because no workers or heavy equipment were detected in the scene. However, the absence of detections may indicate sensor occlusion, poor visibility, or a miscalibrated detector \u2014 all of which are themselves safety concerns on an active construction site. Manual inspection is strongly recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  },
+  {
+    "question": "Should this scene be flagged for further review despite no objects being detected?",
+    "answer": "Yes \u2014 a safety alert is warranted. On an active construction site, a failure to detect any objects is anomalous and could indicate sensor failure, dust/obstruction interference, or a blind spot. Any unmonitored zone on a construction site poses a potential hazard, and immediate manual verification of the area is advised.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001424.jpg"
+  }
+]

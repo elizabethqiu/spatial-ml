@@ -1,0 +1,114 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed in this scene?",
+    "answer": "Based on the depth statistics, the person and bed are estimated to be approximately 5.00 metres apart, given mean scene depth of 18.18 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bottle and the bowl in this scene?",
+    "answer": "Based on the available depth data (mean depth 18.18 metres, range 0.00\u201350.00 metres), the bottle and bowl are estimated to be within approximately 2.50 metres of each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Is the bottle located near the bowl in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Is the bed the largest object detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Where is the bowl positioned relative to the bottle?",
+    "answer": "The bowl appears to be positioned adjacent to or near the bottle, likely on a surface such as the bed or a nearby flat area, given the clustered depth values in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person appears to be positioned near or beside the bed, potentially sitting or standing at the bed's edge, based on their proximity within the scene's depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Where are the bottle and bowl positioned relative to the bed?",
+    "answer": "The bottle and bowl are likely positioned on top of or immediately beside the bed, as small objects are commonly placed on a bed surface, consistent with their detected proximity in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bowl",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a person, bottle, bowl, and bed \u2014 none of which are classified as heavy construction equipment. No dangerous proximity between a worker and heavy machinery is detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bowl",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  },
+  {
+    "question": "Does the presence of the person near any object in this scene constitute a construction site safety risk?",
+    "answer": "No safety alert is triggered. No heavy equipment (e.g., excavators, cranes, forklifts) is present in this scene. The person is near a bed, bottle, and bowl, none of which pose a construction-related hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000640.jpg"
+  }
+]

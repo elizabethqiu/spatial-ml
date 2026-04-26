@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many airplanes are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003024.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003024.jpg"
+  },
+  {
+    "question": "Are there more airplanes than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "airplane",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003024.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003024.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "19.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003024.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the mean scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003024.jpg"
+  }
+]

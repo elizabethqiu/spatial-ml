@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  },
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  },
+  {
+    "question": "Is there a refrigerator in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  },
+  {
+    "question": "Are there more cars than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  },
+  {
+    "question": "What is the average distance of objects from the camera in metres?",
+    "answer": "14.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the maximum depth recorded?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity (less than 2 metres) to heavy equipment or vehicles?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  },
+  {
+    "question": "What is the furthest distance measured in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000524.jpg"
+  }
+]

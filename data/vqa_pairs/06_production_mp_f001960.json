@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  },
+  {
+    "question": "Is there an umbrella present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  },
+  {
+    "question": "Are there more persons than umbrellas in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "16.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  },
+  {
+    "question": "Is the umbrella positioned among the group of persons?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  },
+  {
+    "question": "Are all detected objects within close proximity (less than 30 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in this scene that poses a safety risk to workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001960.jpg"
+  }
+]

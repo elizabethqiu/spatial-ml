@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "cup",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  },
+  {
+    "question": "Are there more bicycles than persons in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  },
+  {
+    "question": "How many people are detected in this scene?",
+    "answer": "2 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  },
+  {
+    "question": "Are there an equal number of bicycles and cups?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "14.83 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "cup",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  },
+  {
+    "question": "Is the number of cups greater than the number of bicycles?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004456.jpg"
+  }
+]

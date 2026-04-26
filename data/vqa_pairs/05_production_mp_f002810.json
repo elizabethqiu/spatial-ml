@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  },
+  {
+    "question": "Is there a clock visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "22.51 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  },
+  {
+    "question": "Is the clock closer than the bed to the camera?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  },
+  {
+    "question": "Are there more people or objects of other types in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002810.jpg"
+  }
+]

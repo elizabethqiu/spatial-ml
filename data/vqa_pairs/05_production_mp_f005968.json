@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005968.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005968.jpg"
+  },
+  {
+    "question": "Is there at least one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005968.jpg"
+  },
+  {
+    "question": "Are there more than two people in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005968.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "23.01 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005968.jpg"
+  },
+  {
+    "question": "Is the minimum detected distance in this scene zero metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005968.jpg"
+  },
+  {
+    "question": "Are any people positioned within 2 metres of each other or heavy equipment?",
+    "answer": "No heavy equipment detected in this scene; insufficient information for safety assessment based on person-to-person distances.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005968.jpg"
+  }
+]

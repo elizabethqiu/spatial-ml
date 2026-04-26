@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  },
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "3 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  },
+  {
+    "question": "Are there more suitcases than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  },
+  {
+    "question": "Is the maximum depth in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  },
+  {
+    "question": "What is the average distance to objects in this scene?",
+    "answer": "11.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  },
+  {
+    "question": "Is there any object at the minimum detection distance in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  },
+  {
+    "question": "What is the range of depths detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  },
+  {
+    "question": "Are people and suitcases equally distributed in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005292.jpg"
+  }
+]

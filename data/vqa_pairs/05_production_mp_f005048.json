@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Is there a dog in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  },
+  {
+    "question": "Are there more than three people visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  },
+  {
+    "question": "Is a cell phone present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  },
+  {
+    "question": "How many people are in the scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  },
+  {
+    "question": "What is the maximum distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "banana",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  },
+  {
+    "question": "Is the banana closer to the camera than the dog?",
+    "answer": "unknown - insufficient spatial coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  },
+  {
+    "question": "Are any of the people holding the cell phone?",
+    "answer": "unknown - insufficient spatial relationship data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "13.75 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "banana",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005048.jpg"
+  }
+]

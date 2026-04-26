@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many bowls are visible in this scene?",
+    "answer": "5 bowls",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "cup",
+      "spoon",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Is there a spoon in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Are there more cups than spoons in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "20.86 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "cup",
+      "spoon",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the maximum depth distance?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  },
+  {
+    "question": "How many cups are present in this scene?",
+    "answer": "2 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Is there a bottle visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001652.jpg"
+  }
+]

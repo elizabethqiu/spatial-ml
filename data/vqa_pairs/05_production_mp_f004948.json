@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004948.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004948.jpg"
+  },
+  {
+    "question": "Are there more people than bottles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004948.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "21.42 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004948.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004948.jpg"
+  },
+  {
+    "question": "Are all three people positioned at approximately the same depth in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004948.jpg"
+  },
+  {
+    "question": "Is the bottle located closer to the camera than the average object distance?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004948.jpg"
+  }
+]

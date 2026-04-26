@@ -1,0 +1,99 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in this scene?",
+    "answer": "The mean depth of objects in the scene is approximately 18.63 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "Are there any people present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavators, cranes, forklifts) detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "Is the suitcase located in the same general area as the two detected persons?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "Where is the suitcase positioned relative to the two persons in the scene?",
+    "answer": "The suitcase is detected within the same scene as the two persons and, given the shared mean depth of approximately 18.63 metres, is likely in close proximity to them, potentially beside or between them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "How are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons appear to be in the same general depth plane, with a mean scene depth of 18.63 metres, suggesting they are located at a similar distance from the camera and likely standing near one another.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "Is there a safety concern involving a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for heavy equipment proximity. No heavy construction equipment (e.g., excavators, forklifts, cranes) has been detected in this scene. However, site supervisors should verify that the unidentified suitcase-like object does not constitute a trip or obstruction hazard near the workers.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  },
+  {
+    "question": "Does the suitcase pose any potential hazard to the persons detected in this scene?",
+    "answer": "While no heavy equipment proximity alert is triggered, the suitcase could represent a trip hazard or an unsecured item on a construction site. Its proximity to the two persons (within the same depth range) warrants attention to ensure it is not obstructing walkways or emergency exits.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001566.jpg"
+  }
+]

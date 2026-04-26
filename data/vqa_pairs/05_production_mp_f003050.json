@@ -1,0 +1,45 @@
+[
+  {
+    "question": "Is there a bird visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003050.jpg"
+  },
+  {
+    "question": "What is the approximate average distance to objects in this scene in metres?",
+    "answer": "20.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003050.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003050.jpg"
+  },
+  {
+    "question": "Is the bird closer than 10 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003050.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment present in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003050.jpg"
+  }
+]

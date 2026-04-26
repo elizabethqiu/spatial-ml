@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the pizza?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the pizza is approximately 13.05 metres (scene mean depth), though the actual separation could range between 0.00 and 50.00 metres depending on their individual positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  },
+  {
+    "question": "What is the maximum possible depth distance observed in this scene?",
+    "answer": "The maximum depth distance observed in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  },
+  {
+    "question": "Is the pizza located within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  },
+  {
+    "question": "Where is the pizza located relative to the person in this scene?",
+    "answer": "The pizza is detected within the same scene as the person. Based on the available depth data, the pizza and person share a mean scene depth of approximately 13.05 metres, suggesting they are at a comparable depth plane, though their lateral (left/right) and vertical (up/down) relative positions cannot be precisely determined without bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the pizza, or farther away?",
+    "answer": "Without individual depth values for each object, a definitive answer cannot be given. However, given the depth range of 0.00 to 50.00 metres and a mean of 13.05 metres, both objects likely reside within the near-to-mid range of the scene. Their relative depth positions relative to each other are indeterminate from aggregate statistics alone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to heavy equipment being within 2 metres of the worker in this scene?",
+    "answer": "No safety alert is triggered. This scene does not contain any heavy construction equipment (e.g., excavators, cranes, forklifts). The only objects detected are a person and a pizza, and no proximity hazard between a worker and heavy machinery exists in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued for this scene based on object proximity and type?",
+    "answer": "No safety warning is required. The detected objects \u2014 a person and a pizza \u2014 do not constitute a hazardous pairing. There is no heavy equipment present, and the proximity between the two objects does not present a construction site safety risk. Normal site safety protocols should still be observed.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000272.jpg"
+  }
+]

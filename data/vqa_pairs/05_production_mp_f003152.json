@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the bicycle and the banana?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003152.jpg"
+  },
+  {
+    "question": "Is the banana closer to the camera than the bicycle?",
+    "answer": "Unable to determine - specific 3D positions not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003152.jpg"
+  },
+  {
+    "question": "Is the bicycle to the left of the banana?",
+    "answer": "Unable to determine - specific 3D positions not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003152.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bicycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003152.jpg"
+  }
+]

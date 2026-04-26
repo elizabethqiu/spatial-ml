@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  },
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "2 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  },
+  {
+    "question": "Is there a bottle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  },
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  },
+  {
+    "question": "Are there more people than bottles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "14.99 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "banana",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "banana",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  },
+  {
+    "question": "Are there any objects at the closest depth point?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "banana",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003498.jpg"
+  }
+]

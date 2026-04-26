@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many laptops are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004594.jpg"
+  },
+  {
+    "question": "Is there a laptop present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004594.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "16.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004594.jpg"
+  },
+  {
+    "question": "Is the laptop at the closest point in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004594.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004594.jpg"
+  },
+  {
+    "question": "Are there multiple laptops detected in this construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004594.jpg"
+  }
+]

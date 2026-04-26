@@ -1,0 +1,66 @@
+[
+  {
+    "question": "What is the distance between the person and the hair drier?",
+    "answer": "Unable to determine - insufficient positional data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003662.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the person than the hair drier is?",
+    "answer": "Unable to determine - insufficient positional data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003662.jpg"
+  },
+  {
+    "question": "Is the hair drier within 2 metres of the person?",
+    "answer": "Unable to determine - insufficient positional data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003662.jpg"
+  },
+  {
+    "question": "Are there any safety hazards due to proximity between the person and equipment?",
+    "answer": "No hazards detected - scene contains only personal items and no heavy equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003662.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003662.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy machinery?",
+    "answer": "No",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003662.jpg"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "Is the person holding the cell phone?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001838.jpg"
+  },
+  {
+    "question": "Is there a cell phone visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001838.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001838.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the furthest object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001838.jpg"
+  },
+  {
+    "question": "Is the cell phone positioned in front of the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001838.jpg"
+  },
+  {
+    "question": "What is the mean distance of objects from the camera?",
+    "answer": "20.28 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001838.jpg"
+  }
+]

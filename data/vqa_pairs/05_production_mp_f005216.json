@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005216.jpg"
+  },
+  {
+    "question": "Are there any workers present on this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005216.jpg"
+  },
+  {
+    "question": "Is there more than one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005216.jpg"
+  },
+  {
+    "question": "What is the maximum distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005216.jpg"
+  },
+  {
+    "question": "What is the average depth distance in this scene?",
+    "answer": "17.29 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005216.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between workers and heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005216.jpg"
+  }
+]

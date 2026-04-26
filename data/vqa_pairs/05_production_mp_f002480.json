@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002480.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002480.jpg"
+  },
+  {
+    "question": "Are there more persons than chairs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002480.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "17.09 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002480.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002480.jpg"
+  },
+  {
+    "question": "Is the chair positioned closer to the camera than the average depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002480.jpg"
+  }
+]

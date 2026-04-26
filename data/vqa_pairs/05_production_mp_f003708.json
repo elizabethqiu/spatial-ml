@@ -1,0 +1,59 @@
+[
+  {
+    "question": "What is the distance between the chair and the handbag?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003708.jpg"
+  },
+  {
+    "question": "Is the handbag closer to the camera than the chair?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003708.jpg"
+  },
+  {
+    "question": "Is the chair positioned to the left of the handbag?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003708.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene related to worker proximity to heavy equipment?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003708.jpg"
+  },
+  {
+    "question": "How many objects are detected in this construction site scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003708.jpg"
+  },
+  {
+    "question": "Is this a high-risk construction scene?",
+    "answer": "No",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003708.jpg"
+  }
+]

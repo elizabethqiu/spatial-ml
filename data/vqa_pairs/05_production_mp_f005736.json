@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a bird visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005736.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005736.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "21.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005736.jpg"
+  },
+  {
+    "question": "Is the bird closer than 10 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005736.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005736.jpg"
+  },
+  {
+    "question": "Are there any construction workers near heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005736.jpg"
+  }
+]

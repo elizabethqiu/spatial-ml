@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many chairs are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005640.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005640.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer to the camera than the farthest object?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005640.jpg"
+  },
+  {
+    "question": "Are there more chairs than motorcycles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005640.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene?",
+    "answer": "23.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005640.jpg"
+  },
+  {
+    "question": "Is the person positioned closer than the average depth in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005640.jpg"
+  }
+]

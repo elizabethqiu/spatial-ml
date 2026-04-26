@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the scissors and the person?",
+    "answer": "15.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002358.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the scissors?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002358.jpg"
+  },
+  {
+    "question": "Are the scissors closer to the camera than the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002358.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002358.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity between the person and the scissors?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002358.jpg"
+  }
+]

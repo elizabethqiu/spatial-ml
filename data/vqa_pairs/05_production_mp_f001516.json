@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "What is the maximum distance of any detected object from the camera in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "What is the minimum distance of any detected object from the camera in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected people in metres?",
+    "answer": "17.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "Are there any people detected in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "Is there at least one person within 10 metres of the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "Are all people located at a depth greater than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of people in this scene.",
+    "answer": "Four people are distributed across the scene with depths ranging from 0 to 50 metres, indicating they are spread across a wide area with at least one person very close to the camera (0 metres) and others distributed at varying distances up to the maximum range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  },
+  {
+    "question": "Is there adequate spacing between the detected individuals?",
+    "answer": "Unable to determine from depth data alone; spatial positioning information required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001516.jpg"
+  }
+]

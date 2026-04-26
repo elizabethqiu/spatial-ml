@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002144.jpg"
+  },
+  {
+    "question": "Is there at least one person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002144.jpg"
+  },
+  {
+    "question": "Are there more than 2 people in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002144.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene in metres?",
+    "answer": "14.16 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002144.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002144.jpg"
+  },
+  {
+    "question": "Are both detected persons positioned at similar depths in the scene?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002144.jpg"
+  }
+]

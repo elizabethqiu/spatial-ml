@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the donut from the camera?",
+    "answer": "The donut is approximately 16.37 metres away (based on the mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the donut?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  },
+  {
+    "question": "Is there a donut present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  },
+  {
+    "question": "Is the donut closer than 2 metres to the camera or any detected worker?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  },
+  {
+    "question": "Where is the donut positioned relative to the nearest depth boundary of the scene?",
+    "answer": "The donut is positioned well beyond the nearest boundary. The scene minimum depth is 0.00 metres, the scene maximum is 50.00 metres, and the donut sits at approximately 16.37 metres \u2014 roughly one-third of the way into the scene depth range, placing it in the mid-foreground area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  },
+  {
+    "question": "Is the donut located in the foreground, mid-ground, or background of the scene?",
+    "answer": "The donut is located in the mid-ground of the scene, sitting at approximately 16.37 metres depth within a 0\u201350 metre range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  },
+  {
+    "question": "Does the presence of a donut in a construction site scene pose any immediate safety alert involving heavy equipment or workers?",
+    "answer": "No immediate safety alert is triggered. No workers or heavy equipment are detected in proximity to the donut. However, the presence of food items on a construction site may indicate an unsanctioned rest area; site supervisors should ensure workers are eating only in designated safe zones away from operational hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  },
+  {
+    "question": "Is the donut within the critical 2-metre safety exclusion zone of any heavy machinery detected in this scene?",
+    "answer": "No heavy machinery is detected in this scene, so no 2-metre safety exclusion zone violation is present. The donut is the only detected object, located at approximately 16.37 metres depth.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001592.jpg"
+  }
+]

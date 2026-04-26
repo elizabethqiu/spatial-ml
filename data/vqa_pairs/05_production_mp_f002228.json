@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many dogs are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002228.jpg"
+  },
+  {
+    "question": "Are there any dogs visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002228.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy equipment and workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002228.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "11.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002228.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002228.jpg"
+  },
+  {
+    "question": "Are the dogs positioned at the same depth in the scene?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002228.jpg"
+  }
+]

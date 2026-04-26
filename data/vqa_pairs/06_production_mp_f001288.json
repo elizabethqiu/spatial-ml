@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001288.jpg"
+  },
+  {
+    "question": "Is there a toilet in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001288.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001288.jpg"
+  },
+  {
+    "question": "Is the toilet closer than the cars based on depth statistics?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001288.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in the scene?",
+    "answer": "17.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001288.jpg"
+  },
+  {
+    "question": "Are there more cars than toilets in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001288.jpg"
+  }
+]

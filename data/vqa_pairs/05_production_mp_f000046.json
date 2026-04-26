@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the traffic light from the camera/observer?",
+    "answer": "The traffic light is approximately 15.53 metres away (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth in the scene containing the traffic light?",
+    "answer": "The maximum depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  },
+  {
+    "question": "Is there a traffic light present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  },
+  {
+    "question": "Is the traffic light closer than 5 metres to the observer?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  },
+  {
+    "question": "Where is the traffic light positioned relative to the observer in terms of depth?",
+    "answer": "The traffic light is at a mid-range distance, positioned approximately 15.53 metres ahead of the observer, within a depth range that extends from 0.00 metres to 50.00 metres in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  },
+  {
+    "question": "Is the traffic light in the near foreground, mid-range, or far background of the scene?",
+    "answer": "The traffic light is in the mid-range of the scene, at approximately 15.53 metres, given the total depth span of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  },
+  {
+    "question": "Does the presence of the traffic light near the construction zone pose any immediate safety alert for workers or heavy equipment operators?",
+    "answer": "No immediate safety alert is triggered for worker-equipment proximity (no workers or heavy equipment are detected within 2 metres of each other in this scene). However, all personnel and vehicle operators should observe the traffic light signals to prevent vehicle incursions into the work zone, as traffic control devices are critical safety infrastructure on or near construction sites.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  },
+  {
+    "question": "Should construction workers be alerted about the traffic light's proximity to the active work area?",
+    "answer": "While no worker-equipment proximity violation (< 2 metres) is detected in this scene, the traffic light at ~15.53 metres indicates an active traffic control zone. Construction supervisors should ensure workers are aware of vehicular traffic governed by this signal and maintain safe standoff distances from the roadway.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000046.jpg"
+  }
+]

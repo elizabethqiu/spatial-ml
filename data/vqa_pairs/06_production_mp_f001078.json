@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a car in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001078.jpg"
+  },
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "1 car",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001078.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001078.jpg"
+  },
+  {
+    "question": "What is the mean distance to objects in this scene?",
+    "answer": "17.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001078.jpg"
+  },
+  {
+    "question": "Is the car at the minimum depth position in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001078.jpg"
+  },
+  {
+    "question": "What is the closest distance detected to any object in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001078.jpg"
+  }
+]

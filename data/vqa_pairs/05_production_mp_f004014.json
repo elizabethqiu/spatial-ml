@@ -1,0 +1,63 @@
+[
+  {
+    "question": "What is the distance between the person and the TV?",
+    "answer": "14.78 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004014.jpg"
+  },
+  {
+    "question": "How far is the cell phone from the person?",
+    "answer": "Unable to determine - insufficient spatial data for individual object positioning",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004014.jpg"
+  },
+  {
+    "question": "Is the person closer to the TV or the cell phone?",
+    "answer": "Unable to determine - insufficient spatial data for comparison",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004014.jpg"
+  },
+  {
+    "question": "Is the cell phone within arm's reach of the person?",
+    "answer": "Unable to determine - insufficient spatial data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004014.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004014.jpg"
+  },
+  {
+    "question": "Is this scene a construction site safety concern?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004014.jpg"
+  }
+]

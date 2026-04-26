@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  },
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2 cars",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Is there a refrigerator in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Are there more people than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "13.93 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Are the cars the primary focal objects in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Is the refrigerator the closest object to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000752.jpg"
+  }
+]

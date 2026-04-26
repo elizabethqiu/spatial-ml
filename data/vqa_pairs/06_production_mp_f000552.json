@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the remote and the toilet?",
+    "answer": "14.29 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000552.jpg"
+  },
+  {
+    "question": "Is the remote closer than 5 metres to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000552.jpg"
+  },
+  {
+    "question": "Is the toilet positioned further away than the remote from the camera viewpoint?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "remote",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000552.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000552.jpg"
+  },
+  {
+    "question": "Are both objects within a 10 metre radius of each other?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000552.jpg"
+  }
+]

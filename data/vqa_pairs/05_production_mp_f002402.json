@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the distance between the toilet and the cat?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002402.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the toilet?",
+    "answer": "Unable to determine - coordinate positions not available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002402.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002402.jpg"
+  },
+  {
+    "question": "Is there a worker present near heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002402.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002402.jpg"
+  },
+  {
+    "question": "Is the toilet a piece of heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002402.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  },
+  {
+    "question": "Is there a cell phone visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  },
+  {
+    "question": "Are the skis located closer to the camera than the bottle?",
+    "answer": "unable to determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skis",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  },
+  {
+    "question": "What is the average distance of all objects from the camera in metres?",
+    "answer": "16.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "bottle",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  },
+  {
+    "question": "Is the cell phone positioned between any of the people?",
+    "answer": "unable to determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  },
+  {
+    "question": "What is the maximum distance of objects from the camera in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "bottle",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  },
+  {
+    "question": "Is a bottle present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  },
+  {
+    "question": "Are skis visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skis"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004224.jpg"
+  }
+]

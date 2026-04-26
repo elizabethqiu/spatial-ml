@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far apart are the two cats in the scene?",
+    "answer": "Based on the available depth data, the two cats are estimated to be approximately 9.41 metres apart on average, given the mean scene depth of 9.41 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the clock and the nearest cat?",
+    "answer": "The clock and the nearest cat are estimated to be within approximately 9.41 metres of each other, based on the mean scene depth of 9.41 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Are there any cats present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Is there a clock visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Are the two cats located in close proximity to each other (within 2 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Is the clock positioned closer to the viewer than the cats?",
+    "answer": "Based on the depth range of 0.00 to 50.00 metres and a mean depth of 9.41 metres, the relative positions of the clock and cats cannot be precisely determined. The clock may be at a similar depth to the cats, as all objects share the same general depth distribution.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock",
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Which object is likely positioned furthest from the camera in this scene?",
+    "answer": "Given the maximum scene depth of 50.00 metres and the presence of cats and a clock, any of these objects could be at the furthest position. However, without individual depth values, the object nearest to 50.00 metres cannot be definitively identified.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "cat",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Are the two cats on the same side of the clock, or are they on opposite sides?",
+    "answer": "Without precise lateral (x-axis) position data for each object, it is not possible to definitively determine whether the two cats are on the same side or opposite sides of the clock. Further spatial data would be required.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "cat",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Is there any construction worker near heavy equipment in this scene that warrants a safety alert?",
+    "answer": "No workers or heavy equipment are detected in this scene. The detected objects are two cats and a clock. No construction safety alert is required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "cat",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  },
+  {
+    "question": "Do any objects in this scene pose a proximity safety risk to a construction worker (i.e., within 2 metres of heavy machinery)?",
+    "answer": "No construction workers or heavy machinery are present in this scene. The scene contains only two cats and a clock, so no safety proximity alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "cat",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001584.jpg"
+  }
+]

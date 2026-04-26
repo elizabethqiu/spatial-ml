@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the hair drier?",
+    "answer": "16.99 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003664.jpg"
+  },
+  {
+    "question": "Is the hair drier closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003664.jpg"
+  },
+  {
+    "question": "Where is the hair drier positioned relative to the person?",
+    "answer": "The hair drier is approximately 16.99 metres away from the person, suggesting they are in different areas of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003664.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and the hair drier?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003664.jpg"
+  }
+]

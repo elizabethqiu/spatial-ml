@@ -1,0 +1,105 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "4 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "vase",
+      "bowl",
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "Are there more bowls or vases in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in this kitchen scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "Is the person located closer to the sink or to the potted plant?",
+    "answer": "Unable to determine from available spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "sink",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "What is the spatial relationship between the spoon and the bowls in this scene?",
+    "answer": "The spoon and bowls are kitchen utensils/dishware typically used together for dining",
+    "type": "relative_position",
+    "objects_referenced": [
+      "spoon",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "Is the person within a safe distance from any heavy kitchen equipment?",
+    "answer": "No safety alert - this is a domestic kitchen scene with no heavy construction equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "Are there multiple sinks in this location?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "How many total kitchenware items (cups, bowls, spoons) are present?",
+    "answer": "9 items",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  },
+  {
+    "question": "Is the vase positioned as a decorative object separate from the functional kitchenware?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase",
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002106.jpg"
+  }
+]

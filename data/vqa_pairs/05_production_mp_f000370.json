@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  },
+  {
+    "question": "Is there a suitcase in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  },
+  {
+    "question": "Are there more people than suitcases?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "18.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  },
+  {
+    "question": "Is the suitcase closer than the furthest person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  },
+  {
+    "question": "Are all objects within a 25-metre distance range?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  },
+  {
+    "question": "What is the minimum recorded depth in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000370.jpg"
+  }
+]

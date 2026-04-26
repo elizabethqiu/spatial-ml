@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a cat in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005276.jpg"
+  },
+  {
+    "question": "How many cats are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005276.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects detected in this scene in metres?",
+    "answer": "0.00 to 50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005276.jpg"
+  },
+  {
+    "question": "Is the cat the only object detected in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005276.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment or workers detected near the cat that pose a safety concern?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005276.jpg"
+  }
+]

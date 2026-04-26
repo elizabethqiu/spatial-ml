@@ -1,0 +1,78 @@
+[
+  {
+    "question": "Is there a knife present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  },
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  },
+  {
+    "question": "Is the knife closer to the camera than the people?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  },
+  {
+    "question": "Are there any sharp objects detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  },
+  {
+    "question": "What is the average depth distance in this scene in metres?",
+    "answer": "16.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  },
+  {
+    "question": "Is the knife at the minimum depth position of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is there a knife in close proximity (< 2 metres) to any person?",
+    "answer": "Cannot determine - depth data insufficient for precise proximity assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002334.jpg"
+  }
+]

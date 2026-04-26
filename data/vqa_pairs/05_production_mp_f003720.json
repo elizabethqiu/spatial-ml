@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  },
+  {
+    "question": "Is there a skateboard in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  },
+  {
+    "question": "Are there more people than skateboards in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "12.96 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  },
+  {
+    "question": "What is the maximum distance between the nearest and farthest object from the camera?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  },
+  {
+    "question": "Is the skateboard closer to the camera than the average scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  },
+  {
+    "question": "Are all people positioned at similar depths from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  },
+  {
+    "question": "What is the minimum recorded depth in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003720.jpg"
+  }
+]

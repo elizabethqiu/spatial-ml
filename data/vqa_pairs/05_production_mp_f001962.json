@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many boats are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "boat",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001962.jpg"
+  },
+  {
+    "question": "Are there any boats in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001962.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "boat",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001962.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "21.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "boat",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001962.jpg"
+  },
+  {
+    "question": "Are the boats positioned at the same depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "boat",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001962.jpg"
+  },
+  {
+    "question": "Is there any object closer than 5 metres in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001962.jpg"
+  }
+]

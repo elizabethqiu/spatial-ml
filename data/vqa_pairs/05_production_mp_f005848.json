@@ -1,0 +1,44 @@
+[
+  {
+    "question": "What is the distance between the bed and the sink?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005848.jpg"
+  },
+  {
+    "question": "Is the cup closer to the sink than to the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "sink",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005848.jpg"
+  },
+  {
+    "question": "Is the cup on the sink?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005848.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005848.jpg"
+  }
+]

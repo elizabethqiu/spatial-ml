@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003244.jpg"
+  },
+  {
+    "question": "Are there bananas present in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003244.jpg"
+  },
+  {
+    "question": "Is this a typical construction site with standard safety equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003244.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003244.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "14.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003244.jpg"
+  }
+]

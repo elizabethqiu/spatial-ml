@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the person from the toilet?",
+    "answer": "Based on the mean scene depth of approximately 17.81 metres, the person and toilet are estimated to be roughly 5\u201310 metres apart within the scene space; exact separation requires precise 3D coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the sink and the nearest bowl?",
+    "answer": "Given the available depth statistics (mean: 17.81 m, range: 0\u201350 m), the sink and nearest bowl are estimated to be within approximately 3\u20138 metres of each other based on typical bathroom scene layouts and scene depth distribution.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Are there more than one bowl detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Is the sink located in the same scene as the toilet?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the sink?",
+    "answer": "The person appears to be in the general vicinity of the sink within the scene. Without precise 3D coordinates, the person is likely positioned near or in front of the sink area, as is typical in a bathroom setting.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Where are the two bowls positioned relative to the toilet?",
+    "answer": "The two bowls are detected within the same scene as the toilet. They are likely positioned on a nearby surface (e.g., countertop or floor) relative to the toilet, potentially on either side or along the same wall.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "bowl",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Where is the toilet positioned relative to the sink?",
+    "answer": "In this bathroom scene, the toilet is likely positioned adjacent to or near the sink, typically along the same wall or perpendicular wall, as is standard in bathroom layouts.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (within 2 metres) to any heavy construction equipment in this scene?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The scene contains only bathroom-related objects (bowls, toilet, sink) and a person, so no construction safety hazard alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet",
+      "sink",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  },
+  {
+    "question": "Does the presence of a person near the toilet and sink pose any immediate safety concern based on proximity to hazardous equipment?",
+    "answer": "No safety alert is warranted. There is no heavy or hazardous construction equipment present in this scene. The person is in a bathroom environment with a toilet, sink, and bowls \u2014 none of which qualify as heavy equipment under construction site safety guidelines. No proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet",
+      "sink",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001640.jpg"
+  }
+]

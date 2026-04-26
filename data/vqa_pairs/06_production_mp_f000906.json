@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000906.jpg"
+  },
+  {
+    "question": "Is there a toilet in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000906.jpg"
+  },
+  {
+    "question": "Are both people standing next to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000906.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000906.jpg"
+  },
+  {
+    "question": "What is the average depth distance across all detected objects in metres?",
+    "answer": "17.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000906.jpg"
+  },
+  {
+    "question": "Is the toilet closer to the camera than the average scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000906.jpg"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 13.46 metres apart on average, though individual positions may vary within the 0.00\u201350.00 metre depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "What is the approximate depth (distance from camera) of the scene's mean focal point?",
+    "answer": "The mean depth of the scene is approximately 13.46 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Are there two or more persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) present in the scene that could pose a proximity hazard to workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Where is the cell phone positioned relative to the persons in the scene?",
+    "answer": "The cell phone is detected within the same scene as the two persons, likely held by or in close proximity to one of the persons, given that the depth range spans 0.00\u201350.00 metres and the mean depth is 13.46 metres. It is most likely in the foreground or mid-ground area near one of the individuals.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Are the two persons in the scene on the same depth plane, or is one closer to the camera than the other?",
+    "answer": "The depth range in the scene spans from 0.00 to 50.00 metres, suggesting the two persons may be at different distances from the camera rather than on the exact same depth plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (e.g., excavators, cranes, forklifts) is detected in the scene. The only objects present are two persons and a cell phone, so no proximity hazard between a worker and heavy equipment exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  },
+  {
+    "question": "Could the use of a cell phone by a worker in this construction scene present a distraction hazard?",
+    "answer": "Yes, a safety concern is flagged: a cell phone is detected in the scene alongside two persons. In a construction environment, cell phone use can cause dangerous distraction, reducing situational awareness near equipment, edges, or moving vehicles. Workers should follow site policies restricting personal device use in active work zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001384.jpg"
+  }
+]

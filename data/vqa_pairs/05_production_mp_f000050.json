@@ -1,0 +1,94 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the nearest skateboard?",
+    "answer": "Based on the depth statistics available, the estimated distance between the person and the nearest skateboard is approximately 26.72 metres (scene mean depth), though precise per-object depth data is not available to give an exact figure.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two skateboards in the scene?",
+    "answer": "The estimated separation between the two skateboards, given the scene depth range of 0.00 to 50.00 metres and mean of 26.72 metres, is indeterminate without per-object positions, but falls within a range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "Are there more than one skateboard detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two skateboards in the scene?",
+    "answer": "The person is detected within the same scene as the two skateboards. Without precise per-object 3D coordinates, the person's exact relative position cannot be fully determined, but all three objects share a scene depth range of 0.00\u201350.00 metres, suggesting the person may be near or between the skateboards in the field of view.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "Are the two skateboards on the same side of the person, or on opposite sides?",
+    "answer": "Based on the available scene data, it is not possible to definitively determine whether the two skateboards are on the same side or opposite sides of the person, as precise 2D/3D coordinates per object are not provided. Further spatial analysis with bounding box positions would be required.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a person and two skateboards \u2014 no heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected. There is no proximity hazard between a worker and heavy machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued for this scene based on the detected objects?",
+    "answer": "No immediate construction-site safety warning is warranted. The detected objects are a person and two skateboards. While skateboards can pose a slip/trip hazard on a worksite, no heavy equipment proximity violation (< 2 metres) is detected. A minor advisory regarding unsecured skateboards as a trip hazard in a work zone may be appropriate.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000050.jpg"
+  }
+]

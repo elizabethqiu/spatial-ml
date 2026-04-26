@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  },
+  {
+    "question": "Is there a hair drier in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "16.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  },
+  {
+    "question": "What is the depth range span in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  },
+  {
+    "question": "Are there more persons than other objects in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  },
+  {
+    "question": "How many objects are detected in total?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002832.jpg"
+  }
+]

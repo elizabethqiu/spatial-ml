@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the cup from the bed in this scene?",
+    "answer": "Based on the available depth statistics, the cup and bed are estimated to be approximately 1.5 metres apart, both located in the near-field region of the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "The two persons are estimated to be approximately 2.0 metres apart from each other based on the scene depth distribution.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Is there a cup present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Are both persons located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Is the cup on or near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed?",
+    "answer": "The cup appears to be positioned on top of or immediately adjacent to the bed, likely resting on the bed surface or a nearby surface at a similar depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons appear to be positioned near the bed, with one likely beside or on the bed and the other in close proximity within the same spatial region.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Where is the cup located relative to the two persons in the scene?",
+    "answer": "The cup is positioned in the foreground or nearby region relative to the persons, likely on a surface such as the bed within reach of at least one of the persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Are any persons in this scene in dangerously close proximity (less than 2 metres) to heavy equipment?",
+    "answer": "No heavy equipment has been detected in this scene. The objects present are a cup, a bed, and two persons. There are no safety hazards related to heavy machinery proximity in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  },
+  {
+    "question": "Does the presence of the two persons near the bed indicate any safety concern in this scene?",
+    "answer": "No critical safety alert is triggered. The scene contains a bed, a cup, and two persons \u2014 none of which constitute heavy construction equipment. No worker-to-machinery proximity hazard (under 2 metres) is present. The environment appears to be a non-construction indoor setting.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001108.jpg"
+  }
+]

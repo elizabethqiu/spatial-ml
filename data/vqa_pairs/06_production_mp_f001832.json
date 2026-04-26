@@ -1,0 +1,97 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "3 cars",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "19.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "Are there more cars than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "Is there at least one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "Are there multiple vehicles visible?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "What is the range of depths detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "Are the people positioned closer than the maximum depth recorded?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  },
+  {
+    "question": "Do the objects in this scene span across the entire detected depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001832.jpg"
+  }
+]

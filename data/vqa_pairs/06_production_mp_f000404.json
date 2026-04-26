@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a train visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000404.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000404.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in this scene?",
+    "answer": "18.80 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000404.jpg"
+  },
+  {
+    "question": "What is the closest distance to the train from the camera viewpoint?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000404.jpg"
+  },
+  {
+    "question": "Is the train positioned at a safe distance from the observation point?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000404.jpg"
+  },
+  {
+    "question": "How much closer is the nearest part of the train compared to the farthest detected object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000404.jpg"
+  }
+]

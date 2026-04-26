@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004954.jpg"
+  },
+  {
+    "question": "Is there a pizza in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004954.jpg"
+  },
+  {
+    "question": "Are there more persons than pizzas in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004954.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "20.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004954.jpg"
+  },
+  {
+    "question": "Is the pizza closer to the camera than the maximum depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004954.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004954.jpg"
+  }
+]

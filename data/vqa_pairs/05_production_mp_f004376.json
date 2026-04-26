@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is the distance between the fire hydrant and the motorcycle?",
+    "answer": "11.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004376.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer than 5 metres to the fire hydrant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004376.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment or vehicles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004376.jpg"
+  },
+  {
+    "question": "What is the maximum distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004376.jpg"
+  },
+  {
+    "question": "Is the fire hydrant positioned between the camera and the motorcycle?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "fire hydrant",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004376.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of the motorcycle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004376.jpg"
+  }
+]

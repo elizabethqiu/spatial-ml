@@ -1,0 +1,104 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "17.90 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "Are there more chairs than cups in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "Are there exactly 4 people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance greater than 0 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "Are there more people than chairs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "Where is the scene depth range located relative to the average depth?",
+    "answer": "The minimum depth is 0.00 metres and maximum is 50.00 metres, with the average depth at 17.90 metres, indicating objects are distributed across the full range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of people relative to chairs and cups in this scene.",
+    "answer": "The scene contains 4 people, 2 chairs, and 3 cups distributed across a depth range of 0 to 50 metres with average depth of 17.90 metres, suggesting a casual indoor gathering or break area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002028.jpg"
+  }
+]

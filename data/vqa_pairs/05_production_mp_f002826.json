@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is there a cat in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002826.jpg"
+  },
+  {
+    "question": "How many cats are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002826.jpg"
+  },
+  {
+    "question": "What is the average distance to detected objects in the scene?",
+    "answer": "16.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002826.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002826.jpg"
+  }
+]

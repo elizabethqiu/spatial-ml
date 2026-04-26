@@ -1,0 +1,103 @@
+[
+  {
+    "question": "What is the approximate distance between the mouse and the first TV in the scene?",
+    "answer": "Based on the depth statistics available, the estimated distance between the mouse and the first TV is approximately 16.41 metres (mean scene depth), though exact relative distance requires precise 3D coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "mouse",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two TVs in the scene?",
+    "answer": "The two TVs are estimated to be within the scene depth range of 0.00 to 50.00 metres apart, with a mean separation estimate of approximately 16.41 metres based on scene statistics.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Is there a TV present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Are there more than one TV detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Is the mouse located in the same scene as the TVs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "mouse",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment such as excavators or cranes detected near a worker in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "mouse",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Where is the mouse positioned relative to the two TVs in the scene?",
+    "answer": "The mouse is detected as a separate object within the scene alongside two TVs. Without precise 3D bounding box coordinates, the mouse appears to be in proximity to the TV units, likely positioned in front of or adjacent to the screens, as is typical in a desktop or monitor setup.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "mouse",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "How are the two TVs positioned relative to each other in the scene?",
+    "answer": "The two TVs are detected as distinct objects within the same scene. Based on the available depth range (0.00\u201350.00 metres), they may be positioned side by side or at varying depths relative to the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only a mouse and two TVs \u2014 no workers or heavy construction equipment (e.g., excavators, cranes, forklifts) are detected. No proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "mouse",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued for any object interactions detected in this scene?",
+    "answer": "No safety warning is required. The detected objects (mouse and two TVs) are consumer electronics and do not represent construction site hazards. No worker-equipment proximity violations are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "mouse",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000182.jpg"
+  }
+]

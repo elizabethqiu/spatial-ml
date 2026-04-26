@@ -1,0 +1,105 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the bed is approximately 19.52 metres (mean scene depth), though exact positions suggest they are within close proximity on or near the bed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "The two persons are estimated to be within approximately 0 to 19.52 metres of each other, with the mean depth suggesting an average separation of around 19.52 metres across the scene depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Is the bed occupied or near a person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the persons in the scene?",
+    "answer": "The bed appears to be centrally located in the scene, with at least one person on or adjacent to it, and a second person nearby, suggesting both persons are in close spatial relation to the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person?",
+    "answer": "The second person is positioned in the same general area as the first person, likely on or near the bed, with both individuals sharing the same approximate depth plane within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Where are the persons located relative to the bed?",
+    "answer": "Both persons appear to be positioned on top of or immediately beside the bed, placing them in the foreground-to-mid-range depth zone of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected near a worker that poses a safety risk?",
+    "answer": "No heavy construction equipment is detected in this scene. The scene contains only a bed and two persons, so no proximity-based safety alert between a worker and heavy equipment is applicable.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Are any workers within 2 metres of dangerous machinery in this scene?",
+    "answer": "No dangerous machinery or heavy equipment is present in this scene. The detected objects are a bed and two persons, posing no construction-site safety hazard requiring a proximity alert.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001128.jpg"
+  }
+]

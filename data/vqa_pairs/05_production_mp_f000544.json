@@ -1,0 +1,86 @@
+[
+  {
+    "question": "How far is the person from the car?",
+    "answer": "13.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  },
+  {
+    "question": "What is the distance between the truck and the person?",
+    "answer": "13.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  },
+  {
+    "question": "Is the person closer to the car than the truck?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  },
+  {
+    "question": "Are all objects within 50 metres of the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  },
+  {
+    "question": "Is the person positioned between the car and the truck?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  },
+  {
+    "question": "Where is the car relative to the truck in this scene?",
+    "answer": "The car and truck are at similar distances from the camera (approximately 13.91 metres average depth).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  },
+  {
+    "question": "Is there a safety risk due to proximity between the person and heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "truck",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  },
+  {
+    "question": "Does the person maintain safe distance (>2 metres) from the truck?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000544.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a refrigerator visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000540.jpg"
+  },
+  {
+    "question": "What is the average distance to objects in this scene in metres?",
+    "answer": "16.43 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000540.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000540.jpg"
+  },
+  {
+    "question": "Is the refrigerator the closest object in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000540.jpg"
+  },
+  {
+    "question": "What is the minimum distance detected to any object in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000540.jpg"
+  }
+]

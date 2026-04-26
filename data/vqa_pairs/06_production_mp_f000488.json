@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a refrigerator in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000488.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the refrigerator?",
+    "answer": "13.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000488.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer than 5 metres to the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000488.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000488.jpg"
+  },
+  {
+    "question": "Is the refrigerator at the minimum depth point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000488.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  },
+  {
+    "question": "Is there an umbrella in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  },
+  {
+    "question": "Are scissors visible in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "15.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  },
+  {
+    "question": "Is the umbrella closer than 2 metres to any person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  },
+  {
+    "question": "Are both people at a safe distance from the scissors?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  },
+  {
+    "question": "How many objects in total are detected in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella",
+      "scissors"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001952.jpg"
+  }
+]

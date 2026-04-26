@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is the average depth of the construction scene?",
+    "answer": "The average depth of the scene is approximately 15.33 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this construction scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "Are there any objects positioned in the foreground (within 5 metres) of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "Where are objects located relative to the camera in this scene?",
+    "answer": "No objects were detected in the scene, so no relative positional relationships can be established. The depth data suggests the scene spans from 0.00 metres to 50.00 metres, with most content centred around 15.33 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "What is the depth range of the mid-ground area in this scene, based on the available depth statistics?",
+    "answer": "Based on the depth statistics (min: 0.00 m, mean: 15.33 m, max: 50.00 m), the mid-ground area can be estimated to span roughly between 10.00 metres and 25.00 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "Is there any immediate safety hazard involving workers and heavy equipment in this scene?",
+    "answer": "No safety hazard involving proximity between workers and heavy equipment can be identified, as no objects were detected in the scene. However, caution is advised: the absence of detections may indicate a sensor or visibility issue on the construction site, which itself is a safety concern. A manual inspection of the site is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  },
+  {
+    "question": "Should site supervisors be concerned about unmonitored activity given that no objects were detected in this construction scene?",
+    "answer": "Yes \u2014 a safety alert is warranted. The failure to detect any objects in an active construction scene may indicate a malfunction in the detection system, poor lighting, occlusion, or sensor obstruction. Unmonitored areas on a construction site pose significant safety risks. Supervisors should verify the integrity of the detection system and conduct an immediate manual site walkthrough to ensure no workers or equipment are operating in unmonitored proximity.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000034.jpg"
+  }
+]

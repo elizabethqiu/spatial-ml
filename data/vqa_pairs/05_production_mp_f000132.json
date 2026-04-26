@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What is the average depth of the construction scene?",
+    "answer": "The average depth of the scene is approximately 19.18 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "What is the maximum observable depth range in this construction scene?",
+    "answer": "The maximum depth range observed in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in the scene?",
+    "answer": "The minimum depth recorded is 0.00 metres, indicating an object or surface at the very near plane of the sensor.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "What is the total depth span (range) of the construction site as captured by the sensor?",
+    "answer": "The total depth span is 50.00 metres (from 0.00 m minimum to 50.00 m maximum).",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Are any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Are there any objects detected in the foreground (within 2 metres) of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Is there any detectable object closer than 5 metres to the sensor in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Where is the primary depth concentration of the scene located relative to the sensor?",
+    "answer": "The primary depth concentration is in the mid-to-far range, with a mean depth of approximately 19.18 metres, suggesting most scene content is in the mid-field distance from the sensor.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Is the depth distribution of the scene skewed toward the near field or the far field relative to the mean?",
+    "answer": "The depth distribution spans from 0.00 m to 50.00 m with a mean of 19.18 m, which is below the midpoint of 25.00 m, suggesting the scene content is relatively more concentrated in the near-to-mid field rather than the far field.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert can be issued: no workers or heavy equipment were detected in the scene. However, the absence of detected objects may indicate a sensor or detection failure, which itself is a safety concern and should be investigated before personnel enter the site.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  },
+  {
+    "question": "Should site supervisors be concerned about undetected hazards given that no objects were identified in this scene?",
+    "answer": "Yes \u2014 a safety alert is warranted. The object detection system returned no detections despite a valid depth range of 0.00\u201350.00 m with a mean of 19.18 m, which strongly suggests either a sensor malfunction, occlusion, poor lighting, or a system error. Site supervisors should not assume the area is clear and should conduct a manual inspection before allowing workers or equipment to operate in this zone.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000132.jpg"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002458.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002458.jpg"
+  },
+  {
+    "question": "Are both persons closer than 5 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002458.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of detected objects in this scene?",
+    "answer": "19.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002458.jpg"
+  },
+  {
+    "question": "Is the cell phone within arm's reach (less than 1 metre) of either person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002458.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002458.jpg"
+  }
+]

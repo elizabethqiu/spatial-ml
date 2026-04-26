@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  },
+  {
+    "question": "How many people are present in this parking area?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  },
+  {
+    "question": "Is there a parking meter in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  },
+  {
+    "question": "Are there more cars than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "19.16 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  },
+  {
+    "question": "Is the parking meter closer to the camera than the average object distance?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  },
+  {
+    "question": "Are all people positioned at a safe distance from vehicles (greater than 2 metres)?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001824.jpg"
+  }
+]

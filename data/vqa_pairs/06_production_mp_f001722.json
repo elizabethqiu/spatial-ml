@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many toothbrushes are visible in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  },
+  {
+    "question": "Are there more toothbrushes than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in this scene in metres?",
+    "answer": "13.67 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  },
+  {
+    "question": "Are the toothbrushes closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  },
+  {
+    "question": "Is the person at the minimum depth distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  },
+  {
+    "question": "What is the range of depths in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001722.jpg"
+  }
+]

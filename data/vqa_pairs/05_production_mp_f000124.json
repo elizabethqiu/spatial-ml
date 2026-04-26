@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this construction scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000124.jpg"
+  },
+  {
+    "question": "Is there a vehicle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000124.jpg"
+  },
+  {
+    "question": "Are the two people standing closer to the camera or further away based on the depth range?",
+    "answer": "The depth statistics show a range of 0.00 to 50.00 metres with a mean of 18.57 metres, indicating people are likely at moderate distance.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000124.jpg"
+  },
+  {
+    "question": "Is there a potential safety hazard due to proximity between workers and the vehicle?",
+    "answer": "Unable to confirm without specific positional coordinates; however, given the depth range and presence of both people and a car, caution is advised.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000124.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000124.jpg"
+  },
+  {
+    "question": "Are both people at approximately the same depth in the scene?",
+    "answer": "Cannot be determined from aggregate statistics; individual position data required.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000124.jpg"
+  }
+]

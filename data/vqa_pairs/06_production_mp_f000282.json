@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What is the maximum distance to the car in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000282.jpg"
+  },
+  {
+    "question": "What is the minimum distance to the car in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000282.jpg"
+  },
+  {
+    "question": "What is the average distance to the car in this scene?",
+    "answer": "12.25 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000282.jpg"
+  },
+  {
+    "question": "Is there a car visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000282.jpg"
+  },
+  {
+    "question": "Is the car closer than 5 metres from the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000282.jpg"
+  }
+]

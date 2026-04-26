@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the primary object visible in this scene?",
+    "answer": "suitcase",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002628.jpg"
+  },
+  {
+    "question": "Is there a suitcase present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002628.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002628.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002628.jpg"
+  },
+  {
+    "question": "What is the mean depth distance to the objects in this scene?",
+    "answer": "14.43 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002628.jpg"
+  },
+  {
+    "question": "Are there any workers near the suitcase at a distance less than 2 metres?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002628.jpg"
+  }
+]

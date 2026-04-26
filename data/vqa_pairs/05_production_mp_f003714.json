@@ -1,0 +1,64 @@
+[
+  {
+    "question": "What is the distance between the person and the motorcycle?",
+    "answer": "12.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003714.jpg"
+  },
+  {
+    "question": "How far is the suitcase from the motorcycle?",
+    "answer": "12.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003714.jpg"
+  },
+  {
+    "question": "Is the person closer to the motorcycle than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003714.jpg"
+  },
+  {
+    "question": "Is the suitcase within arm's reach of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003714.jpg"
+  },
+  {
+    "question": "Is the motorcycle positioned between the person and the suitcase?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003714.jpg"
+  },
+  {
+    "question": "Are all three objects aligned in a linear arrangement?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003714.jpg"
+  }
+]

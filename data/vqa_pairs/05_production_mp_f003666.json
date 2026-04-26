@@ -1,0 +1,63 @@
+[
+  {
+    "question": "Is the hair drier closer to the person than the toilet is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003666.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the hair drier?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003666.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the toilet?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003666.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the hair drier and the toilet?",
+    "answer": "approximately 16.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003666.jpg"
+  },
+  {
+    "question": "Is the toilet present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003666.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person's proximity to equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003666.jpg"
+  }
+]

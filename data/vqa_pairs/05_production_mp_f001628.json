@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the approximate distance between the two chairs in the scene?",
+    "answer": "Based on the available depth data, the two chairs are estimated to be approximately 17.55 metres apart on average, with depth values ranging from 0.00 to 50.00 metres across the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "What is the maximum depth (distance from camera) recorded in the scene?",
+    "answer": "The maximum depth recorded in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "Are there any workers present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "Are both detected objects in the scene chairs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment or machinery items detected in the scene alongside the chairs?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "Which object is positioned closer to the camera \u2014 the first chair or the second chair?",
+    "answer": "Based on the scene data, both chairs are detected at similar confidence levels (1.00 each) and the exact individual depth values are not differentiated; however, given the depth range of 0.00 to 50.00 metres, one chair is likely positioned near the foreground (closer to 0.00 metres) and the other further in the background (closer to 50.00 metres). Without per-object depth assignment, they cannot be precisely ranked, but the chair nearer the minimum depth is relatively closer to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "Are the two chairs on the same depth plane, or is one significantly farther away than the other?",
+    "answer": "Given the wide depth range of 0.00 to 50.00 metres in the scene, it is likely that the two chairs are not on the same depth plane and one may be significantly farther away than the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker and heavy equipment within 2 metres of each other in this scene?",
+    "answer": "No safety alert is triggered. There are no workers or heavy equipment detected in this scene \u2014 only two chairs are present. No proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  },
+  {
+    "question": "Should a safety perimeter be established around any objects in this scene due to dangerous proximity between a worker and machinery?",
+    "answer": "No safety perimeter is required. The scene contains only two chairs and no workers or heavy machinery have been detected. There is no risk of a worker-equipment proximity violation (< 2 metres) in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001628.jpg"
+  }
+]

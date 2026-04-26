@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the primary object visible in this scene?",
+    "answer": "clock",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002670.jpg"
+  },
+  {
+    "question": "Is there a clock present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002670.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "12.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002670.jpg"
+  },
+  {
+    "question": "How far is the closest object from the viewpoint?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002670.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002670.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment detected in this scene that pose a safety concern?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002670.jpg"
+  }
+]

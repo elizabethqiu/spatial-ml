@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004910.jpg"
+  },
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004910.jpg"
+  },
+  {
+    "question": "Is the bed closer to the camera than the banana?",
+    "answer": "Unable to determine from given data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004910.jpg"
+  },
+  {
+    "question": "Are both people within 2 metres of each other?",
+    "answer": "Unable to determine from given data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004910.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004910.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding worker proximity to equipment?",
+    "answer": "No safety alert - this is a domestic scene with no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004910.jpg"
+  }
+]

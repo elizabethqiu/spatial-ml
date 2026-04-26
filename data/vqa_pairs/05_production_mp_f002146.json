@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How far is the person from the TV?",
+    "answer": "14.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  },
+  {
+    "question": "What is the distance between the cell phone and the suitcase?",
+    "answer": "Unable to determine from available data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to any heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  },
+  {
+    "question": "Is the suitcase positioned near the TV?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the person than to the suitcase?",
+    "answer": "Unable to determine from available data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the person?",
+    "answer": "The TV is approximately 14.76 metres away from the person",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of the suitcase relative to the cell phone and person?",
+    "answer": "Objects are distributed across the scene with variable distances",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment?",
+    "answer": "No safety alerts detected - this is an indoor domestic scene with no heavy construction equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002146.jpg"
+  }
+]

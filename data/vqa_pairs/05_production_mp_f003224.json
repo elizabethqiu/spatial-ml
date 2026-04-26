@@ -1,0 +1,95 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "What is the average distance to detected objects?",
+    "answer": "14.12 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "Are there any workers present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "Are all detected objects cars?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "Is there heavy machinery equipment in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "Are there more than 2 cars in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  },
+  {
+    "question": "Are there any safety concerns detected in this scene based on worker proximity to heavy equipment?",
+    "answer": "No safety concerns detected - no workers or heavy equipment present in scene.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003224.jpg"
+  }
+]

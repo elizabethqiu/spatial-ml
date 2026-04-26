@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many cups are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  },
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  },
+  {
+    "question": "Are there more beds than cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  },
+  {
+    "question": "Is there at least one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  },
+  {
+    "question": "Are the cups closer to the camera than the beds?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  },
+  {
+    "question": "Are the people positioned between the cups and beds in depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  },
+  {
+    "question": "Is this an indoor residential or medical environment based on the objects detected?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000834.jpg"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many bicycles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Are there more bicycles than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "11.53 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Is the closest object in the scene at ground level?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  },
+  {
+    "question": "Does the scene contain heavy construction equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001652.jpg"
+  }
+]

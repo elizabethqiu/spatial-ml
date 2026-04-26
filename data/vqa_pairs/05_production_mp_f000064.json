@@ -1,0 +1,85 @@
+[
+  {
+    "question": "How far is the person from the bottle in this scene?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the person and the bottle is approximately 12.31 metres (mean scene depth), though exact separation depends on their individual depth values within the 0.00\u201350.00 m range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in this scene?",
+    "answer": "The objects in the scene span a depth range from 0.00 metres (closest point) to 50.00 metres (furthest point), with a mean depth of 12.31 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment (e.g., excavator, crane, forklift) detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  },
+  {
+    "question": "Is the backpack closer to or farther from the camera than the person on average?",
+    "answer": "Both the backpack and the person are detected within the same scene whose mean depth is 12.31 metres. Without individual per-object depth values, they are estimated to be at a similar depth range; however, the backpack is likely in close proximity to the person and may be carried by or placed near them, suggesting a comparable or slightly closer depth to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  },
+  {
+    "question": "Where is the bottle positioned relative to the person in the scene?",
+    "answer": "The bottle is detected as a separate object within the scene. Given the mean scene depth of 12.31 metres and the full range of 0.00\u201350.00 metres, the bottle could be positioned in front of, beside, or at a distance from the person. Without individual object coordinates, it is estimated to be nearby the person, potentially on the ground or a surface near where the person is standing.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  },
+  {
+    "question": "Is the person in this scene at risk due to proximity to heavy machinery or hazardous equipment?",
+    "answer": "No immediate safety alert is triggered. The scene contains only a person, a backpack, and a bottle \u2014 no heavy construction equipment (e.g., excavators, forklifts, cranes) has been detected. There is no machinery-related proximity hazard (< 2 metres) to flag at this time. Standard site awareness should still be maintained.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for the worker in this scene based on proximity to dangerous objects?",
+    "answer": "No safety alert is required. None of the detected objects (bottle, backpack) constitute heavy equipment or machinery. The person is not within a dangerous 2-metre proximity threshold of any hazardous construction equipment in this scene. However, site supervisors should verify no off-frame hazards exist given the scene's depth extends up to 50.00 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000064.jpg"
+  }
+]

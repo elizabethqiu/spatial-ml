@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many bottles are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003180.jpg"
+  },
+  {
+    "question": "Is there a bird in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003180.jpg"
+  },
+  {
+    "question": "Are there more bottles than birds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003180.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "16.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003180.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003180.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment present in this scene that would require safety distance monitoring?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003180.jpg"
+  }
+]

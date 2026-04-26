@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "3 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "bottle",
+      "banana",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  },
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  },
+  {
+    "question": "Are there more suitcases than backpacks?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene?",
+    "answer": "14.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "bottle",
+      "banana",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  },
+  {
+    "question": "Is the person positioned at the closest point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance measured in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "bottle",
+      "banana",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003506.jpg"
+  }
+]

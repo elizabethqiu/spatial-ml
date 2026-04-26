@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Is there a refrigerator in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Are there more people than refrigerators?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000534.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "13.95 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Is the refrigerator positioned closer to the camera than the average scene depth?",
+    "answer": "Cannot determine - insufficient spatial coordinate data for individual objects",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000534.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment?",
+    "answer": "Cannot determine - no specific coordinates provided and refrigerator is not classified as heavy equipment hazard",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000534.jpg"
+  }
+]

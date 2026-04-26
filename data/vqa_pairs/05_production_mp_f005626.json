@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "15.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  },
+  {
+    "question": "Are there more motorcycles than persons in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  },
+  {
+    "question": "Is a banana present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  },
+  {
+    "question": "Are there exactly 2 motorcycles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  },
+  {
+    "question": "Is there any object closer than 2 metres to a person that could pose a safety risk?",
+    "answer": "Minimum depth is 0.00 metres - potential safety hazard detected. Unable to confirm object type at closest proximity without detailed spatial coordinates.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005626.jpg"
+  }
+]

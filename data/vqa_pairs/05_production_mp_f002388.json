@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002388.jpg"
+  },
+  {
+    "question": "Is there a laptop visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002388.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002388.jpg"
+  },
+  {
+    "question": "Are there more people than furniture items (laptop and bed combined)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002388.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects in metres?",
+    "answer": "18.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002388.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002388.jpg"
+  }
+]

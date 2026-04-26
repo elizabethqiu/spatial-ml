@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  },
+  {
+    "question": "How many cars are parked in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  },
+  {
+    "question": "Is there a parking meter present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  },
+  {
+    "question": "Are both people standing near the same car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  },
+  {
+    "question": "Is the parking meter closer to the first car or the second car?",
+    "answer": "Cannot determine from spatial data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  },
+  {
+    "question": "Are the two cars positioned next to each other in the parking area?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this parking scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding workers and heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001666.jpg"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003210.jpg"
+  },
+  {
+    "question": "Is there a backpack visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003210.jpg"
+  },
+  {
+    "question": "Is there a toilet in this construction area?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003210.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "11.96 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003210.jpg"
+  },
+  {
+    "question": "Is the backpack closer to the camera than the toilet?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003210.jpg"
+  },
+  {
+    "question": "Are both people within safe proximity of each other (within 5 metres)?",
+    "answer": "insufficient data",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003210.jpg"
+  }
+]

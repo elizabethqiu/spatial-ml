@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002166.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002166.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "15.31 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002166.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002166.jpg"
+  },
+  {
+    "question": "Are there more cups than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002166.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of cups relative to the person in this scene.",
+    "answer": "There are 3 cups distributed throughout the scene at varying depths ranging from 0 to 50 metres, with a person also present in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002166.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the person and objects in this scene?",
+    "answer": "No safety alert - no heavy equipment detected. The scene contains only cups and a person with no hazardous machinery present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002166.jpg"
+  }
+]

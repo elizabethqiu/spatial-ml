@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003574.jpg"
+  },
+  {
+    "question": "Is there a cup visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003574.jpg"
+  },
+  {
+    "question": "Is there a person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003574.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003574.jpg"
+  },
+  {
+    "question": "What is the average distance from the camera to objects in this scene?",
+    "answer": "17.07 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003574.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment items that pose a safety risk to the person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003574.jpg"
+  }
+]

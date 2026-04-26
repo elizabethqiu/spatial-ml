@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  },
+  {
+    "question": "How many beds are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  },
+  {
+    "question": "Is there a person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  },
+  {
+    "question": "Are there more beds than cups?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the beds?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  },
+  {
+    "question": "Are the cups located at a greater depth than the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "18.81 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  },
+  {
+    "question": "Is the maximum depth of objects in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001212.jpg"
+  }
+]

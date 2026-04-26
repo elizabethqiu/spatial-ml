@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a car visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000184.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance to objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000184.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene in metres?",
+    "answer": "15.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000184.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000184.jpg"
+  },
+  {
+    "question": "What is the minimum distance to detected objects in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000184.jpg"
+  },
+  {
+    "question": "Is the car the only detected object in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000184.jpg"
+  }
+]

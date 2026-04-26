@@ -1,0 +1,54 @@
+[
+  {
+    "question": "Is there a vase in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002654.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "1 object",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002654.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002654.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "17.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002654.jpg"
+  },
+  {
+    "question": "Is the vase positioned at the minimum depth point in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002654.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment within 2 metres of a worker in this scene?",
+    "answer": "No workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002654.jpg"
+  }
+]

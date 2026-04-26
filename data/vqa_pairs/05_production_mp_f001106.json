@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How far is the person from the nearest bed?",
+    "answer": "Based on the scene depth statistics, the person and the nearest bed are approximately 21.44 metres apart (mean scene depth), though exact separation requires precise object centroids.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "The two beds are estimated to be within the scene depth range of 0.00 to 50.00 metres; based on the mean depth of 21.44 metres, they are likely separated by several metres, estimated around 5\u201315 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "Is the person located between the two beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two beds?",
+    "answer": "The person appears to be positioned in the vicinity of the two beds, likely between or adjacent to them, given that all three objects share a similar depth range within the scene (mean depth ~21.44 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "Which object is closest to the person \u2014 the first bed or the second bed?",
+    "answer": "Based on available depth statistics, both beds are at a comparable distance from the person; without individual object centroid data, the nearest bed cannot be definitively identified, but one of the two beds is likely within immediate proximity of the person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment near the worker that poses a safety risk (within 2 metres)?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The only objects present are two beds and one person, so no proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  },
+  {
+    "question": "Does the presence of the person near the beds raise any immediate safety concern based on object proximity?",
+    "answer": "No critical safety alert is raised for construction-site hazards, as no heavy equipment is present. However, if this were a clinical or care environment, the person's proximity to the beds (potentially less than 2 metres) should be monitored for fall risk or patient safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001106.jpg"
+  }
+]

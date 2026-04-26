@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  },
+  {
+    "question": "How many toothbrushes are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  },
+  {
+    "question": "Is there a knife in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  },
+  {
+    "question": "Are there more persons than toothbrushes?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  },
+  {
+    "question": "Is the knife closer than 2 metres to any person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  },
+  {
+    "question": "Does this scene contain any construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001742.jpg"
+  }
+]

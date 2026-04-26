@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a parking meter visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002226.jpg"
+  },
+  {
+    "question": "How many parking meters are detected in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002226.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002226.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "10.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002226.jpg"
+  },
+  {
+    "question": "Is the parking meter the only object detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002226.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in proximity to workers?",
+    "answer": "No workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002226.jpg"
+  }
+]

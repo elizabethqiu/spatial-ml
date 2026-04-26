@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the distance between the couch and the chair?",
+    "answer": "Unable to determine - insufficient 3D position data provided for objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005182.jpg"
+  },
+  {
+    "question": "Is the chair closer to the camera than the couch?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005182.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005182.jpg"
+  },
+  {
+    "question": "Is the couch positioned in front of the chair?",
+    "answer": "Unable to determine - spatial relationship cannot be established without exact 3D coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005182.jpg"
+  },
+  {
+    "question": "How many furniture items are detected in this scene?",
+    "answer": "2 items",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005182.jpg"
+  },
+  {
+    "question": "Does this scene contain any construction equipment or machinery?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005182.jpg"
+  }
+]

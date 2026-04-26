@@ -1,0 +1,104 @@
+[
+  {
+    "question": "What is the approximate average depth of objects detected in this scene?",
+    "answer": "The average depth of objects in the scene is approximately 18.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) covered by objects in this scene?",
+    "answer": "The depth range spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "Are there any persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "Is there a backpack present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavators, cranes, forklifts) present in the scene alongside the workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "Where is the backpack positioned relative to the detected persons in the scene?",
+    "answer": "The backpack appears to be in close proximity to one or more of the detected persons, likely being carried by or placed near a person, given that all objects share a similar mean depth of approximately 18.00 metres in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "How are the three detected persons spatially distributed within the scene in terms of depth?",
+    "answer": "The three persons are distributed across a depth range of 0.00 to 50.00 metres, with a mean scene depth of 18.00 metres, suggesting the persons may be at varying distances from the camera \u2014 some potentially very close (near 0 metres) and others further away (toward 50 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "Is there any safety alert triggered due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (such as excavators, bulldozers, cranes, or forklifts) has been detected in this scene. The only objects present are three persons and a backpack, so there is no hazardous proximity risk between workers and machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  },
+  {
+    "question": "Should a safety supervisor be alerted about any dangerous proximity situation currently visible in this scene?",
+    "answer": "No immediate safety alert is required based on detected objects. There is no heavy equipment present in the scene that could pose a proximity hazard to any of the three detected workers. However, supervisors should remain vigilant if machinery enters the area, especially near the closest detected depth of 0.00 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000344.jpg"
+  }
+]

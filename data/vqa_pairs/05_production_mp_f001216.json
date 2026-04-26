@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  },
+  {
+    "question": "Is there a cup present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  },
+  {
+    "question": "Are there more than one person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  },
+  {
+    "question": "Is the cup positioned closer to the camera than the beds?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  },
+  {
+    "question": "Are both persons located at similar depths from the camera?",
+    "answer": "Unable to determine - insufficient individual position data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in close proximity to the persons that poses a safety risk?",
+    "answer": "No - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "17.96 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001216.jpg"
+  }
+]

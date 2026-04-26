@@ -1,0 +1,75 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002000.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002000.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected persons in the scene?",
+    "answer": "17.14 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002000.jpg"
+  },
+  {
+    "question": "Is there a person at the closest point of detection?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002000.jpg"
+  },
+  {
+    "question": "Are all detected objects in this scene classified as persons?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002000.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in proximity to the workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002000.jpg"
+  },
+  {
+    "question": "Are there any workers at risk due to proximity to heavy machinery (within 2 metres)?",
+    "answer": "No hazard detected - no heavy equipment present in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002000.jpg"
+  }
+]

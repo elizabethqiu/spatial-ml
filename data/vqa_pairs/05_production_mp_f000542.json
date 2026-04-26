@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the truck in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the truck is approximately 13.65 metres (scene mean depth), though individual object separations may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the person and the truck?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Is the truck the only heavy vehicle detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Is the person within a potentially dangerous proximity (less than 2 metres) of the truck?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the truck in the scene?",
+    "answer": "Based on available depth data, the person and the truck are both present within the scene's depth range of 0.00 to 50.00 metres. Without precise individual object depth values, the person's exact lateral and longitudinal position relative to the truck cannot be fully determined, but both objects share overlapping depth space near the scene mean of 13.65 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Is the truck positioned further from the camera than the person?",
+    "answer": "The scene depth ranges from 0.00 to 50.00 metres with a mean of 13.65 metres. Without individual per-object depth values it is not definitively determinable, but given the relative sizes and detection context, the truck is likely at a comparable or greater depth than the person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Is the person dangerously close to the truck on this construction site?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes \u2014 the minimum detected depth in the scene is 0.00 metres, indicating that at least one object may be extremely close to another. The person and truck are detected in the same scene and may be within less than 2 metres of each other. Immediate action is recommended: the person should maintain a minimum safe exclusion zone of at least 2 metres from the truck at all times. A spotter or banksman should be deployed, and the truck operator must be made aware of the nearby pedestrian.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Should work in this area be halted until the person's proximity to the truck is confirmed safe?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes \u2014 given that the scene minimum depth is 0.00 metres and both a person and a heavy truck are detected together, there is a credible risk that the person is within the 2-metre danger exclusion zone of the truck. Operations should be paused, the site supervisor alerted, and a safe separation distance verified before resuming truck movements. High-visibility clothing, barriers, and audible truck alarms should also be confirmed as active.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000542.jpg"
+  }
+]

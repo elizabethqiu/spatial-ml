@@ -1,0 +1,64 @@
+[
+  {
+    "question": "Is the backpack closer to the camera than the handbag?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003882.jpg"
+  },
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003882.jpg"
+  },
+  {
+    "question": "How many bags are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003882.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003882.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of both bags?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003882.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "15.49 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003882.jpg"
+  }
+]

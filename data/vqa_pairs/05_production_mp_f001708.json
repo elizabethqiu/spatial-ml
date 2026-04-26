@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001708.jpg"
+  },
+  {
+    "question": "Is there a handbag present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001708.jpg"
+  },
+  {
+    "question": "Are there more people than handbags in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001708.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001708.jpg"
+  },
+  {
+    "question": "Is the handbag closer to the camera than the mean depth of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001708.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in this scene?",
+    "answer": "15.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001708.jpg"
+  }
+]

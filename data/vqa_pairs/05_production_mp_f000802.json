@@ -1,0 +1,89 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed in this scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the bed is approximately 0.00 to 50.00 metres range, with a mean scene depth of 18.64 metres. The two objects appear to be in close proximity within the same scene frame.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "What is the mean depth of the scene containing the bed and person?",
+    "answer": "The mean depth of the scene is approximately 18.64 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "Is the bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment such as a crane or excavator present near the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the bed?",
+    "answer": "The person is located in the same scene as the bed. Based on the detected objects and the scene depth range of 0.00 to 50.00 metres, the person appears to be in the vicinity of or adjacent to the bed, likely within the same room or immediate area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "Is the bed positioned in the foreground or background of the scene relative to the person?",
+    "answer": "Based on the available depth statistics (min: 0.00 m, max: 50.00 m, mean: 18.64 m), both the bed and person share the scene space. Without individual object depth values, their exact foreground/background relationship cannot be precisely determined, but both objects are within the mid-depth range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "Is the person in dangerous proximity (less than 2 metres) to any heavy construction equipment in this scene?",
+    "answer": "No safety alert required. This scene does not contain any heavy construction equipment (e.g., excavators, cranes, forklifts). The only objects detected are a bed and a person, so there is no proximity hazard from heavy machinery to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  },
+  {
+    "question": "Does this scene present any construction site safety hazards involving the person?",
+    "answer": "No immediate construction site safety hazard is detected. The scene contains only a person and a bed, with no heavy equipment present. However, if this is a rest area on a construction site, site managers should ensure the rest zone is adequately separated from active work zones and that proper rest protocols are being followed.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000802.jpg"
+  }
+]

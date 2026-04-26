@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How far is the person from the television?",
+    "answer": "Based on the scene depth statistics, the person and TV are estimated to be approximately 14.76 metres apart (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "The two beds are estimated to be approximately 14.76 metres apart based on the mean scene depth of 14.76 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Is the television located in the same scene as the beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Where is the television positioned relative to the person in the scene?",
+    "answer": "The television appears to be positioned in front of or across from the person, consistent with a typical bedroom or living area layout, at a depth estimated around the scene mean of 14.76 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Where are the beds positioned relative to the television?",
+    "answer": "The two beds appear to be positioned facing or adjacent to the television, suggesting they are on the same plane or slightly behind the person relative to the TV's location.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two beds?",
+    "answer": "The person appears to be positioned between or in front of the two beds, likely in the central area of the room based on the scene layout.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Is there any safety risk to the person from heavy equipment proximity (within 2 metres) in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a bed, a TV, and a person \u2014 none of the detected objects qualify as heavy construction equipment. No proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  },
+  {
+    "question": "Does the scene contain any construction-related hazards that would put the person at risk?",
+    "answer": "No safety alert is required. The scene appears to be an indoor residential or hospitality environment with beds and a TV. No heavy machinery, excavation equipment, or construction hazards are detected within dangerous proximity (< 2 metres) of the person.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001350.jpg"
+  }
+]

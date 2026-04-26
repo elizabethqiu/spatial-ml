@@ -1,0 +1,47 @@
+[
+  {
+    "question": "How many toilets are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000252.jpg"
+  },
+  {
+    "question": "Is there a toilet present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000252.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance to objects in this scene in metres?",
+    "answer": "11.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000252.jpg"
+  },
+  {
+    "question": "Is the toilet located in the foreground of the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000252.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000252.jpg"
+  }
+]

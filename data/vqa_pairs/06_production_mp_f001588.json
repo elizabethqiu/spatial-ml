@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Is there a toilet in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Are there more cars than toilets in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001588.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance of all objects in the scene?",
+    "answer": "15.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001588.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001588.jpg"
+  },
+  {
+    "question": "What is the range of depth distances detected across all objects?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001588.jpg"
+  }
+]

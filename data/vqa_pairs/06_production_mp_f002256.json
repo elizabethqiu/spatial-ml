@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What is the minimum distance between the knife and the nearest person?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "14.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "cup",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  },
+  {
+    "question": "Is the knife closer than 2 metres to any person in this scene?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  },
+  {
+    "question": "Are both persons at the same depth in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the knife?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observable in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "cup",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Is there a knife at dangerous proximity (< 2m) to a person?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  },
+  {
+    "question": "Is the cup positioned between the two persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002256.jpg"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002954.jpg"
+  },
+  {
+    "question": "Is there a remote control device present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002954.jpg"
+  },
+  {
+    "question": "Are both persons within 5 metres of the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002954.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance of objects in this scene?",
+    "answer": "19.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002954.jpg"
+  },
+  {
+    "question": "Is the remote control positioned closer to the camera than the persons?",
+    "answer": "Unable to determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "remote",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002954.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002954.jpg"
+  }
+]

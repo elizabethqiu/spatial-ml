@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How far is the person from the television?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000688.jpg"
+  },
+  {
+    "question": "What is the distance between the refrigerator and the TV?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000688.jpg"
+  },
+  {
+    "question": "Is the person standing next to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000688.jpg"
+  },
+  {
+    "question": "Is the television closer to the person than the refrigerator is?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000688.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to any equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000688.jpg"
+  },
+  {
+    "question": "Does the scene contain any heavy construction equipment near the worker?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000688.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "3 chairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  },
+  {
+    "question": "Are there more beds than cups in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  },
+  {
+    "question": "Is there at least one person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  },
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "2 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  },
+  {
+    "question": "Are there exactly two persons in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  },
+  {
+    "question": "What is the average depth distance across all detected objects?",
+    "answer": "18.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  },
+  {
+    "question": "Are there more chairs than beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000724.jpg"
+  }
+]

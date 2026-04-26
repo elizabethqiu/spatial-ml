@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the refrigerator?",
+    "answer": "14.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to the refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000710.jpg"
+  },
+  {
+    "question": "How many objects are present in this construction site scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Is the refrigerator within arm's reach of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000710.jpg"
+  }
+]

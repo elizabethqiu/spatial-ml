@@ -1,0 +1,86 @@
+[
+  {
+    "question": "How many potted plants are visible in this scene?",
+    "answer": "4 potted plants",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "vase",
+      "potted plant",
+      "sink",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  },
+  {
+    "question": "Is the person standing closer than 2 metres to any heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  },
+  {
+    "question": "Is there a sink present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  },
+  {
+    "question": "Are there more potted plants than cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "20.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "vase",
+      "potted plant",
+      "sink",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  },
+  {
+    "question": "Is a vase present among the objects in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  },
+  {
+    "question": "How many ceramic/dishware items (bowls and cups) are in this scene?",
+    "answer": "2 items",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001850.jpg"
+  }
+]

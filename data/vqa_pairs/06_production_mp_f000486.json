@@ -1,0 +1,83 @@
+[
+  {
+    "question": "What is the distance between the person and the car?",
+    "answer": "12.94 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  },
+  {
+    "question": "How far apart are the car and the refrigerator?",
+    "answer": "Unable to determine - insufficient spatial data for object pair",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Is the person standing next to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the car?",
+    "answer": "The person is approximately 12.94 metres away from the car based on depth analysis",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of all three objects?",
+    "answer": "Person, car, and refrigerator are spread across the scene with mean depth of 12.94 metres and maximum separation of 50 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person and car proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Does the person maintain safe distance from the car (minimum 2 metres)?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000486.jpg"
+  }
+]

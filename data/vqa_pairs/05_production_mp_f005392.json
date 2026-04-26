@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005392.jpg"
+  },
+  {
+    "question": "Is there a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005392.jpg"
+  },
+  {
+    "question": "Are there more people than beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005392.jpg"
+  },
+  {
+    "question": "What is the average depth distance in this scene in metres?",
+    "answer": "18.47 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005392.jpg"
+  },
+  {
+    "question": "Is the maximum depth in this scene less than 40 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005392.jpg"
+  },
+  {
+    "question": "What is the range of depths detected in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005392.jpg"
+  },
+  {
+    "question": "Are the people positioned near the bed?",
+    "answer": "Unable to determine - scene contains residential furniture without heavy equipment hazards",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005392.jpg"
+  }
+]

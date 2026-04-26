@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many cell phones are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  },
+  {
+    "question": "Are there more cell phones than people in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "18.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  },
+  {
+    "question": "Is the chair closer or farther than the average depth in the scene?",
+    "answer": "Unable to determine - chair position not individually specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  },
+  {
+    "question": "Are any workers in close proximity to heavy equipment that poses a safety risk?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  },
+  {
+    "question": "Do both people have cell phones?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002478.jpg"
+  }
+]

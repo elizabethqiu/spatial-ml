@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many bicycles are present in the scene?",
+    "answer": "4 bicycles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  },
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "11.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Is there at least one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Are there more bicycles than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance in the scene less than 1 metre?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  },
+  {
+    "question": "What is the spatial distribution range of objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  },
+  {
+    "question": "Are bicycles and people evenly distributed across the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001630.jpg"
+  }
+]

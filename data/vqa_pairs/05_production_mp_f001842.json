@@ -1,0 +1,36 @@
+[
+  {
+    "question": "How many suitcases are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001842.jpg"
+  },
+  {
+    "question": "Are there any suitcases in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001842.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of objects from the camera in this scene?",
+    "answer": "16.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001842.jpg"
+  },
+  {
+    "question": "Is there heavy equipment present that poses a safety risk near workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001842.jpg"
+  }
+]

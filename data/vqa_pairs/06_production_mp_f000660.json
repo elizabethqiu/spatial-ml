@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Are there any workers or equipment visible in this construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000660.jpg"
+  },
+  {
+    "question": "How many objects have been detected in this scene?",
+    "answer": "0 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000660.jpg"
+  },
+  {
+    "question": "Is it safe to proceed with work on this construction site based on visible hazards?",
+    "answer": "Unable to assess - no objects detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000660.jpg"
+  },
+  {
+    "question": "What is the average depth range observed in this construction site?",
+    "answer": "11.43 metres (ranging from 0.00 to 50.00 metres)",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000660.jpg"
+  },
+  {
+    "question": "Are there any proximity hazards between workers and heavy equipment detected?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000660.jpg"
+  }
+]

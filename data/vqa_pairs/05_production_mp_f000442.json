@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many cars are visible in the scene?",
+    "answer": "2 cars",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  },
+  {
+    "question": "Is there at least one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  },
+  {
+    "question": "Are there more cars than people in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "14.81 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  },
+  {
+    "question": "Are the people positioned in front of the cars?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  },
+  {
+    "question": "Is the minimum object distance in the scene less than 2 metres?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  },
+  {
+    "question": "WARNING: Are any workers within 2 metres of moving vehicles?",
+    "answer": "Potential hazard detected - minimum distance is 0.00 metres. Immediate intervention required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000442.jpg"
+  }
+]

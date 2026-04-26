@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002404.jpg"
+  },
+  {
+    "question": "Are there any workers present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002404.jpg"
+  },
+  {
+    "question": "Is there more than one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002404.jpg"
+  },
+  {
+    "question": "What is the average depth distance of detected objects in this scene?",
+    "answer": "14.69 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002404.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this construction area?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002404.jpg"
+  },
+  {
+    "question": "Are all workers positioned within a safe distance from the camera viewpoint?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002404.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a teddy bear in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003614.jpg"
+  },
+  {
+    "question": "How many teddy bears are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003614.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003614.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene in metres?",
+    "answer": "20.29 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003614.jpg"
+  },
+  {
+    "question": "Is the teddy bear closer than 2 metres to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003614.jpg"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many suitcases are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  },
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in this scene in metres?",
+    "answer": "14.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "banana",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  },
+  {
+    "question": "Are both suitcases positioned at the same depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "banana",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  },
+  {
+    "question": "Is the person closer than 5 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003494.jpg"
+  }
+]

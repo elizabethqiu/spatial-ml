@@ -1,0 +1,118 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 16.43 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded for any object in the scene?",
+    "answer": "The maximum depth recorded in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded for any object in the scene?",
+    "answer": "The minimum depth recorded in the scene is 0.00 metres, indicating at least one object is at or extremely close to the camera/sensor position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "Are there multiple bowls detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., machinery, vehicles) present in the scene that could pose a safety risk to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bowl",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the bowls in the scene?",
+    "answer": "Based on the available scene data, the person is positioned among three bowls within the scene. Without precise per-object 3D coordinates, the person appears to share a common depth range (mean ~16.43 m) with the bowls, suggesting they are in proximity to one another, though exact relative positions (left/right/front/behind) cannot be fully determined from aggregate depth statistics alone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bowl",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "Are any of the bowls located closer to the camera than the person?",
+    "answer": "Possibly yes. The minimum depth of 0.00 metres suggests at least one object (potentially a bowl) is very close to or at the camera position, which is likely closer than the person. However, without individual per-object depth values, this cannot be confirmed with certainty.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "bowl",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "Is the person in this scene at risk due to proximity to heavy construction equipment within 2 metres?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The only objects present are three bowls and one person, none of which constitute heavy equipment hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bowl",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  },
+  {
+    "question": "Does any object in the scene appear to be dangerously close (within 2 metres) to the person based on depth data?",
+    "answer": "The scene contains only bowls alongside the person, and none are classified as heavy equipment. While the minimum depth of 0.00 metres may indicate an object is very close to the sensor, bowls do not constitute a construction safety hazard. No critical safety alert for heavy equipment proximity is warranted in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bowl",
+      "bowl",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001638.jpg"
+  }
+]

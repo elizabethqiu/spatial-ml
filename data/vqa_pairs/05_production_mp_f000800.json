@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is the approximate distance between the dog and the television?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the dog and the television is approximately 19.38 metres (mean scene depth), though precise separation depends on their individual depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "Given the depth range of 0.00 to 50.00 metres and a mean of 19.38 metres, the two beds are estimated to be separated by up to 50.00 metres, with a likely separation around the mean depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Are there more than one bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Is the television located in the same scene as the dog?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Where is the television positioned relative to the two beds?",
+    "answer": "The television appears to be situated between or alongside the two beds within the scene, likely facing one or both beds as is typical in a bedroom arrangement.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the beds?",
+    "answer": "The dog is positioned within the scene near the beds, likely on or between one of the two beds given the domestic context of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Where is the television positioned relative to the dog?",
+    "answer": "The television is positioned elsewhere in the room relative to the dog, likely mounted on a wall or placed on furniture at a distance from where the dog is located.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment or worker proximity hazard detected in this scene?",
+    "answer": "No heavy construction equipment or workers are detected in this scene. The scene contains only domestic objects (beds, a television, and a dog), so no proximity safety alerts apply. Standard construction site safety protocols are not relevant here.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "tv",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  },
+  {
+    "question": "Are any objects in this scene within a dangerously close proximity (less than 2 metres) to a worker or heavy equipment?",
+    "answer": "No workers or heavy equipment are present in this scene. The detected objects \u2014 two beds, a television, and a dog \u2014 pose no construction safety hazard. No safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "tv",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000800.jpg"
+  }
+]

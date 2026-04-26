@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the tv and the car?",
+    "answer": "approximately 13.29 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003292.jpg"
+  },
+  {
+    "question": "Is the tv closer to the camera than the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003292.jpg"
+  },
+  {
+    "question": "Where is the car positioned relative to the tv?",
+    "answer": "The car is farther away from the camera than the tv, positioned at varying depths within the scene",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003292.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between objects in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003292.jpg"
+  }
+]

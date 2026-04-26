@@ -1,0 +1,79 @@
+[
+  {
+    "question": "What is the average depth of the construction scene as estimated by the depth sensor?",
+    "answer": "The average depth of the scene is approximately 14.35 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this construction scene?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in this scene?",
+    "answer": "The minimum depth recorded is 0.00 metres, indicating an object or surface at the sensor's position or immediate foreground.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "Is there a worker detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "Is there any identifiable object positioned closer than 2 metres to another object in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "Are there any detected objects in the near foreground of the scene (within 5 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "Where is the majority of scene content concentrated relative to the sensor, based on the mean depth?",
+    "answer": "The majority of the scene content is concentrated at a mid-range distance of approximately 14.35 metres from the sensor, suggesting open space or sparse foreground occupancy typical of a construction site.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "Is the scene depth distribution skewed toward far distances or near distances?",
+    "answer": "The scene is skewed toward far distances. The mean depth of 14.35 metres and maximum of 50.00 metres, combined with a minimum of 0.00 metres and no detected objects, suggest a largely open or distant scene with very little foreground obstruction.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert can be triggered at this time because no workers or heavy equipment were detected in the scene. However, the detection system should be treated as potentially unreliable in this instance \u2014 the absence of detections on an active construction site warrants immediate manual inspection to verify site safety, as occlusion, poor lighting, or sensor error may have caused missed detections.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Does the depth sensor indicate any undetected close-range hazards (depth near 0.00 metres) that could pose a risk to workers?",
+    "answer": "A minimum depth of 0.00 metres was recorded, meaning something exists at or extremely close to the sensor's origin point. Since no objects were formally detected, this anomalous near-zero depth reading could indicate a sensor obstruction, debris, or an unclassified hazard in the immediate foreground. A safety inspection of the sensor's immediate surroundings is strongly recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001430.jpg"
+  }
+]

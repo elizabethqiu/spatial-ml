@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the bed from the camera based on the mean scene depth?",
+    "answer": "The bed is approximately 16.66 metres from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent detected in the scene containing the bed?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  },
+  {
+    "question": "Is the bed detected with high confidence (above 0.90)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the nearest detectable depth boundary in the scene?",
+    "answer": "The bed is positioned at a mean depth of approximately 16.66 metres, placing it roughly in the mid-range of the scene, which spans from 0.00 metres (closest boundary) to 50.00 metres (farthest boundary).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  },
+  {
+    "question": "Is the bed located closer to the near end or the far end of the depth range in this scene?",
+    "answer": "The bed, at a mean depth of 16.66 metres within a 0.00\u201350.00 metre range, is positioned closer to the near end of the scene's depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker in dangerous proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy equipment or workers are detected in this scene \u2014 only a bed is present. Therefore, no proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  },
+  {
+    "question": "Does the presence of a bed in this scene suggest it may be a rest or sleeping area rather than an active construction zone, and are there any immediate safety concerns?",
+    "answer": "The detection of a bed suggests this is a rest or sleeping area, not an active construction zone. No workers or heavy equipment are detected within dangerous proximity (< 2 metres), so no immediate safety alert is warranted. However, if this rest area is located within or adjacent to a construction site, it should be clearly demarcated and separated from operational hazard zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001344.jpg"
+  }
+]

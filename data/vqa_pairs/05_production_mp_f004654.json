@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many toilets are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004654.jpg"
+  },
+  {
+    "question": "Is there a couch in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004654.jpg"
+  },
+  {
+    "question": "Are there more toilets than furniture pieces?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004654.jpg"
+  },
+  {
+    "question": "What is the maximum depth range of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004654.jpg"
+  },
+  {
+    "question": "Is the couch closer to the camera than the average object depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004654.jpg"
+  },
+  {
+    "question": "What is the mean distance of all objects from the camera?",
+    "answer": "16.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004654.jpg"
+  }
+]

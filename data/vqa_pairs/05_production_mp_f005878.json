@@ -1,0 +1,49 @@
+[
+  {
+    "question": "How far apart are the chair and bed?",
+    "answer": "19.09 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005878.jpg"
+  },
+  {
+    "question": "Is the chair closer to the camera than the bed?",
+    "answer": "Unable to determine - insufficient spatial data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005878.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment?",
+    "answer": "No workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005878.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005878.jpg"
+  },
+  {
+    "question": "Is this scene a construction site with heavy equipment present?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005878.jpg"
+  }
+]

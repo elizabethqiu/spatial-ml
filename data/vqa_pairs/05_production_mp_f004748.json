@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  },
+  {
+    "question": "Are there more bananas than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  },
+  {
+    "question": "Is there at least one banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  },
+  {
+    "question": "Are there any people visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "29.05 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  },
+  {
+    "question": "Is the maximum depth of the scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  },
+  {
+    "question": "What is the difference between the maximum and minimum depth in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004748.jpg"
+  }
+]

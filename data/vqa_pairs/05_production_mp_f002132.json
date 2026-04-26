@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "cup",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002132.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002132.jpg"
+  },
+  {
+    "question": "Is the hair drier located near the sink?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002132.jpg"
+  },
+  {
+    "question": "What is the maximum depth range of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002132.jpg"
+  },
+  {
+    "question": "Are there more cups than other items in the bathroom?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "cup",
+      "cup",
+      "hair drier",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002132.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "16.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002132.jpg"
+  }
+]

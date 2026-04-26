@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the car and the refrigerator?",
+    "answer": "14.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the proximity of objects in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000622.jpg"
+  },
+  {
+    "question": "How many objects are detected in this construction scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Is the car located at a greater distance than the refrigerator from the camera viewpoint?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000622.jpg"
+  }
+]

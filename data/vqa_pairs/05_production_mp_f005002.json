@@ -1,0 +1,41 @@
+[
+  {
+    "question": "How far apart are the person and the bottle?",
+    "answer": "22.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005002.jpg"
+  },
+  {
+    "question": "Is the person closer than 5 metres to the bottle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005002.jpg"
+  },
+  {
+    "question": "Is the bottle positioned in front of the person?",
+    "answer": "Unable to determine - only depth information available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005002.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person being too close to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005002.jpg"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  },
+  {
+    "question": "How many refrigerators are visible in this scene?",
+    "answer": "3 refrigerators",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Is there at least one refrigerator in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Are there more people than refrigerators in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "14.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  },
+  {
+    "question": "What is the depth range (difference between maximum and minimum distances) in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  },
+  {
+    "question": "Are all people at a safe distance (>2 metres) from refrigerators?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000542.jpg"
+  }
+]

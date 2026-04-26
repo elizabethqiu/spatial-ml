@@ -1,0 +1,112 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "6 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in the scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "bottle",
+      "potted plant",
+      "spoon",
+      "vase",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "Are there more potted plants than vases in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "Is there a spoon present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "Are there exactly two sinks in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "Is there a bottle in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "How many potted plants are in the scene?",
+    "answer": "3 potted plants",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "What is the closest distance between any two objects?",
+    "answer": "0.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "bottle",
+      "potted plant",
+      "spoon",
+      "vase",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene greater than 10 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "bottle",
+      "potted plant",
+      "spoon",
+      "vase",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  },
+  {
+    "question": "Are there more cups than potted plants?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002212.jpg"
+  }
+]

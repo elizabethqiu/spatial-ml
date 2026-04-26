@@ -1,0 +1,127 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in this scene?",
+    "answer": "The mean depth of objects in this scene is approximately 19.83 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "cup",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) observed across all objects in the scene?",
+    "answer": "The depth range spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "cup",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "Is there more than one chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, bulldozer) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "cup",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "Is the person in this scene in close proximity (less than 2 metres) to any heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the other furniture objects in the scene?",
+    "answer": "The cup appears to be positioned among the furniture items (chairs, couch, and bed), likely placed on or near one of the seating or resting surfaces, situated within the general depth range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the furniture in the scene?",
+    "answer": "The person is located within the same spatial environment as the furniture items (chairs, couch, bed), suggesting they are inside or immediately adjacent to a furnished indoor space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "How are the two chairs positioned relative to each other?",
+    "answer": "The two chairs are detected as separate objects within the scene and are likely positioned near each other within the same room or area, sharing a similar depth range in the environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "Is there a safety concern for the person due to proximity to any heavy machinery or equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only indoor furniture items (chairs, couch, bed) and a cup \u2014 no heavy construction equipment is present. There is no hazardous proximity risk for the person in this context.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "chair",
+      "cup",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose a construction-site safety hazard to the person detected?",
+    "answer": "No safety alert is required. None of the detected objects (chairs, cup, couch, bed) constitute heavy equipment or construction machinery. The scene appears to be a domestic or office indoor environment with no identified construction-related hazards within the critical 2-metre danger zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "chair",
+      "cup",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000862.jpg"
+  }
+]

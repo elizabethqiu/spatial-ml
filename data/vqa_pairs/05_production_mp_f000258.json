@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000258.jpg"
+  },
+  {
+    "question": "Is there a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000258.jpg"
+  },
+  {
+    "question": "Are there more people than beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000258.jpg"
+  },
+  {
+    "question": "What is the maximum distance detected in this scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000258.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene?",
+    "answer": "0.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000258.jpg"
+  },
+  {
+    "question": "Is the bed closer or farther than the average scene depth?",
+    "answer": "Unable to determine - bed position not specified relative to 18.25 metre mean",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000258.jpg"
+  },
+  {
+    "note": "Safety alert type cannot be generated - this scene contains residential furniture (bed) and persons in what appears to be an indoor residential setting, not a construction site with heavy equipment. No proximity hazards between workers and heavy machinery are present.",
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000258.jpg"
+  }
+]

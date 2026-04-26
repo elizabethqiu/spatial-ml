@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many chairs are present in this scene?",
+    "answer": "4 chairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  },
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "3 beds",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  },
+  {
+    "question": "Is there a couch in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  },
+  {
+    "question": "Are there more chairs than beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  },
+  {
+    "question": "Is the number of chairs equal to the number of beds?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "21.64 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  },
+  {
+    "question": "Does this scene contain furniture only?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001242.jpg"
+  }
+]

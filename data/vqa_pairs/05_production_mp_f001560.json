@@ -1,0 +1,135 @@
+[
+  {
+    "question": "How many carrots are visible in the scene?",
+    "answer": "There are 5 carrots visible in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth of objects in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 19.72 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "person",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "Are there any carrots in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "Is the person surrounded by carrots in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "What is the depth range of objects detected in this scene?",
+    "answer": "The depth range of objects in the scene spans from 0.00 metres (minimum) to 50.00 metres (maximum).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "person",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the carrots in the scene?",
+    "answer": "The person is positioned among the carrots, appearing centrally within the group of 5 carrots distributed across the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "Are the carrots generally in front of or behind the person in terms of depth?",
+    "answer": "The carrots are distributed at varying depths relative to the person, with some carrots appearing at similar or mixed depth positions given the scene's depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment near the person that poses a safety risk?",
+    "answer": "No heavy equipment is detected in this scene. The only objects present are 5 carrots and 1 person, so there is no proximity hazard between the person and any heavy machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  },
+  {
+    "question": "Does the presence of carrots near the person constitute any construction site safety concern?",
+    "answer": "No immediate construction safety hazard is identified. Carrots are not heavy equipment or machinery, so no critical proximity alert (< 2 metres) between the person and dangerous equipment is triggered. However, loose objects on a work surface could present a minor slip or trip hazard and should be stored appropriately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001560.jpg"
+  }
+]

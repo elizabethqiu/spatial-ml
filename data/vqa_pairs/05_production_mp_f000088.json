@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 16.33 metres apart on average, within a scene spanning 0.00 to 50.00 metres in depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "The maximum depth range in the scene is 50.00 metres, with the nearest point at 0.00 metres and the farthest point at 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in the scene alongside the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "Are both persons detected with high confidence in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "Where are the two persons located relative to each other in terms of depth in the scene?",
+    "answer": "Both persons are distributed across a scene with a mean depth of approximately 16.33 metres. Without individual depth values, one person may be closer to the camera (nearer to 0.00 metres) while the other could be positioned further away (toward 50.00 metres), placing them at varying depths relative to each other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "Are the two persons positioned within the near, mid, or far range of the scene?",
+    "answer": "Based on the mean depth of 16.33 metres and a total range of 0.00 to 50.00 metres, the persons are predominantly located in the near-to-mid range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any person being in dangerous proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. Only two persons are present, and no hazardous proximity between a worker and heavy machinery is identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised based on the current positions of the persons relative to any detected machinery?",
+    "answer": "No safety alert is required. The scene contains only two persons and no heavy equipment is detected. However, site supervisors should remain vigilant as the depth range extends to 50.00 metres, meaning additional objects or machinery may be present but undetected beyond the current field of view.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000088.jpg"
+  }
+]

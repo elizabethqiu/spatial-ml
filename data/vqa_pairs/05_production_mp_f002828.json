@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many people are present in this construction site?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  },
+  {
+    "question": "Is there an oven present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  },
+  {
+    "question": "Are all three people at the same depth position?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in the scene?",
+    "answer": "18.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  },
+  {
+    "question": "Is the oven closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  },
+  {
+    "question": "Do any workers appear to be within unsafe proximity (< 2 metres) of the oven?",
+    "answer": "No safety alert detected - minimum safe distance maintained",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "oven",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002828.jpg"
+  }
+]

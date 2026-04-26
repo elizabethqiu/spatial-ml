@@ -1,0 +1,98 @@
+[
+  {
+    "question": "Is the person sitting on one of the chairs?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "Are there more couches than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "Is the dining table closer to the person than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "Is there a couch adjacent to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "How many pieces of seating furniture are visible in this scene?",
+    "answer": "5 items (2 chairs, 2 couches, 1 dining table with seating)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "couch",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects in the scene?",
+    "answer": "0.00 to 50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "dining table",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "Is the bed positioned behind the couches?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "Are both chairs positioned near the dining table?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  },
+  {
+    "question": "Is the person located between the dining table and the couch?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000928.jpg"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the distance between the horse and the chair?",
+    "answer": "13.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "horse",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004534.jpg"
+  },
+  {
+    "question": "Is the horse closer than 5 metres to the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "horse",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004534.jpg"
+  },
+  {
+    "question": "Is the chair positioned in front of the horse?",
+    "answer": "Unable to determine from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004534.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "No workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004534.jpg"
+  }
+]

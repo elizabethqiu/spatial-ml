@@ -1,0 +1,84 @@
+[
+  {
+    "question": "What is the approximate average depth (distance from the camera) of the persons in the scene?",
+    "answer": "The average depth of the persons in the scene is approximately 18.15 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  },
+  {
+    "question": "What is the range of depths observed across all persons in the scene?",
+    "answer": "The depth range spans from approximately 0.00 metres (closest point) to 50.00 metres (farthest point), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  },
+  {
+    "question": "Are there three or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera?",
+    "answer": "Based on the depth data, at least one person is located at or near 0.00 metres from the camera, making them the closest person in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  },
+  {
+    "question": "Which person is positioned farthest from the camera?",
+    "answer": "The farthest person is located at approximately 50.00 metres from the camera, placing them at the far end of the observable scene depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  },
+  {
+    "question": "Are any of the persons in the scene within a potentially dangerous proximity (less than 2 metres) of heavy equipment?",
+    "answer": "No heavy equipment has been detected in this scene. Therefore, no worker is currently at risk of being within 2 metres of heavy machinery. However, site supervisors should remain vigilant as the depth range extends to 50.00 metres, and objects may exist outside the camera's detection field.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  },
+  {
+    "question": "Given that at least one person appears to be at approximately 0.00 metres depth, is there an immediate safety concern regarding their proximity to the camera or site boundary?",
+    "answer": "Yes \u2014 a safety alert is warranted. At least one person is detected at approximately 0.00 metres from the camera, which may indicate they are extremely close to a site boundary, entry point, or camera-mounted equipment. Site personnel should verify this person's location and ensure they are not in an unsafe zone or obstructing equipment pathways.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001564.jpg"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "question": "How many birds are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001676.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001676.jpg"
+  },
+  {
+    "question": "Is the bird closer to the camera than the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001676.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001676.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001676.jpg"
+  }
+]

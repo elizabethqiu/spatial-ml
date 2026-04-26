@@ -1,0 +1,126 @@
+[
+  {
+    "question": "What is the approximate mean depth of all detected objects in the scene?",
+    "answer": "The approximate mean depth of all detected objects in the scene is 13.35 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "sports ball",
+      "person",
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all objects in the scene?",
+    "answer": "The maximum depth range observed is 50.00 metres, with the closest object at 0.00 metres and the farthest at 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "sports ball",
+      "person",
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Are there any skateboards present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Is there a sports ball detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sports ball"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Are there more than two people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "sports ball",
+      "person",
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Where are the persons located relative to the skateboards in the scene?",
+    "answer": "The persons are distributed throughout the scene at varying depths (ranging from approximately 0.00 to 50.00 metres), and at least some of them appear to be in close proximity to the skateboards, suggesting they may be riders or nearby observers.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Where is the sports ball positioned relative to the persons in the scene?",
+    "answer": "The sports ball is positioned within the same general scene area as the persons, at a mean scene depth of 13.35 metres, suggesting it is likely near one or more of the persons rather than in an isolated far-field location.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sports ball",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Are any persons dangerously close (within 2 metres) to heavy construction equipment in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The objects present are skateboards, a sports ball, and persons. Therefore, no safety alert regarding proximity to heavy equipment is warranted. However, note that at least one object is detected at approximately 0.00 metres depth, indicating a very close proximity situation that should be monitored.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "skateboard",
+      "skateboard",
+      "sports ball"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any person being within 2 metres of a fast-moving or hazardous object such as a skateboard at very close range?",
+    "answer": "Potentially yes. With a minimum detected depth of 0.00 metres in the scene, at least one object (possibly a skateboard or person) is at extremely close range. If a person is within 2 metres of a moving skateboard, there is a risk of collision or fall injury. Caution is advised, particularly for bystanders near active skateboarders.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001406.jpg"
+  }
+]

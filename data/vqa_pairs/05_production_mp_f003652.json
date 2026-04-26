@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many chairs are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  },
+  {
+    "question": "Is the person sitting on the couch?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  },
+  {
+    "question": "Is the cell phone located to the right of the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  },
+  {
+    "question": "How many furniture items (couch and chairs combined) are in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  },
+  {
+    "question": "Are both chairs positioned closer to the camera than the couch?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects in this scene?",
+    "answer": "0 to 50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "chair",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  },
+  {
+    "question": "Is the cell phone within arm's reach of the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  },
+  {
+    "question": "Are there more chairs than other types of seating furniture?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003652.jpg"
+  }
+]

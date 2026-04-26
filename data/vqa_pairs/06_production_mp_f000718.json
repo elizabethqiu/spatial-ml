@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000718.jpg"
+  },
+  {
+    "question": "Is there a refrigerator present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000718.jpg"
+  },
+  {
+    "question": "Are there more people than appliances in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000718.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000718.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance detected in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000718.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the farthest detected object?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000718.jpg"
+  },
+  {
+    "question": "Are all three people within safe distance (greater than 2 metres) from the refrigerator?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000718.jpg"
+  }
+]

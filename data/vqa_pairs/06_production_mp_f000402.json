@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the chair and the train?",
+    "answer": "14.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000402.jpg"
+  },
+  {
+    "question": "Is the chair closer than 5 metres to the train?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000402.jpg"
+  },
+  {
+    "question": "Is the train present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000402.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the train?",
+    "answer": "The chair is approximately 14.11 metres away from the train in the scene depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000402.jpg"
+  },
+  {
+    "question": "What is the maximum recorded distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000402.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the chair's proximity to the train?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000402.jpg"
+  }
+]

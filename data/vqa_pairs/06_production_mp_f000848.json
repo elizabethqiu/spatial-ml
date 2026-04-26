@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many refrigerators are visible in this scene?",
+    "answer": "6",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any refrigerator in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  },
+  {
+    "question": "What is the average depth of refrigerators from the camera viewpoint?",
+    "answer": "15.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Is there a refrigerator at the minimum depth range of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Are all detected objects in this scene refrigerators?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Is there significant depth variation among the refrigerators?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  },
+  {
+    "question": "What is the closest refrigerator distance from the viewpoint?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  },
+  {
+    "question": "What is the depth range spanning all refrigerators in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000848.jpg"
+  }
+]

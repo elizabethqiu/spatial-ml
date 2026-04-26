@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many chairs are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  },
+  {
+    "question": "What is the average distance of objects from the camera viewpoint?",
+    "answer": "21.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  },
+  {
+    "question": "Is there a cup visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  },
+  {
+    "question": "Are there more couches than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment or machinery present in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  },
+  {
+    "question": "What is the closest object distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000944.jpg"
+  }
+]

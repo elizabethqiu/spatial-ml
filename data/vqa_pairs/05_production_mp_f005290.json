@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005290.jpg"
+  },
+  {
+    "question": "Is there a backpack present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005290.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "12.01 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005290.jpg"
+  },
+  {
+    "question": "Are all persons positioned at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005290.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005290.jpg"
+  },
+  {
+    "question": "Is the backpack closer to the camera than the farthest person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005290.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005290.jpg"
+  }
+]

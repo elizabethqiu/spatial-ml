@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 12.96 metres apart on average, though individual positions may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  },
+  {
+    "question": "What is the maximum possible separation distance between the two persons detected in the scene?",
+    "answer": "The maximum possible separation distance between the two persons is approximately 50.00 metres, based on the depth range recorded in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  },
+  {
+    "question": "Are both detected persons present within the monitored construction site area?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  },
+  {
+    "question": "Where is one person positioned relative to the other in the scene?",
+    "answer": "Based on the available depth data, one person appears to be positioned at a shallower depth (closer to the camera) while the other may be further away, suggesting a fore-to-background relative positioning. Exact lateral (left/right) separation cannot be determined without bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  },
+  {
+    "question": "Are the two persons in the scene in close proximity to one another compared to the overall scene depth?",
+    "answer": "It is possible that the two persons are in close proximity given the minimum depth of 0.00 metres, suggesting at least one person may be very near the camera or another object. However, the mean depth of 12.96 metres indicates the persons are generally spread across a larger area rather than clustered together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  },
+  {
+    "question": "Is there a safety alert triggered due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for proximity to heavy equipment, as no heavy equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. Only two persons are present. However, caution is advised if the minimum depth reading of 0.00 metres indicates one person is extremely close to an undetected hazard or the scene boundary.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised if one of the persons moves within 2 metres of the other person in a confined or hazardous zone?",
+    "answer": "While person-to-person proximity alone does not typically trigger a heavy-equipment safety alert, if the two persons are working in a confined or high-risk zone and come within 2 metres of each other, site supervisors should be notified to ensure safe social distancing and task coordination protocols are followed. Currently, with a mean separation of ~12.96 metres, no immediate alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000436.jpg"
+  }
+]

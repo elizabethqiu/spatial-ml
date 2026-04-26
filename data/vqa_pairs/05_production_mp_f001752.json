@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How far is the person from the car?",
+    "answer": "12.04 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001752.jpg"
+  },
+  {
+    "question": "What is the maximum distance visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001752.jpg"
+  },
+  {
+    "question": "Is the person standing next to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001752.jpg"
+  },
+  {
+    "question": "Is there a car in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001752.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the car?",
+    "answer": "The person is approximately 12.04 metres away from the car",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001752.jpg"
+  },
+  {
+    "question": "Is the person within a safe distance from the car?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001752.jpg"
+  }
+]

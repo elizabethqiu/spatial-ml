@@ -1,0 +1,41 @@
+[
+  {
+    "question": "How far apart are the cat and the chair?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001664.jpg"
+  },
+  {
+    "question": "Is the cat sitting on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001664.jpg"
+  },
+  {
+    "question": "Is the chair visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001664.jpg"
+  },
+  {
+    "question": "Is the cat to the left of the chair?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001664.jpg"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "11.04 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Is there a remote control device present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Are all detected objects cars?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Does this scene contain more than 3 cars?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  },
+  {
+    "question": "What is the closest object distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Is the remote control positioned among the cars?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000462.jpg"
+  }
+]

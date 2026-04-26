@@ -1,0 +1,74 @@
+[
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "How far away is the bottle from the camera?",
+    "answer": "The bottle is approximately 15.00 metres away from the camera (based on the mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "What is the closest distance any object in the scene reaches relative to the camera?",
+    "answer": "The minimum depth in the scene is 0.00 metres, indicating some part of the scene (possibly the bottle or foreground surface) is at or very near the camera position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "Is there any heavy equipment such as a crane, excavator, or forklift visible in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "Where is the bottle located relative to the overall depth range of the scene?",
+    "answer": "The bottle is positioned near the midpoint of the scene's depth range (mean depth: 15.00 metres), with the scene extending from 0.00 metres to 50.00 metres. The bottle sits roughly in the middle third of the observable depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "Is the bottle closer to the near end or the far end of the scene's depth range?",
+    "answer": "The bottle is closer to the near end of the scene's depth range. With a mean depth of 15.00 metres against a maximum of 50.00 metres, the bottle lies in the nearer one-third of the total depth span.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "Is there a safety concern involving a worker and heavy equipment in close proximity (less than 2 metres) in this scene?",
+    "answer": "No safety alert is triggered. The scene contains only a bottle and no workers or heavy equipment (such as cranes, excavators, or forklifts) are detected. There is no hazardous proximity to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000026.jpg",
+    "question": "Does the bottle pose any immediate safety hazard to construction personnel in this scene?",
+    "answer": "No immediate safety hazard is identified. The bottle is the only detected object in the scene, and no workers or heavy machinery are present. However, a loose bottle on a construction site could be a minor slip or trip hazard if located on a walkway; it should be removed or secured appropriately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle"
+    ]
+  }
+]

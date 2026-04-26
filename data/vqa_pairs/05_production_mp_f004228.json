@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the distance between the bottle and the backpack?",
+    "answer": "Unable to determine - no 3D coordinates provided for objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  },
+  {
+    "question": "Is the teddy bear closer to the camera than the dog?",
+    "answer": "Unable to determine - no 3D coordinates provided for objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  },
+  {
+    "question": "Is the bottle positioned to the left of the backpack?",
+    "answer": "Unable to determine - no 3D coordinates provided for objects",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  },
+  {
+    "question": "Is the dog behind the teddy bear in the scene?",
+    "answer": "Unable to determine - no 3D coordinates provided for objects",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  },
+  {
+    "question": "Are there any objects present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "teddy bear",
+      "dog",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  },
+  {
+    "question": "Is the teddy bear a heavy equipment item?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene (proximity between workers and heavy equipment)?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  },
+  {
+    "question": "Does this scene contain any construction equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "teddy bear",
+      "dog",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004228.jpg"
+  }
+]

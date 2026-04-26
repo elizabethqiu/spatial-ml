@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the approximate distance to the refrigerator?",
+    "answer": "15.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000808.jpg"
+  },
+  {
+    "question": "Is there a refrigerator visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000808.jpg"
+  },
+  {
+    "question": "How far away is the closest point of the refrigerator?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000808.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to the furthest part of the refrigerator?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000808.jpg"
+  },
+  {
+    "question": "Is the refrigerator within arm's reach (less than 2 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000808.jpg"
+  },
+  {
+    "question": "Does the scene contain any heavy construction equipment near the refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000808.jpg"
+  }
+]

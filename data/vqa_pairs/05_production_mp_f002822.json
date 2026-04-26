@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  },
+  {
+    "question": "Is there a bowl in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  },
+  {
+    "question": "Is a clock present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "15.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  },
+  {
+    "question": "Are there more persons than objects of other types?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance zero metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  },
+  {
+    "question": "What is the range of depth distances in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002822.jpg"
+  }
+]

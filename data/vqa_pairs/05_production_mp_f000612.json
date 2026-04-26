@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the cup from the dog in this scene?",
+    "answer": "Based on the depth statistics available, the estimated distance between the cup and the dog is approximately 18.29 metres (mean scene depth); precise object-to-object distance cannot be determined without individual depth coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects present in the scene?",
+    "answer": "The objects in the scene span a depth range of approximately 0.00 metres (nearest point) to 50.00 metres (farthest point), with a mean depth of 18.29 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Is the cup located in the same general area as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the bed?",
+    "answer": "Based on the scene description, the dog is positioned in proximity to the bed; both objects share a similar depth plane within the scene, suggesting the dog is likely near or on the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the dog and the bed?",
+    "answer": "The cup appears to be in the same general scene area as the dog and the bed. Without precise individual depth coordinates, the cup is estimated to be at a similar depth plane, possibly on or near the bed or a nearby surface.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Is the bed in the foreground or background of the scene relative to the cup?",
+    "answer": "Without individual per-object depth values, both the bed and the cup share the scene's mean depth of approximately 18.29 metres. Neither can be definitively placed in the foreground or background relative to the other based on available data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a cup, a dog, and a bed \u2014 none of which are workers or heavy construction equipment. No proximity hazard of less than 2 metres between a worker and heavy equipment exists in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  },
+  {
+    "question": "Does the presence of the dog near any object in this scene pose a construction site safety risk?",
+    "answer": "No construction site safety alert is triggered. The dog is not a construction worker, and none of the detected objects (cup, dog, bed) constitute heavy equipment. However, the presence of an animal on a construction site should be flagged as an unauthorised intrusion risk under general site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000612.jpg"
+  }
+]

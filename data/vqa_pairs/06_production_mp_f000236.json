@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a suitcase in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000236.jpg"
+  },
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000236.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "13.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000236.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000236.jpg"
+  },
+  {
+    "question": "Is the suitcase at ground level or elevated?",
+    "answer": "Unable to determine from spatial data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000236.jpg"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How far is the person from the snowboard?",
+    "answer": "11.60 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "snowboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003952.jpg"
+  },
+  {
+    "question": "What is the distance between the bottle and the snowboard?",
+    "answer": "11.60 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "snowboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003952.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the snowboard?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "snowboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003952.jpg"
+  },
+  {
+    "question": "Are the bottle and snowboard at approximately the same depth from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "snowboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003952.jpg"
+  },
+  {
+    "question": "Is the person positioned behind the bottle in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003952.jpg"
+  },
+  {
+    "question": "Which object is furthest from the camera: the person, bottle, or snowboard?",
+    "answer": "All objects are at approximately the same distance (mean depth 11.60 metres)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "snowboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003952.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the approximate distance between the chair and the person in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the chair and the person is approximately 18.13 metres (scene mean depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene as observed from the sensor?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Are both a chair and a person detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the chair in the scene?",
+    "answer": "Based on available scene data, the person and chair are both present in the scene at a mean depth of approximately 18.13 metres from the sensor. Without precise X/Y coordinates, their lateral relationship cannot be fully determined, but they are co-located within the same general depth plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Is the chair located in front of or behind the person relative to the sensor viewpoint?",
+    "answer": "With the available depth data (mean depth 18.13 metres, min 0.00 metres, max 50.00 metres), both objects share a similar depth range. Without individual object depth values, it cannot be conclusively determined which object is strictly in front of the other; they appear to occupy a comparable depth plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Does this scene present any safety alert conditions involving a worker near heavy equipment?",
+    "answer": "No safety alert is triggered. The scene contains only a chair and a person; no heavy equipment (e.g., excavators, cranes, forklifts) is detected. Therefore, there is no hazardous proximity condition to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued if the person moves within 2 metres of the chair in this construction context?",
+    "answer": "A chair does not constitute heavy equipment, so no formal safety alert under the heavy-equipment proximity rule (< 2 metres) would be triggered. However, if the chair is an obstruction in an active work zone, general housekeeping safety practices should be observed to prevent trip hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000722.jpg"
+  }
+]

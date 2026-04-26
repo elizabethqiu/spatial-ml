@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many cell phones are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  },
+  {
+    "question": "Is there a cat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  },
+  {
+    "question": "Are there more cell phones than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "19.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the average object distance?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  },
+  {
+    "question": "Is there a person in close proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  },
+  {
+    "question": "How many distinct objects (by type) are in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000160.jpg"
+  }
+]

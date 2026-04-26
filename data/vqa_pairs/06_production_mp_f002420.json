@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  },
+  {
+    "question": "What is the mean distance of detected objects from the camera?",
+    "answer": "16.01 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Are there any people present in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Is the closest detected object at ground level (less than 5 metres away)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Are all three people positioned beyond a safe distance of 15 metres from the camera viewpoint?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of people in this scene relative to the camera.",
+    "answer": "People are distributed across varying depths, with the closest person at 0.00 metres and the farthest at up to 50.00 metres, averaging 16.01 metres from the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  },
+  {
+    "question": "Are there any personnel operating heavy equipment in close proximity (within 2 metres)?",
+    "answer": "No heavy equipment detected in scene; unable to assess proximity hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002420.jpg"
+  }
+]

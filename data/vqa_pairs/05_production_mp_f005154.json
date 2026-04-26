@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005154.jpg"
+  },
+  {
+    "question": "Is there a television in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005154.jpg"
+  },
+  {
+    "question": "Are both people closer to the camera than the TV?",
+    "answer": "Cannot determine without specific coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005154.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005154.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene greater than 20 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005154.jpg"
+  },
+  {
+    "question": "What is the mean distance of detected objects from the camera?",
+    "answer": "24.39 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005154.jpg"
+  }
+]

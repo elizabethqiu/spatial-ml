@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the person and the chair?",
+    "answer": "15.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003674.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003674.jpg"
+  },
+  {
+    "question": "Is the chair closer to the camera than the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003674.jpg"
+  },
+  {
+    "question": "What is the relative position of the chair with respect to the person?",
+    "answer": "The chair is approximately at the same depth as the person, both at an average distance of 15.59 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003674.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity of the person to equipment?",
+    "answer": "No safety alert. The person is 15.59 metres from the chair, well above the 2 metre minimum safety distance threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003674.jpg"
+  }
+]

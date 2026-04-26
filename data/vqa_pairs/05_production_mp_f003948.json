@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  },
+  {
+    "question": "Is there an apple in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  },
+  {
+    "question": "Are there more suitcases than people in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  },
+  {
+    "question": "Is the apple closer to the camera than the maximum depth in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "13.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "apple",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  },
+  {
+    "question": "Is the suitcase positioned near the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  },
+  {
+    "question": "Are both people standing at approximately the same depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003948.jpg"
+  }
+]

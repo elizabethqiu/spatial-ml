@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001996.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001996.jpg"
+  },
+  {
+    "question": "Is the person standing in front of the car?",
+    "answer": "unknown - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001996.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the car?",
+    "answer": "unknown - insufficient spatial coordinate data to determine proximity",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001996.jpg"
+  },
+  {
+    "question": "How many vehicles are in this construction site?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001996.jpg"
+  },
+  {
+    "question": "Are there more people than cars in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001996.jpg"
+  }
+]

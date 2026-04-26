@@ -1,0 +1,93 @@
+[
+  {
+    "question": "How far is the first person from the chair?",
+    "answer": "The first person is approximately 18.55 metres from the chair, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two persons in the scene?",
+    "answer": "The two persons are estimated to be within a range of 0.00 to 50.00 metres apart, with a mean separation of approximately 18.55 metres across the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "Is any person within 2 metres of the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the two persons in the scene?",
+    "answer": "The chair appears to be positioned between or in the vicinity of the two persons within the scene, at a mid-range depth consistent with the mean depth of approximately 18.55 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person?",
+    "answer": "The second person is positioned at a similar depth plane to the first person, with both individuals distributed across the scene at a mean depth of approximately 18.55 metres. Their lateral and depth relationship cannot be precisely determined without exact coordinates, but they occupy the same general mid-to-far range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "Is any worker in dangerously close proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy equipment has been detected in this scene. The detected objects are two persons and a chair. Therefore, no safety alert for worker-equipment proximity is triggered. However, site supervisors should verify the scene context, as the minimum detected depth is 0.00 metres, suggesting at least one object may be very close to the camera or sensor.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  },
+  {
+    "question": "Is either person dangerously close to the chair (within 2 metres), posing a potential trip or fall hazard?",
+    "answer": "Based on the available depth statistics (mean depth 18.55 metres, min 0.00 metres), it is possible that one person or the chair is located at or near 0.00 metres depth, which could indicate a very close proximity. Site personnel should inspect whether any person is within 2 metres of the chair to rule out a trip hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001544.jpg"
+  }
+]

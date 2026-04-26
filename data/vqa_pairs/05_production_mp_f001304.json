@@ -1,0 +1,55 @@
+[
+  {
+    "question": "What is the distance between the person and the bed?",
+    "answer": "Unable to determine - exact 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001304.jpg"
+  },
+  {
+    "question": "What is the distance between the dining table and the bed?",
+    "answer": "Unable to determine - exact 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001304.jpg"
+  },
+  {
+    "question": "Is the person closer to the bed or the dining table?",
+    "answer": "Unable to determine - exact 3D coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001304.jpg"
+  },
+  {
+    "question": "Is the person positioned between the bed and the dining table?",
+    "answer": "Unable to determine - exact 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001304.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001304.jpg"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005498.jpg"
+  },
+  {
+    "question": "Is there a cat in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005498.jpg"
+  },
+  {
+    "question": "Are there more cars than cats?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005498.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005498.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "14.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005498.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the average scene depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005498.jpg"
+  }
+]

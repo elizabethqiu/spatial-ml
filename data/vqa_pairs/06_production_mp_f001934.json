@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001934.jpg"
+  },
+  {
+    "question": "Is there an umbrella in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001934.jpg"
+  },
+  {
+    "question": "Are there more persons than umbrellas in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001934.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "14.81 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001934.jpg"
+  },
+  {
+    "question": "Is the umbrella closer to the camera than the farthest person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001934.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001934.jpg"
+  }
+]

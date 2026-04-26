@@ -1,0 +1,72 @@
+[
+  {
+    "question": "How many suitcases are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003382.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003382.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the suitcases?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003382.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance of objects in this scene?",
+    "answer": "12.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003382.jpg"
+  },
+  {
+    "question": "Are there more suitcases than other types of objects in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003382.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003382.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding proximity between the person and equipment?",
+    "answer": "No safety alert - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003382.jpg"
+  }
+]

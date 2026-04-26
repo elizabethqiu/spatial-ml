@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the cat and the person?",
+    "answer": "18.67 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005858.jpg"
+  },
+  {
+    "question": "Is the cat closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005858.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of the cat?",
+    "answer": "Cannot determine from spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005858.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the person and cat?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005858.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005858.jpg"
+  },
+  {
+    "question": "Is the cat within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005858.jpg"
+  }
+]

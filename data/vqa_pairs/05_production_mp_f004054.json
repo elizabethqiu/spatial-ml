@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many cats are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004054.jpg"
+  },
+  {
+    "question": "Are there any cats in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004054.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy equipment and workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004054.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance to objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004054.jpg"
+  },
+  {
+    "question": "Are the cats positioned at the same depth in the scene?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004054.jpg"
+  },
+  {
+    "question": "Is there a safety risk from heavy machinery near workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004054.jpg"
+  }
+]

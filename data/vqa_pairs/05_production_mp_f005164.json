@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  },
+  {
+    "question": "Is there a keyboard in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  },
+  {
+    "question": "Is there a tv in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  },
+  {
+    "question": "What is the minimum distance to any object in the scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  },
+  {
+    "question": "Are there more people than electronic devices (tv and keyboard combined)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene in metres?",
+    "answer": "22.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  },
+  {
+    "question": "Is this a construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005164.jpg"
+  }
+]

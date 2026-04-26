@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Is there a knife present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  },
+  {
+    "question": "Are there more than 4 people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  },
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  },
+  {
+    "question": "What is the mean depth distance across all objects?",
+    "answer": "17.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  },
+  {
+    "question": "Is the knife at the closest point in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  },
+  {
+    "question": "WARNING: Is there a sharp implement (knife) in close proximity to multiple people?",
+    "answer": "Unable to determine - knife proximity to individuals requires precise spatial coordinates, but sharp tools in multi-person environments require caution",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  },
+  {
+    "question": "Is the depth range of objects in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001394.jpg"
+  }
+]

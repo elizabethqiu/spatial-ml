@@ -1,0 +1,94 @@
+[
+  {
+    "question": "How far is the person from the nearest dining table?",
+    "answer": "Approximately 17.86 metres (based on mean scene depth estimate).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the wine glass and the bed?",
+    "answer": "Approximately 17.86 metres (based on mean scene depth; exact separation cannot be precisely determined without per-object depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "Is the person located in the same general area as the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "Is there a wine glass present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "Is the bed closer to the foreground or the background of the scene?",
+    "answer": "The bed is situated toward the mid-to-background of the scene, as the depth range spans 0\u201350 metres with a mean of approximately 17.86 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "Where is the wine glass positioned relative to the dining table?",
+    "answer": "The wine glass appears to be positioned on or near the dining table, likely in the foreground or mid-range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is positioned in a different area of the scene from the bed; the person is likely near the dining area while the bed is in a separate zone (e.g., a bedroom section of the space).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "Is the person within a dangerously close range (less than 2 metres) of any heavy equipment in this scene?",
+    "answer": "No heavy equipment is detected in this scene (objects present are a bed, two dining tables, a wine glass, and a person). Therefore, no safety proximity alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose an immediate safety hazard to the person due to proximity under 2 metres?",
+    "answer": "No critical safety hazard is flagged. The scene contains domestic/indoor objects (bed, dining tables, wine glass) rather than heavy construction equipment. However, caution is advised around the wine glass if it is within arm's reach of the person to avoid breakage injuries.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "wine glass",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000582.jpg"
+  }
+]

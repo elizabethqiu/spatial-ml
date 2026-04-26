@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the car?",
+    "answer": "20.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003090.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003090.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the car?",
+    "answer": "Unable to determine - both objects present but relative depth positioning unclear",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003090.jpg"
+  },
+  {
+    "question": "Is there a safety hazard between the person and car?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003090.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003090.jpg"
+  },
+  {
+    "question": "Are both the person and car visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003090.jpg"
+  }
+]

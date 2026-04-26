@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How far is the knife from the nearest person in the scene?",
+    "answer": "Based on the available depth data, the knife is approximately 18.73 metres from the nearest person (using the mean scene depth as the reference estimate).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two closest persons in the scene?",
+    "answer": "Based on the depth statistics available, the two closest persons are estimated to be within approximately 0\u201318.73 metres of each other, with the minimum detectable separation being near 0.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "Is there a knife present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "Is any person in the scene in close proximity (less than 2 metres) to the knife?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "Where is the knife positioned relative to the group of persons in the scene?",
+    "answer": "The knife is detected within the same scene as the three persons. Given the depth range of 0.00\u201350.00 metres and a mean depth of 18.73 metres, the knife may be positioned at a similar or closer depth plane relative to one or more persons, suggesting it is in the general vicinity of the group rather than far removed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "Which person is closest to the knife based on scene depth?",
+    "answer": "Without precise per-object depth coordinates, the person sharing the closest depth value to the knife (near the 0.00 m minimum end of the depth range) is likely the nearest individual. This person appears to be at the foreground of the scene, closest to the camera and potentially closest to the knife.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is any person dangerously close (within 2 metres) to the knife in this scene?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes. The depth minimum of 0.00 metres indicates that at least one person and the knife may be within an extremely close range of each other \u2014 well under the 2-metre danger threshold. Immediate caution is advised. Ensure the knife is secured, handled only by authorized personnel, and that bystanders maintain a safe distance of at least 2 metres from the blade.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are multiple persons in dangerously close proximity to a bladed object in this scene?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes. With three persons detected and a knife present, and given that the scene's minimum depth is 0.00 metres, there is a significant risk that more than one person is within 2 metres of the knife. All personnel should be made aware of the knife's location. Only one trained individual should handle it, and all others should move at least 2 metres away immediately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001538.jpg"
+  }
+]

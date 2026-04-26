@@ -1,0 +1,48 @@
+[
+  {
+    "question": "How far away is the cup from the person?",
+    "answer": "21.77 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006032.jpg"
+  },
+  {
+    "question": "Is the cup within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006032.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the cup?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006032.jpg"
+  },
+  {
+    "question": "What is the maximum distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006032.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity of the person to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006032.jpg"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  },
+  {
+    "question": "Is there a bottle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  },
+  {
+    "question": "Are there more people than bottles in this construction area?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in this scene in metres?",
+    "answer": "12.38 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  },
+  {
+    "question": "Is the bottle positioned closer to the camera than the farthest object?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  },
+  {
+    "question": "Do all detected objects include at least one person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  },
+  {
+    "question": "Is the minimum detected depth at ground level (0.00 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003946.jpg"
+  }
+]

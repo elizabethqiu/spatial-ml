@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "19.84 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  },
+  {
+    "question": "Is a hair drier present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  },
+  {
+    "question": "Are there more than 3 people visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance less than 1 metre?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  },
+  {
+    "question": "Where is the hair drier located relative to the group of people?",
+    "answer": "The hair drier is present in the scene alongside 5 people at varying depths ranging from 0 to 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of people in this scene.",
+    "answer": "Five people are distributed across the scene at an average depth of 19.84 metres, with depth variations ranging from the closest point (0 metres) to the farthest point (50 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000326.jpg"
+  }
+]

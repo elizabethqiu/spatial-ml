@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a train visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000082.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000082.jpg"
+  },
+  {
+    "question": "What is the minimum distance to any object in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000082.jpg"
+  },
+  {
+    "question": "What is the average depth distance in this scene?",
+    "answer": "19.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000082.jpg"
+  },
+  {
+    "question": "Is the train within a safe distance from the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000082.jpg"
+  }
+]

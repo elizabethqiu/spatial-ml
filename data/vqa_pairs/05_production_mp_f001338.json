@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001338.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001338.jpg"
+  },
+  {
+    "question": "Is the TV closer to the camera than the beds?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001338.jpg"
+  },
+  {
+    "question": "Are there more beds than cups in this room?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001338.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "18.99 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001338.jpg"
+  },
+  {
+    "question": "Is the minimum distance between objects greater than 1 metre?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001338.jpg"
+  }
+]

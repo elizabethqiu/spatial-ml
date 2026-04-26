@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How far is the person from the dog in this scene?",
+    "answer": "Based on the available depth statistics, the estimated distance between the person and the dog is approximately 16.74 metres (scene mean depth), though precise lateral separation cannot be confirmed without individual object coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in the scene?",
+    "answer": "The detected objects span a depth range of approximately 0.00 metres (closest point) to 50.00 metres (furthest point), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "person",
+      "skateboard",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Are there more than one skateboard detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Is the dog closer to the person or to the nearest skateboard?",
+    "answer": "Based on the scene layout and mean depth of 16.74 metres, the dog and the person share a comparable depth plane. Without precise per-object depth coordinates, both the dog and the person appear to occupy a similar mid-range depth zone, suggesting the dog is approximately equidistant from the person and the nearest skateboard, though the person is likely the nearest named entity.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Where are the two skateboards positioned relative to each other?",
+    "answer": "The two skateboards are both detected within the scene's depth range (0.00 m \u2013 50.00 m). Without distinct per-object depth values, one skateboard may be in the foreground and the other in the background, suggesting they are spatially separated along the depth axis rather than co-located.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., crane, excavator, forklift) within 2 metres of the person that poses an immediate safety risk?",
+    "answer": "No heavy construction equipment is detected in this scene. The objects present are a person, a dog, and two skateboards. No safety alert is warranted for proximity to heavy machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "skateboard",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  },
+  {
+    "question": "Does the proximity of the dog to the person or skateboards present any observable hazard in this scene?",
+    "answer": "No critical construction-site hazard is detected. However, the dog's presence near a person on a skateboard could present a minor trip-and-fall risk. The scene does not contain heavy equipment, so no < 2 m heavy-equipment proximity alert is triggered. Standard caution is advised to keep the dog clear of the skateboarder's path.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000378.jpg"
+  }
+]

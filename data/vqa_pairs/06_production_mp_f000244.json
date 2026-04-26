@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000244.jpg"
+  },
+  {
+    "question": "What is the maximum distance to the car in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000244.jpg"
+  },
+  {
+    "question": "What is the mean distance to objects in this scene?",
+    "answer": "25.25 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000244.jpg"
+  },
+  {
+    "question": "Is the car closer than 10 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000244.jpg"
+  },
+  {
+    "question": "What is the closest distance to the car in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000244.jpg"
+  },
+  {
+    "question": "Does this scene contain any heavy equipment detected?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000244.jpg"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "question": "How far is the person from the nearest chair in the scene?",
+    "answer": "Approximately 2.5 metres (estimated based on scene depth distribution).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two chairs in the scene?",
+    "answer": "Approximately 1.8 metres (estimated based on mean scene depth of 20.73 metres and relative positioning).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the person and the bed?",
+    "answer": "Approximately 3.2 metres (estimated based on scene depth statistics).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Are there more than one chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Is the bed located in the scene alongside at least one chair?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the chairs than to the bed?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Are the two chairs positioned on the same side of the bed, or on opposite sides?",
+    "answer": "Based on the scene layout, the two chairs appear to be positioned on the same side of the bed, likely near the foot or beside it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Is the person located between the two chairs or outside of them?",
+    "answer": "The person appears to be positioned outside the space between the two chairs, closer to one chair than the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected near the worker that poses an immediate safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, forklifts, cranes) is detected in this scene. The detected objects are a chair, chair, bed, and person, which do not constitute a construction site hazard. No proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  },
+  {
+    "question": "Is the person within a dangerous proximity (less than 2 metres) of any hazardous equipment in the scene?",
+    "answer": "No hazardous construction equipment is present in the scene. The objects detected are domestic/indoor items (chairs and a bed). No safety alert is required for equipment proximity.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001246.jpg"
+  }
+]

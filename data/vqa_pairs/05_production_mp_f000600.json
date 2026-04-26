@@ -1,0 +1,118 @@
+[
+  {
+    "question": "What is the approximate mean depth of all detected objects in the scene?",
+    "answer": "The approximate mean depth of all detected objects in the scene is 17.32 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "dining table",
+      "dog",
+      "dog",
+      "wine glass",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) observed across all objects in the scene?",
+    "answer": "The depth range observed across all objects in the scene is 0.00 metres (minimum) to 50.00 metres (maximum).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "dining table",
+      "dog",
+      "dog",
+      "wine glass",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Is there a dining table present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Are there more than two dogs detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Is the wine glass located closer to the dining table or the couch in the scene?",
+    "answer": "Based on typical indoor scene arrangements, the wine glass is most likely positioned closer to the dining table than to the couch, as wine glasses are commonly placed on dining surfaces.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "dining table",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the dining table?",
+    "answer": "The chair is most likely positioned adjacent to or surrounding the dining table, as chairs are typically arranged around dining tables in an indoor setting.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Is the couch positioned on the opposite side of the room from the dining table?",
+    "answer": "Based on the scene layout, the couch appears to be spatially separated from the dining table, likely positioned in a living area distinct from the dining area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment or worker present in this scene that would trigger a safety proximity alert?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "couch",
+      "dining table",
+      "dog",
+      "dog",
+      "wine glass",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Do any of the detected objects pose a construction site safety hazard due to proximity to a worker?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "couch",
+      "dining table",
+      "dog",
+      "dog",
+      "wine glass",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  },
+  {
+    "question": "Is the wine glass present on the dining table in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000600.jpg"
+  }
+]

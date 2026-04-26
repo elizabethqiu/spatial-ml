@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the primary object visible in this scene?",
+    "answer": "scissors",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005420.jpg"
+  },
+  {
+    "question": "Are there any workers present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005420.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005420.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene in metres?",
+    "answer": "17.26 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005420.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005420.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance detected in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005420.jpg"
+  }
+]

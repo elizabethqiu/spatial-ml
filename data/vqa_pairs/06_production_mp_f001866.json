@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many objects are detected in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001866.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001866.jpg"
+  },
+  {
+    "question": "Is there an umbrella present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001866.jpg"
+  },
+  {
+    "question": "What is the approximate maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001866.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "14.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001866.jpg"
+  },
+  {
+    "question": "Is the umbrella being held by the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001866.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between detected objects?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001866.jpg"
+  }
+]

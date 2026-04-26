@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many motorcycles are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004494.jpg"
+  },
+  {
+    "question": "Is there a motorcycle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004494.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in this construction scene in metres?",
+    "answer": "13.39 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004494.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004494.jpg"
+  },
+  {
+    "question": "Is the motorcycle positioned at the closest point in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004494.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of the motorcycle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004494.jpg"
+  }
+]

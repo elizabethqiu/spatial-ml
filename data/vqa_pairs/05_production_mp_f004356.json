@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many people are present on the construction site?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004356.jpg"
+  },
+  {
+    "question": "Is there a forklift or fork equipment visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004356.jpg"
+  },
+  {
+    "question": "Are there more people than pieces of heavy equipment in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004356.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "12.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fork",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004356.jpg"
+  },
+  {
+    "question": "Is the forklift in the immediate foreground of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004356.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fork",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004356.jpg"
+  },
+  {
+    "question": "Are all personnel positioned at safe distances from the fork equipment based on the depth data?",
+    "answer": "unable to determine - insufficient spatial proximity data",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004356.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "3 chairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene?",
+    "answer": "21.67 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  },
+  {
+    "question": "Is there a person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  },
+  {
+    "question": "Are there more chairs than beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  },
+  {
+    "question": "Is the bed present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement: where are the chairs positioned relative to the person?",
+    "answer": "Chairs are distributed throughout the scene with depths ranging from near to far distances; the person is present in the scene alongside multiple chairs",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  },
+  {
+    "question": "What is the overall spatial distribution range in this scene?",
+    "answer": "Objects span from 0.00 metres to 50.00 metres in depth, indicating a wide spatial distribution across the scene",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001260.jpg"
+  }
+]

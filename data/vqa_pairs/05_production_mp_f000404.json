@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 17.55 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this construction site scene?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres, while the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  },
+  {
+    "question": "Are there any workers currently detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in this construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  },
+  {
+    "question": "Where is the primary depth concentration in this construction site scene?",
+    "answer": "With a mean depth of 17.55 metres and a range from 0.00 to 50.00 metres, the primary depth concentration is in the mid-range of the scene, approximately 17 to 18 metres from the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  },
+  {
+    "question": "Is the foreground region (0\u20135 metres) the dominant depth zone in this scene?",
+    "answer": "Based on the mean depth of 17.55 metres, the foreground region (0\u20135 metres) is not the dominant depth zone; the scene content is concentrated at a much greater distance.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  },
+  {
+    "question": "Are there any immediate safety hazards involving workers and heavy equipment that need to be flagged?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: No objects were detected in this scene by the perception system. This is itself a critical safety concern \u2014 the absence of detections may indicate a sensor failure, occlusion, poor lighting, or a blind spot on the construction site. Manual inspection of the area is strongly recommended before permitting any personnel or equipment to operate in this zone.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  },
+  {
+    "question": "Should site supervisors be concerned about unmonitored activity given the current detection results?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes. With zero objects detected across a scene spanning up to 50.00 metres, there is a significant risk that workers, vehicles, or hazards are present but undetected. The detection system may be compromised. Supervisors should immediately verify camera calibration, lighting conditions, and perform a physical walkthrough of the site to ensure no personnel or equipment are operating without monitoring coverage.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000404.jpg"
+  }
+]

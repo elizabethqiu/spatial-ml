@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many suitcases are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  },
+  {
+    "question": "Is there a handbag in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  },
+  {
+    "question": "Is the person carrying luggage?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  },
+  {
+    "question": "Are there more suitcases than handbags?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "15.41 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of the luggage?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  },
+  {
+    "question": "Are all luggage items closer to the camera than 30 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003660.jpg"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many buses are present in this construction site scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus",
+      "truck"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the truck?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "truck"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  },
+  {
+    "question": "Are there more buses than trucks in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus",
+      "truck"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "23.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus",
+      "truck"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  },
+  {
+    "question": "Is the person positioned at the minimum depth in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is the person within 2 metres of any heavy equipment (bus or truck)?",
+    "answer": "yes - worker is at 0.00 metres depth, indicating proximity hazard with heavy vehicles",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus",
+      "truck"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  },
+  {
+    "question": "How many heavy equipment vehicles (buses and trucks combined) are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus",
+      "truck"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000178.jpg"
+  }
+]

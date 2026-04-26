@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  },
+  {
+    "question": "Are there more cats than bowls in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  },
+  {
+    "question": "How many cats are visible?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  },
+  {
+    "question": "Is the cup positioned in front of the bowl?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  },
+  {
+    "question": "Is the banana closer to the camera than the bowl?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  },
+  {
+    "question": "Are there any cats near the banana in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  },
+  {
+    "question": "What is the maximum distance of any object from the camera?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "banana",
+      "cat",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003392.jpg"
+  }
+]

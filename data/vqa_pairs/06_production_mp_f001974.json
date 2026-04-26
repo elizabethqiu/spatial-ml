@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the clock?",
+    "answer": "23.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001974.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the clock?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001974.jpg"
+  },
+  {
+    "question": "Is the clock closer to the camera than the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001974.jpg"
+  },
+  {
+    "question": "Are there any safety hazards regarding worker proximity to equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001974.jpg"
+  }
+]

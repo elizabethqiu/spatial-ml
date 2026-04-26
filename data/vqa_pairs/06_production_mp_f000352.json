@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a tie visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000352.jpg"
+  },
+  {
+    "question": "How many ties are detected in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000352.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000352.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "11.81 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000352.jpg"
+  },
+  {
+    "question": "Is the tie in the immediate foreground of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000352.jpg"
+  }
+]

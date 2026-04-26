@@ -1,0 +1,125 @@
+[
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "Based on the depth data, the two beds are estimated to be approximately 5.0 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 3.5 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "What is the estimated distance from the nearest person to the nearest bed?",
+    "answer": "The nearest person is estimated to be approximately 2.0 metres from the nearest bed, based on the scene depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Is there at least one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Are there multiple beds detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Is any person detected in close proximity (less than 1 metre) to a bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Are both persons located on the same side of the room relative to the beds?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Where is the first person positioned relative to the two beds?",
+    "answer": "The first person appears to be positioned in front of and close to the nearest bed, likely on the near side of the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the two beds?",
+    "answer": "The second person is positioned further back in the scene, closer to the second bed and towards the far side of the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "What is the relative positioning of the two beds with respect to each other?",
+    "answer": "The two beds appear to be placed side by side or parallel to each other, with one slightly closer to the viewer (foreground) and the other set further back (background) in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present near workers that would pose a safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The scene contains only beds and persons, so no proximity-based equipment safety alert is triggered. However, if this is a medical or rest facility on a construction site, supervisors should ensure the area is properly segregated from active work zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  },
+  {
+    "question": "Are any persons at risk due to their proximity to large objects in the scene?",
+    "answer": "No immediate safety alert is triggered for proximity to heavy machinery. Nonetheless, if a person is within approximately 1 metre of a bed (a large object), care should be taken to prevent trip or fall hazards, especially in low-light or cluttered environments on a construction rest area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001070.jpg"
+  }
+]

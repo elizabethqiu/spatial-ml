@@ -1,0 +1,115 @@
+[
+  {
+    "question": "How far is the person from the fire hydrant?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the fire hydrant is approximately 5.2 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the person and the parking meter?",
+    "answer": "The estimated distance between the person and the parking meter is approximately 3.8 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "What is the distance between the fire hydrant and the parking meter?",
+    "answer": "The estimated distance between the fire hydrant and the parking meter is approximately 2.5 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Is the person closer to the fire hydrant or the parking meter?",
+    "answer": "The person appears to be closer to the parking meter than to the fire hydrant based on their relative positions in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "fire hydrant",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Is the fire hydrant positioned in front of or behind the parking meter relative to the viewer?",
+    "answer": "The fire hydrant appears to be positioned at a similar depth or slightly in front of the parking meter relative to the viewer's perspective.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "fire hydrant",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the fire hydrant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Is the parking meter visible in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Are there any objects within 2 metres of each other in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (within 2 metres) to the fire hydrant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Does the scene present any immediate safety hazards based on object proximity?",
+    "answer": "No critical safety alert is triggered for heavy equipment proximity, as no heavy machinery is detected in this scene. However, it should be noted that the fire hydrant and parking meter are in relatively close proximity (~2.5 metres apart), and the person should maintain clear access to the fire hydrant (minimum 1.5 metre clearance) as required by fire safety regulations. No worker-heavy equipment proximity violation (< 2 metres) is detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fire hydrant",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  },
+  {
+    "question": "Is the fire hydrant access being obstructed by the person or the parking meter?",
+    "answer": "Based on the scene layout, the parking meter is approximately 2.5 metres from the fire hydrant, which may encroach on recommended clearance zones. The person does not appear to be directly obstructing the fire hydrant. A safety review of the parking meter placement relative to the hydrant is advised.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fire hydrant",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000012.jpg"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Are there any workers visible on this construction site?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001478.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001478.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance visible in this construction site scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001478.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in this scene?",
+    "answer": "13.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001478.jpg"
+  },
+  {
+    "question": "Can any potential safety hazards be identified between workers and equipment on this site?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001478.jpg"
+  },
+  {
+    "question": "Is the construction site currently occupied or does it appear empty?",
+    "answer": "The site appears empty with no detected personnel or equipment",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001478.jpg"
+  }
+]

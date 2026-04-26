@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the bowl and the car?",
+    "answer": "22.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000276.jpg"
+  },
+  {
+    "question": "Is the bowl closer to the camera than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000276.jpg"
+  },
+  {
+    "question": "Is the car positioned behind the bowl?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000276.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between objects in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bowl",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000276.jpg"
+  }
+]

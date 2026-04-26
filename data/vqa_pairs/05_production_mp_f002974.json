@@ -1,0 +1,104 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "What is the maximum distance to the farthest person from the camera?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "What is the minimum distance to the nearest person from the camera?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "What is the average distance of all people from the camera?",
+    "answer": "19.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "Are there any people present in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "Is there more than one person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "Are all people within close proximity (less than 10 metres from camera)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "What is the depth range across all detected people?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "Are there people spread across a wide depth range in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  },
+  {
+    "question": "Is the nearest person dangerously close to the camera position (within 0.5 metres)?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002974.jpg"
+  }
+]

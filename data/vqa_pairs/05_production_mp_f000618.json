@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How many beds are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000618.jpg"
+  },
+  {
+    "question": "Is there a wine glass in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000618.jpg"
+  },
+  {
+    "question": "Is the dog positioned on top of a bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000618.jpg"
+  },
+  {
+    "question": "What is the relative position of the wine glass compared to the bottle?",
+    "answer": "The wine glass and bottle are both present in the scene at varying depths, with the scene spanning from 0.00 to 50.00 metres in depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000618.jpg"
+  },
+  {
+    "question": "How many objects in total are detected in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "wine glass",
+      "dog",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000618.jpg"
+  },
+  {
+    "question": "Is the dog near the wine glass and bottle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "wine glass",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000618.jpg"
+  }
+]

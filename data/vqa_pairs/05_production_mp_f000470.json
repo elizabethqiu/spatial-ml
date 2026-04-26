@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Is the knife within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000470.jpg"
+  },
+  {
+    "question": "What is the primary safety concern in this scene?",
+    "answer": "no safety alert",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000470.jpg"
+  },
+  {
+    "question": "How many objects are present in this construction scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000470.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the knife?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000470.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "19.99 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000470.jpg"
+  },
+  {
+    "question": "Is the knife positioned behind the person in depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000470.jpg"
+  }
+]

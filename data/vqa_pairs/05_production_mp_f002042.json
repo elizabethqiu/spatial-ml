@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cup",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  },
+  {
+    "question": "Is there a bowl in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  },
+  {
+    "question": "Are there more bottles than cups in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  },
+  {
+    "question": "How many bottles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  },
+  {
+    "question": "Is the person closer to or farther from the camera than the average object distance?",
+    "answer": "The average depth is 20.56 metres; specific person distance cannot be determined without individual coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  },
+  {
+    "question": "Are there any containers (cups or bowls) in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  },
+  {
+    "question": "What is the approximate mean distance of objects from the camera?",
+    "answer": "20.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cup",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002042.jpg"
+  }
+]

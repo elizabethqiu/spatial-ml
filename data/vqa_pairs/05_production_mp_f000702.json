@@ -1,0 +1,85 @@
+[
+  {
+    "question": "How many chairs are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  },
+  {
+    "question": "Is the person positioned between the two chairs?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  },
+  {
+    "question": "Are there more chairs than cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "18.13 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  },
+  {
+    "question": "Is the person closer to the foreground than the bed?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  },
+  {
+    "question": "How many furniture items are in the scene?",
+    "answer": "3 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000702.jpg"
+  }
+]

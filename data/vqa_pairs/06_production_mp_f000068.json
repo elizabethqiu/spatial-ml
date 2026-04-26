@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How far apart are the bench and the train?",
+    "answer": "13.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000068.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the nearest object to the farthest object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000068.jpg"
+  },
+  {
+    "question": "Is the bench closer than 10 metres to the train?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000068.jpg"
+  },
+  {
+    "question": "Are the bench and train within the same 20-metre zone?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000068.jpg"
+  },
+  {
+    "question": "Where is the bench positioned relative to the train?",
+    "answer": "The bench is approximately 13.89 metres away from the train",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bench",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000068.jpg"
+  },
+  {
+    "question": "What is the spatial relationship between the train and bench in terms of depth?",
+    "answer": "The objects span a depth range of 50 metres, with mean separation of 13.89 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "train",
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000068.jpg"
+  }
+]

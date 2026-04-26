@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many persons are in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects?",
+    "answer": "16.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "Is there a refrigerator present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "Are there more than two persons in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "Are all objects at the minimum depth distance?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer than the average depth distance?",
+    "answer": "unknown - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "Are any persons positioned between the minimum and mean depth distances?",
+    "answer": "unknown - insufficient individual spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  },
+  {
+    "question": "Is any person within 2 metres of the refrigerator?",
+    "answer": "unknown - insufficient proximity data for safety assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000754.jpg"
+  }
+]

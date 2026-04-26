@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004236.jpg"
+  },
+  {
+    "question": "What is the approximate mean distance to detected objects in metres?",
+    "answer": "19.25 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004236.jpg"
+  },
+  {
+    "question": "What is the maximum distance range to any detected object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004236.jpg"
+  },
+  {
+    "question": "How many people are detected in this construction site scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004236.jpg"
+  },
+  {
+    "question": "Is the detected person within the immediate work zone (less than 5 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004236.jpg"
+  }
+]

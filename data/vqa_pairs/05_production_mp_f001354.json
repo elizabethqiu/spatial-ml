@@ -1,0 +1,101 @@
+[
+  {
+    "question": "What is the approximate distance between the bed and the TV in this scene?",
+    "answer": "Based on the depth statistics, the objects span a range of approximately 0.00 to 50.00 metres, with a mean scene depth of 13.63 metres. The estimated distance between the bed and the TV is approximately 13.63 metres (mean depth as proxy), though exact separation depends on their individual depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "What is the maximum possible separation between any two objects in this scene?",
+    "answer": "The maximum possible separation between objects in this scene is approximately 50.00 metres, based on the recorded depth range (min: 0.00 metres, max: 50.00 metres).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Is there a bed present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, bulldozer) visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Is the TV located in the same general area as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Which object appears to be positioned closer to the camera \u2014 the bed or the TV?",
+    "answer": "Based on the available depth data, the scene minimum depth is 0.00 metres. Without individual per-object depth values, it is not definitively determinable which is closer; however, beds are typically the dominant foreground object in a bedroom scene, suggesting the bed is likely positioned closer to the camera than the TV.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Is the TV positioned above, below, or at the same level as the bed in the scene?",
+    "answer": "In a typical bedroom layout, the TV is positioned above the bed's surface level \u2014 commonly mounted on a wall or placed on a stand at a higher elevation than the mattress. Based on scene context, the TV is most likely positioned above or at eye level relative to the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Is the TV in front of or behind the bed from the camera's perspective?",
+    "answer": "Given typical bedroom arrangements and the scene's mean depth of 13.63 metres, the TV is most likely positioned behind or across from the bed \u2014 i.e., at a greater depth from the camera than the bed itself.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Are there any workers present near heavy equipment within a dangerous proximity of less than 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a bed and a TV \u2014 no workers or heavy construction equipment have been detected. There are no proximity hazards to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  },
+  {
+    "question": "Does this scene pose any construction site safety risks based on the detected objects?",
+    "answer": "No construction site safety risks are identified. The detected objects \u2014 a bed and a TV \u2014 are typical indoor/residential items, not construction equipment or hazards. No workers are within dangerous proximity (< 2 metres) of any heavy machinery, as none exists in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001354.jpg"
+  }
+]

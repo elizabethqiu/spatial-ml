@@ -1,0 +1,47 @@
+[
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003192.jpg"
+  },
+  {
+    "question": "Is there a banana visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003192.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003192.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in the scene in metres?",
+    "answer": "13.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003192.jpg"
+  },
+  {
+    "question": "Is the banana located at ground level (less than 1 metre)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003192.jpg"
+  }
+]

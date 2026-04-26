@@ -1,0 +1,44 @@
+[
+  {
+    "question": "What is the distance between the dining table and the dog?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000958.jpg"
+  },
+  {
+    "question": "Is the bed closer to the camera than the dining table?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000958.jpg"
+  },
+  {
+    "question": "Is the dog positioned between the dining table and the bed?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000958.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dining table",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000958.jpg"
+  }
+]

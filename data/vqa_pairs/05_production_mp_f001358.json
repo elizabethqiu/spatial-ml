@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the parking meter from the camera?",
+    "answer": "The parking meter is approximately 17.80 metres away from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  },
+  {
+    "question": "What is the depth range captured in this scene?",
+    "answer": "The depth range in this scene spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  },
+  {
+    "question": "Is there a parking meter present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  },
+  {
+    "question": "Is the parking meter located within 5 metres of the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  },
+  {
+    "question": "Where is the parking meter positioned relative to the camera viewpoint?",
+    "answer": "The parking meter is positioned at a mid-to-far range distance of approximately 17.80 metres from the camera, placing it in the middle depth zone of the scene (which spans 0.00 to 50.00 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  },
+  {
+    "question": "Is the parking meter closer to the near end or the far end of the scene's depth range?",
+    "answer": "The parking meter is positioned closer to the near end of the scene's depth range. At a mean depth of 17.80 metres within a 0.00\u201350.00 metre range, it sits roughly in the first third of the total depth span.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker in dangerous proximity (less than 2 metres) to heavy construction equipment in this scene?",
+    "answer": "No safety alert is triggered. The scene contains only a parking meter and no workers or heavy construction equipment are detected. There is no proximity hazard to report.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  },
+  {
+    "question": "Should construction personnel be cautioned about any equipment collision risks near the parking meter in this scene?",
+    "answer": "No safety alert is required. No workers or heavy machinery are present in this scene. The only detected object is a parking meter at approximately 17.80 metres depth. Standard site awareness protocols should still be maintained in the surrounding area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001358.jpg"
+  }
+]

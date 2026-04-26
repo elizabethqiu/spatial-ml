@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many couches are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001972.jpg"
+  },
+  {
+    "question": "Is there a person sitting on one of the couches?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001972.jpg"
+  },
+  {
+    "question": "Are there more couches than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001972.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene in metres?",
+    "answer": "25.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001972.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of both couches?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001972.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001972.jpg"
+  }
+]

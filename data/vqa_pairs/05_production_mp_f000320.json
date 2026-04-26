@@ -1,0 +1,83 @@
+[
+  {
+    "question": "What is the approximate distance between the first person and the second person in the scene?",
+    "answer": "Based on the available depth data, the estimated distance between the first and second person is approximately 18.86 metres (mean scene depth), though individual separations may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the closest and farthest person in the scene?",
+    "answer": "The depth range across the scene spans from 0.00 metres to 50.00 metres, suggesting the nearest and farthest persons could be separated by up to approximately 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  },
+  {
+    "question": "Is any person detected at a depth of less than 2 metres from the camera or sensor?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  },
+  {
+    "question": "Where are the three persons positioned relative to each other in the scene?",
+    "answer": "The three persons are distributed across a depth range of 0.00 to 50.00 metres, with a mean depth of 18.86 metres. At least one person is positioned very close to the camera (near 0.00 metres), while others are spread at mid-range to far distances, suggesting they are dispersed at varying depths rather than clustered together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera or observation point?",
+    "answer": "One of the three persons is positioned at the minimum detected depth of approximately 0.00 metres, making them the closest individual to the camera or sensor in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any person being detected at an extremely close range (less than 2 metres) in the scene?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes. The minimum depth value is 0.00 metres, indicating at least one person may be detected at critically close range (under 2 metres from the sensor or a potential hazard zone boundary). While no heavy equipment is detected in this scene, supervisors should verify this person's proximity to any off-frame machinery, edges, or hazards immediately. Ensure all personnel maintain safe stand-off distances per site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  },
+  {
+    "question": "Should a safety review be conducted given the detected positions of persons across the site depth range of 0\u201350 metres?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes. With three persons spread across a large depth range (0.00\u201350.00 metres) and at least one individual at near-zero depth, a safety review is recommended. Workers at extreme depth positions (very close or very far) may be in blind spots or isolated zones where supervision is reduced. Site managers should confirm all personnel are accounted for, wearing PPE, and are not in proximity to any active machinery or hazardous areas that may be outside the current camera frame.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000320.jpg"
+  }
+]

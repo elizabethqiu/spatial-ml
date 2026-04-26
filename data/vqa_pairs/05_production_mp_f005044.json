@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005044.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "sports ball",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005044.jpg"
+  },
+  {
+    "question": "Is there a television present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005044.jpg"
+  },
+  {
+    "question": "Are there more bananas than sports balls in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "sports ball"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005044.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in the scene?",
+    "answer": "21.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "sports ball",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005044.jpg"
+  },
+  {
+    "question": "Is the sports ball closer than the minimum depth threshold?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sports ball"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005044.jpg"
+  }
+]

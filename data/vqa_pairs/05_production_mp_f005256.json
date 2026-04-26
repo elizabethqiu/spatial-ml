@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How far is the handbag from the person?",
+    "answer": "19.93 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005256.jpg"
+  },
+  {
+    "question": "What is the distance between the suitcase and the person?",
+    "answer": "19.93 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005256.jpg"
+  },
+  {
+    "question": "Is the handbag closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005256.jpg"
+  },
+  {
+    "question": "Is the suitcase within arm's reach (2 metres) of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005256.jpg"
+  },
+  {
+    "question": "Is the handbag positioned between the suitcase and the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "handbag",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005256.jpg"
+  },
+  {
+    "question": "Are all luggage items (handbag and suitcase) located at a safe distance from the person (> 2 metres)?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "handbag",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005256.jpg"
+  }
+]

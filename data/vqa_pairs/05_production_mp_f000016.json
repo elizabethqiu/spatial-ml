@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many persons are visible in this construction site?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000016.jpg"
+  },
+  {
+    "question": "Is there a fire hydrant present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000016.jpg"
+  },
+  {
+    "question": "Are there more persons than fire hydrants in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000016.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "10.71 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000016.jpg"
+  },
+  {
+    "question": "What is the maximum distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000016.jpg"
+  },
+  {
+    "question": "Are all persons positioned at a safe distance from each other (more than 2 metres apart)?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000016.jpg"
+  },
+  {
+    "question": "Is the fire hydrant accessible in this construction area?",
+    "answer": "Unable to determine - specific fire hydrant position relative to persons unknown",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "fire hydrant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000016.jpg"
+  }
+]

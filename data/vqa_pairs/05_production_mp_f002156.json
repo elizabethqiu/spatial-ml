@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "5 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Is there a television in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Is there a chair in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "15.61 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "tv",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Are there more cups than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "tv",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Is the television closer than the average depth of all objects?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002156.jpg"
+  }
+]

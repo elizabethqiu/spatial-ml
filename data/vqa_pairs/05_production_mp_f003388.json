@@ -1,0 +1,71 @@
+[
+  {
+    "question": "How many bottles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003388.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "banana",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003388.jpg"
+  },
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003388.jpg"
+  },
+  {
+    "question": "Are there more bottles than cups in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003388.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the banana?",
+    "answer": "Cannot determine from available spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003388.jpg"
+  },
+  {
+    "question": "Are the bottles and cup located in the same general depth range?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003388.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment present in close proximity to the person that poses a safety risk?",
+    "answer": "No heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003388.jpg"
+  }
+]

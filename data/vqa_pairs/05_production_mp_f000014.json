@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 11.10 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "What is the maximum depth (distance) detected in the scene?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "What is the minimum depth (distance) detected in the scene?",
+    "answer": "The minimum depth detected in the scene is 0.00 metres, indicating at least one object is at or very near the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "Is the backpack located near the person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "Is the chair in the foreground or background relative to the person?",
+    "answer": "Based on the mean scene depth of 11.10 metres, the chair and person are likely in the mid-range of the scene; without individual object depth values, their exact foreground/background relationship cannot be precisely determined, but all objects appear to share a similar depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "Where is the backpack positioned relative to the chair?",
+    "answer": "Based on the scene description and detected depth statistics, the backpack and chair are both present in the mid-depth range of the scene (mean ~11.10 metres). The backpack is likely near the person and may be on or beside the chair, but precise lateral positioning requires individual object coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy construction equipment such as an excavator, bulldozer, or crane?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment detected in this scene. The only objects present are a chair, a person, and a backpack, none of which pose a heavy-equipment proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  },
+  {
+    "question": "Are there any safety concerns related to worker-equipment proximity in this scene?",
+    "answer": "No immediate safety alert is required. The scene contains only a person, a chair, and a backpack \u2014 no heavy machinery or construction equipment is detected. However, if this scene is part of a construction site, the absence of PPE (hard hat, high-visibility vest) on the person should be verified as a potential safety concern.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000014.jpg"
+  }
+]

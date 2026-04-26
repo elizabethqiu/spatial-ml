@@ -1,0 +1,84 @@
+[
+  {
+    "question": "What is the approximate mean depth of the persons detected in the scene?",
+    "answer": "The mean depth of the detected persons in the scene is approximately 15.78 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected persons in the scene?",
+    "answer": "The maximum depth range across the scene is 50.00 metres, with the nearest point at 0.00 metres and the farthest at 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  },
+  {
+    "question": "Are all three detected persons located at the same depth in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera in the scene?",
+    "answer": "Based on the depth statistics, at least one person is at or near 0.00 metres depth, making them the closest detected individual to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  },
+  {
+    "question": "How are the three persons distributed relative to each other in terms of depth?",
+    "answer": "The three persons are spread across a wide depth range of 0.00 to 50.00 metres, with a mean depth of approximately 15.78 metres, suggesting they are positioned at varying distances \u2014 at least one near the foreground and at least one toward the far background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  },
+  {
+    "question": "Is any person detected within a dangerously close proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) is detected in this scene, so no safety alert regarding worker\u2013equipment proximity can be triggered. However, note that at least one person appears to be at approximately 0.00 metres depth, which warrants monitoring if equipment enters the scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to any person being extremely close to the camera or a potential blind-spot zone (depth \u2248 0.00 metres)?",
+    "answer": "Yes \u2014 at least one person registers at approximately 0.00 metres depth, which could indicate they are in an immediate foreground zone or a sensor blind spot. A safety review is recommended to confirm this individual's exact position and ensure they are not in an unmonitored hazardous area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001492.jpg"
+  }
+]

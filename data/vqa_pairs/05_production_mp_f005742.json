@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the car and cat?",
+    "answer": "22.96 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005742.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005742.jpg"
+  },
+  {
+    "question": "Is the car closer than 5 metres to the cat?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005742.jpg"
+  },
+  {
+    "question": "Are both the car and cat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005742.jpg"
+  },
+  {
+    "question": "Is the cat positioned in front of the car?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005742.jpg"
+  }
+]

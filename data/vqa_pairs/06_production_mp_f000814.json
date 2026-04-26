@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How far is the person from the bottle?",
+    "answer": "14.19 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000814.jpg"
+  },
+  {
+    "question": "What is the distance between the refrigerator and the bottle?",
+    "answer": "14.19 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000814.jpg"
+  },
+  {
+    "question": "Is the person closer to the refrigerator than the maximum depth in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000814.jpg"
+  },
+  {
+    "question": "Is the bottle positioned between the person and the refrigerator?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000814.jpg"
+  },
+  {
+    "question": "Are all objects within 20 metres of the scene origin?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000814.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to the refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000814.jpg"
+  }
+]

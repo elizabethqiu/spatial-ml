@@ -1,0 +1,131 @@
+[
+  {
+    "question": "How many cell phones are detected in the scene?",
+    "answer": "5 cell phones are detected in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth of objects in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 17.72 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone",
+      "person",
+      "cell phone",
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in the scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone",
+      "person",
+      "cell phone",
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "Are there more cell phones than persons in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "Is the person surrounded by multiple cell phones in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the cluster of cell phones?",
+    "answer": "The person is positioned among the cluster of cell phones, as all detected objects share a similar depth range centered around a mean of 17.72 metres, suggesting the person is roughly centrally located within the group of cell phones.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "Are any of the cell phones positioned closer to the camera than the person?",
+    "answer": "Potentially yes, given the minimum depth in the scene is 0.00 metres, at least one object (likely a cell phone) may be positioned significantly closer to the camera than the person, who is near the scene mean of 17.72 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy equipment such as machinery or vehicles?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The only objects present are cell phones and one person, so no safety alert regarding proximity to heavy equipment is warranted at this time. However, the worker should remain vigilant of their surroundings beyond the camera's current view.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  },
+  {
+    "question": "Does the presence of multiple cell phones near the person suggest any potential distraction hazard on the construction site?",
+    "answer": "Yes, the presence of 5 cell phones in close proximity to a single person on a construction site is a potential safety concern. Excessive use of or distraction by mobile devices can reduce situational awareness, increasing the risk of accidents, especially near heavy equipment or hazardous zones. Workers should limit cell phone use to designated safe areas.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000146.jpg"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 13.0 metres apart on average, though individual positions may vary within the 0\u201350 metre depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the suitcase and the nearest person?",
+    "answer": "The suitcase is estimated to be within approximately 13.0 metres of the nearest person, based on the mean scene depth of 13.01 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  },
+  {
+    "question": "Is there a suitcase present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  },
+  {
+    "question": "Is the suitcase located between the two persons in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  },
+  {
+    "question": "Where is the suitcase positioned relative to the persons in the scene?",
+    "answer": "The suitcase appears to be positioned in the mid-ground of the scene, situated between or in close proximity to the two persons based on the detected object order and mean depth of approximately 13.0 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  },
+  {
+    "question": "Is any person in the scene within a dangerously close distance (less than 2 metres) of heavy construction equipment?",
+    "answer": "No heavy construction equipment has been detected in this scene. The objects present are two persons and a suitcase, so no proximity safety alert is triggered for equipment hazards. However, caution is advised if the suitcase represents an unattended obstruction in a high-traffic or construction area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  },
+  {
+    "question": "Does the scene contain any unattended luggage that could pose a safety or security hazard in a construction or public area?",
+    "answer": "A suitcase is detected in the scene. While it is in proximity to two persons, if this object were to be unattended in a construction zone, it would constitute a potential safety and security hazard requiring immediate inspection and removal per site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000426.jpg"
+  }
+]

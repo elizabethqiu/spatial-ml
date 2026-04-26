@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Is there a cell phone visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002284.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Is the cell phone being held by any of the people?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002284.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "12.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Are there more people than cell phones in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002284.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002284.jpg"
+  }
+]

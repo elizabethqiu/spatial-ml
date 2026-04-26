@@ -1,0 +1,102 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in the scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bottle",
+      "person",
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "Are there more bottles than spoons in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "Is there at least one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "How many bottles are present in the scene?",
+    "answer": "2 bottles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "Are the two persons closer to each other or farther apart than the mean scene depth?",
+    "answer": "Cannot determine without specific coordinates; mean depth is 19.58 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "Is the spoon positioned between the two persons in the scene?",
+    "answer": "Cannot determine without specific spatial coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "spoon",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "Are any workers within 2 metres of heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "19.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bottle",
+      "person",
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  },
+  {
+    "question": "Is there a spoon in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001892.jpg"
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person",
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "12.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person",
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "Is there an apple in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "Are there more bananas than apples in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the maximum depth distance?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "Are the bananas positioned at similar depths in the scene?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to heavy equipment?",
+    "answer": "No heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004672.jpg"
+  }
+]

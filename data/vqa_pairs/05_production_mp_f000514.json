@@ -1,0 +1,114 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in this scene?",
+    "answer": "The mean depth of objects in the scene is approximately 17.25 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) covered by the detected objects in this scene?",
+    "answer": "The depth range spans from 0.00 metres (nearest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Are there any persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Is there a skateboard detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Are there more than two people detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Is the skateboard located closer to the camera than the average scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Where is the skateboard positioned relative to the two persons in the scene?",
+    "answer": "Based on typical skate scene geometry, the skateboard is positioned near or below one of the persons, likely at ground level and in close proximity to at least one individual, suggesting it is being ridden or stood upon.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "How are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons appear to be in the same general depth zone (around the scene mean of 17.25 metres), suggesting they are roughly side by side or in close proximity to one another within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Where is the skateboard located relative to the background of the scene?",
+    "answer": "The skateboard is located in the foreground-to-mid-ground region of the scene, well in front of the maximum scene depth of 50.00 metres, placing it closer to the camera than the far background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., cranes, excavators, forklifts) present within 2 metres of any worker in this scene that poses an immediate safety hazard?",
+    "answer": "No heavy construction equipment is detected in this scene. The only objects present are two persons and a skateboard. No construction-site safety alert is warranted based on the detected objects; however, if this is a shared-use area near a construction zone, personnel should remain vigilant about equipment operating nearby.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  },
+  {
+    "question": "Does the presence of a skateboard near persons in this scene pose any potential safety concern?",
+    "answer": "A minor safety note applies: a skateboard in motion near bystanders can present a trip or collision hazard. If the two persons are in close proximity (potentially within 1\u20132 metres of each other and the skateboard), there is a risk of an accidental collision or fall. Ensuring adequate space and awareness between riders and bystanders is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000514.jpg"
+  }
+]

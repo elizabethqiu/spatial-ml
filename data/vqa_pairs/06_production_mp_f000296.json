@@ -1,0 +1,64 @@
+[
+  {
+    "question": "What is the distance between the toilet and the train?",
+    "answer": "approximately 12.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000296.jpg"
+  },
+  {
+    "question": "How far is the airplane from the toilet?",
+    "answer": "approximately 12.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "airplane",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000296.jpg"
+  },
+  {
+    "question": "Is the train closer than 5 metres to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000296.jpg"
+  },
+  {
+    "question": "Are all three objects (toilet, train, airplane) present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "train",
+      "airplane"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000296.jpg"
+  },
+  {
+    "question": "Is the airplane positioned at a greater depth than the train?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "airplane",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000296.jpg"
+  },
+  {
+    "question": "Which object is furthest from the reference point: the toilet, train, or airplane?",
+    "answer": "The maximum depth of the scene is 50 metres, with mean depth at 12.11 metres. All objects appear within this range, with airplane and train likely at similar depths.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "train",
+      "airplane"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000296.jpg"
+  }
+]

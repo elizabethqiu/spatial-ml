@@ -1,0 +1,119 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "5 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "How many knives are present in the scene?",
+    "answer": "2 knives",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "15.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "Are there any knives present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance at ground level (0 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "Are there more persons than knives in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "Is the depth range of this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of persons and knives in terms of depth.",
+    "answer": "Objects are distributed across a 50 metre depth range, with mean depth at 15.48 metres. Some objects are at ground level (0 metres) while others extend to maximum distance of 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "What is the relative depth spread between the closest and farthest objects?",
+    "answer": "50.0 metres spread from minimum depth of 0 metres to maximum depth of 50 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "WARNING: Are there knives present in close proximity to multiple persons in this scene?",
+    "answer": "Caution advised - knives are detected in a scene with 5 persons. Verify safe handling protocols and maintain minimum 2 metre clearance between sharp implements and personnel.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  },
+  {
+    "question": "Is this a high-risk scene due to the presence of sharp implements near personnel?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002378.jpg"
+  }
+]

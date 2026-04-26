@@ -1,0 +1,63 @@
+[
+  {
+    "question": "What is the distance between the person and the wine glass?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000648.jpg"
+  },
+  {
+    "question": "Is the wine glass closer to the person than to the bed?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000648.jpg"
+  },
+  {
+    "question": "Is the person positioned to the left of the bed?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000648.jpg"
+  },
+  {
+    "question": "Is there a safety hazard between the person and any equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000648.jpg"
+  },
+  {
+    "question": "How many objects are present in this indoor scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000648.jpg"
+  },
+  {
+    "question": "Is the wine glass on the bed?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000648.jpg"
+  }
+]

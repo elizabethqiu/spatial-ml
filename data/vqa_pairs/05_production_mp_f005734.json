@@ -1,0 +1,72 @@
+[
+  {
+    "question": "How far is the person from the clock?",
+    "answer": "22.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005734.jpg"
+  },
+  {
+    "question": "What is the distance between the bird and the person?",
+    "answer": "22.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005734.jpg"
+  },
+  {
+    "question": "Is the person closer to the clock than to the bird?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005734.jpg"
+  },
+  {
+    "question": "Is the clock present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005734.jpg"
+  },
+  {
+    "question": "Is there a bird in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005734.jpg"
+  },
+  {
+    "question": "Where is the clock positioned relative to the person?",
+    "answer": "The clock is approximately 22.58 metres away from the person",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005734.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of the bird in relation to the person and clock?",
+    "answer": "The bird is at approximately the same mean distance (22.58 metres) from the person as the clock",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005734.jpg"
+  }
+]

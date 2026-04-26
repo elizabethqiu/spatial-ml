@@ -1,0 +1,51 @@
+[
+  {
+    "question": "What is the distance between the toilet and the refrigerator?",
+    "answer": "16.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000548.jpg"
+  },
+  {
+    "question": "Is the toilet closer than 5 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000548.jpg"
+  },
+  {
+    "question": "Is the refrigerator present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000548.jpg"
+  },
+  {
+    "question": "How far apart are the two objects in the scene?",
+    "answer": "Approximately 16.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000548.jpg"
+  },
+  {
+    "question": "Are the toilet and refrigerator located in close proximity (less than 10 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000548.jpg"
+  }
+]

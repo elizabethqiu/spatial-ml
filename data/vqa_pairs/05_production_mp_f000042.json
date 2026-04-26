@@ -1,0 +1,72 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The mean depth of the scene is approximately 14.34 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in the scene?",
+    "answer": "The maximum depth recorded in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in the scene?",
+    "answer": "The minimum depth recorded in the scene is 0.00 metres, indicating an object or surface at the camera position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "Is the average scene depth greater than 10 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "Are any objects detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the foreground of the scene (within 5 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "Where is the primary depth mass of the scene concentrated \u2014 near, mid, or far range?",
+    "answer": "The mean depth of 14.34 metres with a range extending to 50.00 metres suggests the primary depth mass is concentrated in the mid-range (roughly 10\u201320 metres from the camera).",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "Is the scene depth distribution skewed toward far distances or near distances?",
+    "answer": "The scene is skewed toward far distances, as the mean depth (14.34 metres) is well below the maximum (50.00 metres), indicating a long tail of far-range depth values, while the minimum reaches 0.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "Are there any immediate safety hazards involving workers and heavy equipment that require alerting?",
+    "answer": "No objects were detected in this scene, so no worker-equipment proximity hazards can be assessed. However, the lack of detections may indicate a sensor or detection failure \u2014 operators should verify the detection system is functioning correctly before assuming the site is clear.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  },
+  {
+    "question": "Does the absence of detected objects mean the construction site is safe?",
+    "answer": "Not necessarily. The failure to detect any objects on an active construction site is itself a safety concern. It may indicate occlusion, poor lighting, sensor malfunction, or model failure. A manual site inspection or recalibration of the detection system is strongly recommended to ensure no workers or heavy equipment are present and unaccounted for.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000042.jpg"
+  }
+]

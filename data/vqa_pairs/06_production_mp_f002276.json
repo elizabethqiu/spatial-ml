@@ -1,0 +1,65 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002276.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002276.jpg"
+  },
+  {
+    "question": "What is the mean distance of detected objects from the camera?",
+    "answer": "14.50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002276.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002276.jpg"
+  },
+  {
+    "question": "Are all three people within 20 metres depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002276.jpg"
+  },
+  {
+    "question": "Where are the people distributed relative to the camera?",
+    "answer": "People are distributed across the scene, with the closest at 0.00 metres and the farthest at 50.00 metres depth, with an average distance of 14.50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002276.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding proximity to heavy equipment in this scene?",
+    "answer": "No safety alert - no heavy equipment is detected in this scene. Only personnel are visible.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002276.jpg"
+  }
+]

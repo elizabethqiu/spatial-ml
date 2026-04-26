@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Is there a knife present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Are there more people than tools in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Is the knife closer than 2 metres to any worker on the construction site?",
+    "answer": "Unable to determine - knife position relative to workers not specified in coordinate data",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "17.61 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Is the knife the only object that is not a person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in this scene in metres?",
+    "answer": "0.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000518.jpg"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "question": "How far is the person from the scissors?",
+    "answer": "14.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001436.jpg"
+  },
+  {
+    "question": "What is the distance between the dog and the scissors?",
+    "answer": "14.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001436.jpg"
+  },
+  {
+    "question": "Is the person closer to the dog than to the scissors?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001436.jpg"
+  },
+  {
+    "question": "Are the scissors within arm's reach of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001436.jpg"
+  },
+  {
+    "question": "Is the dog positioned between the person and the scissors?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001436.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement of the person, dog, and scissors in this scene.",
+    "answer": "All three objects are separated by approximately 14.23 metres on average, with depth ranging from 0 to 50 metres. They appear to be distributed across the scene with significant distance between them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001436.jpg"
+  }
+]

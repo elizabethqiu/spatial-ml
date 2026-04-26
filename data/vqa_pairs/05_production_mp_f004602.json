@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the bed and laptop?",
+    "answer": "15.86 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004602.jpg"
+  },
+  {
+    "question": "Is the laptop closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004602.jpg"
+  },
+  {
+    "question": "What is the maximum distance observable in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004602.jpg"
+  },
+  {
+    "question": "Are the bed and laptop within close proximity to each other?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004602.jpg"
+  }
+]

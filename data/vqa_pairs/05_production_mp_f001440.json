@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 11.44 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this construction scene?",
+    "answer": "The maximum depth detected in this scene is 50.00 metres, and the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  },
+  {
+    "question": "Is any heavy equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  },
+  {
+    "question": "Where are the majority of detected objects located relative to the camera?",
+    "answer": "No objects were detected in this scene, so no relative positional analysis can be performed. The scene appears to be an open or obstructed construction site view with a mean depth of 11.44 metres.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  },
+  {
+    "question": "Is there any foreground activity occurring close to the camera (within 2 metres)?",
+    "answer": "No objects were detected in the scene. Although the depth range begins at 0.00 metres, no specific foreground objects or persons have been identified, so no relative positioning can be confirmed.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  },
+  {
+    "question": "Are there any safety hazards due to workers being within 2 metres of heavy equipment?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: No objects were detected in this scene, which itself is a safety concern. The lack of detected workers or equipment may indicate a failure in the detection system or poor visibility conditions on site. It is strongly recommended to verify the scene manually and ensure all personnel and machinery are accounted for. An unmonitored construction site poses inherent safety risks.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  },
+  {
+    "question": "Should site supervisors be concerned about undetected hazards given the depth range of this scene?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: With a depth range spanning 0.00 to 50.00 metres and no objects detected, there is a significant risk that hazards at varying distances \u2014 particularly in the far field beyond 20 metres \u2014 may not be visible or monitored. Site supervisors should investigate whether occlusion, lighting, dust, or sensor failure is causing the detection gap, and should conduct a manual walkthrough immediately.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001440.jpg"
+  }
+]

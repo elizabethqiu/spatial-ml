@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the dog from the camera?",
+    "answer": "The dog is approximately 12.23 metres from the camera (based on the mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  },
+  {
+    "question": "What is the maximum observed depth in the scene?",
+    "answer": "The maximum observed depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  },
+  {
+    "question": "Is the dog detected with high confidence (above 0.90)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the camera in terms of depth?",
+    "answer": "The dog is positioned at a mid-to-far range, with a mean scene depth of approximately 12.23 metres. The closest detected element in the scene is at 0.00 metres and the farthest is at 50.00 metres, placing the dog toward the nearer-middle portion of the depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  },
+  {
+    "question": "Is the dog closer to the near end (0 m) or the far end (50 m) of the scene's depth range?",
+    "answer": "The dog is closer to the near end of the scene. The mean depth of 12.23 metres is significantly closer to 0.00 metres than to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  },
+  {
+    "question": "Does the presence of the dog in this scene pose a safety alert related to proximity to heavy construction equipment?",
+    "answer": "No immediate worker\u2013equipment safety alert is triggered, as no human workers or heavy equipment are detected in this scene. However, the dog's presence on or near a construction site should be flagged: animals can startle operators, cause trip hazards, or wander into danger zones. It is recommended to safely remove the dog from the site and secure the perimeter to prevent re-entry.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  },
+  {
+    "question": "Should the dog's proximity to the camera (approximately 12.23 metres) raise any safety concerns on a construction site?",
+    "answer": "Yes. While no heavy equipment is detected in this frame, a dog at 12.23 metres within a construction site boundary represents a safety hazard. Animals can unexpectedly enter active work zones, endanger themselves, and distract workers or equipment operators. Site personnel should be alerted to escort the animal off-site and inspect perimeter fencing for breaches.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001484.jpg"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  },
+  {
+    "question": "What is the maximum distance of any detected person from the camera in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected persons in the scene in metres?",
+    "answer": "20.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  },
+  {
+    "question": "Is there any person detected at the immediate foreground (within 2 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  },
+  {
+    "question": "Are all four persons standing at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  },
+  {
+    "question": "Is there significant depth variation among the detected persons?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  },
+  {
+    "question": "Are there persons distributed across both near and far zones of the construction site?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  },
+  {
+    "question": "Is there an immediate safety concern due to proximity between workers and equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001526.jpg"
+  }
+]

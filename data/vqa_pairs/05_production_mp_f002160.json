@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002160.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002160.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002160.jpg"
+  },
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002160.jpg"
+  },
+  {
+    "question": "Are there more cups than bottles in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002160.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene in metres?",
+    "answer": "14.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002160.jpg"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the parking meter and the umbrella?",
+    "answer": "Unable to determine from available data - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000366.jpg"
+  },
+  {
+    "question": "Is the parking meter closer to the camera than the umbrella?",
+    "answer": "Cannot determine - relative depth positions not specified",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000366.jpg"
+  },
+  {
+    "question": "Is the umbrella positioned to the left of the parking meter?",
+    "answer": "Cannot determine - lateral position data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000366.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "parking meter",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000366.jpg"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many motorcycles are present in this scene?",
+    "answer": "4 motorcycles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  },
+  {
+    "question": "Are there more motorcycles than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  },
+  {
+    "question": "Is the suitcase present in this construction scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects from the camera?",
+    "answer": "15.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  },
+  {
+    "question": "Is there a suitcase closer to the camera than the furthest motorcycle?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  },
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  },
+  {
+    "question": "Are the motorcycles arranged as heavy equipment in a construction setting?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005222.jpg"
+  }
+]

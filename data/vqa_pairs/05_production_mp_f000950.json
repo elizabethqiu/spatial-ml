@@ -1,0 +1,113 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the dog in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the dog is approximately 22.96 metres (mean scene depth), though exact positional separation requires precise 3D coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the dining table and the bed?",
+    "answer": "Given the scene depth range of 0.00 to 50.00 metres and a mean depth of 22.96 metres, the estimated separation between the dining table and the bed is approximately 22.96 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Is the dog located near the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Is the bed closer to the person than the dining table is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the dining table in the scene?",
+    "answer": "The bed appears to be positioned further back in the scene relative to the dining table, likely in a separate room or area given the overall depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the person in the scene?",
+    "answer": "The dog is positioned near the person, likely on the same depth plane given their co-occurrence near the dining table area of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Where is the dining table positioned relative to the bed?",
+    "answer": "The dining table appears to be positioned in the foreground or mid-ground of the scene, while the bed is likely in a background or separate area, suggesting the dining table is in front of and spatially distinct from the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving a worker and heavy equipment within 2 metres of each other in this scene?",
+    "answer": "No safety alert required. This scene is a domestic/indoor environment containing a dining table, dog, person, and bed. No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected, so no proximity hazard between a worker and heavy machinery exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  },
+  {
+    "question": "Is the person at risk due to proximity to any dangerous object or animal in this scene?",
+    "answer": "No critical safety alert. While the dog is in proximity to the person, there is no heavy construction equipment present in this scene. The environment appears to be a residential indoor setting. Standard pet-safety awareness is advised, but no construction-site hazard threshold (< 2 m from heavy equipment) is breached.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000950.jpg"
+  }
+]

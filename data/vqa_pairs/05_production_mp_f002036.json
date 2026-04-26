@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "4 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  },
+  {
+    "question": "Is there a bowl present?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  },
+  {
+    "question": "Are there more cups than bowls in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "20.35 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  },
+  {
+    "question": "How many individual items (excluding duplicates) are in the scene?",
+    "answer": "4 types: cup, chair, bowl, person",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  },
+  {
+    "question": "Is the person positioned within a safe distance from all items?",
+    "answer": "no safety alert - no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "chair",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002036.jpg"
+  }
+]

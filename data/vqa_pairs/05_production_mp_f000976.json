@@ -1,0 +1,94 @@
+[
+  {
+    "question": "How far is the first person from the chair?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the chair is approximately 20.77 metres (mean scene depth), though precise individual object distances are not available beyond the scene range of 0.00\u201350.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "Given the scene depth range of 0.00 to 50.00 metres and a mean depth of 20.77 metres, the two persons are estimated to be within the same general depth zone; their separation distance is approximately 0\u201350.00 metres, with an average scene depth of 20.77 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "Is any person within 2 metres of heavy equipment or machinery in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "Where is the chair located relative to the two persons in the scene?",
+    "answer": "The chair is detected within the same scene as the two persons. Based on the available depth information (scene depth range: 0.00\u201350.00 metres, mean: 20.77 metres), the chair is situated in the mid-to-far depth zone relative to the viewer, and its exact lateral position (left, right, or centre) cannot be precisely determined without bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "Which object is likely closest to the camera \u2014 a person or the chair?",
+    "answer": "Without precise per-object depth values, either a person or the chair could be closest; however, persons in construction or indoor scenes are commonly in the foreground. Based on typical scene layouts and the minimum depth of 0.00 metres, at least one person is likely the closest object to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "Is any worker dangerously close (within 2 metres) to heavy construction equipment in this scene?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The only objects present are two persons and a chair. No proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any person-to-person proximity risk in this scene?",
+    "answer": "No immediate machinery-related safety alert is warranted, as no heavy equipment is present. However, if this is a construction site context, supervisors should note that two persons are co-located within the scene (depth range 0.00\u201350.00 metres). If the persons are working in a confined or active zone, standard site safety protocols (e.g., maintaining safe working distances and wearing PPE) should be followed.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000976.jpg"
+  }
+]

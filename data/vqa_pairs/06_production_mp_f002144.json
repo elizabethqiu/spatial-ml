@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the person and the toilet?",
+    "answer": "15.68 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002144.jpg"
+  },
+  {
+    "question": "Is the person standing next to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002144.jpg"
+  },
+  {
+    "question": "What is the position of the toilet relative to the person?",
+    "answer": "The toilet is at a considerable distance from the person, with a mean separation of approximately 15.68 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002144.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity between the person and toilet?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002144.jpg"
+  }
+]

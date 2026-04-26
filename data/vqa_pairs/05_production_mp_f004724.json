@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  },
+  {
+    "question": "Is the person standing next to a suitcase?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  },
+  {
+    "question": "How many objects in total are present in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  },
+  {
+    "question": "Is the chair closer to the camera than the person?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  },
+  {
+    "question": "Are both suitcases at approximately the same depth from the camera?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "18.69 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding proximity between the person and equipment?",
+    "answer": "no hazardous equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004724.jpg"
+  }
+]

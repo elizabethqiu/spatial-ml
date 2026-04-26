@@ -1,0 +1,72 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004452.jpg"
+  },
+  {
+    "question": "Is there a cell phone visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004452.jpg"
+  },
+  {
+    "question": "Is the baseball bat closer to the camera than the cell phone?",
+    "answer": "Cannot determine",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004452.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "14.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "baseball bat",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004452.jpg"
+  },
+  {
+    "question": "What is the maximum distance of any object from the camera?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "baseball bat",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004452.jpg"
+  },
+  {
+    "question": "Are both people within 2 metres of each other?",
+    "answer": "Cannot determine from available data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004452.jpg"
+  },
+  {
+    "question": "Is there any safety hazard with the baseball bat and people in close proximity?",
+    "answer": "No hazard detected - this is not a construction site with heavy equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004452.jpg"
+  }
+]

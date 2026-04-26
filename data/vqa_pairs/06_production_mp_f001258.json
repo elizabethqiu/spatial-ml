@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a bicycle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001258.jpg"
+  },
+  {
+    "question": "How many bicycles are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001258.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "16.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001258.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001258.jpg"
+  },
+  {
+    "question": "Is the bicycle closer than 2 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001258.jpg"
+  }
+]

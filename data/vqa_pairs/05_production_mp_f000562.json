@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene in metres?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene in metres?",
+    "answer": "0.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  },
+  {
+    "question": "What is the mean depth distance in this scene in metres?",
+    "answer": "17.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Are there more persons than furniture items in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  },
+  {
+    "question": "Is this an outdoor construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000562.jpg"
+  }
+]

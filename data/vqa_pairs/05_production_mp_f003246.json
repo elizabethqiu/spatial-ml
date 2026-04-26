@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How far apart are the car and person in this scene?",
+    "answer": "14.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003246.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003246.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003246.jpg"
+  },
+  {
+    "question": "Are there any objects visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003246.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of the car or behind it?",
+    "answer": "Unable to determine from available depth data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003246.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the worker and the vehicle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003246.jpg"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000678.jpg"
+  },
+  {
+    "question": "Is there a remote control device present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000678.jpg"
+  },
+  {
+    "question": "Are both persons positioned at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000678.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000678.jpg"
+  },
+  {
+    "question": "Is the remote control positioned closer to the camera than the average depth of all objects?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000678.jpg"
+  },
+  {
+    "question": "What is the approximate mean distance of all detected objects from the camera?",
+    "answer": "16.19 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000678.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000678.jpg"
+  }
+]

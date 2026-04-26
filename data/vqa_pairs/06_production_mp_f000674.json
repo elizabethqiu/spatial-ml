@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  },
+  {
+    "question": "How many refrigerators are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  },
+  {
+    "question": "Is there at least one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  },
+  {
+    "question": "Are there refrigerators present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects from the camera in metres?",
+    "answer": "13.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance in the scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  },
+  {
+    "question": "Are the persons positioned closer to the camera than the average scene depth?",
+    "answer": "Unable to determine - individual object positions not specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  },
+  {
+    "question": "Is there any safety hazard with persons being too close to refrigerators (within 2 metres)?",
+    "answer": "No safety alert - refrigerators are not classified as heavy construction equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000674.jpg"
+  }
+]

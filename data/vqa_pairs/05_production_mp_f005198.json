@@ -1,0 +1,73 @@
+[
+  {
+    "question": "How many people are visible in this construction scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005198.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any detected person in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005198.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all detected people in metres?",
+    "answer": "19.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005198.jpg"
+  },
+  {
+    "question": "Are there any people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005198.jpg"
+  },
+  {
+    "question": "Is the minimum distance to any person greater than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005198.jpg"
+  },
+  {
+    "question": "Are all three people positioned at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005198.jpg"
+  },
+  {
+    "question": "Is there significant depth variation among the detected people in this scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005198.jpg"
+  }
+]

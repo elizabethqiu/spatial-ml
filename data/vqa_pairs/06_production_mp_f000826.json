@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000826.jpg"
+  },
+  {
+    "question": "How many refrigerators are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000826.jpg"
+  },
+  {
+    "question": "Is there a carrot in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "carrot"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000826.jpg"
+  },
+  {
+    "question": "Are there more people than refrigerators?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000826.jpg"
+  },
+  {
+    "question": "Is the carrot positioned in front of any refrigerator?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "carrot",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000826.jpg"
+  },
+  {
+    "question": "Are the two people located in the same general area of the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000826.jpg"
+  }
+]

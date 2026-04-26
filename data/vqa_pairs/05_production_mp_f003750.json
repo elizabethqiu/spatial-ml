@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  },
+  {
+    "question": "How many suitcases are present in the scene?",
+    "answer": "2 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  },
+  {
+    "question": "Is there a dog in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  },
+  {
+    "question": "Is there a television visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  },
+  {
+    "question": "Are there more people than suitcases in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  },
+  {
+    "question": "Is a handbag present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance between objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "suitcase",
+      "handbag",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "17.51 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag",
+      "tv",
+      "suitcase",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003750.jpg"
+  }
+]

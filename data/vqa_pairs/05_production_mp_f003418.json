@@ -1,0 +1,85 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  },
+  {
+    "question": "Is there a handbag present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bowl",
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  },
+  {
+    "question": "Is the bowl closer to the camera than the chair?",
+    "answer": "Unable to determine from depth statistics alone",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bowl",
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  },
+  {
+    "question": "Are all three persons within the scene boundaries?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "16.13 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bowl",
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  },
+  {
+    "question": "Does the scene contain more persons than chairs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003418.jpg"
+  }
+]

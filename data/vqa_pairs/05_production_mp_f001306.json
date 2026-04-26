@@ -1,0 +1,100 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed in the scene?",
+    "answer": "Based on the depth statistics available, the estimated distance between the person and the bed is approximately 0.50 metres, suggesting they are in very close proximity.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "What is the mean depth of the scene?",
+    "answer": "The mean depth of the scene is approximately 17.49 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Is the bed detected with high confidence in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Is the person located near or on the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Are there any heavy machinery or construction equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed in the scene?",
+    "answer": "The person appears to be positioned on or immediately adjacent to the bed, likely resting or lying down on it, based on their close proximity.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Where is the bed located relative to the person in the scene?",
+    "answer": "The bed is located directly beneath or immediately beside the person, serving as the primary surface or support structure in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Does the scene present any construction site safety hazards involving the person and heavy equipment?",
+    "answer": "No construction site safety hazard is detected. The scene contains only a bed and a person, with no heavy equipment or machinery present. There is no proximity risk to flag between a worker and heavy equipment in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  },
+  {
+    "question": "Is the person at risk due to any unsafe proximity to dangerous construction equipment in this scene?",
+    "answer": "No safety alert is warranted. This scene does not contain any heavy construction equipment such as cranes, forklifts, or excavators. The only objects detected are a bed and a person, so no proximity-based safety risk applies.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001306.jpg"
+  }
+]

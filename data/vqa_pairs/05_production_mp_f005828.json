@@ -1,0 +1,75 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005828.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005828.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "16.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005828.jpg"
+  },
+  {
+    "question": "Is there any object at the minimum depth position?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005828.jpg"
+  },
+  {
+    "question": "Are all three people within 20 metres depth range from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005828.jpg"
+  },
+  {
+    "question": "Describe the relative positioning of the people in terms of depth distribution.",
+    "answer": "The three people are distributed across varying depths, with at least one person very close (0.00 m) and others extending up to the maximum depth of 50.00 metres, with an average depth of 16.62 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005828.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between workers in this scene?",
+    "answer": "Insufficient spatial coordinate data to determine exact inter-worker distances. Based on depth statistics alone, no heavy equipment is present to trigger safety alerts.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005828.jpg"
+  }
+]

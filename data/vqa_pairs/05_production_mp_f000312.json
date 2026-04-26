@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the person from the camera?",
+    "answer": "The person is approximately 18.55 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the person?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavator, crane, forklift) present in the scene alongside the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  },
+  {
+    "question": "Is the person the only detected object in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the camera in terms of depth?",
+    "answer": "The person is positioned at a mid-to-far range depth, approximately 18.55 metres away from the camera, within a scene that extends from 0.00 metres to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  },
+  {
+    "question": "Is the person located in the near foreground, mid-range, or far background of the scene?",
+    "answer": "The person is located at a mid-range depth of approximately 18.55 metres, roughly 37% of the total scene depth (50.00 metres), placing them in the mid-range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard due to a worker being within 2 metres of any heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment has been detected in this scene. The only detected object is a person at approximately 18.55 metres from the camera. However, site supervisors should verify the surrounding area not captured in frame for any nearby machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for this scene based on proximity of the person to any detected hazardous machinery?",
+    "answer": "No safety alert is required based on detected objects. No heavy equipment or hazardous machinery appears in the object list. The person is the sole detected entity. Nonetheless, the minimum scene depth of 0.00 metres suggests objects may exist very close to the camera \u2014 a physical site inspection is recommended to confirm no undetected hazards are present near the worker.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000312.jpg"
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the nearest bed in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the nearest bed is approximately 18.14 metres (scene mean depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the couch and the nearest bed in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the couch and the nearest bed is approximately 18.14 metres (scene mean depth), with a range spanning 0.00 to 50.00 metres across the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "Is the couch located in the same scene as both beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the couch and the two beds?",
+    "answer": "The person is detected among the couch and two beds. Given the scene's depth range (0.00\u201350.00 metres) and mean depth of 18.14 metres, the person likely occupies a mid-scene position, potentially between or alongside the furniture items.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "couch",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "Where is the couch positioned relative to the two beds in the scene?",
+    "answer": "The couch appears to be positioned within the same general area as the two beds, likely along the same depth plane given the scene's mean depth of 18.14 metres, suggesting they are arranged in a shared room environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy construction equipment that could pose a safety hazard?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The scene contains only a couch, two beds, and a person, which appear to be in an indoor residential or rest area setting. No safety proximity alert is required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "couch",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  },
+  {
+    "question": "Does the presence of a person among beds and a couch in this scene suggest any rest-area safety concern, such as an unsupervised or potentially injured worker?",
+    "answer": "Caution advised: A person is detected in close proximity to beds and a couch in what may be an on-site rest area. While no heavy equipment hazard is present, site supervisors should verify the person is resting safely and not in distress. No mechanical proximity hazard (< 2 metres to heavy equipment) is flagged.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001200.jpg"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 14.94 metres apart on average, though individual separations may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "What is the maximum possible separation distance between the two persons detected in this scene?",
+    "answer": "The maximum possible separation distance between the two persons is approximately 50.00 metres, based on the maximum depth value recorded in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Are there any persons present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) present in this scene alongside the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Are the two persons in close proximity to each other (within 2 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons are both present within the scene with a mean depth of approximately 14.94 metres. Without distinct lateral coordinate data, they cannot be definitively described as left/right of each other, but they occupy a shared general depth zone in the mid-to-far field of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Are the two persons positioned at similar depths in the scene, or is one significantly closer to the camera than the other?",
+    "answer": "The depth range spans from 0.00 metres to 50.00 metres, suggesting that one or both persons could be at significantly different depths. It is possible one person is much closer to the camera than the other, placing them at different relative depth positions within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for worker-equipment proximity. No heavy equipment (e.g., excavators, bulldozers, cranes, forklifts) has been detected in this scene. However, site supervisors should ensure both persons are wearing appropriate PPE and are accounted for within a safe zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised if the two persons are found to be within 2 metres of each other in a hazardous zone?",
+    "answer": "While no heavy equipment is detected in this scene, if the two persons are operating in a designated hazardous zone (e.g., near excavations, moving loads, or restricted areas), a safety alert should be raised if they are within 2 metres of each other without adequate safety separation protocols in place. Current depth data does not conclusively confirm they are within 2 metres of each other.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001382.jpg"
+  }
+]

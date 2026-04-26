@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000522.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects in the scene?",
+    "answer": "17.88 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000522.jpg"
+  },
+  {
+    "question": "Is there a maximum depth distance greater than 40 metres in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000522.jpg"
+  },
+  {
+    "question": "Are all four people within 20 metres of the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000522.jpg"
+  },
+  {
+    "question": "What is the range between the closest and farthest person from the camera?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000522.jpg"
+  },
+  {
+    "question": "Are there persons positioned at varying depths across the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000522.jpg"
+  }
+]

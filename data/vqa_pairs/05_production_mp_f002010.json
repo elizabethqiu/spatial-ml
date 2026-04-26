@@ -1,0 +1,90 @@
+[
+  {
+    "question": "Is the bottle closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  },
+  {
+    "question": "Are both cups at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any other object in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  },
+  {
+    "question": "What is the maximum distance between the nearest and farthest objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of all objects in the scene?",
+    "answer": "15.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "cup",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  },
+  {
+    "question": "Is the bottle positioned between the two cups?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "cup",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  },
+  {
+    "question": "Is the person the farthest object from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  },
+  {
+    "question": "What is the minimum distance detected in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "cup",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002010.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the pizza and the bicycle?",
+    "answer": "Unable to determine - object positions not provided in scene data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004958.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the pizza?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004958.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "bicycle",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004958.jpg"
+  },
+  {
+    "question": "Is the bicycle located to the right of the pizza?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004958.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "bicycle",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004958.jpg"
+  },
+  {
+    "question": "Are there any workers in proximity to heavy equipment?",
+    "answer": "No safety concern - scene contains only pizza, bicycle, and bottle with no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004958.jpg"
+  }
+]

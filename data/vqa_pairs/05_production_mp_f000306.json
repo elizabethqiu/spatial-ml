@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the approximate average depth (distance from the camera) of all detected persons in the scene?",
+    "answer": "The average depth of all detected persons is approximately 19.70 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  },
+  {
+    "question": "What is the range of depths across all detected persons in the scene, from the closest to the farthest?",
+    "answer": "The depth range spans from approximately 0.00 metres (closest detectable point) to 50.00 metres (farthest detected person), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  },
+  {
+    "question": "Are there any persons detected within 5 metres of the camera in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  },
+  {
+    "question": "Are all four detected persons located at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera relative to the others?",
+    "answer": "The person nearest the camera is at approximately 0.00 metres depth, placing them at the very front of the scene, closer than the other three persons whose depths extend up to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  },
+  {
+    "question": "How are the four persons spatially distributed in terms of depth \u2014 are they clustered together or spread out?",
+    "answer": "The persons are spread out across a wide depth range of 0.00 to 50.00 metres, with a mean depth of 19.70 metres, indicating they are distributed at varying distances from the camera rather than clustered in one location.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected near any of the workers that poses an immediate safety hazard (within 2 metres)?",
+    "answer": "No heavy equipment is detected in this scene. All four detected objects are persons, so no worker\u2013equipment proximity hazard can be flagged at this time. However, the site should be monitored for any equipment entering the area, particularly near the person detected at approximately 0.00 metres depth.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  },
+  {
+    "question": "Given that one person is detected at near-zero depth (approximately 0.00 metres from the camera), does this proximity to the observation point represent a potential safety concern?",
+    "answer": "Yes \u2014 a person detected at approximately 0.00 metres depth is extremely close to the camera or sensor position, which may indicate the individual is in a restricted zone, near site entry/exit equipment, or potentially in the path of vehicles or machinery. Immediate visual confirmation and site marshal intervention is recommended to ensure this worker is in a safe location.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000306.jpg"
+  }
+]

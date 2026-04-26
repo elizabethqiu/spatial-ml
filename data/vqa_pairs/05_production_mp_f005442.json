@@ -1,0 +1,102 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "4 cars",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "Are there more cars than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "Are bananas present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "Is the closest object in this scene at ground level (0 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects from the camera?",
+    "answer": "16.03 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to heavy machinery (within 2 metres)?",
+    "answer": "Unable to determine - insufficient spatial coordinate data to calculate precise distances between persons and cars",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "How many bananas are in the scene?",
+    "answer": "2 bananas",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  },
+  {
+    "question": "Is the scene depth range greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005442.jpg"
+  }
+]

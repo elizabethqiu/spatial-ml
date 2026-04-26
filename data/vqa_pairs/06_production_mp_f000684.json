@@ -1,0 +1,83 @@
+[
+  {
+    "question": "What is the distance between the person and the television?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the television?",
+    "answer": "Unable to determine - no individual 3D positions provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment?",
+    "answer": "No - this is a domestic/office scene with no heavy construction equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  },
+  {
+    "question": "Are both the television and refrigerator present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  },
+  {
+    "question": "Is this scene a construction site environment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000684.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002858.jpg"
+  },
+  {
+    "question": "How many people are detected in this construction site?",
+    "answer": "1 person",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002858.jpg"
+  },
+  {
+    "question": "What is the average depth of detected objects in the scene?",
+    "answer": "15.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002858.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002858.jpg"
+  },
+  {
+    "question": "Is the detected person at a close proximity to the camera?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002858.jpg"
+  },
+  {
+    "question": "Are there any safety concerns with the person's current position relative to heavy equipment?",
+    "answer": "No heavy equipment detected in scene. Person is at safe distance with no equipment proximity hazards identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002858.jpg"
+  }
+]

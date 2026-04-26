@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002050.jpg"
+  },
+  {
+    "question": "Is there a toothbrush in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002050.jpg"
+  },
+  {
+    "question": "Is there a tie visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002050.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toothbrush",
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002050.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toothbrush",
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002050.jpg"
+  },
+  {
+    "question": "Are there more persons than accessories (tie and toothbrush combined) in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tie",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002050.jpg"
+  }
+]

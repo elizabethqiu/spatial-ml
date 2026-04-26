@@ -1,0 +1,86 @@
+[
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected persons in metres?",
+    "answer": "14.93 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Are there any persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Is there at least one person positioned at the minimum depth (0.00 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Are all three persons within 20 metres depth range?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of the three persons across the scene depth.",
+    "answer": "The three persons are distributed across a 50-metre depth range, with at least one person at the closest point (0.00 metres) and the scene extending to a maximum depth of 50.00 metres, with an average depth of 14.93 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  },
+  {
+    "question": "Are there any safety hazards related to worker proximity in this scene?",
+    "answer": "No heavy equipment detected in the scene. Only persons are present, so no proximity-based safety alerts for worker-equipment interaction are applicable.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002356.jpg"
+  }
+]

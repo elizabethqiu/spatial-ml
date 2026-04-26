@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000106.jpg"
+  },
+  {
+    "question": "Is there a suitcase in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000106.jpg"
+  },
+  {
+    "question": "Are the two people closer to the suitcase or further away from it?",
+    "answer": "Unable to determine from available spatial data - insufficient positioning information for relative comparison",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000106.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "14.43 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000106.jpg"
+  },
+  {
+    "question": "Is there heavy equipment within 2 metres of any worker?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000106.jpg"
+  },
+  {
+    "question": "What is the maximum distance span in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000106.jpg"
+  }
+]

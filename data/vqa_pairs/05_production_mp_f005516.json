@@ -1,0 +1,38 @@
+[
+  {
+    "question": "How many parking meters are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005516.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to the parking meters?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005516.jpg"
+  },
+  {
+    "question": "What is the approximate average distance to the detected parking meters in metres?",
+    "answer": "14.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005516.jpg"
+  },
+  {
+    "question": "Is this scene indicative of a construction site with heavy equipment requiring safety monitoring?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005516.jpg"
+  }
+]

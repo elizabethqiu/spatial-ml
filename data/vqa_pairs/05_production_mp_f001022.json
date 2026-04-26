@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the depth statistics available, the estimated distance between the first person and the bed is approximately 19.45 metres (mean scene depth), though precise individual object depths are not resolved.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "The two persons are estimated to be within the same depth range of 0.00 to 50.00 metres; without individual depth coordinates, the separation is indeterminate but falls within a maximum of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  },
+  {
+    "question": "Is any person in close proximity (less than 2 metres) to heavy construction equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  },
+  {
+    "question": "Does the scene contain any heavy machinery that poses a safety risk to the persons present?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons in the scene?",
+    "answer": "The bed is detected as a separate object in the scene; based on the overall depth range, it is positioned somewhere within the scene alongside the two persons, but without precise per-object depth coordinates its exact relative position (e.g., in front of, behind, or beside the persons) cannot be definitively stated.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  },
+  {
+    "question": "Is the first person positioned in front of or behind the second person relative to the camera?",
+    "answer": "Both persons share the same scene depth range (0.00 to 50.00 metres); without individual depth values, it cannot be determined which person is closer to or farther from the camera. They may be at the same depth or at different depths within that range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001022.jpg"
+  }
+]

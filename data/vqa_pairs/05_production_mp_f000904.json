@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many chairs are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000904.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000904.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000904.jpg"
+  },
+  {
+    "question": "Are there more chairs than couches in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000904.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "20.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000904.jpg"
+  },
+  {
+    "question": "Is the couch closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000904.jpg"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the construction scene?",
+    "answer": "The average depth of the scene is approximately 19.45 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this construction scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  },
+  {
+    "question": "Where is the closest object or surface relative to the camera in this scene?",
+    "answer": "The minimum depth recorded is 0.00 metres, indicating a surface or object is at or extremely close to the camera position, though no discrete objects were detected by the object detector.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  },
+  {
+    "question": "Are there objects or structures present in the far background of the scene?",
+    "answer": "Based on depth statistics, scene content extends up to 50.00 metres, suggesting background structures or terrain are present in the far field, though no specific objects were identified.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert can be issued at this time because no workers or heavy equipment were detected in the scene. However, the absence of detections may indicate a sensor or occlusion issue \u2014 a manual inspection of the site is strongly recommended to ensure worker safety.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  },
+  {
+    "question": "Should this scene be flagged for further review due to lack of object detections?",
+    "answer": "Yes \u2014 a construction site scene with zero detected objects is anomalous and could indicate camera obstruction, poor lighting, sensor malfunction, or an empty site. Safety personnel should verify the scene status manually, as undetected workers or equipment near hazardous areas pose an unassessable risk.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001596.jpg"
+  }
+]

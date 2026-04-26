@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the laptop?",
+    "answer": "Unable to determine - objects not positioned closely enough for precise measurement in scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002516.jpg"
+  },
+  {
+    "question": "Is the laptop within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002516.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the laptop?",
+    "answer": "Unable to determine from given depth statistics alone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002516.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between the person and laptop?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002516.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002516.jpg"
+  },
+  {
+    "question": "Is the person positioned behind the laptop?",
+    "answer": "Unable to determine - spatial arrangement not clearly defined.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002516.jpg"
+  }
+]

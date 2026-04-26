@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many potted plants are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005034.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "potted plant",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005034.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005034.jpg"
+  },
+  {
+    "question": "Are the potted plants at approximately the same depth from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005034.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "16.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "potted plant",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005034.jpg"
+  },
+  {
+    "question": "Is the car positioned farther from the camera than the potted plants?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005034.jpg"
+  },
+  {
+    "question": "What is the closest object to the camera in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "potted plant",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005034.jpg"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "question": "How many people are visible in this construction scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "What is the average distance of detected objects from the camera?",
+    "answer": "15.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "Are there any workers present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "Is the closest person within the camera's field of view?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "Are all detected individuals at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "Is there significant depth variation among the detected people in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "Are there workers distributed across varying distances in this scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to proximity between workers and heavy equipment?",
+    "answer": "No heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  },
+  {
+    "question": "Are any workers detected within 2 metres of tracked equipment?",
+    "answer": "No equipment detected for safety analysis",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001502.jpg"
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "question": "What is the approximate distance between person_1 and person_2 in the scene?",
+    "answer": "Based on the depth statistics, the persons are distributed across a depth range of 0.00 to 50.00 metres, with a mean scene depth of approximately 20.06 metres. The estimated distance between person_1 and person_2 is approximately 5.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the tv and the nearest person in the scene?",
+    "answer": "Given the scene depth statistics (mean: 20.06 metres, range: 0.00\u201350.00 metres), the nearest person to the tv is estimated to be approximately 3.00 metres away.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "Is there any person located within 2 metres of heavy construction equipment in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "Are all three detected persons present within the same scene frame?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "Is the tv located closer to the viewer than the mean scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "Which object is positioned closest to the front of the scene (smallest depth value)?",
+    "answer": "Based on the depth range starting at 0.00 metres, one of the detected persons is positioned closest to the viewer at the front of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "Where is the tv positioned relative to the persons in the scene?",
+    "answer": "The tv appears to be positioned centrally or towards the background of the scene, with at least one person located in front of it (closer to the viewer) and at least one person situated at a similar or greater depth behind it, based on the mean depth of 20.06 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "Which person is located farthest from the tv in terms of depth?",
+    "answer": "The person located nearest to the maximum scene depth of 50.00 metres is estimated to be farthest from the tv, placing them roughly 30 metres behind it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is any worker at risk due to proximity to heavy machinery or hazardous equipment in this scene?",
+    "answer": "No immediate safety alert is triggered. No heavy construction equipment (e.g., excavators, forklifts, cranes) has been detected in this scene. The only non-person object is a tv, which does not constitute a hazard. No worker is within a dangerous 2-metre proximity to any heavy equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Could any of the three detected persons be in an unsafe position relative to other objects in the scene?",
+    "answer": "No safety alert is warranted based on the detected objects. The scene contains only persons and a tv. Since no heavy equipment or construction hazards are present, none of the three persons are flagged as being within an unsafe 2-metre proximity threshold to any dangerous object.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001014.jpg"
+  }
+]

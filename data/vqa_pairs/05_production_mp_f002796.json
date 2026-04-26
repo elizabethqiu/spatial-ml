@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002796.jpg"
+  },
+  {
+    "question": "Is there a clock present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002796.jpg"
+  },
+  {
+    "question": "Are there more persons than clocks in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002796.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "18.46 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002796.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002796.jpg"
+  },
+  {
+    "question": "Are both persons positioned at the same depth in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002796.jpg"
+  }
+]

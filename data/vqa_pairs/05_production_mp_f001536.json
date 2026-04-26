@@ -1,0 +1,111 @@
+[
+  {
+    "question": "How far is the knife from the nearest person in the scene?",
+    "answer": "Based on the available depth data, the knife and nearest person are estimated to be approximately 0.50 metres apart, placing them in immediate close proximity.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "What is the approximate average depth (distance from camera) of all persons detected in the scene?",
+    "answer": "The three detected persons are distributed across the scene with an estimated average depth of approximately 17.27 metres from the camera viewpoint.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "Is the knife within 1 metre of any person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "Is the knife located in front of (closer to the camera than) at least one of the persons?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "Where is the knife positioned relative to the group of persons in the scene?",
+    "answer": "The knife appears to be positioned in the foreground of the scene, close to at least one of the persons, while the three persons are spread across the mid-to-background depth range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "How are the three persons spatially distributed relative to each other in the scene?",
+    "answer": "The three persons appear to be distributed at varying depths across the scene, with some positioned closer to the foreground and others toward the mid-background, spanning a depth range within the overall scene extent of 0 to 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "What is the relative position of the knife compared to the persons in terms of depth from the camera?",
+    "answer": "The knife is estimated to be positioned closer to the camera (shallower depth) than the majority of the persons, placing it in the foreground relative to the group.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is any person in dangerously close proximity to the knife (within 1 metre)?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes \u2014 at least one person is estimated to be within approximately 0.50 metres of the knife. A person in such close, uncontrolled proximity to a bladed instrument poses a serious injury risk. Immediate intervention is recommended: ensure the knife is secured, sheathed, or removed from the area, and verify that all personnel are maintaining a safe working distance from any bladed tools.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Does the scene contain any hazardous object that could pose a risk to the workers present?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes \u2014 a knife has been detected in the scene with high confidence (1.00) in close proximity to at least one of the three persons present. Bladed objects represent a significant laceration and puncture hazard. All personnel should be made aware of the knife's location, proper handling protocols should be enforced, and the knife should be stored safely when not in active use.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001536.jpg"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Is there a cell phone visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Is a baseball glove present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball glove"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "baseball glove"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the camera than the mean depth of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in this scene?",
+    "answer": "22.95 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "baseball glove"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Are there more people than sports equipment items in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "baseball glove"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  },
+  {
+    "question": "How many distinct object types are present in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "baseball glove"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001978.jpg"
+  }
+]

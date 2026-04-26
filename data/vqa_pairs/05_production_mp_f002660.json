@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002660.jpg"
+  },
+  {
+    "question": "Is there a baseball bat in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002660.jpg"
+  },
+  {
+    "question": "Are there more people than baseball bats in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002660.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002660.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "15.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002660.jpg"
+  },
+  {
+    "question": "Is the baseball bat positioned closer than 2 metres to any person, posing a safety risk?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "baseball bat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002660.jpg"
+  }
+]

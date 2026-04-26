@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many sinks are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002580.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance to any sink in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002580.jpg"
+  },
+  {
+    "question": "What is the average distance to the sinks in this scene?",
+    "answer": "15.79 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002580.jpg"
+  },
+  {
+    "question": "Is there at least one sink visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002580.jpg"
+  },
+  {
+    "question": "Are all sinks at the same depth distance?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002580.jpg"
+  },
+  {
+    "question": "Are there more than 3 sinks in this construction area?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002580.jpg"
+  }
+]

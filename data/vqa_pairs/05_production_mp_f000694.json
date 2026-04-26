@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed?",
+    "answer": "Based on the scene depth statistics, the person and bed are approximately 18.97 metres apart on average, though individual object depths may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the person and bed?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  },
+  {
+    "question": "Is the person currently in contact with or lying on the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the bed in this scene?",
+    "answer": "The person is detected within the same scene as the bed. Given the mean scene depth of approximately 18.97 metres and the depth range spanning 0.00 to 50.00 metres, the person and bed are likely positioned at different depth planes, with one object closer to the foreground and the other further in the background. The exact lateral (left/right) relationship cannot be fully determined without bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  },
+  {
+    "question": "Is the bed positioned in front of or behind the person from the camera's perspective?",
+    "answer": "Without precise individual depth values for each object, a definitive answer cannot be confirmed; however, given the wide depth range (0.00\u201350.00 metres) and mean depth of 18.97 metres, either object could be in the foreground. Further depth segmentation per object would be required to determine which is closer to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment detected in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to a person being within 2 metres of dangerous heavy machinery in this scene?",
+    "answer": "no \u2014 The only objects detected are a person and a bed. A bed does not constitute heavy construction equipment, and therefore no proximity-based safety alert is warranted for this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000694.jpg"
+  }
+]

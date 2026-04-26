@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  },
+  {
+    "question": "Is there a handbag visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  },
+  {
+    "question": "Are there more people than handbags in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "23.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  },
+  {
+    "question": "Is the handbag closer than 2 metres to any person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  },
+  {
+    "question": "Are all people at a safe distance from heavy equipment?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  },
+  {
+    "question": "What is the minimum distance to the nearest object in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005978.jpg"
+  }
+]

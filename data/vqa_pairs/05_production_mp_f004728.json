@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the car and the backpack?",
+    "answer": "19.83 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004728.jpg"
+  },
+  {
+    "question": "Is the backpack closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004728.jpg"
+  },
+  {
+    "question": "Is the car further away than 15 metres from the backpack?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004728.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004728.jpg"
+  },
+  {
+    "question": "Is the backpack positioned at the nearest point in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004728.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between objects in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004728.jpg"
+  }
+]

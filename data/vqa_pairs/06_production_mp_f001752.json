@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a potted plant visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001752.jpg"
+  },
+  {
+    "question": "How many potted plants are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001752.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001752.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "12.60 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001752.jpg"
+  },
+  {
+    "question": "Is the potted plant located at the foreground of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001752.jpg"
+  },
+  {
+    "question": "Are there any workers in proximity to heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001752.jpg"
+  }
+]

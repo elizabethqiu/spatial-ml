@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many toilets are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Is there a parking meter in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000448.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Are the toilets closer to the camera than the parking meter?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000448.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "17.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Is the minimum depth measurement at ground level?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000448.jpg"
+  }
+]

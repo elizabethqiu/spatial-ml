@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What is the approximate mean depth of the objects detected in the scene?",
+    "answer": "The mean depth of the scene is approximately 22.16 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  },
+  {
+    "question": "Is heavy construction equipment (e.g., excavator, bulldozer, crane) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  },
+  {
+    "question": "Is the person located closer to the bed or to the chair in the scene?",
+    "answer": "Based on the available scene description, the person, bed, and chair are all detected within the same scene. Without precise individual object coordinates, a definitive closest-object determination cannot be made; however, all three objects share a similar mean depth of approximately 22.16 metres, suggesting they are in close spatial proximity to one another. The person appears to be roughly equidistant from both the bed and the chair.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  },
+  {
+    "question": "Is the chair positioned in front of or behind the bed in terms of depth from the camera?",
+    "answer": "The scene depth ranges from 0.00 to 50.00 metres with a mean of 22.16 metres. Without individual per-object depth values, an exact ordering cannot be confirmed; both the chair and bed likely occupy the mid-depth region of the scene (around 22 metres), meaning neither is conclusively in front of or behind the other based on available data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  },
+  {
+    "question": "Is the person within a dangerous proximity (less than 2 metres) of any heavy equipment such as a crane, forklift, or excavator?",
+    "answer": "No heavy construction equipment is detected in this scene (only a bed and a chair are present alongside the person). Therefore, there is no safety alert triggered for proximity between the person and heavy equipment. The environment does not appear to be a active construction hazard zone based on detected objects.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  },
+  {
+    "question": "Does the presence of a bed and chair alongside a person in this scene suggest any immediate construction site safety concern?",
+    "answer": "No immediate construction site safety concern is flagged. The detected objects \u2014 bed, chair, and person \u2014 are not indicative of heavy machinery or high-risk construction equipment. No worker-equipment proximity violation (< 2 metres) can be identified. However, if this scene is unexpectedly located within a construction zone, the presence of furniture and personnel should be reviewed to ensure the area is properly cordoned off.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001172.jpg"
+  }
+]

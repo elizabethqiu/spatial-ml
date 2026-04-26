@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Based on the scene depth data, the person and the bed are approximately 18.27 metres apart on average within the scene depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  },
+  {
+    "question": "What is the estimated depth range of objects detected in this scene?",
+    "answer": "The depth range of detected objects in this scene spans from 0.00 metres (minimum) to 50.00 metres (maximum).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  },
+  {
+    "question": "Where is the person relative to the bed in this scene?",
+    "answer": "The person is detected in the same scene as the bed. Based on the available depth statistics, both objects are within the scene's depth range (0.00\u201350.00 m), with the person likely positioned near or adjacent to the bed given the scene context.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  },
+  {
+    "question": "Is the bed in front of or behind the person in terms of scene depth?",
+    "answer": "Both the bed and the person share overlapping depth space within the scene (mean depth ~18.27 m). Without individual object depth coordinates, they appear to be at a comparable depth plane, though the bed is likely the background reference object with the person positioned in front of or beside it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment near the person that poses a safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The only objects present are a bed and a person, so no proximity-based safety alert is triggered. This scene does not appear to be a construction site environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  },
+  {
+    "question": "Does the proximity between the person and any detected object in this scene require a safety alert?",
+    "answer": "No safety alert is required. The scene contains only a person and a bed. A bed is not classified as heavy equipment, and no construction hazard is present. Standard construction site safety thresholds (< 2 metres between worker and heavy equipment) are not applicable here.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001120.jpg"
+  }
+]

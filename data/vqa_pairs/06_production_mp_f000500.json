@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the refrigerator and the car?",
+    "answer": "13.51 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000500.jpg"
+  },
+  {
+    "question": "How far is the closest object from the camera?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Are both the refrigerator and car visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Is the car positioned further away than the refrigerator?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000500.jpg"
+  },
+  {
+    "question": "Which object is located at approximately the maximum depth in this scene?",
+    "answer": "The object at 50.00 metres depth (neither refrigerator nor car specifically identified at max depth)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000500.jpg"
+  }
+]

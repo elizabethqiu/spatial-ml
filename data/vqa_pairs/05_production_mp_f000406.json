@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 12.22 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  },
+  {
+    "question": "What is the maximum observable depth range in this construction scene?",
+    "answer": "The maximum observable depth in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  },
+  {
+    "question": "Where is the primary depth concentration located in this construction scene?",
+    "answer": "With a mean depth of 12.22 metres and a minimum of 0.00 metres, the primary depth concentration is in the near-to-mid range of the scene, suggesting most scene content is within roughly 12 metres of the camera.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  },
+  {
+    "question": "How does the near foreground (0\u20132 metres) relate to the overall scene depth distribution?",
+    "answer": "The near foreground zone (0\u20132 metres) represents only 4% of the total depth range (0\u201350 metres), and since the mean depth is 12.22 metres, most scene content lies well beyond the immediate foreground.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  },
+  {
+    "question": "Is there an immediate safety concern due to workers being within 2 metres of heavy equipment?",
+    "answer": "No safety alert can be issued at this time because no workers or heavy equipment have been detected in the scene. However, the lack of object detection may indicate a limitation of the sensor or occlusion \u2014 site supervisors should conduct a manual visual check to confirm the area is clear, especially given the depth range extends to 50.00 metres where objects may be harder to detect.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  },
+  {
+    "question": "Should a safety warning be raised due to undetected objects in a construction environment?",
+    "answer": "Yes \u2014 while no specific objects were detected, a construction site with a depth range of 0.00 to 50.00 metres and no detected personnel or equipment may indicate a sensor failure, poor visibility, or heavy occlusion. Safety protocol recommends treating undetected scenes as potentially hazardous and performing a manual site inspection before permitting activity.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000406.jpg"
+  }
+]

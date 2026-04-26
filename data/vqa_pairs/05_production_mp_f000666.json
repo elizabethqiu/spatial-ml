@@ -1,0 +1,113 @@
+[
+  {
+    "question": "What is the approximate distance between the bed and the chair in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the bed and the chair is approximately 19.24 metres (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the dog and the bottle in the scene?",
+    "answer": "Based on the available depth statistics, the estimated distance between the dog and the bottle is approximately 19.24 metres, with a possible range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Is the dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Is the bottle located near the chair in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Is the dog within 2 metres of any detected object in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "bottle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed?",
+    "answer": "Based on the scene layout, the chair appears to be positioned in the mid-to-far range of the scene relative to the bed, likely adjacent or across from it within the room environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Where is the bottle positioned relative to the dog?",
+    "answer": "The bottle appears to be positioned separately from the dog, likely on a surface such as the bed or near the chair, rather than in the dog's immediate vicinity.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the bed?",
+    "answer": "The dog is likely positioned on or near the bed, as dogs are commonly found resting on beds in indoor scenes. The dog appears to be in the foreground-to-mid range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Is there a safety concern involving a worker and heavy equipment in this scene?",
+    "answer": "No safety alert is warranted for this scene. No workers or heavy construction equipment are detected. The scene contains domestic objects (bed, dog, bottle, chair) and poses no construction site safety risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "dog",
+      "bottle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  },
+  {
+    "question": "Does the presence of the dog near any object in this scene create a tripping or safety hazard?",
+    "answer": "While no construction-specific safety alert is triggered (no workers or heavy equipment present), the dog's proximity to the chair or bottle could create a minor tripping hazard if a person were to move through the space without noticing the dog. No proximity under 2 metres involving heavy equipment is detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "chair",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000666.jpg"
+  }
+]

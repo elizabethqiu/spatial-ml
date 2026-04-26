@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000584.jpg"
+  },
+  {
+    "question": "Is there a wine glass in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000584.jpg"
+  },
+  {
+    "question": "Are both persons positioned on or near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000584.jpg"
+  },
+  {
+    "question": "Is the wine glass closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000584.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in this scene?",
+    "answer": "18.43 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000584.jpg"
+  },
+  {
+    "question": "Is the wine glass positioned between the two persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000584.jpg"
+  }
+]

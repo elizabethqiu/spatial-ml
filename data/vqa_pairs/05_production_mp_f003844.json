@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003844.jpg"
+  },
+  {
+    "question": "Is there a backpack present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003844.jpg"
+  },
+  {
+    "question": "Are both people at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003844.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003844.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in metres?",
+    "answer": "14.14 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003844.jpg"
+  },
+  {
+    "question": "Is the backpack closer than 2 metres to either person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003844.jpg"
+  }
+]

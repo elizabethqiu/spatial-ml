@@ -1,0 +1,75 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004984.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004984.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004984.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004984.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "20.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004984.jpg"
+  },
+  {
+    "question": "Is a pizza visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004984.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected between workers and heavy machinery?",
+    "answer": "no hazards detected - no heavy equipment present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004984.jpg"
+  }
+]

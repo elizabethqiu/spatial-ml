@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many cats are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004102.jpg"
+  },
+  {
+    "question": "Is there a parking meter in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004102.jpg"
+  },
+  {
+    "question": "Are there more cats than parking meters?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004102.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of objects in the scene?",
+    "answer": "16.99 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004102.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004102.jpg"
+  },
+  {
+    "question": "Are the cats positioned closer to the parking meter or farther away?",
+    "answer": "Unable to determine - insufficient spatial relationship data provided for individual object positions",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004102.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy equipment and workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004102.jpg"
+  }
+]

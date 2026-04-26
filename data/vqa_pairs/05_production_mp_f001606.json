@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the suitcase from the camera?",
+    "answer": "The suitcase is approximately 11.70 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth in the scene?",
+    "answer": "The maximum detected depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  },
+  {
+    "question": "Is there a suitcase present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  },
+  {
+    "question": "Is the suitcase closer than 5 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  },
+  {
+    "question": "Where is the suitcase located relative to the camera viewpoint?",
+    "answer": "The suitcase is located at a mid-to-far range from the camera, approximately 11.70 metres away, positioned within the central depth field of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  },
+  {
+    "question": "Is the suitcase in the near foreground, mid-range, or far background of the scene?",
+    "answer": "The suitcase is in the mid-range of the scene, situated at approximately 11.70 metres, which falls between the minimum depth of 0.00 metres and the maximum depth of 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  },
+  {
+    "question": "Does the suitcase pose a safety hazard due to proximity to heavy equipment or workers in this scene?",
+    "answer": "No heavy equipment or workers are detected in the scene; however, an unattended suitcase on a construction site should be treated as a potential hazard. It may be a tripping risk or an unidentified object and should be reported to site safety personnel immediately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  },
+  {
+    "question": "Should site personnel be alerted about the presence of this suitcase on the construction site?",
+    "answer": "Yes \u2014 an unattended suitcase is an anomalous object on a construction site. It could pose a tripping hazard, obstruct pathways, or in a security context represent an unidentified item. Site safety officers should be notified to inspect and remove it promptly.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001606.jpg"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "question": "Is the bird closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004094.jpg"
+  },
+  {
+    "question": "Is the umbrella between the bird and the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella",
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004094.jpg"
+  },
+  {
+    "question": "How far away is the person from the camera?",
+    "answer": "approximately 17.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004094.jpg"
+  },
+  {
+    "question": "What is the maximum distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004094.jpg"
+  },
+  {
+    "question": "Is the bird present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004094.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment in dangerous proximity in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird",
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004094.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a chair in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000154.jpg"
+  },
+  {
+    "question": "How many chairs are visible in the scene?",
+    "answer": "1 chair",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000154.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects in this scene?",
+    "answer": "0.00 to 50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000154.jpg"
+  },
+  {
+    "question": "Is the chair positioned at the closest point in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000154.jpg"
+  },
+  {
+    "question": "What is the mean depth of this scene?",
+    "answer": "17.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000154.jpg"
+  }
+]

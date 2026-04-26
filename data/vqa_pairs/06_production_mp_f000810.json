@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Is the person standing next to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000810.jpg"
+  },
+  {
+    "question": "How far away is the person from the toilet in metres?",
+    "answer": "Unable to determine precise distance from available depth data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000810.jpg"
+  },
+  {
+    "question": "Is there a safety hazard between the worker and the toilet?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000810.jpg"
+  },
+  {
+    "question": "Is the toilet closer to the camera than the person?",
+    "answer": "Unable to determine from depth statistics alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000810.jpg"
+  }
+]

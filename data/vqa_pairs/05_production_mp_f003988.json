@@ -1,0 +1,97 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "16.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "Is there a clock visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "Is a bus present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "Are there more than 3 persons in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "Is the clock closer than 5 metres from the camera viewpoint?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "Are all persons positioned within 20 metres depth range?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "Is the bus positioned further away than the average scene depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are any workers positioned within 2 metres of heavy equipment?",
+    "answer": "Insufficient spatial data to assess proximity between persons and bus",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003988.jpg"
+  }
+]

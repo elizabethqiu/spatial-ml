@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005566.jpg"
+  },
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005566.jpg"
+  },
+  {
+    "question": "Is there a cell phone in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005566.jpg"
+  },
+  {
+    "question": "Are there more persons than cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005566.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the camera than the farthest object?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005566.jpg"
+  },
+  {
+    "question": "Are all the persons positioned at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005566.jpg"
+  }
+]

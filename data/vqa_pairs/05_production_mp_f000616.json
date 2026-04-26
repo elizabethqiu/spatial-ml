@@ -1,0 +1,104 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Based on the depth statistics available, the estimated distance between the person and the bed is approximately 18.47 metres (scene mean depth). Exact positional data is unavailable for a precise measurement.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the cup and the chair?",
+    "answer": "Based on the available depth range (0.00 \u2013 50.00 metres) and mean depth of 18.47 metres, the estimated separation between the cup and the chair is approximately 18.47 metres, though exact per-object depth coordinates are not individually resolved.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Is the cup located near the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed?",
+    "answer": "The chair appears to be positioned within the same general scene space as the bed, likely nearby or adjacent to it, given the scene's mean depth of 18.47 metres and the indoor/room context suggested by the objects present.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the chair?",
+    "answer": "The person appears to be in the general vicinity of the chair within the scene. Given the indoor context and object grouping, the person is likely positioned near or beside the chair, within the scene's average depth range of approximately 18.47 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed?",
+    "answer": "The cup is likely positioned on or near the bed or on a nearby surface such as a side table, consistent with a typical indoor bedroom layout. It appears within the same depth range as the other objects in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (less than 2 metres) to any heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains no heavy construction equipment (e.g., excavators, cranes, forklifts). The detected objects \u2014 bed, cup, person, and chair \u2014 indicate an indoor, non-construction environment. No proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Are there any construction site safety hazards detected in this scene involving the person and surrounding objects?",
+    "answer": "No hazards detected. The scene does not contain any heavy machinery or construction equipment. The person is surrounded only by a bed, cup, and chair, which pose no construction safety risk. No worker-equipment proximity alert (< 2 metres threshold) applies.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000616.jpg"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Based on the depth statistics available, the estimated distance between the person and the bed is approximately 19.47 metres (scene mean depth); precise relative distance cannot be determined without individual object depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the cup and the bed?",
+    "answer": "The estimated distance between the cup and the bed is approximately 19.47 metres based on the scene mean depth; individual object depths are not separately reported, so this is a scene-level approximation.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "Is a cup visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the cup?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed in the scene?",
+    "answer": "Based on the available scene data, the cup and the bed are both detected in the scene; without individual positional coordinates, the cup's exact relative position (e.g., beside, on top of, or in front of the bed) cannot be precisely determined, but both objects share a similar depth range within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person and the bed are both detected within the scene. Given the scene's depth range (0\u201350 metres) and mean depth (~19.47 metres), the person is likely situated at a moderate distance from the bed. Without individual object depth coordinates, a more precise relative position (e.g., beside, in front of, or behind the bed) cannot be confirmed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "Is the person in dangerously close proximity (less than 2 metres) to any heavy equipment in the scene?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The objects present are a bed, a cup, and a person. Therefore, no safety alert for proximity to heavy equipment is triggered. However, standard bedroom safety precautions should still be observed.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose an immediate safety risk to the person due to proximity less than 2 metres?",
+    "answer": "No construction-related heavy equipment is present in the scene. The only objects detected are a bed and a cup, neither of which constitutes heavy equipment. No safety alert is triggered based on the standard construction-site proximity threshold of less than 2 metres between a worker and heavy machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001232.jpg"
+  }
+]

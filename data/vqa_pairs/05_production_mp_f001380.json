@@ -1,0 +1,114 @@
+[
+  {
+    "question": "How far is the dog from the nearest person in the scene?",
+    "answer": "Approximately 2.5 metres, based on the estimated depth and lateral positions of the dog and the closest detected person.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the car and the nearest person?",
+    "answer": "Approximately 5.0 metres, based on relative depth estimates placing the car and nearest person at different depth planes within the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two farthest persons detected in the scene?",
+    "answer": "Approximately 12.0 metres, based on their respective estimated depth positions spanning a significant portion of the scene depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the farthest detected person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "Are all three persons within 10 metres of each other?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "Is the dog in front of or behind the car relative to the camera?",
+    "answer": "The dog appears to be in front of (closer to the camera than) the car, based on relative depth estimates placing the dog at a shallower depth plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "Where are the three persons positioned relative to the car?",
+    "answer": "Two persons appear to be in front of the car (between the car and the camera), while one person appears to be positioned to the side or behind the car at a greater depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "What is the relative position of the dog with respect to the nearest person?",
+    "answer": "The dog is positioned slightly in front of and lateral to the nearest person, suggesting the dog is between the person and the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Is any person dangerously close (within 2 metres) to the car in the scene?",
+    "answer": "Based on depth estimates, at least one person appears to be within approximately 1.5\u20132.0 metres of the car. This proximity warrants caution \u2014 the person should maintain a safe distance from the vehicle to avoid risk of collision or injury.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Is the dog at risk due to proximity to the car?",
+    "answer": "The dog is estimated to be within approximately 3 metres of the car. While this is above the critical 2-metre threshold, the dog's unpredictable movement means the car operator should remain vigilant. If the dog moves closer, it could pose a safety hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001380.jpg"
+  }
+]

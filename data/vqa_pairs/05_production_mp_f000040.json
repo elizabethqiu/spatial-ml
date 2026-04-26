@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the construction site scene?",
+    "answer": "The average depth of the scene is approximately 14.12 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  },
+  {
+    "question": "What is the maximum observable depth range captured in this construction site scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the current scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  },
+  {
+    "question": "Where are objects or structures most likely concentrated relative to the camera based on depth data?",
+    "answer": "Based on the mean depth of 14.12 metres and a minimum depth of 0.00 metres, scene content spans from directly in front of the camera out to 50.00 metres, with the average concentration of surfaces at approximately 14 metres \u2014 suggesting most observable structure is in the mid-range foreground.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  },
+  {
+    "question": "Are there any objects or features detected in the far-field region (beyond 25 metres) of the scene?",
+    "answer": "Based on depth statistics, the scene extends to a maximum of 50.00 metres, indicating that some surfaces or structures are present in the far-field region beyond 25 metres, though no specific objects were detected by the object detector.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  },
+  {
+    "question": "Is there an immediate safety risk due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert can be raised at this time because no workers or heavy equipment were detected in the scene. However, the construction site context warrants continuous monitoring as conditions may change.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  },
+  {
+    "question": "Should this scene be flagged for a safety review due to proximity hazards?",
+    "answer": "No proximity hazard can be confirmed from the current frame since no objects were detected. Nevertheless, a safety alert is recommended due to the construction site environment and the possibility that the object detection system may have missed occluded or partially visible personnel or machinery. Manual review is advised.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000040.jpg"
+  }
+]

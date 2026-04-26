@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "vase",
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  },
+  {
+    "question": "Is the person closer to the vase than to the potted plants?",
+    "answer": "Unable to determine - scene lacks precision positioning data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "vase",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  },
+  {
+    "question": "Are there more potted plants than cups in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  },
+  {
+    "question": "Is the person within safe distance (>2 metres) from all objects?",
+    "answer": "Unable to assess - insufficient proximity data for safety evaluation",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "vase",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "vase",
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  },
+  {
+    "question": "Is the vase present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "16.46 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "vase",
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002154.jpg"
+  }
+]

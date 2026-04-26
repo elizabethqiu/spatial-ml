@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the person and the cell phone?",
+    "answer": "Unable to determine - cell phone position not precisely specified in scene",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002112.jpg"
+  },
+  {
+    "question": "Is the cell phone within arm's reach of the person?",
+    "answer": "Unable to determine - insufficient spatial data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002112.jpg"
+  },
+  {
+    "question": "Is the person holding the cell phone?",
+    "answer": "Unable to determine - insufficient depth information",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002112.jpg"
+  },
+  {
+    "question": "What is the position of the cell phone relative to the person?",
+    "answer": "Unable to determine - no relative position coordinates provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002112.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected in this scene?",
+    "answer": "No heavy equipment detected - no proximity safety alerts applicable",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002112.jpg"
+  }
+]

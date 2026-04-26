@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many remote controls are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "tv",
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  },
+  {
+    "question": "Is the person closer to the TV than the maximum scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  },
+  {
+    "question": "Are there any cats present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  },
+  {
+    "question": "Is the television located behind the person in this scene?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  },
+  {
+    "question": "Where is the cat positioned relative to the TV?",
+    "answer": "The relative position cannot be determined from the available depth statistics alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "15.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "tv",
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to heavy equipment?",
+    "answer": "No safety alert - this is a domestic scene with no heavy equipment present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004108.jpg"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the bowl and the cup?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002126.jpg"
+  },
+  {
+    "question": "Is the bowl closer to the camera than the cup?",
+    "answer": "Unable to determine - no individual depth values provided for objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002126.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002126.jpg"
+  },
+  {
+    "question": "Is the cup positioned to the left of the bowl?",
+    "answer": "Unable to determine - no horizontal position data available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002126.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects (bowl and cup)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002126.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment near workers in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002126.jpg"
+  }
+]

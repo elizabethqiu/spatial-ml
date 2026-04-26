@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002944.jpg"
+  },
+  {
+    "question": "Is there a person present in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002944.jpg"
+  },
+  {
+    "question": "Are the two cars at approximately the same depth distance from the camera?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002944.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002944.jpg"
+  },
+  {
+    "question": "Is the person positioned between the two cars?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002944.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "17.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002944.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person being too close to any vehicle?",
+    "answer": "unable to determine - depth data insufficient for proximity assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002944.jpg"
+  }
+]

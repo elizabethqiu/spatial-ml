@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How many people are visible in this construction scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "17.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "Are there more than 3 people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "Is the minimum observed depth greater than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "Are the people positioned at a relatively consistent depth throughout the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the camera than the furthest person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "Are all persons within close proximity to each other?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  },
+  {
+    "question": "Is there a potential safety concern regarding worker proximity in this scene?",
+    "answer": "No heavy equipment detected; insufficient spatial data to assess worker-to-worker proximity at hazard distance",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000288.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the primary object visible in this scene?",
+    "answer": "bed",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000962.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000962.jpg"
+  },
+  {
+    "question": "What is the average distance to objects in this scene in metres?",
+    "answer": "11.10 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000962.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000962.jpg"
+  },
+  {
+    "question": "What is the closest distance to any object in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000962.jpg"
+  },
+  {
+    "question": "Is the bed positioned at the foreground of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000962.jpg"
+  }
+]

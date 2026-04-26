@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the distance between the dog and the bird?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005722.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the bird?",
+    "answer": "Unable to determine - specific depth coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005722.jpg"
+  },
+  {
+    "question": "How many animals are visible in this scene?",
+    "answer": "2 animals",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005722.jpg"
+  },
+  {
+    "question": "Is there a bird in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005722.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present on this construction site?",
+    "answer": "No - no heavy equipment or workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005722.jpg"
+  },
+  {
+    "question": "Is the dog positioned above the bird?",
+    "answer": "Unable to determine - vertical position data not available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005722.jpg"
+  }
+]

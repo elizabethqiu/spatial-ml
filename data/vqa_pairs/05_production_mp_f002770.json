@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "6 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "16.53 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "Is there a clock visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "Are scissors present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "Is there heavy equipment such as cranes or excavators in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "Are there any objects at ground level (depth 0 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "Are any workers in close proximity to potentially hazardous tools like scissors?",
+    "answer": "No safety alert - no heavy equipment detected in this indoor/office setting",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  },
+  {
+    "question": "Is this scene consistent with a construction site safety context?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002770.jpg"
+  }
+]

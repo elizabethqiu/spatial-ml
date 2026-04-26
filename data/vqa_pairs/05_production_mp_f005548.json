@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many objects are present in the scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005548.jpg"
+  },
+  {
+    "question": "Is the banana closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005548.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005548.jpg"
+  },
+  {
+    "question": "Is there a safety risk due to proximity between the worker and equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005548.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "14.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005548.jpg"
+  },
+  {
+    "question": "Are both a person and a banana visible in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005548.jpg"
+  }
+]

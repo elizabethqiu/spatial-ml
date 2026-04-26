@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the approximate distance between the cat and the backpack in this scene?",
+    "answer": "Based on the depth statistics, the objects in the scene span a depth range of 0.00 to 50.00 metres, with a mean scene depth of approximately 12.27 metres. The estimated separation between the cat and the backpack is approximately 12.27 metres (mean scene depth as proxy).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  },
+  {
+    "question": "What is the mean depth of all detected objects in the scene?",
+    "answer": "The mean depth of all detected objects in the scene is approximately 12.27 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  },
+  {
+    "question": "Is there a cat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, bulldozer, crane) detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  },
+  {
+    "question": "Is the backpack located closer to the camera than the cat?",
+    "answer": "The depth data does not provide definitive per-object depth positions; however, given the depth range of 0.00 to 50.00 metres and mean of 12.27 metres, it cannot be conclusively determined which object is closer without individual depth values. Both objects are within the same general depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  },
+  {
+    "question": "Is the cat positioned in front of or behind the backpack relative to the camera viewpoint?",
+    "answer": "Based on available depth statistics alone (mean: 12.27 m, min: 0.00 m, max: 50.00 m), individual per-object depth is not distinguishable. Both the cat and the backpack appear to occupy the same general mid-range depth zone in the scene, with neither clearly in front of or behind the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only a cat and a backpack \u2014 no workers or heavy construction equipment (such as excavators, forklifts, or bulldozers) have been detected. Therefore, no dangerous proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  },
+  {
+    "question": "Does the presence of the cat near the backpack pose any construction site safety concern?",
+    "answer": "No immediate construction safety alert is warranted. Neither the cat nor the backpack qualifies as heavy equipment or a human worker. However, an unattended backpack on a construction site could indicate an unsupervised worker's belongings, and a stray animal (cat) within the site perimeter could be a minor hazard requiring site management attention. No proximity violation (< 2 metres between worker and heavy equipment) is detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001610.jpg"
+  }
+]

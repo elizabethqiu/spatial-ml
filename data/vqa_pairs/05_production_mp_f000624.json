@@ -1,0 +1,117 @@
+[
+  {
+    "question": "How far is the person from the dining table?",
+    "answer": "Based on the scene depth statistics, the person and dining table are approximately 18.12 metres apart (estimated at mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "The two beds are estimated to be approximately 18.12 metres apart based on the mean scene depth of 18.12 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the person and the nearest bed?",
+    "answer": "The person is estimated to be approximately 18.12 metres from the nearest bed based on the mean depth statistics of the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Is the person located near the dining table?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Are there more than one bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Is the dining table positioned between the two beds?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Is the person located closer to the dining table or to the nearest bed?",
+    "answer": "Based on the scene layout, the person appears to be in a central position relative to the scene; without precise per-object coordinates, relative depth suggests the person is roughly equidistant, but the nearest bed is likely slightly closer given typical indoor room arrangements.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Where is the dining table positioned relative to the two beds?",
+    "answer": "The dining table is positioned between or alongside the two beds within the scene, occupying a mid-scene position relative to both bed objects.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dining table",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the dining table?",
+    "answer": "The person is positioned in proximity to the dining table, likely on one side of it, within the general mid-to-far depth range of the scene (around 18 metres mean depth).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (within 2 metres) to any heavy construction equipment in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The objects present are beds, a dining table, and a person. No safety alert is warranted for equipment proximity. However, note that this scene does not appear to be a construction site, and standard site safety protocols should be verified if the context changes.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  },
+  {
+    "question": "Are any objects in the scene placed dangerously close to the person (within 2 metres) posing a safety risk?",
+    "answer": "Based on the depth statistics (mean: 18.12 metres, min: 0.00 metres), there is a possibility that at minimum depth some objects could be within 2 metres of the person. If the person is at the 0.00 metre minimum depth zone, a bed or dining table in the same zone could pose a tipping or collision hazard. A physical site inspection is recommended to confirm safe clearances.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000624.jpg"
+  }
+]

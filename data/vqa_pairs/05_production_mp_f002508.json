@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the distance between the couch and the dog?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002508.jpg"
+  },
+  {
+    "question": "Is the dog on the couch?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002508.jpg"
+  },
+  {
+    "question": "Is there a couch in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002508.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the couch?",
+    "answer": "Unable to determine - individual depth coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002508.jpg"
+  },
+  {
+    "question": "How many objects are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002508.jpg"
+  },
+  {
+    "question": "Is there a safety concern with worker proximity to heavy equipment?",
+    "answer": "Not applicable - no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002508.jpg"
+  }
+]

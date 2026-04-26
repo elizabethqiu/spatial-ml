@@ -1,0 +1,105 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within the same scene region at approximately 18.69 metres mean depth; their lateral separation cannot be precisely determined, but they appear to be in close proximity, estimated at less than 2 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the bed and the nearest person in the scene?",
+    "answer": "Based on the scene depth statistics with a mean depth of 18.69 metres and a range of 0.00 to 50.00 metres, the nearest person to the bed is estimated to be approximately 0 to 5 metres away, suggesting very close proximity.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "Is any person in the scene in close proximity (less than 2 metres) to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed in the scene?",
+    "answer": "Both persons appear to be positioned in the vicinity of the bed, likely on or immediately adjacent to it, given the scene context and the confined depth range observed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "Where is the bed located relative to the persons in the scene?",
+    "answer": "The bed is located in the central or background area of the scene relative to the two persons, who appear to be positioned on or directly around it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons appear to be positioned in close proximity to each other, likely side-by-side or near one another on or around the bed, based on the scene description and depth data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are any workers dangerously close to heavy equipment in this scene?",
+    "answer": "No heavy equipment has been detected in this scene. The detected objects are two persons and a bed. There is no immediate machinery-related safety hazard. However, note that this does not appear to be a typical construction site scene \u2014 no PPE, heavy machinery, or site infrastructure is visible, which may itself be a site access or misidentification concern worth reviewing.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is the scene consistent with a construction site environment, and are any persons at risk?",
+    "answer": "The scene does not appear consistent with a standard construction site \u2014 only persons and a bed are detected, with no heavy equipment present. There is no proximity-based safety alert triggered (no worker within 2 metres of heavy machinery). However, the presence of a bed on what is flagged as a construction site may indicate unauthorized use of the area, which should be flagged for site supervisors.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000776.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a pizza visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004794.jpg"
+  },
+  {
+    "question": "How many pizzas are detected in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004794.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004794.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "35.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004794.jpg"
+  },
+  {
+    "question": "Is the pizza at the minimum depth range of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004794.jpg"
+  }
+]

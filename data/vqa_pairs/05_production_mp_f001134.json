@@ -1,0 +1,84 @@
+[
+  {
+    "question": "Is the cup closer to the person than the bottle?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  },
+  {
+    "question": "Is the bed positioned behind the dining table?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  },
+  {
+    "question": "How many objects are within 5 metres of the person?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  },
+  {
+    "question": "Is there a worker near heavy equipment with proximity less than 2 metres?",
+    "answer": "No safety alert triggered - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  },
+  {
+    "question": "What is the approximate distance in metres between the dining table and the bed?",
+    "answer": "Approximately 8 to 12 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  },
+  {
+    "question": "Is the bottle positioned on the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  },
+  {
+    "question": "Are the cup and bottle in close proximity to each other (within 1 metre)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  },
+  {
+    "question": "What is the distance in metres from the person to the nearest object?",
+    "answer": "Approximately 0.5 to 1.5 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001134.jpg"
+  }
+]

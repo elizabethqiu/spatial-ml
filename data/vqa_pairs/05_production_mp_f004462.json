@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004462.jpg"
+  },
+  {
+    "question": "Is there a laptop in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004462.jpg"
+  },
+  {
+    "question": "Are there more people than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004462.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004462.jpg"
+  },
+  {
+    "question": "Is the laptop closer to the camera than the farthest object in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004462.jpg"
+  },
+  {
+    "question": "What is the average depth distance across all detected objects?",
+    "answer": "22.26 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004462.jpg"
+  }
+]

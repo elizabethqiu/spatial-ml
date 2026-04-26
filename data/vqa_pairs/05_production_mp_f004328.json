@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  },
+  {
+    "question": "Is there a bird present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  },
+  {
+    "question": "Are there more people than birds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "11.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  },
+  {
+    "question": "Is there any object at ground level (0 metres depth)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  },
+  {
+    "question": "How many distinct living beings are detected in total?",
+    "answer": "5 beings (4 people and 1 bird)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  },
+  {
+    "question": "Does the scene contain any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004328.jpg"
+  }
+]

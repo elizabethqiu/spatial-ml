@@ -1,0 +1,95 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be within a range of 0.00 to 50.00 metres apart, with a mean scene depth of approximately 18.41 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "What is the estimated depth (distance from camera) of the objects in this scene?",
+    "answer": "The objects in the scene span a depth range of 0.00 metres (nearest) to 50.00 metres (farthest), with a mean depth of approximately 18.41 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Is there a bird present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment (e.g., excavator, crane, bulldozer) present near the workers in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Where is the bird positioned relative to the two persons in the scene?",
+    "answer": "The bird is detected as a separate object in the scene alongside the two persons. Without precise individual depth coordinates, the bird's exact relative position (left, right, above, or below) cannot be fully determined, but all three objects share a scene depth range of 0.00 to 50.00 metres, suggesting the bird may be in the foreground or mid-ground relative to the persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Are the two persons in close proximity to each other within the scene?",
+    "answer": "The two persons are detected within the same scene with a mean depth of 18.41 metres. They may be in close proximity, but without individual object coordinates it cannot be confirmed they are adjacent; they could be spread across the 0\u201350 metre depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (such as excavators, cranes, forklifts, or bulldozers) has been detected in this scene. The only detected objects are two persons and a bird, so there is no hazardous proximity risk between workers and machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Does the presence of the bird near the workers pose any indirect safety concern on a construction site?",
+    "answer": "While no direct mechanical hazard exists, a bird in close proximity to workers on a construction site could indicate nesting activity or a distraction risk. If the bird is within the active work zone (depth < 2 metres), workers should be cautious of sudden movements. However, no critical safety alert threshold (worker within 2 metres of heavy equipment) is breached in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000526.jpg"
+  }
+]

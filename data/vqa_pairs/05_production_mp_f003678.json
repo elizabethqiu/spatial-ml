@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003678.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003678.jpg"
+  },
+  {
+    "question": "Is there a handbag visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003678.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003678.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "14.16 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003678.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment operators or machinery present that pose a safety risk?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003678.jpg"
+  }
+]

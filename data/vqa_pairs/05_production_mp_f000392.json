@@ -1,0 +1,126 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth distribution, the two persons are approximately 2.5 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "What is the estimated distance from the umbrella to the nearest person?",
+    "answer": "The umbrella is approximately 1.8 metres from the nearest person, based on the scene's depth statistics.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the chair and the nearest person?",
+    "answer": "The chair is approximately 1.5 metres away from the nearest person in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Is an umbrella present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the umbrella?",
+    "answer": "The chair is positioned beneath and slightly in front of the umbrella, suggesting it is sheltered under the umbrella's canopy.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the umbrella and chair?",
+    "answer": "Both persons appear to be in close proximity to the umbrella and chair, likely seated or standing near the shaded area set up by the umbrella.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Where is the umbrella positioned relative to the chair?",
+    "answer": "The umbrella is positioned above and directly over the chair, acting as a shade or shelter for whoever is seated.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Is any worker dangerously close (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment detected in this scene. The objects present are an umbrella, a chair, and two persons, none of which constitute heavy machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  },
+  {
+    "question": "Are any persons in this scene at risk due to proximity to hazardous construction objects?",
+    "answer": "No immediate safety hazard is detected. The scene contains only an umbrella, a chair, and two persons. No heavy equipment or construction machinery is present that would pose a proximity risk to the persons in the scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "umbrella",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000392.jpg"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "question": "What is the distance between the person and the umbrella?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002042.jpg"
+  },
+  {
+    "question": "Is the umbrella being held by the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002042.jpg"
+  },
+  {
+    "question": "What is the relative position of the umbrella with respect to the person?",
+    "answer": "The umbrella is directly above or in the immediate vicinity of the person, likely being held or carried by them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002042.jpg"
+  },
+  {
+    "question": "Is the person maintaining a safe distance from any heavy equipment?",
+    "answer": "No heavy equipment is detected in this scene, so no safety risk is identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002042.jpg"
+  }
+]

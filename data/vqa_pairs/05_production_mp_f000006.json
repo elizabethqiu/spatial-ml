@@ -1,0 +1,111 @@
+[
+  {
+    "question": "How far is the person from the fire hydrant?",
+    "answer": "The person is approximately 12.02 metres from the fire hydrant, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "How far is the cup from the person?",
+    "answer": "The cup is approximately 12.02 metres from the person, based on the mean scene depth estimate.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "How far is the fire hydrant from the cup?",
+    "answer": "The fire hydrant is approximately 12.02 metres from the cup, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the fire hydrant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Is the cup present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., machinery or vehicles) detected near the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the person?",
+    "answer": "The cup appears to be in the general vicinity of the person within the scene, likely nearby or on a surface close to them, given the shared mean depth of approximately 12.02 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Where is the fire hydrant positioned relative to the person?",
+    "answer": "The fire hydrant is positioned at a similar depth plane as the person (approximately 12.02 metres mean depth), suggesting it is roughly at the same distance from the camera, likely to the side of or near the person in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "fire hydrant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the fire hydrant?",
+    "answer": "The cup appears to be at a similar depth to the fire hydrant (approximately 12.02 metres mean depth), indicating it is roughly at the same distance from the viewer, potentially adjacent to or near the hydrant.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Is the person in any immediate danger from heavy construction equipment in this scene?",
+    "answer": "No immediate safety alert is triggered. No heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The only objects present are a fire hydrant and a cup, neither of which pose a proximity-based machinery hazard to the person. However, the person should still maintain awareness of the fire hydrant if in a vehicle-traffic area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fire hydrant",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  },
+  {
+    "question": "Does the proximity of the person to the fire hydrant pose a safety concern on this construction site?",
+    "answer": "No critical safety alert. The person is estimated to be approximately 12.02 metres from the fire hydrant, well beyond the 2-metre danger threshold. No immediate hazard is detected. That said, site personnel should ensure the fire hydrant remains unobstructed and accessible at all times per standard safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000006.jpg"
+  }
+]

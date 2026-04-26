@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the distance between the suitcase and the TV?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005940.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the camera than the TV?",
+    "answer": "Cannot determine - no relative depth positions available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005940.jpg"
+  },
+  {
+    "question": "Are there any workers near heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005940.jpg"
+  },
+  {
+    "question": "Is the TV positioned to the left of the suitcase?",
+    "answer": "Cannot determine - no horizontal position data available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005940.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005940.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005940.jpg"
+  }
+]

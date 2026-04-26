@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many cars are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000464.jpg"
+  },
+  {
+    "question": "Is there a toilet in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000464.jpg"
+  },
+  {
+    "question": "Are there more cars than toilets in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000464.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance of objects in this scene?",
+    "answer": "14.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000464.jpg"
+  },
+  {
+    "question": "Is the toilet closer to the camera than the average depth of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000464.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this construction scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000464.jpg"
+  }
+]

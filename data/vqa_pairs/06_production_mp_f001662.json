@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the person from the car?",
+    "answer": "14.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001662.jpg"
+  },
+  {
+    "question": "What is the distance between the refrigerator and the car?",
+    "answer": "14.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001662.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001662.jpg"
+  },
+  {
+    "question": "Is the refrigerator within 5 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001662.jpg"
+  },
+  {
+    "question": "Is the person located between the car and the refrigerator?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001662.jpg"
+  },
+  {
+    "question": "Are the car and refrigerator on opposite sides of the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001662.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to the person's proximity to the car?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001662.jpg"
+  }
+]

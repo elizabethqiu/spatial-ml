@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  },
+  {
+    "question": "Is there a scissors object in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  },
+  {
+    "question": "Are there more people than scissors in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene in metres?",
+    "answer": "19.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  },
+  {
+    "question": "Is the scissors object closer than 2 metres to any person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  },
+  {
+    "question": "Are all three people at approximately the same depth distance?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  },
+  {
+    "question": "What is the minimum depth measurement in metres across all detected objects?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002854.jpg"
+  }
+]

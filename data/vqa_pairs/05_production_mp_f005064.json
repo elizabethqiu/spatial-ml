@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the person and the bottle?",
+    "answer": "19.97 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005064.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the bottle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005064.jpg"
+  },
+  {
+    "question": "Is the bottle positioned in front of the person?",
+    "answer": "Unable to determine - depth data insufficient for relative positioning",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005064.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and bottle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005064.jpg"
+  }
+]

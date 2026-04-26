@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a teddy bear in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003610.jpg"
+  },
+  {
+    "question": "How many teddy bears are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003610.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the teddy bear?",
+    "answer": "20.19 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003610.jpg"
+  },
+  {
+    "question": "Is the teddy bear closer than 5 metres away?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003610.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003610.jpg"
+  }
+]

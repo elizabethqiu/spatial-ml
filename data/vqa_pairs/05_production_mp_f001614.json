@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The mean depth of the scene is approximately 11.41 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in the scene?",
+    "answer": "The maximum depth recorded in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in the scene?",
+    "answer": "The minimum depth recorded in the scene is 0.00 metres, indicating an object or surface at the camera's immediate position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Is the depth range of this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Are there any detected objects present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Is the mean scene depth closer to the near end or the far end of the depth range?",
+    "answer": "The mean depth of 11.41 metres is much closer to the near end (0.00 metres) than to the far end (50.00 metres), indicating that most of the scene content is concentrated within the first quarter of the total depth range.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Where in the depth range does the bulk of the scene content appear to be located?",
+    "answer": "Based on the mean depth of 11.41 metres relative to the 0.00\u201350.00 metre range, the bulk of the scene content appears to be located in the foreground-to-mid zone, roughly in the near third of the total observable depth.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving workers in close proximity to heavy equipment in this scene?",
+    "answer": "No specific safety hazards involving worker-equipment proximity can be confirmed because no objects were detected in this scene. However, given the construction site context and the presence of depth values as close as 0.00 metres, site personnel should exercise caution: any undetected workers or equipment operating within 2 metres of each other would constitute a critical safety risk. A manual inspection or re-scan of the scene is strongly recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  },
+  {
+    "question": "Should this scene be flagged for further safety review given the lack of object detection?",
+    "answer": "Yes \u2014 the failure to detect any objects on an active construction site is itself a safety concern. Undetected personnel or heavy machinery (cranes, excavators, forklifts) could be operating within hazardous proximity (< 2 metres) of one another without triggering automated alerts. Immediate manual review or sensor recalibration is advised to ensure no workers or equipment are unaccounted for.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001614.jpg"
+  }
+]

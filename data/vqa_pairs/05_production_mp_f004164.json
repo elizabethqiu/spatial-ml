@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the bottle and the cat?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004164.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the cat?",
+    "answer": "Unable to determine - specific depth coordinates not provided for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004164.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the bottle and cat?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004164.jpg"
+  },
+  {
+    "question": "Are both the bottle and cat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004164.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004164.jpg"
+  },
+  {
+    "question": "Is the cat positioned to the left of the bottle?",
+    "answer": "Unable to determine - lateral spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004164.jpg"
+  }
+]

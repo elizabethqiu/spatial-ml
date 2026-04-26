@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many cell phones are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  },
+  {
+    "question": "Is there at least one cell phone in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  },
+  {
+    "question": "Are there more people than cell phones in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  },
+  {
+    "question": "Are there more cell phones than people visible?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene greater than 15 metres?",
+    "answer": "yes",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  },
+  {
+    "question": "What is the approximate mean distance of all detected objects from the camera?",
+    "answer": "20.52 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding workers and heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005056.jpg"
+  }
+]

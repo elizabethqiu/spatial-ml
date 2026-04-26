@@ -1,0 +1,51 @@
+[
+  {
+    "question": "What is the distance between the remote and the refrigerator?",
+    "answer": "14.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000762.jpg"
+  },
+  {
+    "question": "Is the remote closer than 5 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000762.jpg"
+  },
+  {
+    "question": "Is the refrigerator present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000762.jpg"
+  },
+  {
+    "question": "How far apart are the two objects in the scene?",
+    "answer": "Approximately 14.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000762.jpg"
+  },
+  {
+    "question": "Are the remote and refrigerator within the same proximity zone?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000762.jpg"
+  }
+]

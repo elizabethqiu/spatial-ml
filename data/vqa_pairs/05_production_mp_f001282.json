@@ -1,0 +1,118 @@
+[
+  {
+    "question": "How far is the chair from the nearest person in the scene?",
+    "answer": "Approximately 2.50 metres, based on estimated depth positions of the chair and the closest detected person.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bed and the nearest person?",
+    "answer": "Approximately 1.80 metres, based on the estimated depth positions of the bed and the nearest person.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two persons farthest apart in the scene?",
+    "answer": "Approximately 5.20 metres, based on the relative depth estimates of the two most distant detected persons.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "Is there a person located near the chair?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "Is the bed in close proximity (less than 2 metres) to any person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "Are all three persons within the same general depth zone of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed?",
+    "answer": "The chair appears to be positioned in front of and to the side of the bed, at a slightly closer depth relative to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to the bed?",
+    "answer": "The persons are positioned around the bed, with at least one person appearing to be directly adjacent to or on top of the bed, and others situated nearby at varying lateral positions.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "Where is the chair located relative to the persons in the scene?",
+    "answer": "The chair appears to be positioned to one side of the group of persons, slightly closer in depth to the camera compared to the persons near the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Is any person within less than 2 metres of the bed, which may pose a fall or entrapment risk in a monitored environment?",
+    "answer": "Yes \u2014 at least one person is estimated to be within approximately 1.80 metres of the bed. In a construction or monitored care context, ensure this proximity is intentional and safe, and that no fall or entrapment hazard exists near the bed frame or surrounding furniture.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Are multiple persons in dangerously close proximity to each other or surrounding furniture (chair, bed) in a confined space?",
+    "answer": "Yes \u2014 with three persons, a bed, and a chair all detected in the same scene with a mean scene depth of only 22.77 metres and objects clustered closely, there is potential for overcrowding near the furniture. Ensure adequate clearance (at least 1 metre) around the bed and chair to prevent tripping or collision hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001282.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  },
+  {
+    "question": "Is there a donut in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  },
+  {
+    "question": "Are there more persons than food items in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "18.78 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  },
+  {
+    "question": "Are the persons positioned closer to the camera than the maximum detection range?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy equipment present?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "donut"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002962.jpg"
+  }
+]

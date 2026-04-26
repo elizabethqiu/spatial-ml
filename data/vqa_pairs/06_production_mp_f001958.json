@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  },
+  {
+    "question": "How many umbrellas are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  },
+  {
+    "question": "Is there at least one umbrella in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  },
+  {
+    "question": "Are there more persons than umbrellas?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene greater than 10 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  },
+  {
+    "question": "What is the approximate mean distance of all detected objects from the camera?",
+    "answer": "14.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  },
+  {
+    "question": "Do the persons and umbrellas appear to be in close proximity (within 5 metres of each other)?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001958.jpg"
+  }
+]

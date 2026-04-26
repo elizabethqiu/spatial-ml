@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003172.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003172.jpg"
+  },
+  {
+    "question": "Is there a bird present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003172.jpg"
+  },
+  {
+    "question": "Are there more people than birds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003172.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "21.70 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003172.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment within 2 metres of a worker that poses a safety hazard?",
+    "answer": "No heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003172.jpg"
+  }
+]

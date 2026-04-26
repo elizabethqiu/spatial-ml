@@ -1,0 +1,90 @@
+[
+  {
+    "question": "Is the person closer to the bed or the toilet?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  },
+  {
+    "question": "Is there a potted plant visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  },
+  {
+    "question": "How many objects are present in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "potted plant",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  },
+  {
+    "question": "Is the toilet positioned to the right of the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "potted plant",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  },
+  {
+    "question": "Is the potted plant located between the bed and the toilet?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "bed",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "16.79 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "potted plant",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  },
+  {
+    "question": "Is the person at a safe distance from all furniture items?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004190.jpg"
+  }
+]

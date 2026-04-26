@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a bird visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003048.jpg"
+  },
+  {
+    "question": "How far away is the bird on average based on depth analysis?",
+    "answer": "21.52 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003048.jpg"
+  },
+  {
+    "question": "What is the maximum distance to the bird in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003048.jpg"
+  },
+  {
+    "question": "Is the bird closer than 10 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003048.jpg"
+  },
+  {
+    "question": "What is the closest distance recorded to the bird?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003048.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment or worker in close proximity to the bird that poses a safety concern?",
+    "answer": "No safety alert - only a bird is present in this scene. No workers or heavy equipment detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003048.jpg"
+  }
+]

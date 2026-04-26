@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the car and the toilet?",
+    "answer": "13.30 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001286.jpg"
+  },
+  {
+    "question": "Is the car closer than 5 metres to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001286.jpg"
+  },
+  {
+    "question": "Are the car and toilet in close proximity (within 2 metres)?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001286.jpg"
+  },
+  {
+    "question": "What is the maximum depth measurement recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001286.jpg"
+  },
+  {
+    "question": "Is there any object at the minimum depth point of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001286.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "question": "Is the person closer to the dog than to any of the remotes?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004184.jpg"
+  },
+  {
+    "question": "Are all three remotes at approximately the same distance from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004184.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects in this scene in metres?",
+    "answer": "0 to 50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004184.jpg"
+  },
+  {
+    "question": "How many remotes are visible in this scene?",
+    "answer": "3 remotes",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004184.jpg"
+  },
+  {
+    "question": "Is the dog positioned between the person and the remotes?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004184.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected in this scene involving workers and equipment?",
+    "answer": "no hazards detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004184.jpg"
+  }
+]

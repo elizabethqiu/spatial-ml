@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  },
+  {
+    "question": "How many suitcases are present in the scene?",
+    "answer": "3 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  },
+  {
+    "question": "Is there a cell phone in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  },
+  {
+    "question": "Are there more cups than suitcases?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  },
+  {
+    "question": "How many people are in the scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the scene than the maximum depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in the scene?",
+    "answer": "12.67 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "cell phone",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  },
+  {
+    "question": "Is the maximum depth of the scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003390.jpg"
+  }
+]

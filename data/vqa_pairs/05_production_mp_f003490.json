@@ -1,0 +1,71 @@
+[
+  {
+    "question": "How many suitcases are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003490.jpg"
+  },
+  {
+    "question": "Is there a cup in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003490.jpg"
+  },
+  {
+    "question": "Is the person standing next to a suitcase?",
+    "answer": "unknown - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003490.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "17.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003490.jpg"
+  },
+  {
+    "question": "Are there more suitcases than cups in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003490.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003490.jpg"
+  },
+  {
+    "question": "Is the person in close proximity to any heavy equipment?",
+    "answer": "No heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003490.jpg"
+  }
+]

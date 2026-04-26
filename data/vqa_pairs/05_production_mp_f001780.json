@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a cup visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001780.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001780.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "15.80 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001780.jpg"
+  },
+  {
+    "question": "What is the closest distance to the cup?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001780.jpg"
+  },
+  {
+    "question": "Is the cup positioned at ground level based on the depth range?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001780.jpg"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "question": "Is there a cell phone in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002390.jpg"
+  },
+  {
+    "question": "Are there two people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002390.jpg"
+  },
+  {
+    "question": "Is the hair drier positioned near any of the persons?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002390.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "13.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002390.jpg"
+  },
+  {
+    "question": "What is the maximum distance span across all detected objects?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002390.jpg"
+  },
+  {
+    "question": "How many distinct objects are detected in total?",
+    "answer": "4 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002390.jpg"
+  }
+]

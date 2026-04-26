@@ -1,0 +1,66 @@
+[
+  {
+    "question": "Is the cat closer to the bird than to the potted plant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "bird",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001854.jpg"
+  },
+  {
+    "question": "Is the bird positioned above the potted plant?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001854.jpg"
+  },
+  {
+    "question": "How many objects are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "potted plant",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001854.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "21.90 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "potted plant",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001854.jpg"
+  },
+  {
+    "question": "Is the cat near the bird?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001854.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "potted plant",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001854.jpg"
+  }
+]

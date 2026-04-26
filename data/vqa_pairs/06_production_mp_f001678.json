@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far is the person from the refrigerator?",
+    "answer": "15.95 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001678.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001678.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001678.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding the proximity of the person to heavy equipment?",
+    "answer": "No safety alert. The person is 15.95 metres away from the refrigerator, well beyond the 2-metre danger threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001678.jpg"
+  }
+]

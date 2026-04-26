@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many scissors are visible in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  },
+  {
+    "question": "How many people are present in this construction area?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  },
+  {
+    "question": "Are there more scissors than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene less than 20 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  },
+  {
+    "question": "Are there any scissors positioned at a depth of 0 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  },
+  {
+    "question": "What is the depth span between the closest and farthest objects in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  },
+  {
+    "question": "Do the people outnumber the scissors in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001420.jpg"
+  }
+]

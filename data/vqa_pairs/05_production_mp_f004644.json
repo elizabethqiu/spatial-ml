@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far is the person from the fire hydrant?",
+    "answer": "11.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004644.jpg"
+  },
+  {
+    "question": "Is the person standing next to the fire hydrant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004644.jpg"
+  },
+  {
+    "question": "Is the fire hydrant closer to the camera than the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004644.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding the person's proximity to the fire hydrant?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004644.jpg"
+  }
+]

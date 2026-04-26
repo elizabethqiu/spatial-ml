@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many chairs are present in this scene?",
+    "answer": "8",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  },
+  {
+    "question": "What is the maximum distance of any chair from the camera in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  },
+  {
+    "question": "What is the minimum distance of any chair from the camera in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  },
+  {
+    "question": "What is the average depth of all chairs in metres?",
+    "answer": "25.47 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  },
+  {
+    "question": "Are there any chairs visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  },
+  {
+    "question": "Is there any furniture other than chairs in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  },
+  {
+    "question": "Are all detected objects of the same type?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  },
+  {
+    "question": "Do the chairs span a depth range greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004814.jpg"
+  }
+]

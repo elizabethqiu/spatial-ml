@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001744.jpg"
+  },
+  {
+    "question": "Is there a toothbrush present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001744.jpg"
+  },
+  {
+    "question": "Are there more persons than toothbrushes in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001744.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "14.12 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001744.jpg"
+  },
+  {
+    "question": "Is the toothbrush positioned closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001744.jpg"
+  },
+  {
+    "question": "What is the maximum depth range recorded in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001744.jpg"
+  }
+]

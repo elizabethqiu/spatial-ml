@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many ovens are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "microwave",
+      "bottle",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  },
+  {
+    "question": "Is there a microwave in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "microwave"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  },
+  {
+    "question": "Is there a refrigerator visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "microwave",
+      "bottle",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "11.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "microwave",
+      "bottle",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  },
+  {
+    "question": "Are the two ovens closer to the foreground or background of the scene?",
+    "answer": "The objects range from 0.00 to 50.00 metres depth with a mean of 11.73 metres, placing them across various distances",
+    "type": "relative_position",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  },
+  {
+    "question": "Is the bottle positioned in the immediate foreground (within 5 metres)?",
+    "answer": "Unable to determine - bottle position within depth range is not specified",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  },
+  {
+    "question": "How many distinct kitchen appliances are visible?",
+    "answer": "3 appliances (2 ovens and 1 microwave)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven",
+      "microwave"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003132.jpg"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 9.22 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in the scene?",
+    "answer": "The maximum depth recorded in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in the scene?",
+    "answer": "The minimum depth recorded in the scene is 0.00 metres, indicating an object or surface is at the camera plane.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "Is the depth range of this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "Are there any detected objects present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "Is the mean scene depth closer to the near end (0 m) or far end (50 m) of the depth range?",
+    "answer": "The mean depth of 9.22 metres is much closer to the near end (0 m) of the depth range, suggesting most scene content is concentrated in the foreground and mid-foreground area.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "Where is the bulk of the scene content positioned relative to the full depth range?",
+    "answer": "With a mean depth of 9.22 metres against a maximum of 50.00 metres, the bulk of the scene content is positioned in the near-to-middle foreground zone, roughly within the first 20% of the total depth range.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding workers and heavy equipment proximity in this scene?",
+    "answer": "No specific safety alert can be issued because no objects were detected in this scene. However, the presence of a 0.00 m minimum depth value suggests something may be immediately at the camera \u2014 site operators should verify that the detection system is functioning correctly and re-inspect the scene manually, as failed detection on an active construction site is itself a safety risk.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  },
+  {
+    "question": "Should this scene be flagged for manual safety review given that no objects were detected?",
+    "answer": "yes \u2014 On an active construction site, a complete absence of detected objects is anomalous and may indicate sensor occlusion, poor lighting, dust/debris interference, or a system fault. Manual review is strongly recommended to ensure no workers or heavy equipment are present and unaccounted for within the scene's depth range of 0\u201350 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001434.jpg"
+  }
+]

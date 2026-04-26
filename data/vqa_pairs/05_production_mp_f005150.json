@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many suitcases are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005150.jpg"
+  },
+  {
+    "question": "Is there a parking meter in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005150.jpg"
+  },
+  {
+    "question": "Are there more suitcases than parking meters?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005150.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "16.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005150.jpg"
+  },
+  {
+    "question": "Is the parking meter closer to the camera than the maximum depth of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005150.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005150.jpg"
+  }
+]

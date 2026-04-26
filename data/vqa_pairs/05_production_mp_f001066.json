@@ -1,0 +1,94 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the depth statistics, the estimated distance between the first person and the bed is approximately 19.18 metres (scene mean depth), though exact separation depends on individual object positions within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "The two persons are estimated to be within the scene depth range of 0.00 to 50.00 metres apart, with a mean scene depth of 19.18 metres suggesting they may be separated by roughly 0\u201330 metres depending on their individual positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "Is any person in close proximity (less than 2 metres) to heavy equipment or machinery?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons in the scene?",
+    "answer": "The bed is present in the scene alongside two persons. Given the depth range of 0.00\u201350.00 metres and a mean of 19.18 metres, the bed likely occupies a mid-to-background position relative to at least one of the persons, though it may be adjacent to or behind one of them depending on exact depth values.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons are detected within the same scene. Based on the available depth data (min: 0.00 m, max: 50.00 m, mean: 19.18 m), one person may be positioned closer to the foreground and the other further in the background, or they may be at a similar depth side by side.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment or machinery near a worker that poses a safety risk?",
+    "answer": "No heavy equipment or machinery is detected in this scene. The objects present are a bed and two persons. No construction-related safety alert is triggered. However, if this scene is on a construction site, the presence of a bed is unusual and may warrant a site inspection to ensure the area is being used appropriately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  },
+  {
+    "question": "Are any workers positioned dangerously close (within 2 metres) to the bed in a way that could suggest a hazard?",
+    "answer": "No immediate safety hazard is flagged. The bed is not classified as heavy equipment or machinery. No proximity alert (< 2 metres) between a worker and a hazardous object is triggered in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001066.jpg"
+  }
+]

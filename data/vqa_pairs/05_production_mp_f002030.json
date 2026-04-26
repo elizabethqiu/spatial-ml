@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "dining table",
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  },
+  {
+    "question": "Are there more bottles than bowls in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  },
+  {
+    "question": "Is there a dining table present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "bottle",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  },
+  {
+    "question": "Are there equal numbers of cups and bottles?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  },
+  {
+    "question": "Is the average depth of the scene greater than 15 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "dining table",
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002030.jpg"
+  }
+]

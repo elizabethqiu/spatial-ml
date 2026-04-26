@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How far is the dog from the bed?",
+    "answer": "Based on the depth statistics, the dog and bed are approximately 19.10 metres apart on average within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  },
+  {
+    "question": "What is the mean scene depth where the dog and bed are located?",
+    "answer": "The mean scene depth is approximately 19.10 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  },
+  {
+    "question": "Is the dog on or near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  },
+  {
+    "question": "Where is the dog relative to the bed?",
+    "answer": "The dog appears to be positioned on or very close to the bed, as both objects are detected together within the same scene frame.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  },
+  {
+    "question": "Is the bed in front of or behind the dog in terms of depth?",
+    "answer": "Based on available depth statistics, both the dog and the bed share a similar depth range (0.00\u201350.00 metres mean ~19.10 metres), suggesting they are at roughly the same depth plane, with the bed likely positioned directly beneath or immediately adjacent to the dog.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  },
+  {
+    "question": "Is there any safety alert required for this scene involving a worker and heavy equipment in close proximity?",
+    "answer": "No safety alert is required. This scene contains no workers or heavy construction equipment \u2014 only a dog and a bed are detected. No construction site hazards are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  },
+  {
+    "question": "Does the proximity between any objects in this scene pose a construction site safety risk?",
+    "answer": "No. The scene does not involve any construction workers or heavy machinery. The only detected objects are a dog and a bed, neither of which constitutes a construction site safety hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000982.jpg"
+  }
+]

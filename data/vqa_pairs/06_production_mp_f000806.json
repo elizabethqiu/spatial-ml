@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many vases are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000806.jpg"
+  },
+  {
+    "question": "Is there a potted plant in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000806.jpg"
+  },
+  {
+    "question": "Are there more vases than potted plants?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase",
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000806.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000806.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "15.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000806.jpg"
+  },
+  {
+    "question": "Is the potted plant positioned between the two vases?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "vase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000806.jpg"
+  }
+]

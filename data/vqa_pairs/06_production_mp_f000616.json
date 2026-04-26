@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the distance between the parking meter and the car?",
+    "answer": "11.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Is the parking meter closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Is the car positioned in front of the parking meter?",
+    "answer": "Unable to determine from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000616.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "No workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000616.jpg"
+  }
+]

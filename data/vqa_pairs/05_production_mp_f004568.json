@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many sinks are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004568.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004568.jpg"
+  },
+  {
+    "question": "Are both sinks positioned at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004568.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in the scene in metres?",
+    "answer": "15.50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004568.jpg"
+  },
+  {
+    "question": "Is the person located closer to the camera than the maximum depth range in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004568.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004568.jpg"
+  }
+]

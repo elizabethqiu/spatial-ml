@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many chairs are present in this scene?",
+    "answer": "2 chairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  },
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  },
+  {
+    "question": "Is there a cup on the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  },
+  {
+    "question": "Is a bed present in this indoor space?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  },
+  {
+    "question": "Are both people seated at the dining table?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  },
+  {
+    "question": "What is the relative position of the bed compared to the dining table?",
+    "answer": "The bed is located at a greater depth in the scene (further away), with the dining table positioned closer to the viewer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  },
+  {
+    "question": "Where is the cup positioned in relation to the dining table and chairs?",
+    "answer": "The cup is on or near the dining table, which is surrounded by chairs.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  },
+  {
+    "question": "Is this scene representative of a construction site?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table",
+      "person",
+      "cup",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000938.jpg"
+  }
+]

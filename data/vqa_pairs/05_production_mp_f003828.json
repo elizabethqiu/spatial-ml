@@ -1,0 +1,79 @@
+[
+  {
+    "question": "What is the distance between the dog and the fire hydrant?",
+    "answer": "Unable to determine exact distance - objects lack precise 3D coordinates",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  },
+  {
+    "question": "How far is the backpack from the fire hydrant?",
+    "answer": "Unable to determine exact distance - objects lack precise 3D coordinates",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  },
+  {
+    "question": "Is the dog closer to the fire hydrant than the backpack?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "fire hydrant",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  },
+  {
+    "question": "Is there a backpack in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  },
+  {
+    "question": "Is the dog positioned to the left of the fire hydrant?",
+    "answer": "Unable to determine - 2D directional data not available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  },
+  {
+    "question": "Where is the backpack relative to the fire hydrant and dog?",
+    "answer": "Unable to determine - precise 3D coordinates not provided in detection data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "fire hydrant",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between workers and heavy equipment?",
+    "answer": "No workers or heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  },
+  {
+    "question": "Is there a dog present at the construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003828.jpg"
+  }
+]

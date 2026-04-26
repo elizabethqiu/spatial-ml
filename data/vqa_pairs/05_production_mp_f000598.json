@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the chair from the camera?",
+    "answer": "The chair is approximately 19.56 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the chair?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  },
+  {
+    "question": "Is the chair within 5 metres of the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the camera?",
+    "answer": "The chair is positioned at a mid-to-far range distance, approximately 19.56 metres in front of the camera, within a scene that extends up to 50.00 metres in depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  },
+  {
+    "question": "Is the chair located in the near, mid, or far zone of the scene?",
+    "answer": "The chair is located in the mid zone of the scene, at a mean depth of 19.56 metres within a scene range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  },
+  {
+    "question": "Does the presence of a chair in this construction scene pose any immediate safety alert involving proximity to heavy equipment or workers?",
+    "answer": "No immediate safety alert can be confirmed regarding proximity between the chair and heavy equipment or workers, as no workers or heavy equipment are detected in the scene. However, a chair on an active construction site may indicate an unsecured object that could become a tripping or falling hazard \u2014 site supervisors should ensure it is placed in a designated safe area away from active work zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  },
+  {
+    "question": "Should the chair be flagged as a potential hazard given its location within the construction site scene?",
+    "answer": "Yes \u2014 while no worker or heavy equipment is detected within a critical 2-metre proximity threshold in this scene, a loose chair on a construction site can pose tripping, falling, or obstruction hazards. It should be removed or secured to a designated rest area to comply with site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000598.jpg"
+  }
+]

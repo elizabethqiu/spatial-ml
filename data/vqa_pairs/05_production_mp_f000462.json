@@ -1,0 +1,116 @@
+[
+  {
+    "question": "What is the approximate average depth of all detected objects in the scene?",
+    "answer": "The average depth of all detected objects in the scene is approximately 20.45 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "book",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "What is the range of depths (from nearest to farthest object) observed in the scene?",
+    "answer": "The depth range in the scene spans from 0.00 metres (nearest) to 50.00 metres (farthest), a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "book",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "book",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Are there multiple persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Is the book located closer to the camera than the mean scene depth of 20.45 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Is any person detected within 2 metres of heavy construction equipment in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "Where is the book positioned relative to the three persons in the scene?",
+    "answer": "Based on the detected objects, the book appears to be in the general vicinity of one or more of the three persons, likely held or placed near them, given that all objects share a common scene depth range of 0.00 to 50.00 metres and a mean depth of approximately 20.45 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "book",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "How are the three persons spatially distributed relative to each other in the scene?",
+    "answer": "The three persons are distributed across the scene at varying depths within the 0.00 to 50.00 metre range. Given the mean depth of 20.45 metres, at least one person is likely positioned significantly closer or farther than the average, suggesting they are spread out at different distances rather than clustered at a single point.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Is any worker in this scene within a dangerous proximity (less than 2 metres) of heavy equipment?",
+    "answer": "No safety alert required. No heavy construction equipment (e.g., excavators, cranes, bulldozers, or forklifts) has been detected in this scene. The only detected objects are three persons and a book, posing no immediate heavy-equipment proximity hazard. Standard site safety protocols should still be maintained.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  },
+  {
+    "question": "\u26a0\ufe0f SAFETY ALERT: Do the detected objects and their positions suggest any construction site safety concern?",
+    "answer": "No critical safety alert triggered for heavy-equipment proximity. However, with at least one object detected at or near 0.00 metres depth, a person may be extremely close to the camera or a site boundary. Site supervisors should verify that all three persons are wearing appropriate PPE and are not in an unsupervised restricted zone, even in the absence of heavy machinery in the current frame.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000462.jpg"
+  }
+]

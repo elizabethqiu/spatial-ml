@@ -1,0 +1,51 @@
+[
+  {
+    "question": "How far apart are the person and the vase?",
+    "answer": "16.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005008.jpg"
+  },
+  {
+    "question": "Is the person closer than 5 metres to the vase?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005008.jpg"
+  },
+  {
+    "question": "Is there a vase in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005008.jpg"
+  },
+  {
+    "question": "What is the relative position of the vase with respect to the person?",
+    "answer": "The vase is approximately 16.15 metres away from the person",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005008.jpg"
+  },
+  {
+    "question": "Is the person within a safe distance (greater than 2 metres) from the vase?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005008.jpg"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Are there any workers or equipment visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001128.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this construction site?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Is this an empty or cleared construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001128.jpg"
+  },
+  {
+    "question": "What is the average depth measurement across the scene?",
+    "answer": "17.30 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001128.jpg"
+  },
+  {
+    "question": "Are there any safety hazards visible due to worker-equipment proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001128.jpg"
+  }
+]

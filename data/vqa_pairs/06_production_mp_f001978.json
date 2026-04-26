@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Is there an umbrella in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Are all persons closer than 20 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene in metres?",
+    "answer": "15.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Is the umbrella positioned among the group of people?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  },
+  {
+    "question": "Are there more people than other objects in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001978.jpg"
+  }
+]

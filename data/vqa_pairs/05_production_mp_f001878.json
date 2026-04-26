@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many objects are present in the scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001878.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001878.jpg"
+  },
+  {
+    "question": "Is there a bowl visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001878.jpg"
+  },
+  {
+    "question": "Is the bowl positioned in front of the person?",
+    "answer": "Cannot determine from available data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001878.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "19.80 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001878.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between the person and heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001878.jpg"
+  }
+]

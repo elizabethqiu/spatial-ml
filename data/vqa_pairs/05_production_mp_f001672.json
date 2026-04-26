@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a bench in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001672.jpg"
+  },
+  {
+    "question": "How many benches are visible in the scene?",
+    "answer": "1 bench",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001672.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001672.jpg"
+  },
+  {
+    "question": "What is the average distance from the camera to objects in the scene?",
+    "answer": "22.35 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001672.jpg"
+  },
+  {
+    "question": "Is the bench in the foreground (closer than 10 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001672.jpg"
+  }
+]

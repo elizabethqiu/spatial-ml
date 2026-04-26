@@ -1,0 +1,115 @@
+[
+  {
+    "question": "How far is the chair from the bed?",
+    "answer": "Approximately 2.50 metres apart based on estimated scene depth distribution.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the TV and the nearest person?",
+    "answer": "Approximately 3.20 metres based on mean scene depth context.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Approximately 1.80 metres apart based on depth estimation.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Is the TV located in the scene alongside at least one person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Are both persons in the scene within 2 metres of each other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed?",
+    "answer": "The chair appears to be positioned beside the bed, likely near the head or side of the bed based on typical bedroom layouts and the detected depth values.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the persons in the scene?",
+    "answer": "The TV appears to be positioned in front of or across from the persons, consistent with a viewing arrangement in the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person?",
+    "answer": "The second person is estimated to be in close proximity to the first person, within roughly 1\u20132 metres, suggesting they are nearby in the same room space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Are the two persons dangerously close to any heavy equipment in this scene?",
+    "answer": "No heavy equipment (e.g., cranes, forklifts, excavators) is detected in this scene. The scene contains only a chair, bed, TV, and two persons, so no safety hazard from heavy machinery proximity is present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  },
+  {
+    "question": "Does any person in the scene appear to be within 2 metres of a potentially hazardous object?",
+    "answer": "No critical safety hazard is flagged. The objects present (chair, bed, TV) are non-industrial and do not constitute heavy construction equipment. However, the two persons are estimated within approximately 1.80 metres of each other, which is noted for awareness.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001016.jpg"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 15.75 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in the scene?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres, and the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  },
+  {
+    "question": "Is any heavy equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  },
+  {
+    "question": "Where are objects located relative to the camera in this scene?",
+    "answer": "No objects were detected in this scene, so no relative positional relationships can be established. The depth statistics suggest the observable space extends from 0.00 metres immediately in front of the camera to 50.00 metres in the far field, with an average scene depth of 15.75 metres.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  },
+  {
+    "question": "Is there any object or structure visible in the foreground of the scene?",
+    "answer": "No objects were detected by the system. However, the minimum depth value of 0.00 metres indicates there may be surfaces or elements very close to the camera, though none were classified as distinct objects.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert can be issued because no objects \u2014 including workers or heavy equipment \u2014 were detected in this scene. However, the absence of detections may itself indicate a sensor or visibility issue. It is recommended to verify camera and detection system functionality before declaring the site clear.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  },
+  {
+    "question": "Should site supervisors be concerned about unmonitored activity given the lack of detections in this scene?",
+    "answer": "Caution is advised. No workers or equipment were detected in this scene, which could mean the area is clear, or it may indicate a failure in the detection pipeline (e.g., poor lighting, occlusion, or sensor malfunction). Site supervisors should perform a manual inspection or cross-check with other camera feeds to confirm site safety, especially given the wide depth range of 0.00\u201350.00 metres that the scene encompasses.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000096.jpg"
+  }
+]

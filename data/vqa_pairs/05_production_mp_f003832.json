@@ -1,0 +1,66 @@
+[
+  {
+    "question": "How far is the person from the fire hydrant?",
+    "answer": "11.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003832.jpg"
+  },
+  {
+    "question": "What is the distance between the surfboard and the fire hydrant?",
+    "answer": "11.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "surfboard",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003832.jpg"
+  },
+  {
+    "question": "Is the person closer to the surfboard than to the fire hydrant?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "surfboard",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003832.jpg"
+  },
+  {
+    "question": "Is the fire hydrant positioned between the person and the surfboard?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "fire hydrant",
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003832.jpg"
+  },
+  {
+    "question": "Are all three objects within 15 metres of each other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "surfboard",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003832.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement: which object is furthest away from the others?",
+    "answer": "The objects are distributed across the scene with a mean depth of 11.87 metres; the maximum separation reaches 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "surfboard",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003832.jpg"
+  }
+]

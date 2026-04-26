@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many cups are present in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene in metres?",
+    "answer": "16.88 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "Is there a bowl in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "Is there more than one sink in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "Are there more cups than bowls in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "Is the sink located at the closest depth position in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "Are the cups positioned at varying depths throughout the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  },
+  {
+    "question": "Is the bowl located between the minimum and maximum depth values?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002124.jpg"
+  }
+]

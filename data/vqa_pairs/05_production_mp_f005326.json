@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the maximum distance to the oven in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005326.jpg"
+  },
+  {
+    "question": "What is the minimum distance to the oven in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005326.jpg"
+  },
+  {
+    "question": "What is the average distance to the oven in this scene?",
+    "answer": "19.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005326.jpg"
+  },
+  {
+    "question": "Is an oven present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005326.jpg"
+  },
+  {
+    "question": "Is the oven detected with high confidence?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005326.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of the oven in this scene?",
+    "answer": "Unable to assess - no workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005326.jpg"
+  }
+]

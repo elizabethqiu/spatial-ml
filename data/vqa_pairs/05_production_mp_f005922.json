@@ -1,0 +1,51 @@
+[
+  {
+    "question": "How many fire hydrants are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005922.jpg"
+  },
+  {
+    "question": "Are there any fire hydrants present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005922.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005922.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "11.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005922.jpg"
+  },
+  {
+    "question": "Are both fire hydrants at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005922.jpg"
+  }
+]

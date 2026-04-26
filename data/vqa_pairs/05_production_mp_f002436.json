@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the bottle and the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002436.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the bed?",
+    "answer": "Unable to determine - no relative depth information provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002436.jpg"
+  },
+  {
+    "question": "Is the bottle to the left of the bed?",
+    "answer": "Unable to determine - no horizontal position data available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002436.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between detected objects in this scene?",
+    "answer": "No safety alert - scene contains only household items (bottle and bed), no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002436.jpg"
+  }
+]

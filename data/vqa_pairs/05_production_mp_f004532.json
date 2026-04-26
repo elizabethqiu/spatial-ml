@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the scene than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  },
+  {
+    "question": "Are both people within 5 metres of the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  },
+  {
+    "question": "Is the cell phone positioned between the two people?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  },
+  {
+    "question": "Is the car located behind or in front of the people?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  },
+  {
+    "question": "Are any workers within 2 metres of the vehicle?",
+    "answer": "no safety alert detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity of people to the car?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004532.jpg"
+  }
+]

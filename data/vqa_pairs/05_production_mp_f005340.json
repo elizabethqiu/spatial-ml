@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the bench?",
+    "answer": "16.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005340.jpg"
+  },
+  {
+    "question": "Is the person sitting on the bench?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005340.jpg"
+  },
+  {
+    "question": "Is the bench closer to the camera than the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005340.jpg"
+  },
+  {
+    "question": "How many objects are visible in this construction site scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005340.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment and workers in dangerous proximity (less than 2 metres)?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005340.jpg"
+  }
+]

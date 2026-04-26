@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected persons from the camera?",
+    "answer": "19.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  },
+  {
+    "question": "Is there at least one person within 5 metres of the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  },
+  {
+    "question": "Are all persons positioned at depths greater than 10 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  },
+  {
+    "question": "Is there any person visible in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of workers in this scene.",
+    "answer": "Four workers are distributed across varying depths from 0 to 50 metres, with an average depth of 19.37 metres from the observation point.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  },
+  {
+    "question": "Are there any workers clustered together at similar distances from the camera?",
+    "answer": "Unable to determine clustering without precise individual coordinates, but workers span a wide depth range of 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002852.jpg"
+  }
+]

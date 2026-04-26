@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a clock visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004032.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene in metres?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004032.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "13.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004032.jpg"
+  },
+  {
+    "question": "Is the clock closer than 5 metres away?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004032.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in this scene in metres?",
+    "answer": "0.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004032.jpg"
+  }
+]

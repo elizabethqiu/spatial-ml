@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002722.jpg"
+  },
+  {
+    "question": "Is there a sheep in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002722.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the sheep?",
+    "answer": "Unable to determine",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002722.jpg"
+  },
+  {
+    "question": "How many objects are visible in total?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sheep",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002722.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sheep",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002722.jpg"
+  },
+  {
+    "question": "Are both people positioned within 2 metres of each other?",
+    "answer": "Unable to determine",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002722.jpg"
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  },
+  {
+    "question": "Is there a dog in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "bowl",
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  },
+  {
+    "question": "Is the handbag closer to the camera than the bowl?",
+    "answer": "Cannot determine - depth data not specified for individual objects",
+    "type": "relative_position",
+    "objects_referenced": [
+      "handbag",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  },
+  {
+    "question": "Are there more people than animals in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "19.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "bowl",
+      "person",
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  },
+  {
+    "question": "Is this a construction site scene requiring safety alerts?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  },
+  {
+    "question": "How many objects are detected in total in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "bowl",
+      "person",
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001644.jpg"
+  }
+]

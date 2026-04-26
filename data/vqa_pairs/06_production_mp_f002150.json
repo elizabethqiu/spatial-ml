@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the bench and the dog?",
+    "answer": "14.46 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002150.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the bench?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002150.jpg"
+  },
+  {
+    "question": "What is the maximum distance visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002150.jpg"
+  },
+  {
+    "question": "Is the bench positioned in front of the dog?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bench",
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002150.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with workers and heavy equipment in close proximity?",
+    "answer": "No hazards detected - no workers or heavy equipment present in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bench",
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002150.jpg"
+  }
+]

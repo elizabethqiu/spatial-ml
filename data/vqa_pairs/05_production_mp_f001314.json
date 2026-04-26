@@ -1,0 +1,100 @@
+[
+  {
+    "question": "How far is the dog from the bed?",
+    "answer": "Based on the depth statistics, the estimated distance between the dog and the bed is approximately 18.30 metres (mean scene depth), though local positions suggest they may be within close proximity given both objects are detected in the same scene frame.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the dog and the bed?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Is the dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Is there a bed detected in the same scene as the dog?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Is the dog near the bed (within the same scene frame)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected near the dog?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the bed in this scene?",
+    "answer": "The dog is detected within the same scene as the bed. Given the scene's depth range of 0.00 to 50.00 metres and a mean depth of 18.30 metres, both objects are likely positioned at a similar depth plane, suggesting the dog is in close proximity to or on top of the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Is the bed behind or in front of the dog based on scene depth cues?",
+    "answer": "Both the dog and the bed share a common scene frame with a mean depth of 18.30 metres. Without individual object depth coordinates, they are estimated to be at approximately the same depth plane, meaning neither is clearly in front of or behind the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Does this construction site scene contain any safety hazards involving workers and heavy equipment within 2 metres of each other?",
+    "answer": "No safety alert required. This scene does not depict a construction site context \u2014 it contains a dog and a bed with no workers or heavy equipment present. No proximity hazard of less than 2 metres between a worker and heavy equipment is detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  },
+  {
+    "question": "Are there any detected objects in this scene that pose an immediate safety risk to workers on a construction site?",
+    "answer": "No safety alert. Neither the dog nor the bed qualifies as heavy construction equipment, and no human workers are detected in this scene. There are no proximity violations under the 2-metre safety threshold applicable to construction site hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001314.jpg"
+  }
+]

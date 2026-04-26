@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "6 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "13.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  },
+  {
+    "question": "Is there a handbag present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  },
+  {
+    "question": "Are there more suitcases than handbags in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the farthest suitcase?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  },
+  {
+    "question": "Are all the suitcases positioned at approximately the same depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  },
+  {
+    "question": "Is there any safety hazard detected between the person and nearby objects?",
+    "answer": "No safety alert - this is a luggage/travel scene, not a construction site with heavy equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003362.jpg"
+  }
+]

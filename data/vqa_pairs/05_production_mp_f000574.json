@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Is there a sink in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Is there a bed visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance to objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Are the people positioned closer to the bed or the sink?",
+    "answer": "Unable to determine - insufficient spatial coordinate data for precise positioning",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in this scene in metres?",
+    "answer": "17.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Is this scene consistent with a construction site safety context?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected with personnel proximity to equipment?",
+    "answer": "no hazards detected - scene appears to be an indoor residential/medical setting, not a construction site",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000574.jpg"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001784.jpg"
+  },
+  {
+    "question": "Are there any workers present on this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001784.jpg"
+  },
+  {
+    "question": "Is there heavy equipment detected in close proximity to any workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001784.jpg"
+  },
+  {
+    "question": "What is the average depth distance of detected objects in this scene?",
+    "answer": "14.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001784.jpg"
+  },
+  {
+    "question": "Are both persons at approximately the same depth from the camera?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001784.jpg"
+  },
+  {
+    "question": "Is the nearest detected object more than 2 metres away from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001784.jpg"
+  }
+]

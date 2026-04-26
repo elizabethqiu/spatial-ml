@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How far is the person from the nearest suitcase?",
+    "answer": "Approximately 17.20 metres (based on mean scene depth; exact separation depends on lateral positions, but estimated at roughly 2\u20135 metres given typical luggage-handling distances).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in the scene?",
+    "answer": "The objects span a depth range of approximately 0.00 metres to 50.00 metres, with a mean depth of 17.20 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "Are there more than two suitcases detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "Is the person surrounded by suitcases on the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the suitcases in the scene?",
+    "answer": "The person appears to be centrally located among the three suitcases, likely standing in proximity to the luggage, suggesting they are either handling or standing beside the suitcases.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "How are the three suitcases arranged relative to each other in the scene?",
+    "answer": "The three suitcases appear to be distributed across the scene at varying depths (ranging from near 0 m to up to 50 m), suggesting they may be spread out in a line or cluster rather than stacked together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "Is the person at risk due to proximity to heavy construction equipment?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (e.g., cranes, excavators, forklifts) is detected in this scene. The only objects present are suitcases and a person, posing no construction-site proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose an immediate tripping or obstruction hazard to the person?",
+    "answer": "Potentially yes. With three suitcases detected in the scene and the person in close proximity, one or more suitcases may be within 2 metres of the person, creating a potential tripping or obstruction hazard. Workers and bystanders should ensure luggage is kept clear of walkways.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000324.jpg"
+  }
+]

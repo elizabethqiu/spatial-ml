@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the person and the tv?",
+    "answer": "11.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000662.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the tv?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000662.jpg"
+  },
+  {
+    "question": "Is the tv positioned in front of the person?",
+    "answer": "Unable to determine from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000662.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person's proximity to equipment?",
+    "answer": "No hazards detected. The person is at a safe distance from all objects.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000662.jpg"
+  }
+]

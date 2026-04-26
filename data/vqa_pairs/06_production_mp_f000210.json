@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the primary object visible in this scene?",
+    "answer": "bowl",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000210.jpg"
+  },
+  {
+    "question": "Is there a bowl present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000210.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "17.10 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000210.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000210.jpg"
+  },
+  {
+    "question": "Is the bowl positioned at the nearest point in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000210.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000210.jpg"
+  }
+]

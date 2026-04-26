@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many toothbrushes are visible in the scene?",
+    "answer": "3 toothbrushes",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "14.07 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person",
+      "knife",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  },
+  {
+    "question": "Is there a clock present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  },
+  {
+    "question": "Are there more toothbrushes than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  },
+  {
+    "question": "Is a knife detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person",
+      "knife",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  },
+  {
+    "question": "Is the minimum recorded depth greater than zero metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush",
+      "person",
+      "knife",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001738.jpg"
+  }
+]

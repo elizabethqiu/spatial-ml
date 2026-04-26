@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002180.jpg"
+  },
+  {
+    "question": "Is there a motorcycle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002180.jpg"
+  },
+  {
+    "question": "Are there more people than motorcycles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002180.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002180.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "16.71 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002180.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002180.jpg"
+  },
+  {
+    "question": "Are any workers in dangerous proximity to the motorcycle (within 2 metres)?",
+    "answer": "Unknown - insufficient depth data for individual object positioning",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002180.jpg"
+  }
+]

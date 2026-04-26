@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  },
+  {
+    "question": "Is there a bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  },
+  {
+    "question": "Is there a bottle visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  },
+  {
+    "question": "Are there more people than furniture items?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "13.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy machinery?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003928.jpg"
+  }
+]

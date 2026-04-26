@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002424.jpg"
+  },
+  {
+    "question": "Is there a skateboard in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002424.jpg"
+  },
+  {
+    "question": "Are there more people than skateboards?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002424.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002424.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "16.30 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002424.jpg"
+  },
+  {
+    "question": "Is the skateboard closer than 2 metres to any person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002424.jpg"
+  }
+]

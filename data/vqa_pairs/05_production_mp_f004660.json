@@ -1,0 +1,76 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004660.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "bed",
+      "car",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004660.jpg"
+  },
+  {
+    "question": "Is the banana closer to the camera than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004660.jpg"
+  },
+  {
+    "question": "Are both persons at the same depth distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004660.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the persons?",
+    "answer": "The bed is positioned behind the persons in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004660.jpg"
+  },
+  {
+    "question": "What is the relative position of the car compared to the banana?",
+    "answer": "The car is positioned further away from the camera than the banana.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004660.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment within unsafe proximity of workers?",
+    "answer": "No safety alert - this is an indoor residential scene without construction equipment or hazardous machinery near workers.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004660.jpg"
+  }
+]

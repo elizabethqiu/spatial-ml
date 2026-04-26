@@ -1,0 +1,91 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the parking meter?",
+    "answer": "Based on the scene depth statistics, the person and parking meter are approximately 13.13 metres apart on average, though their relative separation could range from near 0 to several metres depending on their individual depth positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "What is the maximum observed depth in the scene?",
+    "answer": "The maximum observed depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "Is the person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, bulldozer, crane) visible in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "Is the parking meter located within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the parking meter?",
+    "answer": "Based on the available depth data, this cannot be confirmed with certainty; both objects share a mean scene depth of approximately 13.13 metres, suggesting they are at a broadly similar distance from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "Where is the parking meter positioned relative to the person in the scene?",
+    "answer": "The parking meter is positioned in the same general depth plane as the person, at a mean depth of approximately 13.13 metres. Without precise x/y coordinates it is not possible to determine whether it is to the left, right, or directly in front of the person, but they appear to share a similar foreground-to-midground zone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "Does the scene present any immediate safety alert involving the person and heavy equipment within a 2-metre proximity threshold?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment (e.g., excavator, forklift, crane, bulldozer) detected in this scene. The only objects present are a person and a parking meter, and a parking meter does not constitute a hazardous proximity risk under construction site safety guidelines.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued for the person being too close to the parking meter?",
+    "answer": "No safety warning is required. A parking meter is not classified as heavy equipment or a construction hazard. The person does not appear to be within a dangerous proximity zone relative to any hazardous machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000440.jpg"
+  }
+]

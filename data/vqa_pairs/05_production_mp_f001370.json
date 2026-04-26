@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How far is the person from the car in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the car is approximately 15.62 metres (mean scene depth), with objects ranging from 0.00 m to 50.00 m apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  },
+  {
+    "question": "What is the maximum possible separation between any two objects in this scene?",
+    "answer": "The maximum possible separation between objects in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  },
+  {
+    "question": "Is the car within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the car?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  },
+  {
+    "question": "Where is the car positioned relative to the person in the scene?",
+    "answer": "The car is positioned further from the camera than the person, placing it behind or at a greater depth than the person within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  },
+  {
+    "question": "Is the person in a potentially dangerous proximity (less than 2 metres) to the car?",
+    "answer": "No immediate safety alert is triggered. Based on the available depth data, the person and car do not appear to be within the critical 2-metre danger threshold. However, the minimum scene depth of 0.00 m suggests some objects may be extremely close to the camera \u2014 continuous monitoring is advised to ensure the person maintains a safe distance from the vehicle at all times.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued based on the proximity of the person to the car?",
+    "answer": "No critical safety alert is required at this time based on the mean depth separation of approximately 15.62 metres. However, given the depth range extends to 0.00 m, if the person moves significantly closer to the car or the car is in motion, a safety warning should be issued immediately if the gap falls below 2.00 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001370.jpg"
+  }
+]

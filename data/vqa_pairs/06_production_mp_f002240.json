@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many bottles are visible in the scene?",
+    "answer": "2 bottles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "14.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  },
+  {
+    "question": "Is there a toothbrush in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  },
+  {
+    "question": "Are there more than 2 bottles in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  },
+  {
+    "question": "Is there only one person visible in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  },
+  {
+    "question": "What is the minimum depth measurement in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002240.jpg"
+  }
+]

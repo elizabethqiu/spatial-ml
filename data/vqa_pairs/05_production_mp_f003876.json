@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many backpacks are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003876.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003876.jpg"
+  },
+  {
+    "question": "Is there a suitcase present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003876.jpg"
+  },
+  {
+    "question": "Are there more backpacks than suitcases in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003876.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "13.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003876.jpg"
+  },
+  {
+    "question": "Is the person located closer to the camera than the average depth of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003876.jpg"
+  }
+]

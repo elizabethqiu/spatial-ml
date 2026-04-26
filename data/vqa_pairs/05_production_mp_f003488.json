@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the camera than the cup?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "16.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  },
+  {
+    "question": "Are both people positioned at a safe distance from each other (greater than 2 metres)?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  },
+  {
+    "question": "Is the suitcase the only piece of luggage visible?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003488.jpg"
+  }
+]

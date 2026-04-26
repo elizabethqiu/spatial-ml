@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are visible in this construction scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001862.jpg"
+  },
+  {
+    "question": "Are there any workers present at this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001862.jpg"
+  },
+  {
+    "question": "Is this a multi-person work area?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001862.jpg"
+  },
+  {
+    "question": "What is the average depth distance of detected objects in this scene?",
+    "answer": "14.81 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001862.jpg"
+  },
+  {
+    "question": "What is the maximum visibility range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001862.jpg"
+  },
+  {
+    "question": "Are both persons located within close proximity to each other?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001862.jpg"
+  }
+]

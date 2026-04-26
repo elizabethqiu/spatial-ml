@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the distance between the toilet and the car?",
+    "answer": "11.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000262.jpg"
+  },
+  {
+    "question": "Is the toilet closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000262.jpg"
+  },
+  {
+    "question": "Which object is farther from the camera: the toilet or the car?",
+    "answer": "The objects are approximately equidistant from the camera at a mean depth of 11.66 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000262.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "No workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000262.jpg"
+  }
+]

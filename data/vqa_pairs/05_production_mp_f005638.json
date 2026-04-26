@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the cat and the chair?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005638.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the chair?",
+    "answer": "Unable to determine - no relative depth coordinates available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005638.jpg"
+  },
+  {
+    "question": "Is the cat positioned to the left of the chair?",
+    "answer": "Unable to determine - no horizontal position data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005638.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving heavy equipment in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005638.jpg"
+  }
+]

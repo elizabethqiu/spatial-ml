@@ -1,0 +1,95 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the bed is approximately 19.31 metres (mean scene depth), though individual object distances may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "The two persons are estimated to be within the scene depth range of 0.00 to 50.00 metres apart, with a mean scene depth of approximately 19.31 metres suggesting they may be several metres from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "Is any person located near the bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons appear to be in the general vicinity of the bed within the scene. Based on depth data, at least one person is likely positioned near or alongside the bed, while the other may be at a slightly different depth position relative to it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "Is the bed in the foreground or background relative to the persons?",
+    "answer": "Given the scene depth range of 0.00 to 50.00 metres and a mean of 19.31 metres, the bed and persons are likely positioned at mid-range depth. The bed may be in the background or at a similar depth plane relative to the persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in the scene that poses a safety risk to the workers?",
+    "answer": "No heavy equipment (e.g., cranes, excavators, forklifts) is detected in this scene. The only objects present are a bed and two persons. No construction-related proximity safety alert is required. However, note that this scene does not appear to be a typical construction site environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  },
+  {
+    "question": "Are any persons within a dangerous proximity of less than 2 metres to any hazardous machinery or heavy equipment?",
+    "answer": "No hazardous machinery or heavy equipment is detected in this scene. The scene contains only a bed and two persons, so no safety proximity alert (< 2 metres to heavy equipment) is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001026.jpg"
+  }
+]

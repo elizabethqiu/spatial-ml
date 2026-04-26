@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the bottle and the dog?",
+    "answer": "Unable to determine - objects lack individual depth coordinates",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004080.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the dog?",
+    "answer": "Unable to determine - insufficient spatial positioning data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004080.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004080.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004080.jpg"
+  },
+  {
+    "question": "Is the dog positioned to the left of the bottle?",
+    "answer": "Unable to determine - no horizontal position data available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004080.jpg"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "toilet",
+      "bowl",
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "18.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "toilet",
+      "bowl",
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  },
+  {
+    "question": "Is a toilet present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  },
+  {
+    "question": "Is there a vase in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  },
+  {
+    "question": "Are there more cups than bowls in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  },
+  {
+    "question": "Is a person present among the objects?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "toilet",
+      "bowl",
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002022.jpg"
+  }
+]

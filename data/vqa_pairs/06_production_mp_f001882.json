@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  },
+  {
+    "question": "What is the minimum distance to any detected object in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected people in metres?",
+    "answer": "16.34 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Are there any workers present in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Are there multiple people visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Is there significant depth variation among detected objects?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Note: No heavy equipment detected in this scene. All safety alerts cleared for personnel spacing at current distances.",
+    "answer": "No proximity hazards detected - no heavy equipment present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001882.jpg"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "question": "Is the hair drier closer to the person than the backpack?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004384.jpg"
+  },
+  {
+    "question": "Is the backpack positioned near the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004384.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of all objects from the camera in metres?",
+    "answer": "12.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004384.jpg"
+  },
+  {
+    "question": "What is the maximum distance span across the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004384.jpg"
+  },
+  {
+    "question": "Is the hair drier at a safe distance from the person?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004384.jpg"
+  },
+  {
+    "question": "Are there any hazardous proximity conditions between the person and equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004384.jpg"
+  }
+]

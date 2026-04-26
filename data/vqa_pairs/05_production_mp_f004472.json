@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many suitcases are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "How many toilets are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "Are there more persons than suitcases in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "Is the number of toilets equal to the number of suitcases?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "Are there any persons in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "17.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "Are the persons positioned closer to the camera than the average depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  },
+  {
+    "question": "Is this a typical construction site setup?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004472.jpg"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many pieces of furniture are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Is there a bench present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "11.41 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Is the chair positioned closer than 2 metres to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Is the bench positioned closer than 2 metres to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity (< 2 m) to furniture items?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000316.jpg"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "question": "How far is the cup from the nearest bed on average?",
+    "answer": "Based on the scene depth statistics, the cup and nearest bed are estimated to be approximately 20.74 metres apart (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two detected persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within a range of 0.00 to 50.00 metres apart, with a mean separation of approximately 20.74 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "The two beds are estimated to be approximately 20.74 metres apart based on the mean depth of the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected near the persons in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "Is the cup located closer to a bed or to a person?",
+    "answer": "Based on the scene layout, the cup appears to be in closer proximity to a bed than to either of the detected persons, as cups are typically placed on bedside surfaces.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the beds in the scene?",
+    "answer": "The two persons appear to be positioned near or on the beds in the scene, likely occupying or standing adjacent to the bed areas based on typical bedroom scene configurations.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "Is the cup positioned between the two beds?",
+    "answer": "Based on typical bedroom scene arrangements and available depth data, the cup is likely positioned on or near one of the beds rather than between them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are any persons within 2 metres of heavy equipment such as cranes, forklifts, or excavators?",
+    "answer": "No heavy construction equipment (cranes, forklifts, excavators, etc.) is detected in this scene. The scene contains only beds, a cup, and persons. No proximity safety alert is triggered. However, note that depth values range from 0.00 to 50.00 metres \u2014 if equipment were present at the minimum depth, an immediate safety alert would be required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is any worker dangerously close (less than 2 metres) to any detected machinery or vehicle in the scene?",
+    "answer": "No machinery or vehicles are detected in this scene. The objects present are beds, a cup, and two persons. No safety hazard related to proximity to heavy equipment is identified. Scene is clear of construction equipment hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001252.jpg"
+  }
+]

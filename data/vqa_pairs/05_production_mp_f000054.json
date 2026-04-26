@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the car from the camera viewpoint?",
+    "answer": "The car is approximately 9.76 metres away (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth in the scene, indicating the farthest extent of the environment?",
+    "answer": "The maximum depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Is the car detected with high confidence (above 0.90)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Where is the car positioned relative to the camera in terms of depth?",
+    "answer": "The car is positioned at a mid-range distance, approximately 9.76 metres in front of the camera, within a scene that extends up to 50.00 metres in depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Is the car located in the near foreground (within 3 metres) or further back in the scene?",
+    "answer": "The car is further back in the scene, with a mean depth of approximately 9.76 metres, placing it well beyond the near foreground zone of 3 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Does the car pose an immediate safety hazard to any workers detected within a 2-metre proximity?",
+    "answer": "No workers are detected in the scene. However, caution is advised \u2014 the car's presence on or near a construction site requires monitoring to ensure no personnel enter within a 2-metre radius of the vehicle, particularly if it is moving or being operated.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Should the construction site safety team be alerted about the car's position near active work zones?",
+    "answer": "Yes \u2014 while no worker proximity violation (< 2 metres) is currently detected, the car is present in the scene at approximately 9.76 metres. Site safety protocols require that all vehicles in active construction areas be clearly marked, speed-limited, and monitored to prevent accidental contact with personnel. A safety marshal should verify the vehicle's route and parking position.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000054.jpg"
+  }
+]

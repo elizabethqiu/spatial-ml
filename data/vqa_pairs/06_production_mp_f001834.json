@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many cars are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  },
+  {
+    "question": "How many people are visible in this construction site?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  },
+  {
+    "question": "Is there at least one car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  },
+  {
+    "question": "Are there more cars than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  },
+  {
+    "question": "Is the maximum depth of objects in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all detected objects?",
+    "answer": "21.26 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  },
+  {
+    "question": "Are there any workers positioned within 2 metres of a vehicle?",
+    "answer": "Unable to determine - proximity data between specific person and car pairs not provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  },
+  {
+    "question": "What is the range of depths from nearest to farthest object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001834.jpg"
+  }
+]

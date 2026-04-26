@@ -1,0 +1,125 @@
+[
+  {
+    "question": "What is the approximate distance between the teddy bear and the nearest person in the scene?",
+    "answer": "Approximately 20.36 metres (based on mean scene depth; objects appear co-located in the near field).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "teddy bear",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Approximately 0.00 to 20.36 metres, with both persons likely within close proximity given the shared bed context.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the bed and the teddy bear?",
+    "answer": "Approximately 0.00 to 5.00 metres, as the teddy bear is likely resting on or immediately adjacent to the bed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Is the teddy bear located on or near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "teddy bear",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Where is the teddy bear positioned relative to the bed?",
+    "answer": "The teddy bear is positioned on or beside the bed, likely in the foreground or resting on the sleeping surface.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "teddy bear",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons appear to be on or immediately around the bed, suggesting they are either lying on it or seated nearby.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Where is the teddy bear positioned relative to the two persons?",
+    "answer": "The teddy bear is positioned in close proximity to one or both persons, likely between them or in front of the nearest person on the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "teddy bear",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving heavy equipment and a worker within 2 metres in this scene?",
+    "answer": "No safety alert triggered. This scene contains no heavy construction equipment. The detected objects (teddy bear, two persons, and a bed) present no construction-site proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "teddy bear",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  },
+  {
+    "question": "Are any persons dangerously close (within 2 metres) to hazardous machinery or equipment in this scene?",
+    "answer": "No safety alert triggered. There is no heavy equipment or machinery detected in this scene. The environment appears to be a domestic bedroom setting with no identified construction hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000764.jpg"
+  }
+]

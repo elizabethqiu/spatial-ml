@@ -1,0 +1,45 @@
+[
+  {
+    "question": "What is the closest object to the camera?",
+    "answer": "cell phone at 0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004926.jpg"
+  },
+  {
+    "question": "Is there a cell phone visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004926.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004926.jpg"
+  },
+  {
+    "question": "Is the cell phone at ground level?",
+    "answer": "Cannot determine from available data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004926.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment items detected near workers in this scene?",
+    "answer": "No workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004926.jpg"
+  }
+]

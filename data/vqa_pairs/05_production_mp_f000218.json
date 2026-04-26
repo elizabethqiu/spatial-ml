@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many TVs are visible in this scene?",
+    "answer": "4 TVs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "What is the mean distance of objects from the camera in metres?",
+    "answer": "16.52 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "Are there more TVs than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "Is there at least one person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "Are all objects in this scene at the same depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "Do the TVs appear closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  },
+  {
+    "question": "Are the people positioned at a greater distance than the minimum depth recorded?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000218.jpg"
+  }
+]

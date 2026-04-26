@@ -1,0 +1,97 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in this scene?",
+    "answer": "The mean depth of objects in this scene is approximately 18.14 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) covered by objects in this scene?",
+    "answer": "The depth range spans from 0.00 metres (closest point) to 50.00 metres (farthest point), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, bulldozer) visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "Is the chair located in the same general scene area as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed and chair in this scene?",
+    "answer": "The person is detected within the same scene as the bed and chair. Given the scene context, the person is likely situated near the bed, with the chair positioned in the vicinity \u2014 suggesting a bedroom or resting-area layout where the person is proximate to both furnishings.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed?",
+    "answer": "Both the chair and bed are detected within the same scene. Based on typical room layouts and the shared depth statistics, the chair is likely positioned adjacent to or nearby the bed, possibly at its side or foot, within the same room space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "Is the person in this scene at risk due to proximity to heavy equipment such as an excavator or crane?",
+    "answer": "No safety alert is triggered. This scene contains a bed, a person, and a chair \u2014 none of which constitute heavy construction equipment. There is no hazardous proximity risk between the person and any dangerous machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  },
+  {
+    "question": "Are there any construction site safety concerns in this scene given the detected objects?",
+    "answer": "No construction site safety concerns are identified. The detected objects \u2014 bed, person, and chair \u2014 indicate a non-construction indoor environment (likely a bedroom). No heavy equipment, fall hazards, or unsafe proximity conditions applicable to a construction context are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000786.jpg"
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the available depth data, the first person is approximately 18.08 metres from the bed (estimated using the scene mean depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two persons in the scene?",
+    "answer": "The two persons are estimated to be within the same depth range, approximately 0.00 to 50.00 metres apart, with a mean scene depth of 18.08 metres suggesting they are in moderate proximity to each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the two persons?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons are detected within the same scene as the bed. Given the depth range of 0.00 to 50.00 metres and a mean of 18.08 metres, the persons appear to be in the mid-to-far region of the scene relative to the bed, though precise lateral positions cannot be confirmed without bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons in the scene?",
+    "answer": "The bed is detected as a distinct object in the scene. Based on depth statistics, it is likely positioned within the same depth plane as the persons (mean depth ~18.08 metres), suggesting the bed is roughly at the same distance or slightly closer/farther than the persons in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected near a worker that poses a safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The scene contains only a bed and two persons, so no proximity-based safety alert between a worker and heavy equipment is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  },
+  {
+    "question": "Do any of the detected persons appear dangerously close (less than 2 metres) to any hazardous equipment in this scene?",
+    "answer": "No hazardous heavy equipment is present in this scene. The only objects detected are a bed and two persons. Therefore, no safety alert for proximity to heavy equipment is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000622.jpg"
+  }
+]

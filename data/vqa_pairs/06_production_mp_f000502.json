@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How far is the person from the refrigerator?",
+    "answer": "14.03 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000502.jpg"
+  },
+  {
+    "question": "What is the distance between the bottle and the person?",
+    "answer": "14.03 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000502.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000502.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000502.jpg"
+  },
+  {
+    "question": "Is the person positioned between the bottle and the refrigerator in depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000502.jpg"
+  },
+  {
+    "question": "Which object is closest to the camera: the person, refrigerator, or bottle?",
+    "answer": "All objects are equidistant from the camera at approximately 14.03 metres mean depth",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "bottle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000502.jpg"
+  }
+]

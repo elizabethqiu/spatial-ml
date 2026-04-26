@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Based on the scene depth statistics, the person and bed are approximately 17.82 metres apart on average, though exact separation depends on individual object depths within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bowl and the bed?",
+    "answer": "Given the mean scene depth of 17.82 metres and the depth range of 0.00\u201350.00 metres, the bowl and bed are estimated to be within a range of 0.00 to 50.00 metres of each other, with a scene-average separation of approximately 17.82 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  },
+  {
+    "question": "Is the bowl located on or near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  },
+  {
+    "question": "Where is the bowl positioned relative to the bed?",
+    "answer": "The bowl appears to be positioned in close proximity to the bed, likely resting on or beside it, given that both objects share a similar depth range within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed and bowl?",
+    "answer": "The person is positioned within the same scene as the bed and bowl. Given the depth range of 0.00\u201350.00 metres, the person may be near or at a distance from the bed and bowl; their exact relative position (e.g., in front of, beside, or behind) cannot be determined without individual object depth values.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  },
+  {
+    "question": "Is the person in a potentially unsafe proximity (less than 2 metres) to any heavy equipment in the scene?",
+    "answer": "No heavy equipment (e.g., cranes, forklifts, excavators) is detected in this scene. The objects present are a bed, a bowl, and a person. No construction safety hazard related to heavy equipment proximity is identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose an immediate safety risk to the person based on proximity thresholds under 2 metres?",
+    "answer": "No critical safety alert is triggered. The scene contains a bed, bowl, and person \u2014 none of which constitute heavy construction equipment. However, if the person is within 2 metres of the bed (e.g., lying in it), this is expected domestic behaviour and not a construction hazard. No proximity-based safety violation is flagged.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000742.jpg"
+  }
+]

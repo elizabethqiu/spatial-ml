@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a boat visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "boat"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001490.jpg"
+  },
+  {
+    "question": "What is the approximate average distance to objects in this scene in metres?",
+    "answer": "11.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "boat"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001490.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "boat"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001490.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance detected in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "boat"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001490.jpg"
+  },
+  {
+    "question": "Is the boat at the closest point in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "boat"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001490.jpg"
+  }
+]

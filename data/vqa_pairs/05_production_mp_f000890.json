@@ -1,0 +1,108 @@
+[
+  {
+    "question": "What is the approximate distance between the chair and the wine glass in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the chair and the wine glass is approximately 19.73 metres (mean scene depth), though exact separation depends on their individual depth positions within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "What is the depth range covered by all detected objects in the scene?",
+    "answer": "The detected objects span a depth range of approximately 50.00 metres, from a minimum of 0.00 metres to a maximum of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "Is there more than one bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "Is a wine glass detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "Is the chair located in the scene alongside sleeping furniture?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the two beds in the scene?",
+    "answer": "The chair is positioned among the two beds in the scene. Without precise individual depth coordinates, it likely sits between or alongside the beds, which are spread across the 0.00\u201350.00 metre depth range, placing the chair at an intermediate relative position near the mean scene depth of 19.73 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "Where is the wine glass positioned relative to the nearest bed?",
+    "answer": "The wine glass is positioned in proximity to one of the beds, likely on or near a surface adjacent to it. Given the mean depth of 19.73 metres and the scene layout, the wine glass appears to be at a relatively close range to the nearest bed, potentially within the same room area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "How are the two beds arranged relative to each other in the scene?",
+    "answer": "The two beds are detected within the same scene spanning a depth of 0.00\u201350.00 metres. They are likely arranged side by side or at opposite ends of the room, separated by some horizontal or depth-wise distance within that range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment present in the scene that pose a proximity safety risk?",
+    "answer": "No workers or heavy equipment are detected in this scene. The objects present \u2014 two beds, a chair, and a wine glass \u2014 are typical indoor furnishings. There are no construction-site safety hazards or proximity risks to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  },
+  {
+    "question": "Does the presence of a wine glass near a bed or chair present any safety concern in this scene context?",
+    "answer": "While no construction-site hazards (e.g., heavy equipment within 2 metres of a worker) are present, a wine glass placed near a bed or chair could pose a minor domestic safety risk (e.g., spillage or breakage hazard). However, no critical safety alert is triggered under construction-site safety criteria for this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "wine glass",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000890.jpg"
+  }
+]

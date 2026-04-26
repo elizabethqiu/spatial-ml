@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 0.00 to 50.00 metres apart, with a mean scene depth of 19.66 metres. Their precise separation cannot be determined without individual depth values, but they likely differ by several metres within the scene range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "What is the approximate depth (distance from camera) of the persons in the scene?",
+    "answer": "The persons are located at depths ranging from approximately 0.00 metres to 50.00 metres from the camera, with a mean depth of 19.66 metres across the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., crane, excavator, forklift) present in the scene alongside the workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "Are the two persons at the same depth position relative to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "Which person is closer to the camera \u2014 the first or the second detected person?",
+    "answer": "Based on the available depth data (min: 0.00 m, max: 50.00 m, mean: 19.66 m), one person appears to be closer to the near end of the depth range while the other is deeper in the scene. The exact ordering requires per-object depth, but the person associated with the minimum depth value (0.00 m) would be closest to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "Are the two persons located on the same depth plane (i.e., equidistant from the camera)?",
+    "answer": "The depth range (0.00 m to 50.00 m) suggests the two persons are at different distances from the camera, so they are likely not on the same depth plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "Is either worker in close proximity (less than 2 metres) to any heavy equipment that could pose a safety hazard?",
+    "answer": "No heavy equipment is detected in this scene. Neither worker is flagged as being within 2 metres of any hazardous machinery. However, ensure all personnel remain at safe distances from any off-frame equipment not captured by the sensor.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the two persons being dangerously close to each other or to any machinery?",
+    "answer": "No heavy equipment is present in the scene, so no machinery-proximity alert applies. The two persons are in a scene with a mean depth of 19.66 metres; without confirmed individual depths being under 2 metres of each other, no immediate person-to-person collision hazard is flagged. Continued monitoring is recommended if they are working in the same hazardous zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000294.jpg"
+  }
+]

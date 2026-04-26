@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the car?",
+    "answer": "19.39 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005032.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005032.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the person?",
+    "answer": "Unable to determine from given data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005032.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005032.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to the proximity of the worker and vehicle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005032.jpg"
+  }
+]

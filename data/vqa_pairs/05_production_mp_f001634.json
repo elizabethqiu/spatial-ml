@@ -1,0 +1,91 @@
+[
+  {
+    "question": "How far is the chair from the vase?",
+    "answer": "The estimated distance between the chair and the vase is approximately 19.72 metres, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "The maximum depth observed in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "Is the chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "Is the vase closer to the camera than the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "Where is the vase positioned relative to the chair in this scene?",
+    "answer": "Based on the available depth data, the vase is positioned within the same general depth plane as the chair, both falling near the mean scene depth of approximately 19.72 metres from the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "Which object is closer to the minimum depth boundary (0.00 metres) in the scene \u2014 the chair or the vase?",
+    "answer": "Neither the chair nor the vase is detected near the minimum depth boundary of 0.00 metres; both objects are located around the mean depth of approximately 19.72 metres, placing them roughly mid-range in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment within 2 metres of each other in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only a chair and a vase \u2014 no workers or heavy construction equipment are detected, so no proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  },
+  {
+    "question": "Should any construction safety protocols be activated due to the objects detected in this scene?",
+    "answer": "No safety protocols need to be activated. The detected objects (chair and vase) are non-hazardous items with no workers or heavy machinery present. There is no dangerous proximity condition meeting the < 2 metre threshold for a safety alert.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001634.jpg"
+  }
+]

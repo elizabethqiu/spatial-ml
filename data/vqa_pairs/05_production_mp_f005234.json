@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  },
+  {
+    "question": "Is there an airplane present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  },
+  {
+    "question": "Are all three people closer than 20 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  },
+  {
+    "question": "What is the average distance to detected objects?",
+    "answer": "16.39 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  },
+  {
+    "question": "Is the airplane positioned at the minimum depth range?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  },
+  {
+    "question": "Are any workers within 2 metres of the airplane?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  },
+  {
+    "question": "Is there a safe distance (>2 metres) maintained between all people and the airplane?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005234.jpg"
+  }
+]

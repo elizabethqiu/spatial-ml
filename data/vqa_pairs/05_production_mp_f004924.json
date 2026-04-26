@@ -1,0 +1,65 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004924.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004924.jpg"
+  },
+  {
+    "question": "What is the average distance of detected objects from the camera?",
+    "answer": "18.42 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004924.jpg"
+  },
+  {
+    "question": "Are all three people at the same depth distance?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004924.jpg"
+  },
+  {
+    "question": "Is there any person located in the foreground (less than 5 metres away)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004924.jpg"
+  },
+  {
+    "question": "Are all detected people within 30 metres of the camera position?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004924.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of the three people in the scene.",
+    "answer": "The three people are distributed across varying depths, with the nearest at 0.00 metres and the farthest at 50.00 metres, with an average depth of 18.42 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004924.jpg"
+  }
+]

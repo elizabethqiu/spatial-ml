@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How far is the person from the TV?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the TV is approximately 19.42 metres (mean scene depth), though exact separation depends on individual object depths.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the TV and the person?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  },
+  {
+    "question": "Is the TV detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  },
+  {
+    "question": "Is the person closer to the viewer than the TV?",
+    "answer": "This cannot be determined with certainty from the available data; both objects are present in a scene with a mean depth of 19.42 metres and a range of 0.00\u201350.00 metres, so the relative depth order of the person versus the TV requires per-object depth values to confirm.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the person in the scene?",
+    "answer": "Based on the scene description, the TV and person are both detected within the same scene space (depth range 0.00\u201350.00 m). Without individual object coordinates, the TV is described as co-present with the person, likely positioned in front of or beside them at an average scene depth of approximately 19.42 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  },
+  {
+    "question": "Is the person in this scene at risk due to proximity to heavy construction equipment?",
+    "answer": "No safety alert is triggered. The scene contains only a TV and a person; no heavy construction equipment (e.g., excavators, cranes, forklifts) is detected. There is no hazardous proximity risk from equipment in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued for the person being within 2 metres of any dangerous machinery?",
+    "answer": "No. No heavy or dangerous machinery is present in this scene. The only objects detected are a TV and a person, so no proximity-based safety alert (< 2 m threshold) applies.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000098.jpg"
+  }
+]

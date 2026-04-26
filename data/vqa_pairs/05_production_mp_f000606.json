@@ -1,0 +1,94 @@
+[
+  {
+    "question": "How far is the person from the dining table?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the person and the dining table is approximately 18.43 metres (mean scene depth), though exact positions suggest they are within the same indoor environment at a close functional range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in this scene?",
+    "answer": "The depth range of objects in this scene spans from 0.00 metres (nearest point) to 50.00 metres (farthest point), with a mean depth of 18.43 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "Is the person near any heavy construction equipment that poses a safety risk?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the dining table and bed?",
+    "answer": "The person is detected within the same indoor scene as the dining table and bed. Given the mean scene depth of 18.43 metres, the person appears to be at a mid-range position relative to both furniture items, likely situated between or adjacent to them in a residential-style room layout.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the dining table?",
+    "answer": "The bed and dining table are both detected within the same indoor scene. Based on typical room layouts and the scene's depth distribution (mean 18.43 m, max 50.00 m), the bed appears to be positioned further into the room or in an adjacent area relative to the dining table, suggesting a multi-purpose or open-plan living space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving the person and heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a dining table, a bed, and a person \u2014 none of the detected objects qualify as heavy construction equipment. There is no proximity hazard (< 2 metres between a worker and heavy equipment) to report.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  },
+  {
+    "question": "Does the presence of a person near the bed or dining table constitute a construction site safety risk?",
+    "answer": "No safety alert is triggered. The objects in this scene (bed, dining table, person) are consistent with a residential or indoor non-construction environment. No heavy equipment is present, and no worker-equipment proximity violation (< 2 metres) has been detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000606.jpg"
+  }
+]

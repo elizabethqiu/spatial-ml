@@ -1,0 +1,89 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in this scene?",
+    "answer": "The approximate mean depth of objects in the scene is 20.29 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) covered by objects in this scene?",
+    "answer": "The depth range in this scene spans from 0.00 metres (nearest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  },
+  {
+    "question": "Are there any persons present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavator, forklift, crane) detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the two persons in the scene?",
+    "answer": "The chair is positioned between or in the vicinity of the two persons detected in the scene, with all objects distributed across a depth range centered around a mean of approximately 20.29 metres. The chair likely serves as a seating reference point relative to the two persons nearby.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  },
+  {
+    "question": "Are the two persons positioned on the same side of the chair, or on opposite sides?",
+    "answer": "Based on the scene description, the two persons appear to be situated on either side of or around the chair, though their exact lateral arrangement cannot be fully confirmed without precise X/Y coordinates. They share a similar depth context given the mean depth of 20.29 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  },
+  {
+    "question": "Is any worker in this scene in dangerous proximity (less than 2 metres) to heavy construction equipment?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment (e.g., excavator, bulldozer, forklift, or crane) detected in this scene. The only non-person object is a chair, which does not pose a heavy-equipment proximity hazard to either of the two persons present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  },
+  {
+    "question": "Does the presence of a chair in an active construction zone indicate a potential safety concern?",
+    "answer": "Potentially yes. A chair placed in or near an active construction zone could indicate an unauthorized rest area, obstruct emergency evacuation paths, or suggest a worker is stationary in a hazardous zone. Site supervisors should verify that the seating area is in a designated safe zone and does not impede site operations or emergency egress.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000400.jpg"
+  }
+]

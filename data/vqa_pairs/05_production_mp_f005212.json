@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "3 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "15.10 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  },
+  {
+    "question": "Are there more suitcases than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  },
+  {
+    "question": "Are the suitcases closer to the camera than the maximum depth recorded?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of suitcases relative to the person in the scene.",
+    "answer": "Multiple suitcases are distributed throughout the scene at varying depths ranging from 0 to 50 metres, with the person present among them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  },
+  {
+    "question": "What is the depth range between the closest and furthest objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005212.jpg"
+  }
+]

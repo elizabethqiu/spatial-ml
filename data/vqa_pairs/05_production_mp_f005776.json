@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many animals are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005776.jpg"
+  },
+  {
+    "question": "Is there a cat in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005776.jpg"
+  },
+  {
+    "question": "Is there a bird in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005776.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005776.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "18.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005776.jpg"
+  },
+  {
+    "question": "Are both a cat and a dog detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005776.jpg"
+  }
+]

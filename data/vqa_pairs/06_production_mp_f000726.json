@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Is the person standing next to the parking meter?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000726.jpg"
+  },
+  {
+    "question": "How far apart are the person and the parking meter?",
+    "answer": "15.18 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000726.jpg"
+  },
+  {
+    "question": "Is the parking meter in front of the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000726.jpg"
+  },
+  {
+    "question": "Is there a safety hazard between the person and parking meter?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000726.jpg"
+  }
+]

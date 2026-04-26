@@ -1,0 +1,107 @@
+[
+  {
+    "question": "How far is the person from the chair?",
+    "answer": "Based on the scene depth statistics, the person and chair are approximately 16.80 metres apart on average, though exact separation depends on their individual depth positions within the 0\u201350 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the tv and the backpack?",
+    "answer": "Given the scene's mean depth of 16.80 metres and a depth range of 0.00\u201350.00 metres, the tv and backpack are estimated to be within roughly 0\u201350 metres of each other, with a scene-average separation of approximately 16.80 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Is the backpack located in the same scene as the chair?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Is the tv visible alongside any other objects in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "backpack",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the tv?",
+    "answer": "The person and the tv share the same scene space. Without precise per-object depth coordinates, the person is likely positioned somewhere within the 0\u201350 metre depth range relative to the tv, which is also within that same range. They may be in front of, beside, or at a similar depth to the tv.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Where is the backpack positioned relative to the chair?",
+    "answer": "The backpack and chair are both present in the scene within a depth range of 0\u201350 metres. The backpack could be resting near, on, or beside the chair; based on the scene context (indoor setting with a person), the backpack is likely positioned close to or on the chair.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Where is the chair located relative to the tv?",
+    "answer": "The chair is likely positioned in front of or facing the tv, which is a common spatial arrangement in indoor scenes. Both objects fall within the 0\u201350 metre depth range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy construction equipment in this scene?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The objects present are a tv, backpack, chair, and person \u2014 none of which qualify as heavy equipment. Therefore, no proximity safety alert is triggered for the person.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "backpack",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  },
+  {
+    "question": "Does any detected object pose a crush or collision hazard to the person based on proximity to heavy machinery?",
+    "answer": "No crush or collision hazard is identified. The scene contains only a tv, backpack, chair, and person \u2014 none of which are heavy construction equipment. No safety alert for machinery proximity is warranted in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "backpack",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001368.jpg"
+  }
+]

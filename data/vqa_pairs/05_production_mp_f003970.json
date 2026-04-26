@@ -1,0 +1,53 @@
+[
+  {
+    "question": "How many cars are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003970.jpg"
+  },
+  {
+    "question": "Are there any workers present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003970.jpg"
+  },
+  {
+    "question": "Is there heavy equipment visible in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003970.jpg"
+  },
+  {
+    "question": "What is the average distance to detected objects in this scene?",
+    "answer": "14.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003970.jpg"
+  },
+  {
+    "question": "Are the cars positioned in the foreground of the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003970.jpg"
+  },
+  {
+    "question": "Is there a safety risk involving workers and heavy machinery in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003970.jpg"
+  }
+]

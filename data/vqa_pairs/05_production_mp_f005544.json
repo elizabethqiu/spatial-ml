@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the bicycle?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005544.jpg"
+  },
+  {
+    "question": "Is the banana closer to the person than to the bicycle?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005544.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005544.jpg"
+  },
+  {
+    "question": "How far is the banana from the person?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005544.jpg"
+  },
+  {
+    "question": "Is the bicycle positioned to the left of the person?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005544.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy machinery?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005544.jpg"
+  }
+]

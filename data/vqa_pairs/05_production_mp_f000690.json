@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  },
+  {
+    "question": "Is the wine glass closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  },
+  {
+    "question": "Is the chair positioned between the two people?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in metres?",
+    "answer": "18.41 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  },
+  {
+    "question": "Are both people sitting on the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  },
+  {
+    "question": "What is the range of depth distances in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  },
+  {
+    "question": "Is the wine glass on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000690.jpg"
+  }
+]

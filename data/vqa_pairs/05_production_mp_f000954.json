@@ -1,0 +1,115 @@
+[
+  {
+    "question": "How far is the person from the bottle?",
+    "answer": "The estimated distance between the person and the bottle is approximately 2.50 metres, based on their relative depth positions in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the person and the bed?",
+    "answer": "The estimated distance between the person and the bed is approximately 1.80 metres, based on their depth positions in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bottle and the bed?",
+    "answer": "The estimated distance between the bottle and the bed is approximately 3.20 metres, based on their relative positions in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Is the person near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Is the bottle located on or near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Is there a person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the bed or to the person?",
+    "answer": "Based on the depth estimates, the bottle appears to be closer to the bed than to the person, suggesting it may be resting on or beside the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person appears to be positioned in front of or beside the bed, at a relatively close distance, suggesting they may be sitting or standing adjacent to it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Where is the bottle located relative to the person and the bed?",
+    "answer": "The bottle appears to be positioned between or alongside the person and the bed, likely resting on the bed or a nearby surface within arm's reach of the person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present near a worker that poses a safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The detected objects are a bottle, a person, and a bed. No construction-related safety alert is warranted. However, if this is a rest area on a construction site, ensure the person is in a designated safe zone away from active work areas.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  },
+  {
+    "question": "Does the proximity of any object to the person pose a safety concern on the construction site?",
+    "answer": "No heavy equipment is detected within the scene. The bottle is within close proximity (~2.50 metres) to the person, which poses no mechanical safety threat. However, the presence of a bed and bottle in what may be a construction environment could indicate an unauthorized rest area \u2014 site supervisors should verify that workers are resting in approved, safe locations away from hazardous zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000954.jpg"
+  }
+]

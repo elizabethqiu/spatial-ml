@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene based on their estimated depths?",
+    "answer": "Based on the depth estimates, the two persons are approximately 0.00 to 50.00 metres apart, with an average scene depth of 15.95 metres. Without individual depth coordinates, the estimated separation is within the range of 0 to 50 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "What is the average depth (distance from camera) of the persons detected in the scene?",
+    "answer": "The average depth in the scene is approximately 15.95 metres, suggesting the persons are roughly 15.95 metres from the camera on average.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "Are there exactly two persons present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) present in the scene alongside the workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "Are both persons detected with high confidence (above 0.90)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "Which person is positioned closer to the camera?",
+    "answer": "Both persons share the same confidence score of 1.00 and the scene depth ranges from 0.00 to 50.00 metres. Without distinct individual depth values assigned to each person, it cannot be definitively determined which person is closer; one person may be near 0.00 metres and the other further away, but precise individual positions are not distinguishable from the available data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "Are the two persons in close proximity to each other (within 2 metres)?",
+    "answer": "The scene depth ranges from 0.00 to 50.00 metres, meaning one or both persons could potentially be very close together. Without individual spatial coordinates, it is possible they are within 2 metres of each other, but this cannot be confirmed with certainty from the available data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "Is there a safety alert required due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert is required. No heavy equipment (such as excavators, cranes, bulldozers, or forklifts) has been detected in the scene. The scene contains only two persons, so there is no dangerous proximity between a worker and heavy machinery to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  },
+  {
+    "question": "Should a safety supervisor be notified about any hazardous worker-equipment interaction in this scene?",
+    "answer": "No immediate safety alert is triggered for worker-equipment interaction, as no heavy equipment is detected in the scene. However, supervisors should note that the minimum scene depth is 0.00 metres, suggesting at least one person may be very close to the camera or a scene boundary, and general site awareness should be maintained.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000202.jpg"
+  }
+]

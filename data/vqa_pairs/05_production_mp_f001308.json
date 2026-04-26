@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How far is the dog from the first TV?",
+    "answer": "The estimated distance between the dog and the first TV is approximately 17.41 metres (based on mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two TVs in the scene?",
+    "answer": "The approximate distance between the two TVs is estimated to be around 17.41 metres, based on the mean depth of the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  },
+  {
+    "question": "Are there more than one TV in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  },
+  {
+    "question": "Is the dog closer to or farther from the camera than the TVs on average?",
+    "answer": "Based on the available depth statistics, the dog and the TVs are all situated within a scene whose depth ranges from 0.00 to 50.00 metres, with a mean of 17.41 metres. Without individual object depth values, a precise relative position cannot be determined, but all objects are within the same general depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  },
+  {
+    "question": "Are the two TVs on the same side of the scene, or are they on opposite sides?",
+    "answer": "Based on the scene description, the two TVs appear to occupy distinct positions within the scene; however, without precise x/y coordinates, it cannot be conclusively determined whether they are on the same or opposite sides.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  },
+  {
+    "question": "Is there any safety hazard present in this scene involving a worker and heavy equipment in close proximity (less than 2 metres)?",
+    "answer": "No safety alert is triggered. The scene contains only two TVs and a dog \u2014 no workers or heavy construction equipment are detected. There are no proximity hazards to report.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv",
+      "tv",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  },
+  {
+    "question": "Does the dog pose a safety risk by being within 2 metres of any heavy equipment in the scene?",
+    "answer": "No safety alert is triggered. There is no heavy equipment present in this scene. The only objects detected are two TVs and a dog, none of which constitute heavy construction machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001308.jpg"
+  }
+]

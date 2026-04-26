@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many backpacks are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003846.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003846.jpg"
+  },
+  {
+    "question": "Is there a bottle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003846.jpg"
+  },
+  {
+    "question": "Are there more backpacks than people in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003846.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in the scene?",
+    "answer": "14.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003846.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003846.jpg"
+  }
+]

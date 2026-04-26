@@ -1,0 +1,97 @@
+[
+  {
+    "question": "What is the approximate distance between the two detected persons in the scene?",
+    "answer": "Based on the available depth data (mean depth ~17.47 m, range 0\u201350 m), the two persons are estimated to be within approximately 5\u201310 metres of each other, though exact lateral separation requires full 3D coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "Given the scene depth statistics (mean ~17.47 m, range 0\u201350 m), the two beds are estimated to be separated by approximately 3\u20138 metres, consistent with a typical shared bedroom or dormitory layout.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "Is there at least one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "Is any person located in close proximity (within 2 metres) to heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to the beds in the scene?",
+    "answer": "The persons appear to be positioned near or on the beds, likely in a bedroom or sleeping area, with each person associated with one of the two detected beds based on typical scene context and depth clustering.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "Is the second person closer to or farther from the camera than the first person?",
+    "answer": "Based on the available depth statistics, both persons share a similar mean depth range (~17 m); without distinct per-object depth values, they appear to be at roughly the same depth from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only persons and beds \u2014 no heavy construction equipment (e.g., excavators, cranes, forklifts) is detected. There is no proximity hazard to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  },
+  {
+    "question": "Would a construction site safety alert be issued for any object pair in this scene?",
+    "answer": "No safety alert is warranted. The scene depicts a residential or indoor sleeping environment with persons and beds only. No heavy machinery is present, so no worker-equipment proximity violation (< 2 m threshold) exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000736.jpg"
+  }
+]

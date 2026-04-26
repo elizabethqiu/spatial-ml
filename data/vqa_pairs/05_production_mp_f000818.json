@@ -1,0 +1,95 @@
+[
+  {
+    "question": "What is the approximate distance between the two detected persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within the mean scene depth range of approximately 20.69 metres, though their exact separation cannot be precisely determined without individual depth coordinates. Their relative proximity appears to be within a few metres of each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "Given the scene depth statistics (mean: 20.69 m, min: 0.00 m, max: 50.00 m), the two beds span across a depth range suggesting they are separated by an estimated distance of approximately 10\u201320 metres, based on the overall scene depth distribution.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "Is any person in the scene within 2 metres of heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "Where are the persons located relative to the beds in the scene?",
+    "answer": "The two persons appear to be positioned in proximity to the two beds, likely alongside or on top of the beds, given the residential/indoor nature of the scene and the pairing of persons and beds in the object list.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "Where is the second bed located relative to the first bed in the scene?",
+    "answer": "Based on the scene layout and depth statistics, the second bed appears to be positioned further in the background or laterally offset from the first bed, suggesting a side-by-side or sequential arrangement within the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding workers being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene does not contain any heavy construction equipment such as excavators, cranes, or bulldozers. The detected objects are beds and persons, indicating a non-construction environment. No proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  },
+  {
+    "question": "Is either person dangerously close (within 2 metres) to any hazardous machinery or equipment?",
+    "answer": "No safety alert is warranted. No heavy equipment or machinery has been detected in this scene. The only objects present are two beds and two persons, posing no construction-related proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000818.jpg"
+  }
+]

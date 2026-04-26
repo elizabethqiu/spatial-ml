@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many hair driers are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003656.jpg"
+  },
+  {
+    "question": "Is there a person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003656.jpg"
+  },
+  {
+    "question": "Are there more hair driers than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003656.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance measured in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003656.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in the scene?",
+    "answer": "16.29 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003656.jpg"
+  },
+  {
+    "question": "Is the person positioned within a safe distance from the hair driers?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003656.jpg"
+  }
+]

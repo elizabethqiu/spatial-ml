@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many bicycles are visible in this scene?",
+    "answer": "4 bicycles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001624.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001624.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "11.68 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001624.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001624.jpg"
+  },
+  {
+    "question": "Are there more bicycles than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001624.jpg"
+  },
+  {
+    "question": "Describe the relative position of the bicycles to the person in this scene.",
+    "answer": "The bicycles are distributed at varying distances from the person, with depths ranging from 0 to 50 metres. The scene contains multiple bicycles at different spatial positions relative to the single person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001624.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the person and bicycles?",
+    "answer": "No safety alert. This is a bicycle scene without heavy equipment. The minimum depth of 0.00 metres indicates close proximity but no hazardous machinery is present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001624.jpg"
+  }
+]

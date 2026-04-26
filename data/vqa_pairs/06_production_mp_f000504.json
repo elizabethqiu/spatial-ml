@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the toilet and the refrigerator?",
+    "answer": "13.61 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000504.jpg"
+  },
+  {
+    "question": "Is the toilet closer than 5 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000504.jpg"
+  },
+  {
+    "question": "Are the toilet and refrigerator in the same room based on their proximity?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000504.jpg"
+  },
+  {
+    "question": "What is the maximum separation distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000504.jpg"
+  }
+]

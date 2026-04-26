@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  },
+  {
+    "question": "How many baseball bats are detected in the scene?",
+    "answer": "2 bats",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  },
+  {
+    "question": "Is there at least one baseball bat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  },
+  {
+    "question": "Are there more people than baseball bats in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  },
+  {
+    "question": "Is the average depth of objects less than 20 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  },
+  {
+    "question": "What is the relative spatial arrangement of the objects in terms of depth distribution?",
+    "answer": "Objects are distributed across a wide depth range from 0.00 to 50.00 metres, with a mean depth of 16.43 metres, indicating varied distances from the camera with some objects very close and others at significant distance.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003696.jpg"
+  }
+]

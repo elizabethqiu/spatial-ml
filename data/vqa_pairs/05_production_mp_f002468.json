@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the skateboard?",
+    "answer": "Unable to determine - insufficient depth data for individual object localization",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002468.jpg"
+  },
+  {
+    "question": "Is the person holding or touching the skateboard?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002468.jpg"
+  },
+  {
+    "question": "Is the skateboard positioned in front of the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002468.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between the person and skateboard?",
+    "answer": "no - skateboard is not heavy equipment and pose no construction site safety risk",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002468.jpg"
+  }
+]

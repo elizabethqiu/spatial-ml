@@ -1,0 +1,65 @@
+[
+  {
+    "question": "How many objects are present in the scene?",
+    "answer": "4 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "potted plant",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004518.jpg"
+  },
+  {
+    "question": "Is the potted plant closer to the camera than the tv?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004518.jpg"
+  },
+  {
+    "question": "Is the cell phone being held by or near the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004518.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of all objects from the camera?",
+    "answer": "14.83 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "potted plant",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004518.jpg"
+  },
+  {
+    "question": "Is the potted plant positioned to the left or right of the person?",
+    "answer": "Unable to determine from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004518.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding worker proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004518.jpg"
+  }
+]

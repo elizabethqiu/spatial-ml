@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is there a television visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001484.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance measured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001484.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "13.49 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001484.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001484.jpg"
+  }
+]

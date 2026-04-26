@@ -1,0 +1,66 @@
+[
+  {
+    "question": "Is the cat closer to the person than the chair is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003798.jpg"
+  },
+  {
+    "question": "How far apart are the person and the chair?",
+    "answer": "Unable to determine exact distance from depth statistics alone",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003798.jpg"
+  },
+  {
+    "question": "Is the cat positioned between the person and the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003798.jpg"
+  },
+  {
+    "question": "What is the maximum distance from any object to another in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003798.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003798.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "15.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003798.jpg"
+  }
+]

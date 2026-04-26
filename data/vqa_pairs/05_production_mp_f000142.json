@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the depth data available, the two persons are estimated to be approximately 17.06 metres apart on average within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "What is the approximate depth (distance from camera) of the scene's key objects?",
+    "answer": "The scene has a mean depth of approximately 17.06 metres, with objects ranging from 0.00 metres (foreground) to 50.00 metres (background).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment present in the scene that could pose a safety risk to the workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Is at least one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Is a person using or holding a cell phone in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Where is the cell phone located relative to the persons in the scene?",
+    "answer": "The cell phone is located in close proximity to one of the persons, suggesting it is being held or used by that individual. It appears in the foreground or mid-ground of the scene relative to the second person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Which person is closer to the camera \u2014 the first or the second person?",
+    "answer": "Based on the depth range available (0.00 m to 50.00 m), one person is likely positioned closer to the camera in the foreground, while the second person may be at a greater depth. Without individual object depth coordinates, the person associated with the cell phone is likely the nearer one.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Is the cell phone in front of, behind, or at the same depth as the persons?",
+    "answer": "The cell phone is most likely at approximately the same depth as the nearer person, as it is likely being held by that individual in the foreground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Are any workers in immediate danger due to proximity to heavy machinery (within 2 metres)?",
+    "answer": "No heavy equipment or machinery has been detected in this scene. Therefore, no safety alert is triggered for worker-machinery proximity. However, note that distracted phone use on a construction site can still pose indirect safety risks.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  },
+  {
+    "question": "Does the use of a cell phone by a person in this scene present a potential safety concern?",
+    "answer": "Yes \u2014 while no heavy machinery is present within a dangerous 2-metre threshold, a person using a cell phone on or near a construction site may be distracted and less aware of surrounding hazards. Safety protocols typically discourage mobile phone use in active work zones unless necessary.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000142.jpg"
+  }
+]

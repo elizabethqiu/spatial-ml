@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is the distance between the cup and the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000372.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the bed?",
+    "answer": "Unable to determine - precise 3D positions not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000372.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000372.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000372.jpg"
+  },
+  {
+    "question": "Is there a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000372.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000372.jpg"
+  }
+]

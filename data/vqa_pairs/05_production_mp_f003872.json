@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Are there more persons than handbags in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  },
+  {
+    "question": "How many handbags are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  },
+  {
+    "question": "Is there at least one handbag in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  },
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  },
+  {
+    "question": "Are all detected objects either persons or handbags?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in the scene?",
+    "answer": "14.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  },
+  {
+    "question": "Do handbags outnumber persons in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003872.jpg"
+  }
+]

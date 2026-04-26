@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the umbrella from the first person in the scene?",
+    "answer": "Based on the available depth data, the umbrella and the first person are estimated to be approximately 14.31 metres apart (mean scene depth), though exact individual distances require precise per-object depth readings.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "The two persons are estimated to be within the scene depth range of 0.00 to 50.00 metres, with a mean separation estimate of approximately 14.31 metres based on scene statistics.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Is there an umbrella present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Is any person in the scene in close proximity (less than 2 metres) to another person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Where is the umbrella positioned relative to the two persons in the scene?",
+    "answer": "The umbrella is detected within the same scene as both persons. Based on depth statistics, it is likely positioned at a similar or slightly different depth plane, suggesting it is either held by or located near one of the persons rather than being significantly in front of or behind them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Which object appears closest to the camera in the scene?",
+    "answer": "The minimum depth in the scene is 0.00 metres, suggesting at least one object (likely a person or the umbrella) is very close to the camera, though the mean depth of 14.31 metres indicates the majority of objects are further away.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Is either person in the scene positioned behind the umbrella relative to the camera?",
+    "answer": "Possibly yes \u2014 given the scene depth range of 0.00 to 50.00 metres, one person could be positioned at a greater depth than the umbrella, placing them behind it from the camera's perspective.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected near workers in this scene that poses a safety risk?",
+    "answer": "No heavy equipment (e.g., cranes, excavators, forklifts) is detected in this scene. The only objects present are an umbrella and two persons, so no proximity-based safety alert applies.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "umbrella",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to any worker being within 2 metres of a hazardous object in this scene?",
+    "answer": "No safety alert is required. The scene contains only an umbrella and two persons. The umbrella is a non-hazardous object, and no heavy machinery or dangerous equipment is present. However, if a person is at 0.00 metres depth near an unidentified object, a precautionary visual inspection is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "umbrella",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001594.jpg"
+  }
+]

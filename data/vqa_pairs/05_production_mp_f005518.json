@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What is the distance between the two trucks in this scene?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  },
+  {
+    "question": "How far is the motorcycle from the nearest car?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  },
+  {
+    "question": "Is the umbrella closer to the camera than the truck?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  },
+  {
+    "question": "Are both cars positioned at approximately the same depth?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  },
+  {
+    "question": "Is there a vehicle within 2 metres of the umbrella?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "umbrella",
+      "truck",
+      "car",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  },
+  {
+    "question": "Is the motorcycle positioned between the two trucks?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "truck",
+      "truck"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  },
+  {
+    "question": "How many vehicles are present in this scene?",
+    "answer": "5 vehicles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "truck",
+      "car",
+      "car",
+      "truck",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  },
+  {
+    "question": "Is the umbrella the closest object to the camera?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005518.jpg"
+  }
+]

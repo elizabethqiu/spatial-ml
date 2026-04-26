@@ -1,0 +1,97 @@
+[
+  {
+    "question": "How far apart are the two people in the scene?",
+    "answer": "Based on the available depth data, the two people are estimated to be approximately 19.25 metres apart on average within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the apple and the nearest person?",
+    "answer": "The apple is estimated to be within the scene's mean depth of approximately 19.25 metres from the nearest person, though the minimum depth suggests objects may be as close as 0.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "apple",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Are both persons visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Is the apple located within the same general area as the two people?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "apple",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Where is the apple positioned relative to the two people in the scene?",
+    "answer": "The apple is detected within the same scene as the two people. Given the depth range of 0.00 to 50.00 metres and a mean of 19.25 metres, the apple appears to be in the mid-ground area relative to the scene, likely near or between the two persons rather than at the far boundary of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "apple",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Which person is positioned closer to the apple \u2014 the first or the second person detected?",
+    "answer": "Based on available depth statistics, both persons share a similar depth range within the scene. Without individual per-object depth coordinates, both persons are estimated to be at comparable distances from the apple, around the scene mean of 19.25 metres. The first detected person is assumed to be slightly closer based on detection order, but precise differentiation is not possible from aggregate stats alone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "apple",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment (e.g., excavators, forklifts, cranes) detected in this scene. The only objects present are two persons and an apple, so no worker-equipment proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any of the detected objects in this scene?",
+    "answer": "No safety alert is required. The scene contains only two people and an apple. There is no heavy machinery or construction equipment present, so no proximity-based safety hazard (i.e., worker within 2 metres of heavy equipment) is identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "apple"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001514.jpg"
+  }
+]

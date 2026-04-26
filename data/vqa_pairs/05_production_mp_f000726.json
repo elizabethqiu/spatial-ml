@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How many beds are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000726.jpg"
+  },
+  {
+    "question": "Is there a person sitting on a chair in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000726.jpg"
+  },
+  {
+    "question": "Is the person closer to the first bed or the second bed?",
+    "answer": "Cannot be determined from available spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000726.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000726.jpg"
+  },
+  {
+    "question": "Is the chair positioned between the two beds?",
+    "answer": "Cannot be determined from available spatial data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000726.jpg"
+  },
+  {
+    "question": "What is the average depth distance across all objects in metres?",
+    "answer": "17.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000726.jpg"
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in this scene?",
+    "answer": "The mean depth of objects in the scene is approximately 19.13 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "person",
+      "dining table",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) covered by objects in this scene?",
+    "answer": "The depth range spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "person",
+      "dining table",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Is there more than one person detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Is a dining table present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Is there more than one bed detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the dining table in this scene?",
+    "answer": "The cup appears to be in proximity to the dining table, likely placed on or near its surface, suggesting it is positioned at roughly the same depth plane as the table within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the beds in this scene?",
+    "answer": "Both persons appear to be positioned in the vicinity of the beds, likely beside or on the beds, given the shared indoor setting and similar depth range of the detected objects.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Where is the cup located relative to the two persons in the scene?",
+    "answer": "The cup is likely positioned in front of or near one of the persons, potentially on the dining table, placing it at a closer or similar depth relative to the persons detected in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Are any workers in this construction scene within 2 metres of heavy equipment, warranting an immediate safety alert?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The detected objects \u2014 cup, bed, persons, dining table \u2014 suggest an indoor residential or non-construction environment. No proximity-based safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cup",
+      "bed",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  },
+  {
+    "question": "Is any person in this scene in a potentially hazardous position relative to any detected object?",
+    "answer": "No immediate construction-site hazards are identified. However, note that the minimum detected depth is 0.00 metres, meaning at least one object may be extremely close to the camera or a person. In a non-construction context, no critical safety alert is raised, but monitoring of close-proximity objects is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cup",
+      "bed",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001214.jpg"
+  }
+]

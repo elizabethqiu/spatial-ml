@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many suitcases are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004450.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004450.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "12.26 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004450.jpg"
+  },
+  {
+    "question": "Are there any suitcases present in this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004450.jpg"
+  },
+  {
+    "question": "Is this scene typical of a construction site with heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004450.jpg"
+  },
+  {
+    "question": "Are the suitcases at a safe distance from construction hazards?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004450.jpg"
+  }
+]

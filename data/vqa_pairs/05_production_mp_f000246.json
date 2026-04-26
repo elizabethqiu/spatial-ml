@@ -1,0 +1,101 @@
+[
+  {
+    "question": "What is the approximate average depth (distance from camera) of the people in the scene?",
+    "answer": "The average depth of the people in the scene is approximately 19.41 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "What is the range of distances (min to max) across all detected objects in the scene?",
+    "answer": "The distance range across the scene spans from 0.00 metres (minimum) to 50.00 metres (maximum).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "Are there any people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "Are there more than two people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "Is any person detected at an extremely close range (near 0 metres) to the camera or another object?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "Where are the people located relative to each other in terms of depth in the scene?",
+    "answer": "The three people are distributed across a wide depth range from approximately 0.00 metres to 50.00 metres, with the mean depth at 19.41 metres. This suggests at least one person is very close to the camera, one or more are at mid-range (~19 metres), and at least one is relatively far away (~50 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "Which person is positioned furthest from the camera in the scene?",
+    "answer": "One of the three detected persons is positioned at the furthest depth of approximately 50.00 metres from the camera, placing them at the far end of the observed scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) detected within 2 metres of any worker in this scene?",
+    "answer": "No heavy equipment is detected in this scene. The scene contains only three persons, so no worker-equipment proximity hazard can be identified. However, the minimum depth reading of 0.00 metres suggests at least one individual may be extremely close to an undetected object or the camera itself \u2014 this area should be visually verified on-site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  },
+  {
+    "question": "Does the depth distribution of persons in this scene suggest any immediate crowding or collision risk between them?",
+    "answer": "With a mean depth of 19.41 metres and a range spanning 0.00 to 50.00 metres, the persons appear to be spread out at varying distances. However, the presence of a near-zero minimum depth warrants attention \u2014 if any person is at 0.00 metres, they may be dangerously close to the camera sensor, a vehicle, or another hazard. Site supervisors should verify the position of the closest individual immediately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000246.jpg"
+  }
+]

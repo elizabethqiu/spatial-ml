@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many persons are visible in this construction scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004254.jpg"
+  },
+  {
+    "question": "Are there any workers present at this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004254.jpg"
+  },
+  {
+    "question": "What is the average depth distance of detected objects from the camera?",
+    "answer": "15.81 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004254.jpg"
+  },
+  {
+    "question": "Is there a person positioned closer than 2 metres to any heavy equipment?",
+    "answer": "no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004254.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004254.jpg"
+  },
+  {
+    "question": "Are all persons positioned at a safe distance from potential hazards?",
+    "answer": "cannot assess - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004254.jpg"
+  }
+]

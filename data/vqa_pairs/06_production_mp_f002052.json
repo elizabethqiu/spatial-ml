@@ -1,0 +1,61 @@
+[
+  {
+    "question": "Is the tie attached to the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tie",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002052.jpg"
+  },
+  {
+    "question": "What is the distance between the tie and the person in metres?",
+    "answer": "0.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tie",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002052.jpg"
+  },
+  {
+    "question": "Is the person wearing safety equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002052.jpg"
+  },
+  {
+    "question": "What is the maximum depth in the scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002052.jpg"
+  },
+  {
+    "question": "Is the tie positioned at or near the person's torso?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tie",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002052.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "18.2 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tie"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002052.jpg"
+  }
+]

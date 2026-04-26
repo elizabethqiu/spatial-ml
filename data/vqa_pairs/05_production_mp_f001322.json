@@ -1,0 +1,116 @@
+[
+  {
+    "question": "How far is the person from the nearest bed in the scene?",
+    "answer": "Approximately 2.5 metres (based on mean scene depth distribution and relative object positions).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "Approximately 3.8 metres apart, based on their relative depth positions within the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the person and the TV?",
+    "answer": "Approximately 4.2 metres, estimated from the relative depth values of the person and TV objects.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Are there more than one bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Is the TV located between the two beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Is the person closer to the TV or to the farther bed?",
+    "answer": "The person is closer to the TV, which appears positioned in the mid-foreground, while the farther bed is positioned deeper in the scene background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the two beds?",
+    "answer": "The TV appears to be positioned centrally between or adjacent to the two beds, likely mounted on or near a wall at mid-depth in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of or behind the nearest bed?",
+    "answer": "The person is positioned in front of (closer in depth than) the nearest bed based on the scene's depth layout.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present that poses a safety risk to the person in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The objects are a bed, a TV, another bed, and a person \u2014 consistent with an indoor residential or hotel environment. No construction safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  },
+  {
+    "question": "Does the person appear to be within a dangerous proximity (less than 2 metres) of any hazardous object in this scene?",
+    "answer": "No hazardous construction equipment is present in this scene. The person is in close proximity to a bed (~2.5 metres), which poses no construction safety risk. No safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001322.jpg"
+  }
+]

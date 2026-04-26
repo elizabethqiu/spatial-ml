@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many hair driers are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  },
+  {
+    "question": "Is the person standing next to the sink?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  },
+  {
+    "question": "How many objects are positioned at the minimum depth in this scene?",
+    "answer": "At least 1 object at 0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "sink",
+      "cup",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the hair driers?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  },
+  {
+    "question": "Are both hair driers positioned at similar depths from the camera?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "sink",
+      "cup",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person and any equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "hair drier",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004510.jpg"
+  }
+]

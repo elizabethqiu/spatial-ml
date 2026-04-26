@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  },
+  {
+    "question": "How many televisions are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  },
+  {
+    "question": "Is there a suitcase in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  },
+  {
+    "question": "Is there heavy machinery equipment present?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "tv",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  },
+  {
+    "question": "Are the two televisions positioned at the same depth in the scene?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  },
+  {
+    "question": "Is the car positioned closer or farther than the average scene depth of 14.09 metres?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  },
+  {
+    "question": "Are both people standing near the car?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  },
+  {
+    "question": "Is the suitcase positioned between the two people?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003394.jpg"
+  }
+]

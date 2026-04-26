@@ -1,0 +1,86 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  },
+  {
+    "question": "Is the bed located closer to the camera than the dining table?",
+    "answer": "Cannot determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  },
+  {
+    "question": "Are there more people than pieces of furniture in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  },
+  {
+    "question": "Is the chair positioned near the dining table?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "20.14 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  },
+  {
+    "question": "Are all people sitting at the dining table?",
+    "answer": "Cannot determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000866.jpg"
+  }
+]

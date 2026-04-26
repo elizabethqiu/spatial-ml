@@ -1,0 +1,104 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Based on the depth statistics available, the estimated distance between the person and the bed is approximately 18.24 metres (mean scene depth), though exact separation depends on their individual depth values within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the dining table and the bed?",
+    "answer": "The dining table and bed are estimated to be within a depth range spanning 0.00 to 50.00 metres, with the scene mean depth at 18.24 metres. Their separation is approximately 18.24 metres on average.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Is the person located near the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Is the dining table closer to the viewer than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Is the person closer to the bed or to the dining table?",
+    "answer": "The person appears closer to the dining table, as both are detected within the foreground to mid-range depth zone (near the scene mean of 18.24 metres), while the bed is positioned further in the scene depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the dining table?",
+    "answer": "The bed is positioned further from the viewer (deeper in the scene) relative to the dining table, which appears in the mid-to-foreground area within the 0.00\u201350.00 metre depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of or behind the dining table?",
+    "answer": "The person is positioned in front of (closer to the viewer than) or at approximately the same depth as the dining table, both residing near the scene's mean depth of 18.24 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in this scene that poses a safety risk to the person?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The objects present are a bed, a dining table, and a person. No construction-related safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  },
+  {
+    "question": "Does the proximity of the person to any object in the scene constitute a safety hazard under the 2-metre construction safety rule?",
+    "answer": "No construction safety hazard is detected. None of the objects in this scene (bed, dining table) qualify as heavy equipment. The 2-metre proximity safety rule applies to workers near heavy machinery, which is absent here.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000630.jpg"
+  }
+]

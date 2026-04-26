@@ -1,0 +1,71 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000176.jpg"
+  },
+  {
+    "question": "Is there more than one car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000176.jpg"
+  },
+  {
+    "question": "Are all cars at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000176.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of the cars from the viewpoint?",
+    "answer": "19.90 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000176.jpg"
+  },
+  {
+    "question": "What is the maximum distance range within which cars are distributed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000176.jpg"
+  },
+  {
+    "question": "Are any cars positioned closer than 2 metres to each other?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000176.jpg"
+  }
+]

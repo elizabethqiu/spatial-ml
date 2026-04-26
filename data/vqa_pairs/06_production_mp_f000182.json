@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the train?",
+    "answer": "21.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000182.jpg"
+  },
+  {
+    "question": "How far is the person from the train in metres?",
+    "answer": "21.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the train?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Is the person standing next to the train?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000182.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera or farther from the camera than the train?",
+    "answer": "The person and train are at approximately the same distance from the camera (mean depth 21.33 m), indicating they are roughly equidistant.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000182.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is the worker in a hazardous proximity to the train?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000182.jpg"
+  }
+]

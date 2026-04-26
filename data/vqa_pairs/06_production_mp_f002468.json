@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002468.jpg"
+  },
+  {
+    "question": "Is there a skateboard visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002468.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002468.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002468.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "14.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002468.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment operators in proximity to the person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002468.jpg"
+  }
+]

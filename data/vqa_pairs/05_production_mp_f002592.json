@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the distance between the potted plant and the chair?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002592.jpg"
+  },
+  {
+    "question": "Is the potted plant closer to the camera than the chair?",
+    "answer": "Unable to determine - no spatial coordinates available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002592.jpg"
+  },
+  {
+    "question": "How many objects are visible in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002592.jpg"
+  },
+  {
+    "question": "Is there a worker within 2 metres of heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002592.jpg"
+  },
+  {
+    "question": "Are both detected objects furniture items?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002592.jpg"
+  },
+  {
+    "question": "Is the maximum depth in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002592.jpg"
+  }
+]

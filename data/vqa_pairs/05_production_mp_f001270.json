@@ -1,0 +1,91 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Based on the depth statistics, the person and bed are estimated to be approximately 18.77 metres apart on average within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "What is the maximum possible distance between any two objects in this scene?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres, so the furthest possible separation between objects in the depth dimension is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "Is the person near the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "Is there a bed present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "Is the person located in the same scene as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "Where is the person relative to the bed in this scene?",
+    "answer": "The person is detected within the same scene as the bed. Given the mean scene depth of approximately 18.77 metres, the person is likely positioned at a moderate distance from the bed, though their exact lateral (left/right) relationship cannot be determined from depth data alone. They appear to share the same general environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the front or the back of the scene relative to the bed?",
+    "answer": "Based on the available depth statistics (mean: 18.77 m, min: 0.00 m, max: 50.00 m), both objects occupy a scene with significant depth range. Without individual object depth values, the person and bed are estimated to be at similar mid-range depths, though the person could be closer to the foreground (0.00 m) or background (50.00 m) of the bed depending on their individual positions.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "Does this scene present any construction site safety hazards involving heavy equipment within 2 metres of a worker?",
+    "answer": "No safety alert is triggered. This scene contains a person and a bed \u2014 no heavy construction equipment (e.g., cranes, excavators, forklifts) is detected. There is no proximity hazard between a worker and heavy machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  },
+  {
+    "question": "Is the person at risk due to proximity to any dangerous equipment in this scene?",
+    "answer": "No safety alert. The only objects detected are a person and a bed. A bed does not constitute heavy or hazardous construction equipment, and therefore no proximity danger threshold of less than 2 metres is triggered for this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001270.jpg"
+  }
+]

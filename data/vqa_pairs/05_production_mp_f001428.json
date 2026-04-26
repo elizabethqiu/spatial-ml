@@ -1,0 +1,93 @@
+[
+  {
+    "question": "What is the approximate mean depth of all detected objects in the scene?",
+    "answer": "The mean depth across all detected objects in the scene is approximately 15.28 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  },
+  {
+    "question": "Are all three detected persons present within the same scene frame?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  },
+  {
+    "question": "Is the pair of scissors located closer to the camera than the mean scene depth?",
+    "answer": "Based on the scene's mean depth of 15.28 metres and the presence of objects ranging from 0.00 to 50.00 metres, the scissors may be located at or near the closer end of the depth range; without precise per-object depth, it cannot be confirmed definitively, but the scissors are likely at a shallower depth than the 15.28 metre mean given typical tool placement.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  },
+  {
+    "question": "Are any of the three persons positioned closer to the front of the scene (nearer to the camera) than the others?",
+    "answer": "The scene depth ranges from 0.00 to 50.00 metres with a mean of 15.28 metres, indicating that at least one person is likely positioned significantly closer to the camera than the others, given the wide spread between minimum and maximum depths.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  },
+  {
+    "question": "Is any person in the scene at risk due to proximity to the scissors (within 2 metres)?",
+    "answer": "SAFETY ALERT: While scissors are not heavy construction equipment, they are a sharp tool that poses a laceration hazard. Given the scene's minimum depth of 0.00 metres and mean of 15.28 metres, it is possible that one or more persons are within close proximity (potentially under 2 metres) of the scissors. Workers should handle scissors with care, ensure proper storage in sheaths, and maintain safe handling protocols to prevent injury.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  },
+  {
+    "question": "Should a safety intervention be triggered due to the presence of heavy machinery near workers in this scene?",
+    "answer": "SAFETY ALERT: No heavy machinery (e.g., excavators, forklifts, cranes) has been detected in this scene. However, the presence of scissors near three persons warrants a general tool-safety reminder. Ensure scissors are used only for their intended purpose, kept away from walkways, and stored safely when not in use to prevent accidental injury to nearby workers.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001428.jpg"
+  }
+]

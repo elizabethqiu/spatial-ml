@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in this scene?",
+    "answer": "The mean depth of objects in the scene is approximately 18.11 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  },
+  {
+    "question": "What is the range of depths (nearest to farthest) observed in this scene?",
+    "answer": "The depth range spans from 0.00 metres (nearest) to 50.00 metres (farthest).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Is there a skateboard present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Where is the skateboard positioned relative to the two persons in the scene?",
+    "answer": "The skateboard is detected between or in close proximity to the two persons, suggesting it is likely being used or held by one of them near the center of the observed scene depth (~18 metres average).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  },
+  {
+    "question": "How are the two persons positioned relative to each other in terms of depth?",
+    "answer": "The two persons are detected within the same scene, with overall depth values ranging from 0.00 to 50.00 metres, suggesting they may be at different distances from the camera. One person may be closer to the foreground while the other is further in the background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Does the presence of the skateboard and persons in this scene \u2014 with depth values reaching as low as 0.00 metres \u2014 indicate any immediate safety concern regarding proximity to heavy construction equipment?",
+    "answer": "No heavy construction equipment is detected in this scene; however, the minimum depth of 0.00 metres indicates at least one object or person is extremely close to the camera or sensor. If this scene were on or adjacent to a construction site, the close proximity of persons and a skateboard (a non-PPE item) would be flagged as a safety concern, as skateboards are prohibited on active construction sites and a person within 0.00 metres of the detection boundary may be in an unsafe zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  },
+  {
+    "question": "Should personnel operating skateboards near a construction site be considered a safety hazard?",
+    "answer": "yes \u2014 Skateboards are not permitted on active construction sites as they present a significant fall and collision risk. Any person using a skateboard in or near a construction zone should be immediately directed to dismount and adhere to site safety regulations. Additionally, with a detected minimum depth of 0.00 metres, at least one individual may be dangerously close to equipment or hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000316.jpg"
+  }
+]

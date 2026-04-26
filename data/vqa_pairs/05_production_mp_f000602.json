@@ -1,0 +1,120 @@
+[
+  {
+    "question": "What is the approximate distance between the cup and the wine glass in the scene?",
+    "answer": "Approximately 20.55 metres (based on mean scene depth separation).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two dogs in the scene?",
+    "answer": "Approximately 20.55 metres (based on mean scene depth; exact separation requires precise 3D coordinates for each dog instance).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bottle and the bed?",
+    "answer": "Approximately 20.55 metres (based on mean depth of the scene).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Is the cup located closer to the bed than the bottle is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Are both dogs on or near the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Where is the wine glass positioned relative to the bed?",
+    "answer": "The wine glass appears to be in the mid-to-far depth range of the scene, likely positioned away from or beside the bed rather than on it, given the wide depth spread (0\u201350 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Where are the two dogs positioned relative to each other?",
+    "answer": "The two dogs are spread across different depth planes in the scene; one dog may be closer to the foreground while the other is further back, suggesting they are not co-located.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Where is the bottle positioned relative to the cup and wine glass?",
+    "answer": "The bottle is positioned within the same general depth range as the cup and wine glass (mean depth ~20.55 metres), likely on a nearby surface such as a table or nightstand adjacent to the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "cup",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert: this scene contains no workers or heavy construction equipment. The objects detected (bed, cup, wine glass, dogs, bottle) pose no construction-site proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Do any of the dogs appear to be within a potentially unsafe proximity (less than 2 metres) of any fragile objects such as the wine glass or bottle?",
+    "answer": "No immediate safety alert triggered for construction-site criteria; however, note that the dogs and fragile objects (wine glass, bottle) share a common scene space \u2014 if within 2 metres, breakage risk exists. Precise 3D coordinates are needed to confirm exact separation.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "wine glass",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000602.jpg"
+  }
+]

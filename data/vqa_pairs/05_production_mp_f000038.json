@@ -1,0 +1,99 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 13.09 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "The maximum depth detected in this scene is 50.00 metres, giving a full depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Are there any birds present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Are there any bottles present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavators, cranes, forklifts) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Are there more birds than bottles in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Where are the bottles positioned relative to the birds in the scene?",
+    "answer": "Based on the available scene data, the bottles and birds are distributed across the scene with a mean depth of approximately 13.09 metres. Without precise per-object 3D coordinates, exact relative positioning cannot be fully determined, but all objects share a similar mid-range depth zone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Are the two birds in the scene at the same approximate depth as the two bottles?",
+    "answer": "Based on the overall scene depth statistics (mean: 13.09 m, min: 0.00 m, max: 50.00 m), the objects span a wide depth range, so the birds and bottles may not necessarily be at the same depth. Individual per-object depth data would be needed for a definitive answer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving workers and heavy equipment in this scene that requires an immediate alert?",
+    "answer": "No safety alert is required. This scene contains only birds and bottles \u2014 no human workers or heavy construction equipment are detected. There is no proximity hazard to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  },
+  {
+    "question": "Could any of the detected objects pose a slipping or tripping hazard on a construction site if left on the ground?",
+    "answer": "Yes, a safety alert is warranted regarding the bottles. Bottles left on a construction site floor can pose a slipping or tripping hazard to workers. It is recommended to remove or properly dispose of any bottles found on site to prevent accidents.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000038.jpg"
+  }
+]

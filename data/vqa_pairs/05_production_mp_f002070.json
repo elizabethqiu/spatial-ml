@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the car and the dog?",
+    "answer": "25.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002070.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the car?",
+    "answer": "Cannot be determined from available data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002070.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002070.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002070.jpg"
+  }
+]

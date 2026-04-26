@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  },
+  {
+    "question": "Is there a dining table in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  },
+  {
+    "question": "Is the person sitting on the couch?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  },
+  {
+    "question": "Are there more chairs than beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "20.03 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "dining table",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  },
+  {
+    "question": "Is the person positioned between the chairs and the dining table?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  },
+  {
+    "question": "Is the couch closer to the camera than the bed?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "dining table",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000858.jpg"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000872.jpg"
+  },
+  {
+    "question": "Is there a TV in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000872.jpg"
+  },
+  {
+    "question": "Are there more people than electronic devices?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000872.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "15.05 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000872.jpg"
+  },
+  {
+    "question": "Is the TV located closer to the camera than the average scene depth?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000872.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000872.jpg"
+  }
+]

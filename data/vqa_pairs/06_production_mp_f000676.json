@@ -1,0 +1,64 @@
+[
+  {
+    "question": "What is the distance between the person and the refrigerator?",
+    "answer": "approximately 14.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000676.jpg"
+  },
+  {
+    "question": "How far is the toilet from the person?",
+    "answer": "approximately 14.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000676.jpg"
+  },
+  {
+    "question": "Is the person closer to the refrigerator or the toilet?",
+    "answer": "Unable to determine - insufficient spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000676.jpg"
+  },
+  {
+    "question": "Is the refrigerator within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000676.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person's proximity to equipment?",
+    "answer": "no - person is more than 2 metres away from all objects",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000676.jpg"
+  },
+  {
+    "question": "Is the toilet adjacent to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000676.jpg"
+  }
+]

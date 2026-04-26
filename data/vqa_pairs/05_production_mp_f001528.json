@@ -1,0 +1,105 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 18.12 metres apart on average within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "What is the approximate depth (distance from camera) of the scene's mean object position?",
+    "answer": "The mean depth of objects in the scene is approximately 18.12 metres from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Is any person in the scene within a dangerously close proximity (less than 2 metres) to heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Where is the cell phone positioned relative to the two persons in the scene?",
+    "answer": "The cell phone appears to be in close proximity to one of the persons, likely being held or used by them, as it is detected within the same scene depth range (0.00\u201350.00 metres, mean 18.12 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Which object is closest to the camera in the scene?",
+    "answer": "Based on the minimum depth of 0.00 metres, at least one object (likely a person or the cell phone) is at or very near the camera's position, making it the closest object in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Is one person positioned further from the camera than the other person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert is required. There is no heavy equipment detected in this scene. The scene contains only two persons and a cell phone, posing no immediate heavy-equipment proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  },
+  {
+    "question": "Is there a safety concern related to distracted walking or working due to cell phone use on the construction site?",
+    "answer": "Yes \u2014 a potential safety concern exists. One or both persons in the scene may be using a cell phone, which can cause distraction. On a construction site, distracted workers are at higher risk of accidents, and site safety protocols typically prohibit or restrict cell phone use in active work zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001528.jpg"
+  }
+]

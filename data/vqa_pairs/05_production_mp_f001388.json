@@ -1,0 +1,90 @@
+[
+  {
+    "question": "How far is the person from the scissors?",
+    "answer": "Based on the scene depth data, the person and scissors are approximately 14.80 metres apart (estimated from mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in the scene?",
+    "answer": "The detected objects span a depth range of approximately 0.00 metres (closest point) to 50.00 metres (farthest point), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "Are scissors detected in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) present near the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "Where is the scissors located relative to the person in the scene?",
+    "answer": "The scissors are detected within the same scene as the person. Based on available depth data, the scissors appear to be in the mid-to-far field of the scene relative to the person, at a mean scene depth of approximately 14.80 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the scissors?",
+    "answer": "Insufficient individual object depth data is available to determine definitively which object is closer to the camera; both are present within a scene whose depth ranges from 0.00 to 50.00 metres with a mean of 14.80 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "Does the presence of scissors near a person on a construction site pose a safety concern?",
+    "answer": "SAFETY ALERT: While scissors are not heavy construction equipment, an unattended or improperly handled pair of scissors within close proximity to a worker poses a laceration and puncture hazard. Workers should ensure scissors are stored safely in a designated tool holder when not in use, and PPE such as cut-resistant gloves should be worn when handling them. No heavy-equipment proximity hazard (< 2 m threshold) is triggered in this scene, but the sharp-tool risk should be assessed.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  },
+  {
+    "question": "Should a safety exclusion zone be established around the person due to any detected object in this scene?",
+    "answer": "SAFETY ALERT: No heavy machinery requiring a formal exclusion zone is detected in this scene. However, the presence of scissors \u2014 a sharp cutting tool \u2014 near a person warrants a tool-handling safety reminder. Workers should maintain controlled grip on sharp tools, avoid passing scissors point-first, and keep the immediate work area (within 1\u20132 metres) clear of other personnel when scissors are in active use.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001388.jpg"
+  }
+]

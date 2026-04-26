@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 17.51 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "What is the maximum depth captured in this scene?",
+    "answer": "The maximum depth captured in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in this scene?",
+    "answer": "The minimum depth value recorded in this scene is 0.00 metres, indicating an object or surface at the sensor's closest range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Is the overall scene depth range greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Are there any detected objects present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Is the mean scene depth closer to the near end (0 m) or the far end (50 m) of the depth range?",
+    "answer": "The mean depth of 17.51 metres is closer to the near end of the depth range, sitting roughly in the lower third of the full 0\u201350 metre span.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Where within the depth range does the average depth fall relative to the midpoint of the scene?",
+    "answer": "The midpoint of the 0\u201350 metre depth range is 25.00 metres. The mean depth of 17.51 metres falls in the nearer half of the scene, approximately 7.49 metres short of the midpoint.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving workers in close proximity to heavy equipment in this scene?",
+    "answer": "No workers or heavy equipment were detected in this scene by the object detector. Therefore, no proximity-based safety hazard (< 2 metres between a worker and heavy equipment) can be confirmed. However, caution is advised: the absence of detections may reflect sensor limitations or occlusion. A manual site safety check is strongly recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  },
+  {
+    "question": "Given that no objects were detected, should this scene be considered completely safe?",
+    "answer": "No \u2014 the lack of detected objects does not guarantee safety. Detection failures can occur due to occlusion, lighting conditions, or sensor range limitations. Given the depth range extends to 50.00 metres and the mean depth is 17.51 metres, personnel and equipment may be present but undetected. A physical safety inspection of the site is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000110.jpg"
+  }
+]

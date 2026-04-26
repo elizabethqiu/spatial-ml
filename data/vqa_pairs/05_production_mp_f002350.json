@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002350.jpg"
+  },
+  {
+    "question": "Is there a laptop visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002350.jpg"
+  },
+  {
+    "question": "Are there more people than laptops in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002350.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002350.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002350.jpg"
+  },
+  {
+    "question": "Is the laptop positioned closer to the camera than the average depth in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002350.jpg"
+  },
+  {
+    "question": "Is there adequate spacing (>2 metres) between all detected workers and equipment?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002350.jpg"
+  }
+]

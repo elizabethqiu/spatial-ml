@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How far is the person from the boat?",
+    "answer": "18.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004158.jpg"
+  },
+  {
+    "question": "Is the person standing next to the boat?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004158.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "boat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004158.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the boat?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004158.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to the boat?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004158.jpg"
+  },
+  {
+    "question": "What is the closest distance between the person and the boat?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "boat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004158.jpg"
+  }
+]

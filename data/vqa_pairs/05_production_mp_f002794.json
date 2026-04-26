@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "clock",
+      "oven",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  },
+  {
+    "question": "Is there an oven in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  },
+  {
+    "question": "Is a clock visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  },
+  {
+    "question": "Are there more than one bowl in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  },
+  {
+    "question": "Is the bowl closer to the camera than the oven?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  },
+  {
+    "question": "Are the two people positioned at the same depth from the camera?",
+    "answer": "Unable to determine - individual depth coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  },
+  {
+    "question": "Is there any safety hazard with workers in proximity to the oven?",
+    "answer": "No immediate safety alert - insufficient proximity data between workers and equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002794.jpg"
+  }
+]

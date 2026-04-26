@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is the average depth of the construction scene?",
+    "answer": "The average depth of the scene is approximately 20.98 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this construction scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the current scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "Are there any objects detected in the foreground (within 5 metres) of this construction scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "Where are most of the scene elements located relative to the camera?",
+    "answer": "Based on the depth statistics (mean depth of 20.98 metres, range 0\u201350 metres), the bulk of the scene content is located at mid-to-far range from the camera, with no objects detected in the near foreground.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "Is there any detectable area of the scene very close to the camera (near 0 metres)?",
+    "answer": "The minimum depth value recorded is 0.00 metres, suggesting some pixels at the camera's immediate proximity, but no specific objects were detected there.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "Are there any immediate safety hazards involving workers and heavy equipment that require urgent attention?",
+    "answer": "No workers or heavy equipment were detected in the scene. Therefore, no proximity-based safety alerts (i.e., worker within 2 metres of heavy equipment) can be issued. However, the lack of detected objects may indicate a sensor or detection failure, which itself should be treated as a safety concern \u2014 operators should verify the detection system is functioning correctly before assuming the site is clear.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  },
+  {
+    "question": "Should site supervisors be concerned about undetected personnel given the depth range of this scene extends to 50 metres?",
+    "answer": "Yes \u2014 the scene spans a depth of up to 50.00 metres, a large area in which workers or equipment could be present but undetected. Site supervisors should treat the absence of detections as a potential sensor limitation rather than confirmation that the area is clear, and should conduct a manual safety check.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000102.jpg"
+  }
+]

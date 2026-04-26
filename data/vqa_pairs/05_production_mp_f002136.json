@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "5 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002136.jpg"
+  },
+  {
+    "question": "Is there a remote control in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002136.jpg"
+  },
+  {
+    "question": "Are there more cups than remotes in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002136.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "15.79 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002136.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002136.jpg"
+  },
+  {
+    "question": "Is the remote control closer to the camera than the average depth of the scene?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "remote",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002136.jpg"
+  },
+  {
+    "question": "Note: This scene contains only domestic objects (cups and a remote control) with no construction equipment or workers detected. No safety alerts are applicable.",
+    "answer": "No safety hazards identified",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "remote"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002136.jpg"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How far away is the cat from the camera?",
+    "answer": "The cat is approximately 14.49 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in the scene containing the cat?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "Is there a cat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "Is the cat within 2 metres of the camera or any detected heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "Is the cat located in the foreground (less than 5 metres from the camera)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "Where is the cat positioned relative to the camera depth-wise?",
+    "answer": "The cat is positioned in the mid-to-far range of the scene, at an estimated mean depth of approximately 14.49 metres from the camera, well beyond the immediate foreground (0.00 m) and well short of the far boundary (50.00 m).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "Is the cat closer to the near end or the far end of the detected depth range?",
+    "answer": "The cat is closer to the near end of the depth range. Its estimated position (~14.49 m) is roughly 29% of the way through the full 0\u201350 m depth range, placing it in the nearer portion of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "Does the presence of the cat in this construction scene pose a safety alert requiring immediate action?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: While the cat is not a worker or heavy equipment, an animal on a construction site poses a hazard. The cat should be safely removed from the site to prevent injury to the animal and to avoid distracting workers near heavy machinery. No worker\u2013equipment proximity violation (<2 m) is detected in this scene, but site personnel should be notified of the animal's presence immediately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected within a dangerous proximity (<2 metres) of a worker in this scene?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: No workers or heavy equipment are detected in this scene. Only a cat has been identified. However, the absence of detected workers does not guarantee the area is clear \u2014 always verify visually before operating machinery in the vicinity.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001582.jpg"
+  }
+]

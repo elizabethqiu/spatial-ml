@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "dining table",
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Is the dog positioned closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Are both cups located on the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Is the dog positioned between the dining table and the bed?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement: which furniture item is farther from the camera, the bed or the dining table?",
+    "answer": "Unable to determine from available depth statistics alone; mean depth is 17.27 metres across all objects",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment or machinery present in this scene that poses a safety concern?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "dining table",
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  },
+  {
+    "question": "Are there any workers detected in proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "dining table",
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000710.jpg"
+  }
+]

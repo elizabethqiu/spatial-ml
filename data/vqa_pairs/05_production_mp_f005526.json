@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "18.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  },
+  {
+    "question": "Are there cups present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  },
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  },
+  {
+    "question": "Are there more bananas than cups in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "banana",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to dangerous equipment (within 2 metres)?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005526.jpg"
+  }
+]

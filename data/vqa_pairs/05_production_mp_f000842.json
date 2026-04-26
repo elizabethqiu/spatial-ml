@@ -1,0 +1,91 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "cup",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  },
+  {
+    "question": "Is the cup positioned on the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  },
+  {
+    "question": "Is the person sitting on the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  },
+  {
+    "question": "Is the chair located near the dining table?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "21.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "cup",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  },
+  {
+    "question": "Is the person positioned between the chair and the bed?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dining table",
+      "cup",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000842.jpg"
+  }
+]

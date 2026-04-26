@@ -1,0 +1,98 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "How many backpacks are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "15.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "Are there more people than backpacks in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "Is there at least one backpack present on the construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "Are all five people within 20 metres of the camera based on the mean depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "Do the backpacks appear to be distributed across the site or concentrated in one area?",
+    "answer": "The scene data indicates objects are spread across a 50-metre depth range, suggesting distributed placement.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "Given the absence of heavy equipment in this scene, are there any safety proximity alerts?",
+    "answer": "No safety alerts generated. No heavy equipment detected in scene; only personnel and backpacks present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  },
+  {
+    "question": "Is the closest object (at minimum depth) potentially a person or backpack?",
+    "answer": "The closest object is at 0.00 metres depth, which could be either a person or backpack at the camera position.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003698.jpg"
+  }
+]

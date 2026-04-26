@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the dog and the person?",
+    "answer": "15.14 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002438.jpg"
+  },
+  {
+    "question": "Is the dog closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002438.jpg"
+  },
+  {
+    "question": "Is the dog positioned in front of the person?",
+    "answer": "Cannot determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002438.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002438.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the dog and person proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002438.jpg"
+  }
+]

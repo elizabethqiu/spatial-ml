@@ -1,0 +1,110 @@
+[
+  {
+    "question": "What is the approximate average depth (distance from the camera) of the people in this scene?",
+    "answer": "The approximate average depth of the people in the scene is 17.62 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "What is the range of depths observed across all detected persons in the scene?",
+    "answer": "The depth range spans from 0.00 metres (closest point) to 50.00 metres (farthest point), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "Are there any persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "Are all three detected persons at the same depth position relative to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "Which person appears to be closest to the camera based on depth data?",
+    "answer": "One of the detected persons is at or near the minimum recorded depth of 0.00 metres, making them the closest individual to the camera in this scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "Which person is positioned farthest from the camera in this scene?",
+    "answer": "One of the detected persons is at or near the maximum recorded depth of 50.00 metres, placing them farthest from the camera among all individuals in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "How are the three persons spatially distributed relative to each other in terms of depth?",
+    "answer": "The three persons are spread across a wide depth range from approximately 0.00 metres to 50.00 metres, with a mean depth of 17.62 metres, suggesting they are distributed at varying distances from the camera rather than clustered together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "Is there a safety risk due to any person being in close proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for person-equipment proximity. No heavy equipment has been detected in this scene. However, caution is advised for the person recorded at approximately 0.00 metres depth, as their very close position to the camera warrants a site presence check to ensure no undetected hazards exist nearby.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  },
+  {
+    "question": "Should a safety review be conducted for the person detected at or near 0.00 metres depth?",
+    "answer": "yes \u2014 a person detected at approximately 0.00 metres depth is extremely close to the camera or sensor position. This proximity warrants immediate verification to confirm the individual is not in an unsafe zone, such as directly in front of a vehicle entry point or unguarded edge, even in the absence of detected heavy equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000350.jpg"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "question": "Is the cup closer to the sink than the bowl?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002554.jpg"
+  },
+  {
+    "question": "Is the person standing near the sink?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002554.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the person to the cup in metres?",
+    "answer": "approximately 5.2 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002554.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the person to the sink in metres?",
+    "answer": "approximately 2.8 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002554.jpg"
+  },
+  {
+    "question": "Is the bowl located to the right of the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002554.jpg"
+  },
+  {
+    "question": "Is the cup positioned between the person and the sink?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002554.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002554.jpg"
+  }
+]

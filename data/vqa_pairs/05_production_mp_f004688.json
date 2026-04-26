@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a bird visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004688.jpg"
+  },
+  {
+    "question": "How many birds are detected in this scene?",
+    "answer": "1 bird",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004688.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004688.jpg"
+  },
+  {
+    "question": "What is the average distance to detected objects?",
+    "answer": "12.65 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004688.jpg"
+  },
+  {
+    "question": "Is the bird at ground level?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004688.jpg"
+  }
+]

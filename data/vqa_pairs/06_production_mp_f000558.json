@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the car and the refrigerator?",
+    "answer": "14.03 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000558.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000558.jpg"
+  },
+  {
+    "question": "Is there a car in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000558.jpg"
+  },
+  {
+    "question": "What is the maximum distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000558.jpg"
+  },
+  {
+    "question": "Is the refrigerator positioned behind or in front of the car?",
+    "answer": "Unable to determine from available data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000558.jpg"
+  },
+  {
+    "question": "Are both objects within typical construction site proximity (less than 20 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000558.jpg"
+  }
+]

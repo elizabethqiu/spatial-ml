@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How far is the person from the TV in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the TV is approximately 19.16 metres (mean scene depth), with objects distributed across a range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  },
+  {
+    "question": "What is the maximum possible separation between any two objects in the scene?",
+    "answer": "The maximum possible separation between objects in the scene is approximately 50.00 metres, based on the recorded depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  },
+  {
+    "question": "Is the TV located in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the TV, or farther away?",
+    "answer": "Based on the scene depth range (0.00\u201350.00 metres) and mean depth of 19.16 metres, the relative position of the person versus the TV cannot be definitively determined from depth statistics alone; both objects are distributed within the same depth field. However, the person is likely positioned in the mid-to-foreground area relative to the TV.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  },
+  {
+    "question": "Is the TV positioned to the left, right, or directly in front of the person?",
+    "answer": "Based on the available scene data, the TV appears to be positioned in the same general forward-facing direction as the person (i.e., in front of them), as both objects share overlapping depth ranges within the scene. Precise lateral positioning cannot be confirmed without bounding box coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (within 2 metres) to any heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. The scene contains a TV and a person \u2014 no heavy construction equipment (e.g., excavators, cranes, forklifts) is detected. The person is not in proximity to any hazardous machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  },
+  {
+    "question": "Does the presence of the TV pose any immediate safety risk to the person in the scene?",
+    "answer": "No immediate safety alert is triggered. A TV is not classified as heavy construction equipment. However, if the TV is unsecured or at risk of falling and the person is within close proximity (potentially under 2 metres given the minimum depth of 0.00 metres), a tip-over hazard should be assessed on-site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001010.jpg"
+  }
+]

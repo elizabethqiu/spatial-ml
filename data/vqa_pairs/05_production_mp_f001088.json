@@ -1,0 +1,113 @@
+[
+  {
+    "question": "How far is the person from the tv in this scene?",
+    "answer": "Based on the depth statistics available, the estimated distance between the person and the tv is approximately 19.27 metres (mean scene depth), though exact separation depends on their individual depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the cup and the nearest bed?",
+    "answer": "The cup and the nearest bed are estimated to be within the scene depth range of 0.00 to 50.00 metres apart, with a mean separation of approximately 19.27 metres based on available depth statistics.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "The two beds are estimated to be separated by approximately 19.27 metres based on the mean scene depth, with possible separation ranging from 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Is the cup located in the scene along with a tv?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Are there more than one bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Is the person closer to the tv or to the bed?",
+    "answer": "Based on the scene layout, the person appears to be in close proximity to the bed, which is a typical bedroom arrangement, suggesting the person is relatively closer to the bed than to the tv.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the beds in the scene?",
+    "answer": "The cup is likely positioned on or near one of the beds or a nearby surface, as is common in bedroom scenes. It is situated within the same spatial region as the beds based on the available depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Is the tv positioned in front of or behind the person in the scene?",
+    "answer": "The tv is likely positioned in front of the person at a further depth, as is typical in a bedroom setting where the tv is mounted or placed across from the bed where the person is located.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Is the person in this scene in proximity to any heavy construction equipment that poses a safety risk?",
+    "answer": "No safety alert required. This scene depicts a indoor/bedroom environment containing a tv, beds, a cup, and a person. There is no heavy construction equipment (e.g., excavators, cranes, forklifts) detected within the scene, so no proximity hazard under 2 metres exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose an immediate safety hazard to the person based on proximity thresholds?",
+    "answer": "No critical safety alert. None of the detected objects (tv, bed, cup, bed) qualify as heavy construction equipment. The scene appears to be a domestic bedroom environment, and no object is flagged as a proximity hazard requiring a safety warning under construction site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001088.jpg"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Is there a toothbrush present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Are there more people than toothbrushes in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects in metres?",
+    "answer": "17.38 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  },
+  {
+    "question": "What is the maximum depth range between the closest and farthest objects in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with workers and heavy equipment in close proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Is the toothbrush positioned among the people?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Do all detected objects have a depth greater than 10 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002026.jpg"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many TVs are visible in this scene?",
+    "answer": "4 TVs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "22.09 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  },
+  {
+    "question": "Are there more TVs than suitcases in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  },
+  {
+    "question": "Is there at least one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  },
+  {
+    "question": "Are there suitcases in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the furthest object?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  },
+  {
+    "question": "Are the TVs positioned at varying depths throughout the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005158.jpg"
+  }
+]

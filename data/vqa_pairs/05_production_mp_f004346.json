@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004346.jpg"
+  },
+  {
+    "question": "Is there a bird in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004346.jpg"
+  },
+  {
+    "question": "Are there more people than birds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004346.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004346.jpg"
+  },
+  {
+    "question": "Is the bird closer to the camera than the average depth in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004346.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "13.19 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004346.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there an oven visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000430.jpg"
+  },
+  {
+    "question": "What is the maximum distance to objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000430.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "17.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000430.jpg"
+  },
+  {
+    "question": "What is the minimum distance to the nearest object in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000430.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to the oven?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000430.jpg"
+  }
+]

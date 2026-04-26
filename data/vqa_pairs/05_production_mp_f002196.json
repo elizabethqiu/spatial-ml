@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many vehicles are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002196.jpg"
+  },
+  {
+    "question": "Is there a person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002196.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the person?",
+    "answer": "Cannot be determined",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002196.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of the vehicle?",
+    "answer": "No safety alert - insufficient depth data to determine proximity",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002196.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002196.jpg"
+  },
+  {
+    "question": "Is the person positioned behind the car?",
+    "answer": "Cannot be determined",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002196.jpg"
+  }
+]

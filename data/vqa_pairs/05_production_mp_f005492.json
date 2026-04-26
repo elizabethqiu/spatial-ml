@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there an oven in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005492.jpg"
+  },
+  {
+    "question": "What is the closest distance to the oven in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005492.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "14.04 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005492.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005492.jpg"
+  },
+  {
+    "question": "Is the oven located in the near foreground or far background of the scene?",
+    "answer": "The oven is distributed across the scene with minimum depth at 0.00 metres and maximum at 50.00 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005492.jpg"
+  }
+]

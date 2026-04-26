@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many cars are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  },
+  {
+    "question": "How many refrigerators are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Is there a person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Are there more cars than refrigerators?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the cars or the refrigerators?",
+    "answer": "Unable to determine - both groups are present in the scene but specific spatial arrangement relative to the person cannot be determined from depth statistics alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Are all objects uniformly distributed across the scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Is the person at a safe distance from all cars in the scene?",
+    "answer": "Unable to determine - depth statistics show minimum distance of 0.00 metres, indicating at least one object is extremely close, but individual object positions cannot be precisely located",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  },
+  {
+    "question": "Is there a potential safety hazard regarding the person's proximity to vehicles?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000854.jpg"
+  }
+]

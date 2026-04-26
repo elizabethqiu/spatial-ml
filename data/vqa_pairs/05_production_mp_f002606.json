@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  },
+  {
+    "question": "Are there more sinks than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the average depth of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  },
+  {
+    "question": "How many sinks are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  },
+  {
+    "question": "Is there a cup in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "17.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  },
+  {
+    "question": "Are the two people standing at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  },
+  {
+    "question": "Is the cup the only drinkware visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002606.jpg"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "There are 3 people present in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "What is the average depth (distance from the camera) of the people detected in the scene?",
+    "answer": "The average depth of the detected people is approximately 15.51 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "What is the estimated range of distances at which the people are located from the camera?",
+    "answer": "The people are located across a depth range of approximately 0.00 metres (closest) to 50.00 metres (furthest) from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) present in the scene?",
+    "answer": "No, there is no heavy equipment detected in the scene \u2014 only three persons are identified.",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "Are all three people detected with high confidence?",
+    "answer": "Yes, all three people are detected with a confidence score of 1.00, indicating maximum detection certainty.",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "Is any person located very close to the camera (within 2 metres)?",
+    "answer": "The minimum depth recorded is 0.00 metres, suggesting at least one person may be extremely close to or at the camera position, which warrants attention to ensure the camera/recording equipment does not obstruct site operations.",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "Where is the farthest detected person positioned relative to the others?",
+    "answer": "The farthest person is located at approximately 50.00 metres from the camera, placing them significantly deeper in the scene compared to the mean position of 15.51 metres, likely near the far boundary of the monitored work zone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "How are the three people distributed in depth across the scene?",
+    "answer": "The three people are spread across a wide depth range: one appears to be near the camera (around 0.00 metres), one is at a mid-range distance (near the mean of 15.51 metres), and one is far from the camera (near 50.00 metres), indicating they are distributed throughout the monitored area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being in dangerously close proximity to heavy equipment?",
+    "answer": "No immediate heavy-equipment proximity alert is triggered, as no heavy equipment (e.g., excavators, cranes, or vehicles) is detected in this scene. However, the person detected at approximately 0.00 metres depth should be monitored to ensure they are not in an unsafe position relative to any off-frame equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for the worker located at the farthest point (\u224850 metres) in the scene?",
+    "answer": "No immediate safety alert is required based on proximity to heavy equipment, as no machinery is detected in the scene. Nevertheless, the isolated position of the person at approximately 50.00 metres from the camera means they may be outside close supervisory range, which is a general site safety concern worth noting.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001386.jpg"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of detected objects?",
+    "answer": "17.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  },
+  {
+    "question": "Are there any workers present at the construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance zero in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  },
+  {
+    "question": "Are there more than two people visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  },
+  {
+    "question": "Is there adequate spacing between all personnel in this scene?",
+    "answer": "Unable to determine - no heavy equipment detected in proximity. Only personnel positions recorded with mean depth of 17.37 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment?",
+    "answer": "No safety alerts - scene contains only personnel. No heavy equipment detected within 2 metre hazard zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002062.jpg"
+  }
+]

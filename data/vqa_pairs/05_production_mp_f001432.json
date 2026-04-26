@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the knife from the camera based on the mean scene depth?",
+    "answer": "The knife is approximately 11.95 metres from the camera based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth in the scene containing the knife?",
+    "answer": "The maximum detected depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  },
+  {
+    "question": "Is there a knife present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  },
+  {
+    "question": "Is the knife the only detected object in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  },
+  {
+    "question": "Where is the knife positioned relative to the overall depth range of the scene?",
+    "answer": "The knife is positioned in the closer half of the scene, with a mean depth of 11.95 metres against a total depth range of 0.00 to 50.00 metres, placing it relatively near the foreground.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  },
+  {
+    "question": "Is the knife located closer to the near end or the far end of the scene's depth range?",
+    "answer": "The knife is closer to the near end of the scene's depth range, sitting at a mean depth of 11.95 metres, which is significantly less than the maximum depth of 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  },
+  {
+    "question": "Does the presence of a knife in a construction site scene pose a safety concern for nearby workers?",
+    "answer": "SAFETY ALERT: A knife is a sharp cutting hazard detected in the scene at a mean depth of approximately 11.95 metres. If any workers are present within 2 metres of this object, there is a significant risk of laceration injury. Ensure the knife is properly stored in a designated tool case, all workers in proximity wear cut-resistant gloves, and the area is marked to prevent accidental contact. Unsecured bladed tools on a construction site violate standard site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  },
+  {
+    "question": "Should the knife be secured or stored away if workers are operating nearby on the construction site?",
+    "answer": "SAFETY ALERT: Yes, absolutely. A knife left unsecured on a construction site is a serious hazard. Any worker coming within 2 metres risks cuts or puncture wounds. Immediate action should be taken to store the knife in a proper tool pouch or lockbox, restrict access to the area, and ensure personnel handling the knife wear appropriate PPE including cut-resistant gloves. This situation requires immediate corrective action per standard construction site safety regulations.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001432.jpg"
+  }
+]

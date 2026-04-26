@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the motorcycle?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003140.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the motorcycle?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003140.jpg"
+  },
+  {
+    "question": "Are both the person and motorcycle visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003140.jpg"
+  },
+  {
+    "question": "Is the motorcycle closer to the camera than the person?",
+    "answer": "Unable to determine - individual depth coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003140.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003140.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the worker and the motorcycle?",
+    "answer": "Unable to determine - precise 3D position coordinates needed for safety assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003140.jpg"
+  }
+]

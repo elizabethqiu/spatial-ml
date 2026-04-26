@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002330.jpg"
+  },
+  {
+    "question": "Is there a knife visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002330.jpg"
+  },
+  {
+    "question": "Is the knife closer to the camera than the persons?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002330.jpg"
+  },
+  {
+    "question": "Are both persons at a safe distance from each other (>2 metres)?",
+    "answer": "unknown",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002330.jpg"
+  },
+  {
+    "question": "Is the knife within arm's reach (<2 metres) of either person?",
+    "answer": "unknown",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002330.jpg"
+  },
+  {
+    "question": "What is the approximate maximum depth in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002330.jpg"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the person from the camera?",
+    "answer": "The person is approximately 14.50 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the person?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavator, crane, bulldozer) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  },
+  {
+    "question": "Is the person the only detected object in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the camera in terms of depth?",
+    "answer": "The person is positioned at a mid-range depth of approximately 14.50 metres from the camera, well within the scene's total depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  },
+  {
+    "question": "Is the person located in the near, mid, or far zone of the scene?",
+    "answer": "The person is located in the mid zone of the scene. With a mean depth of 14.50 metres out of a maximum of 50.00 metres, they occupy roughly the first third of the total scene depth, classifying them as mid-range from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  },
+  {
+    "question": "Is the person in a safety-critical proximity (less than 2 metres) to any heavy equipment?",
+    "answer": "No heavy equipment is detected in this scene, so there is no immediate proximity hazard between the person and heavy machinery. However, site supervisors should remain vigilant as the scene depth extends to 50.00 metres and objects beyond the camera's detection range may be present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the person's proximity to any detected hazardous equipment?",
+    "answer": "No safety alert is triggered at this time since no heavy equipment has been detected in the scene. Nevertheless, the lone presence of a person on what appears to be a construction site warrants ongoing monitoring. Ensure the worker is wearing appropriate PPE and is aware of any off-screen machinery operating within the 50.00 metre scene depth.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001378.jpg"
+  }
+]

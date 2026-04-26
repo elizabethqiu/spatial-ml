@@ -1,0 +1,96 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bottle in the scene?",
+    "answer": "Based on the available depth data, the person and bottle are estimated to be within approximately 1.5\u20133.0 metres of each other, given the mean scene depth of 18.25 metres and their co-location in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "Based on the scene depth statistics (mean: 18.25 metres, range: 0.00\u201350.00 metres), the two beds are estimated to be approximately 2.0\u20134.0 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "Are there more than one bed visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "Is the bottle located near the person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two beds?",
+    "answer": "The person appears to be positioned between or alongside the two beds, likely resting on or near one of them, as suggested by the bedroom context and their spatial co-occurrence in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "Where is the bottle located relative to the person and beds?",
+    "answer": "The bottle is located in close proximity to the person, likely on a nearby surface such as a bedside table or on the bed itself, placing it adjacent to or between the person and one of the beds.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy construction equipment that could pose a safety risk?",
+    "answer": "No heavy construction equipment (such as excavators, forklifts, or cranes) is detected in this scene. The scene contains only beds, a person, and a bottle, so no construction-related proximity safety alert is warranted. However, note that the bottle near the person could present a minor slip or trip hazard if on the floor.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  },
+  {
+    "question": "Does the presence of a bottle near the person on or beside the bed present any safety concern in this environment?",
+    "answer": "While no heavy equipment hazards are present, the bottle located near the person on or beside the bed could pose a minor safety risk \u2014 for example, a risk of spillage, glass breakage if it is a glass bottle, or a trip hazard if knocked to the floor. It is advisable to ensure the bottle is secured on a stable surface away from the sleeping area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001262.jpg"
+  }
+]

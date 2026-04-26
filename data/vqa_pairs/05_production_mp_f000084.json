@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene (approximate straight-line distance)?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 0.00 to 50.00 metres apart, with a mean scene depth of 17.81 metres, suggesting they are separated by roughly 5\u201315 metres depending on their lateral positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "What is the approximate depth (distance from camera) of the persons in the scene?",
+    "answer": "The mean depth of the scene is approximately 17.81 metres, suggesting both persons are located roughly 15\u201320 metres from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "Are there more than one person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) detected in the scene alongside the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "Are the two persons in close proximity to each other (within 2 metres)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "Where is each person positioned relative to the other in the scene?",
+    "answer": "Without precise bounding-box centroid data it is not possible to determine exact lateral positions; however, both persons appear to be located at a similar depth range (mid-to-far field, ~15\u201320 metres from the camera), and their relative left/right positioning cannot be confirmed from depth statistics alone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "Are the persons located in the foreground, mid-ground, or background of the scene?",
+    "answer": "The persons are located primarily in the mid-to-background area of the scene, at an estimated depth of approximately 17.81 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker and heavy equipment within 2 metres of each other in this scene?",
+    "answer": "No safety alert is triggered for worker-equipment proximity, as no heavy equipment (e.g., excavator, bulldozer, crane, forklift) has been detected in this scene. However, site supervisors should ensure both persons are wearing appropriate PPE and are aware of their surroundings, especially given the wide depth range (0\u201350 metres) indicating potentially active site conditions.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the two persons being too close to each other in a hazardous zone?",
+    "answer": "No immediate safety alert is required solely for person-to-person proximity based on the available data. However, if the scene is within a restricted or active machinery zone, both workers should maintain at least 2 metres of separation and adhere to site safety protocols. No heavy equipment is present to trigger a critical alert.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000084.jpg"
+  }
+]

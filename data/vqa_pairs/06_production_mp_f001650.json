@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many bicycles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001650.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Is there a toilet in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Are there more bicycles than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001650.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "11.83 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the maximum depth in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to heavy equipment?",
+    "answer": "No heavy equipment detected in scene. No safety alert warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001650.jpg"
+  }
+]

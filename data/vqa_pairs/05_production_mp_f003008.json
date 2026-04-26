@@ -1,0 +1,88 @@
+[
+  {
+    "question": "Is the person closer than 5 metres to any car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  },
+  {
+    "question": "Are both motorcycles at approximately the same depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  },
+  {
+    "question": "How many vehicles are present in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  },
+  {
+    "question": "Is the person positioned behind both cars?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  },
+  {
+    "question": "Are the two motorcycles closer to each other than to the cars?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person within 2 metres of vehicles?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in metres?",
+    "answer": "11.31 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003008.jpg"
+  }
+]

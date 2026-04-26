@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How far apart are the person and the car?",
+    "answer": "15.77 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001366.jpg"
+  },
+  {
+    "question": "What is the distance between the cat and the person?",
+    "answer": "Unable to determine - insufficient spatial data for individual object positions",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001366.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001366.jpg"
+  },
+  {
+    "question": "Is the person standing next to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001366.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the car?",
+    "answer": "The person is positioned further back in the scene from the camera's perspective, with the car at an intermediate depth range",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001366.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to the car?",
+    "answer": "No - the person is at a safe distance (15.77 metres) from the car, well above the 2 metre minimum safety threshold",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001366.jpg"
+  }
+]

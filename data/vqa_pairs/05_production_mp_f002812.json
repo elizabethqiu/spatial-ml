@@ -1,0 +1,81 @@
+[
+  {
+    "question": "Is there a person within 2 metres of any bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  },
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "3 beds",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  },
+  {
+    "question": "Are there more people than beds in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  },
+  {
+    "question": "Is the clock positioned at the same location as any person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of all objects in this scene?",
+    "answer": "19.64 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  },
+  {
+    "question": "Is there a clock visible in this bedroom scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  },
+  {
+    "question": "What is the maximum depth range recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002812.jpg"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 2.50 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the bed and the nearest person?",
+    "answer": "The nearest person is estimated to be approximately 1.80 metres from the bed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the chair and the nearest person?",
+    "answer": "The nearest person is estimated to be approximately 1.20 metres from the chair.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Is a chair visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Are both persons within 3 metres of each other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Is the bed located closer to the scene foreground than the chair?",
+    "answer": "Based on depth estimates, the bed appears to be positioned at a similar or slightly closer depth than the chair, suggesting it is roughly in the same depth plane or marginally closer to the foreground.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "The two persons appear to be positioned in front of or alongside the bed, with at least one person in close proximity to it and the other slightly further away toward the chair area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed?",
+    "answer": "The chair appears to be positioned to the side of or near the foot of the bed, occupying an adjacent spatial zone within the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected near a worker that poses a safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, forklifts, cranes) has been detected in this scene. The objects present \u2014 bed, chair, and two persons \u2014 do not constitute a construction site safety hazard under the < 2 m proximity rule for heavy equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  },
+  {
+    "question": "Are any of the persons within a hazardous proximity (less than 2 metres) of any potentially dangerous object in the scene?",
+    "answer": "One person is estimated to be approximately 1.20 metres from the chair, which technically falls under the 2-metre proximity threshold. However, a chair is not classified as heavy equipment or a high-risk hazard. No critical safety alert is warranted in this non-construction scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000572.jpg"
+  }
+]

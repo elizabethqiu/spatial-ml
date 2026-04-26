@@ -1,0 +1,85 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "spoon",
+      "cup",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  },
+  {
+    "question": "Are there more bowls than spoons in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  },
+  {
+    "question": "How many spoons are in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  },
+  {
+    "question": "Is the average depth of objects greater than 20 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon",
+      "cup",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  },
+  {
+    "question": "What is the mean depth distance across all objects?",
+    "answer": "20.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "spoon",
+      "cup",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  },
+  {
+    "question": "Are there equal numbers of cups and bowls?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001642.jpg"
+  }
+]

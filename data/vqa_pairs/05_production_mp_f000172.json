@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the approximate distance between the bird and the parking meter?",
+    "answer": "Based on the depth statistics, the estimated distance between the bird and the parking meter is approximately 9.49 metres (scene mean depth), though the exact separation depends on their precise 3D coordinates within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  },
+  {
+    "question": "What is the maximum observed depth in this scene?",
+    "answer": "The maximum depth in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  },
+  {
+    "question": "Is the bird within 2 metres of the parking meter?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  },
+  {
+    "question": "Are both the bird and the parking meter detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  },
+  {
+    "question": "Where is the bird positioned relative to the parking meter in this scene?",
+    "answer": "The bird is positioned in the general vicinity of the parking meter within the scene. Without precise X/Y coordinates, the bird is likely perched on or near the parking meter, as birds commonly land on such structures. Both objects share a similar depth range within the scene's 0.00\u201350.00 metre span.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  },
+  {
+    "question": "Is the parking meter in the foreground or background relative to the bird?",
+    "answer": "Based on the scene's mean depth of 9.49 metres and the depth range of 0.00\u201350.00 metres, both objects appear to be at a similar mid-range depth. Neither object is definitively in the foreground or background relative to the other without more precise individual depth values.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker and heavy equipment within 2 metres in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only a bird and a parking meter \u2014 no workers or heavy construction equipment are present. There is no proximity hazard to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  },
+  {
+    "question": "Does the presence of the bird near the parking meter pose any construction site safety risk?",
+    "answer": "No immediate safety alert is required. Neither a bird nor a parking meter constitutes heavy construction equipment, and no workers are detected in this scene. However, site managers should note that birds perching on equipment or signage could obscure visibility of parking meters or safety signs, which may indirectly pose a minor hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000172.jpg"
+  }
+]

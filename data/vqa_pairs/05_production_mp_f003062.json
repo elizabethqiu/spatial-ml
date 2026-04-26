@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What is the main object visible in this scene?",
+    "answer": "cake",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003062.jpg"
+  },
+  {
+    "question": "Is there a cake in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003062.jpg"
+  },
+  {
+    "question": "What is the average distance to objects in this scene in metres?",
+    "answer": "20.50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003062.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003062.jpg"
+  },
+  {
+    "question": "What is the minimum distance to any object in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003062.jpg"
+  }
+]

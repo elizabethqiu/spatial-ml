@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the person and the wine glass?",
+    "answer": "11.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003932.jpg"
+  },
+  {
+    "question": "Is the wine glass closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003932.jpg"
+  },
+  {
+    "question": "What is the relative position of the wine glass with respect to the person?",
+    "answer": "The wine glass is approximately 11.74 metres away from the person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003932.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and wine glass?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003932.jpg"
+  }
+]

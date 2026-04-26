@@ -1,0 +1,40 @@
+[
+  {
+    "question": "What is the distance between the cup and the bottle?",
+    "answer": "Unable to determine - object positions not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004842.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the bottle?",
+    "answer": "Unable to determine - object positions not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004842.jpg"
+  },
+  {
+    "question": "Is the dining table positioned behind the cup and bottle?",
+    "answer": "Unable to determine - object positions not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dining table",
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004842.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment?",
+    "answer": "No safety concerns - no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004842.jpg"
+  }
+]

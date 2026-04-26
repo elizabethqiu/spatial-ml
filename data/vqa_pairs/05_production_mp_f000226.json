@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the TV in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the TV is approximately 16.87 metres (mean scene depth), though the actual separation could range anywhere within the 0.00\u201350.00 metre depth span.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  },
+  {
+    "question": "What is the maximum possible depth separation between any two objects in this scene?",
+    "answer": "The maximum possible depth separation between objects in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the TV, or farther away?",
+    "answer": "The depth data does not conclusively distinguish individual object depths for person versus TV, but both objects exist within a scene whose depth ranges from 0.00 to 50.00 metres. Without per-object depth assignments, neither can be definitively stated as closer; however, the person is likely positioned in the foreground relative to the TV based on typical indoor scene layouts.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  },
+  {
+    "question": "Is the TV located behind the person in the depth axis of the scene?",
+    "answer": "Based on typical indoor configurations and the scene's depth range (0.00\u201350.00 metres), the TV is most likely positioned behind (farther in depth than) the person, placing the person in the foreground and the TV against a wall in the background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  },
+  {
+    "question": "Does the proximity between the person and any heavy equipment in this scene trigger a safety alert (i.e., separation less than 2 metres)?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment (such as excavators, cranes, or forklifts) detected in this scene \u2014 only a TV is present alongside the person. A TV does not constitute a heavy-equipment hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued based on the objects detected in this scene?",
+    "answer": "No safety warning is required. The only objects detected are a person and a TV. There is no heavy machinery or construction equipment present that could pose a proximity hazard to the worker or individual in the scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000226.jpg"
+  }
+]

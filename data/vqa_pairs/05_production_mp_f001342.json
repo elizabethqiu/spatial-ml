@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the approximate distance between the bed and the chair in the scene?",
+    "answer": "Based on the depth statistics, the objects span a range of approximately 50.00 metres, with a mean scene depth of 20.53 metres. The estimated distance between the bed and the chair is approximately 20.53 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the bed and chair?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene alongside the bed and chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the bed in the scene?",
+    "answer": "Based on the available scene data, the chair is positioned within the same scene as the bed. Given the mean scene depth of 20.53 metres and the depth range of 0.00 to 50.00 metres, the chair and bed are spread across the depth of the scene, with their exact lateral relationship (left/right) not determinable from depth statistics alone. They are likely separated at a mid-to-far depth range from the viewer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  },
+  {
+    "question": "Are the bed and chair located at a similar depth from the observer, or is one significantly farther away?",
+    "answer": "The scene depth ranges from 0.00 to 50.00 metres with a mean of 20.53 metres, suggesting the objects may be distributed across different depths. One or both objects could be at varying distances from the observer, meaning one may be significantly closer or farther than the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  },
+  {
+    "question": "Is there a safety risk due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a bed and a chair \u2014 no workers or heavy construction equipment have been detected. There is no proximity hazard present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  },
+  {
+    "question": "Should a safety alert be issued for any objects detected in this scene?",
+    "answer": "No safety alert is required. The detected objects \u2014 a bed and a chair \u2014 are furniture items and do not constitute construction site hazards. No worker-equipment proximity violations (less than 2 metres) are present in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001342.jpg"
+  }
+]

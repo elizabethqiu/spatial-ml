@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  },
+  {
+    "question": "How many motorcycles are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "12.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  },
+  {
+    "question": "Are there more motorcycles than cars in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  },
+  {
+    "question": "Is the maximum depth of any object less than 30 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  },
+  {
+    "question": "What is the depth range across all objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is the person positioned within 2 metres of any vehicle?",
+    "answer": "Insufficient depth data to determine exact proximity. Visual inspection required - person present with 3 vehicles (cars/motorcycles) in scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004656.jpg"
+  }
+]

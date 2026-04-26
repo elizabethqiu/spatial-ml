@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001278.jpg"
+  },
+  {
+    "question": "How many beds are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001278.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene measured in metres?",
+    "answer": "13.41 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001278.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001278.jpg"
+  },
+  {
+    "question": "Is the bed at the closest point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001278.jpg"
+  },
+  {
+    "question": "What is the range of depths across all detected objects in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001278.jpg"
+  }
+]

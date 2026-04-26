@@ -1,0 +1,49 @@
+[
+  {
+    "question": "What is the distance between the clock and the bicycle?",
+    "answer": "21.46 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005554.jpg"
+  },
+  {
+    "question": "Is the clock closer to the camera than the bicycle?",
+    "answer": "Unable to determine - insufficient spatial depth data for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005554.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "No workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005554.jpg"
+  },
+  {
+    "question": "How many objects are visible in this construction scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005554.jpg"
+  },
+  {
+    "question": "Is this a typical construction site with heavy machinery present?",
+    "answer": "No",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005554.jpg"
+  }
+]

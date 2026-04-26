@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many cell phones are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001990.jpg"
+  },
+  {
+    "question": "Is there a bench in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001990.jpg"
+  },
+  {
+    "question": "Are there more cell phones than benches in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001990.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "17.21 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001990.jpg"
+  },
+  {
+    "question": "Is the bench positioned closer to the camera than the farthest object detected?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001990.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001990.jpg"
+  }
+]

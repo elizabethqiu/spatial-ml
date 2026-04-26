@@ -1,0 +1,49 @@
+[
+  {
+    "question": "What is the distance between the clock and the bird?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005304.jpg"
+  },
+  {
+    "question": "Is the bird closer to the camera than the clock?",
+    "answer": "Unable to determine - depth coordinates not available for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005304.jpg"
+  },
+  {
+    "question": "How many objects are visible in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005304.jpg"
+  },
+  {
+    "question": "Is there a worker near heavy equipment in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005304.jpg"
+  },
+  {
+    "question": "Are both the clock and bird present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005304.jpg"
+  }
+]

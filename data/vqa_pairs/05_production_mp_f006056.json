@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all detected persons?",
+    "answer": "16.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  },
+  {
+    "question": "Is there any person detected at the minimum depth position?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  },
+  {
+    "question": "Are all three persons within 20 metres depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  },
+  {
+    "question": "Are there any persons positioned in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  },
+  {
+    "question": "Describe the relative depth distribution of the three persons in the scene.",
+    "answer": "The three persons are distributed across depths ranging from 0.00 to 50.00 metres, with a mean depth of 16.74 metres, indicating varied positioning across the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  },
+  {
+    "question": "Is there adequate spacing between multiple persons in this scene?",
+    "answer": "Unable to determine - no heavy equipment detected. No safety alert triggered as minimum distance requirement applies only between workers and heavy machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f006056.jpg"
+  }
+]

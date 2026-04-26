@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "8 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  },
+  {
+    "question": "Are there more bowls than bottles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  },
+  {
+    "question": "What is the average depth at which objects are positioned?",
+    "answer": "16.13 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  },
+  {
+    "question": "Are there any bowls in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  },
+  {
+    "question": "Is the minimum depth of any object zero?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  },
+  {
+    "question": "How many bowls are present in the scene?",
+    "answer": "2 bowls",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002786.jpg"
+  }
+]

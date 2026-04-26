@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many ovens are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance between the person and the furthest object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  },
+  {
+    "question": "Is the person located within 2 metres of any oven?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the person than the potted plant?",
+    "answer": "Cannot determine from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  },
+  {
+    "question": "Are both ovens at approximately the same depth in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene?",
+    "answer": "14.04 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "person",
+      "bottle",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  },
+  {
+    "question": "Is the person positioned between the two ovens?",
+    "answer": "Cannot determine from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  },
+  {
+    "question": "Does any object in the scene occupy a position closer than 5 metres?",
+    "answer": "yes",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "person",
+      "bottle",
+      "oven"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002176.jpg"
+  }
+]

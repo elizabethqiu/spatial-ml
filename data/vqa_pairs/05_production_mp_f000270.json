@@ -1,0 +1,93 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all persons from the camera?",
+    "answer": "12.03 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  },
+  {
+    "question": "What is the maximum distance between the nearest and farthest person?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  },
+  {
+    "question": "Are there any persons present in the construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  },
+  {
+    "question": "Are all persons within 25 metres of the camera view?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  },
+  {
+    "question": "Is there more than one person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  },
+  {
+    "question": "How are the persons distributed in depth across the scene?",
+    "answer": "The persons are spread across a 50-metre depth range, with the nearest person at ground level and the farthest at 50 metres distance, averaging 12.03 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  },
+  {
+    "question": "Describe the positioning of the four persons in the construction site.",
+    "answer": "Four persons are present at varying distances from the camera, ranging from 0 to 50 metres depth, distributed across the site with significant spacing between some individuals.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000270.jpg"
+  }
+]

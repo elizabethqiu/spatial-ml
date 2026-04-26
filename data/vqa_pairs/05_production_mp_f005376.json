@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many sheep are in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005376.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sheep",
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005376.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the car?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005376.jpg"
+  },
+  {
+    "question": "Are both sheep at approximately the same distance from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005376.jpg"
+  },
+  {
+    "question": "Is the car positioned further away than the average depth in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005376.jpg"
+  },
+  {
+    "question": "Describe the relative position of the dog in relation to the two sheep and the car.",
+    "answer": "The dog is positioned in the foreground closer to the camera, while the sheep and car are distributed at varying depths, with the car being one of the furthest objects at approximately 50 metres distance.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "sheep",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005376.jpg"
+  }
+]

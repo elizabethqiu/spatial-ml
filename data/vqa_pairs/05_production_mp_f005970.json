@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the elephant?",
+    "answer": "24.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005970.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the elephant?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005970.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005970.jpg"
+  },
+  {
+    "question": "Is the elephant closer than 10 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005970.jpg"
+  },
+  {
+    "question": "Where is the elephant positioned relative to the person?",
+    "answer": "Approximately 24.22 metres away from the person",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005970.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005970.jpg"
+  }
+]

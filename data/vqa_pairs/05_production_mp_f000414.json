@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the sink from the camera viewpoint?",
+    "answer": "The sink is approximately 12.64 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent detected in the scene containing the sink?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  },
+  {
+    "question": "Is there a sink present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  },
+  {
+    "question": "Is the sink the only object detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  },
+  {
+    "question": "Where is the sink positioned relative to the camera?",
+    "answer": "The sink is positioned ahead of the camera at a mean distance of approximately 12.64 metres, within a scene that extends up to 50.00 metres in depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  },
+  {
+    "question": "Is the sink located in the near foreground, mid-range, or far background of the scene?",
+    "answer": "The sink is located in the mid-range of the scene, at approximately 12.64 metres from the camera, which is roughly 25% of the maximum scene depth of 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker in close proximity (less than 2 metres) to heavy equipment near the sink?",
+    "answer": "No safety alert is triggered. No workers or heavy equipment are detected in this scene \u2014 only a sink is present. However, site personnel should ensure the sink area is clear of slip hazards such as water spillage, and verify the sink is properly secured and not a trip risk in a construction environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  },
+  {
+    "question": "Does the presence of a sink on a construction site pose any potential safety concerns that should be flagged?",
+    "answer": "While no worker-equipment proximity alert (< 2 metres) is triggered, a sink on a construction site should be assessed for: (1) water leak or spill creating slip hazards, (2) improper installation creating a trip risk, and (3) ensuring it is not obstructing emergency egress routes. No immediate critical alert is raised based on current detections.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000414.jpg"
+  }
+]

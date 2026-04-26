@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the distance between the two cars?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002908.jpg"
+  },
+  {
+    "question": "Are there multiple cars visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002908.jpg"
+  },
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2 cars",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002908.jpg"
+  },
+  {
+    "question": "Is there a worker within 2 metres of any car?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002908.jpg"
+  },
+  {
+    "question": "Are both cars at approximately the same depth in the scene?",
+    "answer": "Unable to determine - individual object depth coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002908.jpg"
+  },
+  {
+    "question": "Based on the depth statistics, is the maximum visible distance greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002908.jpg"
+  }
+]

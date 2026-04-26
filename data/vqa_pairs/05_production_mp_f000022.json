@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The average depth of the scene is approximately 12.02 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in the scene?",
+    "answer": "The minimum depth value recorded in the scene is 0.00 metres, indicating an object or surface at or very near the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "What is the depth range (span from minimum to maximum) of the scene?",
+    "answer": "The depth range of the scene is 50.00 metres (from 0.00 m to 50.00 m).",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Are there any detected objects positioned closer to the camera than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Are any objects detected beyond 40 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Where are objects generally located in depth within this construction scene?",
+    "answer": "No specific objects were detected in this scene. Based on depth statistics alone, the scene extends from 0.00 m to 50.00 m, with the average depth centred around 12.02 metres, suggesting most scene content is concentrated in the near-to-mid range.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Is the majority of the scene content located in the foreground, mid-range, or background relative to the full depth extent?",
+    "answer": "The mean depth of 12.02 metres is well below the maximum of 50.00 metres, indicating that the majority of scene content is concentrated in the foreground-to-mid-range area rather than the far background.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard involving a worker and heavy equipment in this scene?",
+    "answer": "No objects were detected in this scene, so no worker-equipment proximity hazard can be confirmed. However, the absence of detections may indicate a sensor or occlusion issue \u2014 a manual site inspection is strongly recommended to ensure worker safety.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  },
+  {
+    "question": "Should this scene be flagged for a safety review given the lack of object detections?",
+    "answer": "Yes \u2014 the complete absence of detected objects on an active construction site is itself a safety concern. It may indicate sensor failure, severe occlusion, poor lighting, or an empty site. If the site is active, immediate verification is advised to confirm no unmonitored workers or equipment are present within the 0\u201350 metre depth range.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000022.jpg"
+  }
+]

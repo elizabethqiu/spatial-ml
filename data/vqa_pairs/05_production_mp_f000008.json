@@ -1,0 +1,74 @@
+[
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "How far away is the fire hydrant from the camera?",
+    "answer": "The fire hydrant is approximately 10.27 metres away (based on the mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "What is the minimum depth recorded in the scene, and what does it suggest about the closest object or surface?",
+    "answer": "The minimum depth is 0.00 metres, suggesting there is at least one surface or object essentially at the camera position (possibly a near-edge artefact or a surface flush with the sensor).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "Is a fire hydrant present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "Is the fire hydrant closer than 5 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "Where is the fire hydrant located relative to the overall depth range of the scene?",
+    "answer": "The fire hydrant sits near the middle of the scene's depth range. With the scene spanning 0.00 m to 50.00 m, the hydrant is at roughly 10.27 m \u2014 in the closer one-quarter of the observable space, but not at the very foreground.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "Is the fire hydrant located in the foreground, mid-ground, or background of the scene?",
+    "answer": "The fire hydrant is located in the foreground-to-mid-ground zone of the scene, at a mean depth of approximately 10.27 metres within a total scene depth range of 0\u201350 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "Is there a safety concern regarding any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No heavy equipment or workers are detected in this scene \u2014 only a fire hydrant is present. Therefore, no proximity-based safety alert is triggered. However, site personnel should ensure the fire hydrant access zone (typically a 1\u20131.5 m clearance radius) remains unobstructed by equipment or materials at all times.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  },
+  {
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000008.jpg",
+    "question": "Does the fire hydrant's location pose any site safety concern that workers should be aware of?",
+    "answer": "Yes \u2014 the fire hydrant is approximately 10.27 metres from the camera position. Workers and equipment operators should be cautioned not to block or damage the hydrant. A minimum clear access radius of 1\u20131.5 metres around the hydrant must be maintained per fire safety regulations, and no heavy machinery should be parked or operated in a manner that obstructs emergency access to it.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "fire hydrant"
+    ]
+  }
+]

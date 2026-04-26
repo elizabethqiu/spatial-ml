@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  },
+  {
+    "question": "Is the remote closer to the camera than the refrigerator?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  },
+  {
+    "question": "Where is the remote located relative to the refrigerator?",
+    "answer": "The remote is positioned closer to the foreground than the refrigerator",
+    "type": "relative_position",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement of the persons in the scene?",
+    "answer": "Two persons are detected in the scene at varying depths within the indoor environment",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  },
+  {
+    "question": "Are any workers in immediate proximity danger to heavy equipment?",
+    "answer": "No safety alert - no heavy equipment detected in this indoor scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  },
+  {
+    "question": "What is the average depth distance in this scene?",
+    "answer": "15.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000766.jpg"
+  }
+]

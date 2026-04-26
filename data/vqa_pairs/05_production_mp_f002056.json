@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002056.jpg"
+  },
+  {
+    "question": "Is there a bowl in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002056.jpg"
+  },
+  {
+    "question": "Are there more people than bowls in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002056.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "16.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002056.jpg"
+  },
+  {
+    "question": "What is the maximum distance range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002056.jpg"
+  },
+  {
+    "question": "Are the people positioned closer than 2 metres to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002056.jpg"
+  }
+]

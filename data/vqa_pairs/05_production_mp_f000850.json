@@ -1,0 +1,135 @@
+[
+  {
+    "question": "What is the approximate mean depth of all detected objects in the scene?",
+    "answer": "The approximate mean depth of all detected objects in the scene is 19.76 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "dining table",
+      "person",
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) covered by objects in this scene?",
+    "answer": "The depth range in this scene spans from 0.00 metres (minimum) to 50.00 metres (maximum), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "dining table",
+      "person",
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Is there a dining table present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Are there more than two people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, bulldozer) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "dining table",
+      "person",
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Is there a bed located in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the dining table in the scene?",
+    "answer": "Based on typical scene context and detected objects, the cup is likely positioned on or near the dining table, suggesting it is in close proximity and at a similar or slightly shallower depth relative to the dining table.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to the chair and dining table?",
+    "answer": "The persons are likely positioned around or near the dining table and chair, suggesting they are in the mid-to-near depth range of the scene, with the chair and dining table serving as reference furniture in their immediate environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the dining table in the scene?",
+    "answer": "The bed appears to be in a separate area from the dining table; given the scene's depth range, the bed is likely positioned further back or to the side relative to the dining table, suggesting these objects occupy different spatial zones of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Is any worker in this scene within 2 metres of heavy construction equipment, requiring a safety alert?",
+    "answer": "No safety alert is required. This scene does not contain any heavy construction equipment (such as excavators, cranes, or bulldozers). The detected objects \u2014 cup, bed, dining table, chair, and three persons \u2014 indicate a domestic or indoor setting with no construction hazards present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "cup",
+      "bed",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Are any of the three detected persons positioned dangerously close (within 2 metres) to any hazardous equipment in the scene?",
+    "answer": "No hazardous equipment is present in this scene. The environment appears to be a residential or dining setting. No safety alert is warranted based on the detected objects.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000850.jpg"
+  }
+]

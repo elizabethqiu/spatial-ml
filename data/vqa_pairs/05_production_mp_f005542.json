@@ -1,0 +1,72 @@
+[
+  {
+    "question": "How far is the banana from the person?",
+    "answer": "17.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005542.jpg"
+  },
+  {
+    "question": "What is the distance between the bicycle and the banana?",
+    "answer": "17.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005542.jpg"
+  },
+  {
+    "question": "Is the person closer to the bicycle than to the banana?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bicycle",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005542.jpg"
+  },
+  {
+    "question": "Is the banana visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005542.jpg"
+  },
+  {
+    "question": "Is the bicycle located behind the person?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005542.jpg"
+  },
+  {
+    "question": "Where is the banana positioned relative to the bicycle and person?",
+    "answer": "The banana is at approximately the same distance as the bicycle from the person, at a mean depth of 17.44 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana",
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005542.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present on this construction site?",
+    "answer": "No safety alerts. No heavy equipment detected in proximity to the person.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005542.jpg"
+  }
+]

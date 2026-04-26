@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000770.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the refrigerator than to the people?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000770.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of all objects in the scene?",
+    "answer": "14.88 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000770.jpg"
+  },
+  {
+    "question": "Is there any person within a dangerous proximity (less than 2 metres) to the refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000770.jpg"
+  },
+  {
+    "question": "Are both people standing at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000770.jpg"
+  },
+  {
+    "question": "What is the maximum recorded distance from the camera to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000770.jpg"
+  }
+]

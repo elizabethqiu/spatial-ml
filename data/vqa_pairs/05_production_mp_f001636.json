@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many bowls are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  },
+  {
+    "question": "Is there at least one bowl in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  },
+  {
+    "question": "Are there more people than bowls in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "16.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected between workers and equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  },
+  {
+    "question": "Do the detected objects include any heavy machinery or construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001636.jpg"
+  }
+]

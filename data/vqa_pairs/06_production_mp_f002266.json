@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the knife?",
+    "answer": "14.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002266.jpg"
+  },
+  {
+    "question": "Is the knife closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002266.jpg"
+  },
+  {
+    "question": "Is the person positioned further away from the knife than the mean depth of the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002266.jpg"
+  },
+  {
+    "question": "Does this scene pose a safety alert for worker proximity to sharp tools?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002266.jpg"
+  }
+]

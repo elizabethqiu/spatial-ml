@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far is the cell phone from the person?",
+    "answer": "Unable to determine - objects are not clearly spatially separated in the scene",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004914.jpg"
+  },
+  {
+    "question": "Is the cell phone closer than 5 metres to the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004914.jpg"
+  },
+  {
+    "question": "Is the cell phone being held by or in close proximity to the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004914.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004914.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the cell phone and person proximity on a construction site?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004914.jpg"
+  }
+]

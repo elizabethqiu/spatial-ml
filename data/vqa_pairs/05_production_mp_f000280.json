@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene based on their estimated depth positions?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within the scene at a mean depth of approximately 17.70 metres from the camera. Their relative separation cannot be precisely determined, but both are estimated to be within the 0.00\u201350.00 metre depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "What is the estimated average distance of the persons from the camera?",
+    "answer": "The estimated average distance of the persons from the camera is approximately 17.70 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) detected in the scene alongside the workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "Are the two persons detected at similar depths, suggesting they are on roughly the same plane in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "Where are the persons located relative to the camera in the scene?",
+    "answer": "Both persons are located at a mid-to-far range from the camera, with an average depth of approximately 17.70 metres. They are positioned somewhere between 0.00 metres (closest possible point) and 50.00 metres (farthest detected point) in the depth field.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "Is one person closer to the camera than the other?",
+    "answer": "The scene depth statistics indicate a range from 0.00 to 50.00 metres with a mean of 17.70 metres. It is possible that one person is closer to the camera than the other, but individual per-person depth differentiation is not available from the current data to confirm definitively.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for proximity to heavy equipment, as no heavy machinery is detected in this scene. However, site supervisors should ensure both persons are wearing appropriate PPE and are aware of their surroundings, especially given the wide depth range (0.00\u201350.00 metres) in the area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  },
+  {
+    "question": "Are the two persons in dangerously close proximity to each other in a way that could pose a safety risk?",
+    "answer": "No immediate safety alert is raised between the two persons. No heavy equipment is present, so the primary risk threshold of a worker being within 2 metres of machinery does not apply. Nonetheless, if the two workers are engaged in manual handling or operating tools, supervisors should ensure safe working distances are maintained.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000280.jpg"
+  }
+]

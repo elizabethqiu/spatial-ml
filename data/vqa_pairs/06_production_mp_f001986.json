@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  },
+  {
+    "question": "Is there a clock visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  },
+  {
+    "question": "Are there more people than other objects in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "16.07 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  },
+  {
+    "question": "Is the furthest object in the scene within 40 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  },
+  {
+    "question": "Are all people positioned at similar depths from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  },
+  {
+    "question": "Is there adequate spacing between the people and equipment in this scene?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001986.jpg"
+  }
+]

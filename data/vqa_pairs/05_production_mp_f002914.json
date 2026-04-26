@@ -1,0 +1,109 @@
+[
+  {
+    "question": "How many bicycles are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "11.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "What is the maximum distance range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "Are there more bicycles than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "Is there at least one bicycle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "Do the number of people equal the number of bicycles?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "Which object type is more prevalent: people or bicycles?",
+    "answer": "Bicycles are more prevalent with 3 bicycles compared to 3 people (tied)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "What is the spatial distribution of objects in terms of depth range?",
+    "answer": "Objects are distributed across a 50.00 metre depth range with a mean depth of 11.32 metres, indicating a spread from very close (0.00 m) to very distant objects (50.00 m)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding worker proximity to heavy equipment?",
+    "answer": "No safety alert - no heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002914.jpg"
+  }
+]

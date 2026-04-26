@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the person and the bed?",
+    "answer": "17.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005702.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005702.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005702.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the bed, or vice versa?",
+    "answer": "The mean depth is 17.87 metres, suggesting objects are distributed across the scene depth range",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005702.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005702.jpg"
+  }
+]

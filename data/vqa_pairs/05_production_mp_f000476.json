@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  },
+  {
+    "question": "How many hot dogs are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  },
+  {
+    "question": "Are there any people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  },
+  {
+    "question": "Are there hot dogs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene less than 25 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  },
+  {
+    "question": "What is the approximate mean distance to objects in this scene?",
+    "answer": "19.96 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  },
+  {
+    "question": "Do the detected objects span more than 40 metres in depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000476.jpg"
+  }
+]

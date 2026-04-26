@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many persons are present in this scene?",
+    "answer": "5 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001688.jpg"
+  },
+  {
+    "question": "Is there a car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001688.jpg"
+  },
+  {
+    "question": "Are there more persons than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001688.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in the scene?",
+    "answer": "14.59 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001688.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the farthest person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001688.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001688.jpg"
+  },
+  {
+    "question": "Are all persons within a safe distance (greater than 2 metres) from the car?",
+    "answer": "Cannot determine - spatial coordinates not provided for individual objects",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001688.jpg"
+  }
+]

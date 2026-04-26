@@ -1,0 +1,68 @@
+[
+  {
+    "question": "How many toilets are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "toilet",
+      "toilet",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003356.jpg"
+  },
+  {
+    "question": "Is there at least one toilet in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003356.jpg"
+  },
+  {
+    "question": "Are there more than 3 toilets present?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "toilet",
+      "toilet",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003356.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003356.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "15.51 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "toilet",
+      "toilet",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003356.jpg"
+  },
+  {
+    "question": "Are all detected objects of the same type?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "toilet",
+      "toilet",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003356.jpg"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What is the approximate average depth (distance from the camera) of the people in the scene?",
+    "answer": "The average depth of the people in the scene is approximately 15.46 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  },
+  {
+    "question": "What is the range of distances (minimum to maximum) across all detected objects in the scene?",
+    "answer": "The range of distances spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  },
+  {
+    "question": "Are there any people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  },
+  {
+    "question": "Are all three detected persons located at roughly the same depth, or are they spread across different distances?",
+    "answer": "The persons are spread across varying distances. The depth range spans from 0.00 metres to 50.00 metres, with a mean of 15.46 metres, indicating the individuals are positioned at notably different depths within the scene rather than clustered at a single distance.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera, and how does their position compare to the others?",
+    "answer": "At least one person is positioned very close to the camera (minimum depth of approximately 0.00 metres), while the others are distributed further away \u2014 up to 50.00 metres \u2014 with an average scene depth of 15.46 metres. The closest person is significantly nearer to the camera than the rest.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  },
+  {
+    "question": "Is any worker in close dangerous proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy equipment is detected in this scene, so there is no immediate safety alert regarding worker-equipment proximity. However, one person appears to be at a depth of approximately 0.00 metres, which warrants attention to ensure they are not in an unseen hazard zone just outside the camera's field of detection.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  },
+  {
+    "question": "Should a safety alert be issued due to any worker being within 2 metres of heavy machinery in this scene?",
+    "answer": "No safety alert for worker-machinery proximity is required, as no heavy equipment (e.g., excavators, bulldozers, cranes, or forklifts) has been detected in this scene. Nonetheless, site supervisors should verify the area around the person detected at near-zero depth distance, as their exact position relative to off-camera hazards cannot be confirmed.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000286.jpg"
+  }
+]

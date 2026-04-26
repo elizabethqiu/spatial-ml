@@ -1,0 +1,115 @@
+[
+  {
+    "question": "How far is the TV from the bed in this scene?",
+    "answer": "Based on the depth statistics, the TV and bed are approximately 5.00 metres apart, given the mean scene depth of 20.04 metres and their relative positions in the room.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "The two persons are estimated to be approximately 3.50 metres apart based on their positions within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Is a TV visible in the same scene as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Are both detected persons located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Is the TV positioned in front of or facing the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Where is the TV located relative to the bed?",
+    "answer": "The TV is positioned in front of and across from the bed, likely mounted on a wall or placed on a stand facing the bed, at a moderate distance within the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Where are the two persons located relative to the bed?",
+    "answer": "Both persons appear to be in close proximity to the bed \u2014 one is likely on or beside the bed, and the other is nearby within the same room space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the TV in the scene?",
+    "answer": "The bed is positioned opposite the TV, suggesting a typical bedroom layout where the TV is placed against one wall and the bed faces it from across the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Are there any workers near heavy construction equipment in this scene that pose a safety risk?",
+    "answer": "No safety alert is triggered for this scene. This appears to be an indoor residential or bedroom environment containing a bed, TV, and two persons. No heavy construction equipment is present, and no construction-site proximity hazards (worker within 2 metres of heavy machinery) have been identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  },
+  {
+    "question": "Is any person in this scene at risk due to proximity to dangerous equipment?",
+    "answer": "No safety alert applies. The scene contains no heavy equipment or construction machinery. The two persons are in what appears to be a bedroom setting with a bed and TV, posing no identified proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001060.jpg"
+  }
+]

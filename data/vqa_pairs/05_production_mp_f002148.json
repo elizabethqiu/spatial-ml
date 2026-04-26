@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "How many suitcases are present in the scene?",
+    "answer": "2 suitcases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "What is the average distance of objects from the camera?",
+    "answer": "15.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "Are there more people than suitcases in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "Is there at least one suitcase visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "Are all objects at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "Describe the relative positioning of people and suitcases in this scene.",
+    "answer": "The scene contains 3 people and 2 suitcases distributed across a depth range from 0 to 50 metres, with an average depth of approximately 15.36 metres, suggesting objects are spread across varying distances from the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between workers and equipment?",
+    "answer": "No safety alert - this appears to be a luggage/travel scene with people and suitcases, not a construction site with heavy equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002148.jpg"
+  }
+]

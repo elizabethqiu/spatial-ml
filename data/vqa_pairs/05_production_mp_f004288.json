@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there an umbrella in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004288.jpg"
+  },
+  {
+    "question": "How many umbrellas are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004288.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "16.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004288.jpg"
+  },
+  {
+    "question": "Is the umbrella closer than 5 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004288.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004288.jpg"
+  },
+  {
+    "question": "Is the umbrella at ground level (minimum depth range)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004288.jpg"
+  }
+]

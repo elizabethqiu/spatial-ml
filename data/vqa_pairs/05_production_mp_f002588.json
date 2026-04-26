@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many sinks are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002588.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002588.jpg"
+  },
+  {
+    "question": "Are there more sinks than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002588.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance in this scene in metres?",
+    "answer": "15.69 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002588.jpg"
+  },
+  {
+    "question": "Is the person located between the two sinks?",
+    "answer": "Cannot determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002588.jpg"
+  },
+  {
+    "question": "Based on depth statistics, what is the maximum distance observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002588.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in close proximity to the worker that poses a safety risk?",
+    "answer": "No safety alert - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002588.jpg"
+  }
+]

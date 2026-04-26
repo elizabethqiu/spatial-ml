@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the car and the refrigerator?",
+    "answer": "13.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000492.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000492.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the car and refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000492.jpg"
+  },
+  {
+    "question": "Is the car positioned at a greater distance from the refrigerator than the maximum depth in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000492.jpg"
+  },
+  {
+    "question": "What is the approximate separation distance between the two objects in the scene?",
+    "answer": "13.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000492.jpg"
+  }
+]

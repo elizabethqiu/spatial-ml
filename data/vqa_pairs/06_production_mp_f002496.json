@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How far is the person from the toilet?",
+    "answer": "14.09 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002496.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002496.jpg"
+  },
+  {
+    "question": "What is the closest distance between any two objects in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002496.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between the person and toilet?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002496.jpg"
+  },
+  {
+    "question": "What is the maximum distance visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002496.jpg"
+  },
+  {
+    "question": "Is the toilet closer to the camera than the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002496.jpg"
+  }
+]

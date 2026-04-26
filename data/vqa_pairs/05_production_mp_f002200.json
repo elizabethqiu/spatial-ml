@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How far is the person from the bottle?",
+    "answer": "13.68 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002200.jpg"
+  },
+  {
+    "question": "What is the distance between the suitcase and the bottle?",
+    "answer": "13.68 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002200.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the suitcase?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002200.jpg"
+  },
+  {
+    "question": "Is the bottle within arm's reach of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002200.jpg"
+  },
+  {
+    "question": "Is the suitcase positioned between the person and the bottle?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002200.jpg"
+  },
+  {
+    "question": "Are all three objects at approximately the same depth from the camera?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002200.jpg"
+  }
+]

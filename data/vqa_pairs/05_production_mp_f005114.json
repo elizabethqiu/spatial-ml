@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How far apart are the dog and the cake?",
+    "answer": "Unable to determine - object positions not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005114.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the cake?",
+    "answer": "Unable to determine - depth coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005114.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005114.jpg"
+  },
+  {
+    "question": "Is there a dog in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005114.jpg"
+  },
+  {
+    "question": "Is there a cake in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005114.jpg"
+  }
+]

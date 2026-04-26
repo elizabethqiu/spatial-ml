@@ -1,0 +1,73 @@
+[
+  {
+    "question": "What is the distance between the person and the fire hydrant?",
+    "answer": "approximately 15.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003962.jpg"
+  },
+  {
+    "question": "How far is the bus from the person?",
+    "answer": "approximately 15.37 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003962.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the fire hydrant?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003962.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the bus?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003962.jpg"
+  },
+  {
+    "question": "Is the fire hydrant closer to the bus than to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fire hydrant",
+      "bus",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003962.jpg"
+  },
+  {
+    "question": "Safety alert: Is the person in dangerous proximity to the bus (within 2 metres)?",
+    "answer": "no hazard detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003962.jpg"
+  },
+  {
+    "question": "Safety alert: Is the person in dangerous proximity to the fire hydrant (within 2 metres)?",
+    "answer": "no hazard detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "fire hydrant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003962.jpg"
+  }
+]

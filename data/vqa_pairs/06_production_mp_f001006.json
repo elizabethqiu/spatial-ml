@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001006.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any detected object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001006.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "21.38 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Are there any cars present in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance zero metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Are all detected objects cars?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001006.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of cars from nearest to farthest in this scene.",
+    "answer": "Four cars are present with depth ranging from 0.00 metres (closest) to 50.00 metres (farthest), with a mean distance of 21.38 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "car",
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001006.jpg"
+  }
+]

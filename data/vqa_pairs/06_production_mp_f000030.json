@@ -1,0 +1,51 @@
+[
+  {
+    "question": "How far apart are the clock and the person in this scene?",
+    "answer": "11.38 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000030.jpg"
+  },
+  {
+    "question": "Is the clock closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000030.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000030.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity of the person to the clock?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000030.jpg"
+  },
+  {
+    "question": "Is the person within the minimum recorded depth of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000030.jpg"
+  }
+]

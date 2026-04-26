@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the bed is approximately 0.50 metres, indicating they are in very close proximity.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects detected in the scene?",
+    "answer": "The mean depth of objects in the scene is 16.20 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is positioned in very close proximity to the bed, likely adjacent to or on top of it, given the minimal estimated separation distance of approximately 0.50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  },
+  {
+    "question": "Is the bed in the foreground or background relative to the person?",
+    "answer": "Based on the available depth data, the bed and person appear to be at a very similar depth, suggesting they are roughly co-located in the scene with neither clearly in the foreground or background relative to the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  },
+  {
+    "question": "Does this scene depict a construction site safety hazard involving heavy equipment and a worker?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  },
+  {
+    "question": "Are there any construction site safety alerts to flag in this scene based on proximity rules between workers and heavy equipment?",
+    "answer": "No safety alert is warranted for heavy equipment proximity. The scene contains a person and a bed \u2014 no heavy construction equipment (e.g., excavators, forklifts, cranes) is present. Standard construction site proximity rules (< 2 metres between worker and heavy equipment) do not apply here. However, as a general note, if this is a site welfare facility, ensure the rest area is clearly segregated from any active construction zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000120.jpg"
+  }
+]

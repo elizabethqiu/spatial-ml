@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How many sinks are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002560.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002560.jpg"
+  },
+  {
+    "question": "Is the cup positioned near any of the sinks?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002560.jpg"
+  },
+  {
+    "question": "Is the person standing directly at a sink?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002560.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "14.86 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002560.jpg"
+  },
+  {
+    "question": "Are there more sinks than cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002560.jpg"
+  }
+]

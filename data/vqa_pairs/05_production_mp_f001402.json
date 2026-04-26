@@ -1,0 +1,114 @@
+[
+  {
+    "question": "What is the approximate distance between the pizza and the nearest person in the scene?",
+    "answer": "Based on the depth statistics, the nearest objects are approximately 0.00 metres at minimum depth, with a mean scene depth of 12.70 metres. The pizza and nearest person are estimated to be within approximately 1.50 metres of each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "What is the estimated depth range across all detected objects in the scene?",
+    "answer": "The depth range across all detected objects spans from 0.00 metres (closest point) to 50.00 metres (farthest point), with a mean depth of 12.70 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "Are there multiple people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "Is there a food item visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "Where is the pizza located relative to the three people in the scene?",
+    "answer": "The pizza appears to be positioned in close proximity to the group of three people, likely in front of or among them, suggesting the people are gathered around or near the pizza, consistent with a dining or food-sharing scenario.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "How are the three people positioned relative to each other in the scene?",
+    "answer": "The three people are detected at varying depths within the scene (mean depth ~12.70 m, range 0\u201350 m), suggesting they are distributed at different distances from the camera, potentially seated or standing around a shared space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "Is the pizza closer to the camera than the people in the scene?",
+    "answer": "Based on scene depth statistics, some objects are at near-zero depth, suggesting the pizza or a person may be very close to the camera. Without precise per-object depth, it is possible the pizza is positioned in the foreground relative to at least one person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving heavy equipment and workers detected in this scene?",
+    "answer": "No safety alert is triggered. This scene contains no heavy construction equipment (e.g., excavators, forklifts, cranes). The detected objects are a pizza and three people, presenting no proximity-based construction safety risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  },
+  {
+    "question": "Are any of the three people in this scene at risk due to proximity to dangerous machinery?",
+    "answer": "No safety alert required. No heavy equipment or machinery has been detected in this scene. The three people appear to be in a non-hazardous environment, likely a dining or social setting given the presence of a pizza.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001402.jpg"
+  }
+]

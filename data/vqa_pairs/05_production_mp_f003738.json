@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  },
+  {
+    "question": "Is there a car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  },
+  {
+    "question": "How many suitcases are visible?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the car?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  },
+  {
+    "question": "Are there more people than suitcases in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "12.69 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "car",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  },
+  {
+    "question": "Is the bottle located between the two people?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "car",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003738.jpg"
+  }
+]

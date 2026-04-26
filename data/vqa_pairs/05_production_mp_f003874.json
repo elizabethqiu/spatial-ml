@@ -1,0 +1,81 @@
+[
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  },
+  {
+    "question": "How many persons are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  },
+  {
+    "question": "Is the backpack closer to the camera than the handbag?",
+    "answer": "unknown - insufficient depth data for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "11.47 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  },
+  {
+    "question": "Is there heavy equipment within 2 metres of any person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  },
+  {
+    "question": "Are both persons and the handbag visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "backpack",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  },
+  {
+    "question": "Is the backpack present alongside at least one person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003874.jpg"
+  }
+]

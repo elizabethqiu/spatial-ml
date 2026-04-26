@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many vases are visible in this scene?",
+    "answer": "4 vases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  },
+  {
+    "question": "How many potted plants are present in the scene?",
+    "answer": "4 potted plants",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "sink",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  },
+  {
+    "question": "Is there a sink in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  },
+  {
+    "question": "Are there more vases than potted plants?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  },
+  {
+    "question": "Is the sink closer to the camera than the average depth of objects in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  },
+  {
+    "question": "Are the vases positioned at varying depths throughout the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "12.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "sink",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002638.jpg"
+  }
+]

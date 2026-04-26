@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000566.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Is the person standing closer to the refrigerator or the cars?",
+    "answer": "Unable to determine without specific coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Is there a person in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Are there more cars than refrigerators?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Is the refrigerator positioned between the person and the cars?",
+    "answer": "Unable to determine without specific coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment like a car or refrigerator?",
+    "answer": "Safety check inconclusive - insufficient proximity data provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000566.jpg"
+  }
+]

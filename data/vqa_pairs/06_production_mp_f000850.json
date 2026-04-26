@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Is the person within 2 metres of the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000850.jpg"
+  },
+  {
+    "question": "How many refrigerators are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000850.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of all objects from the camera?",
+    "answer": "17.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000850.jpg"
+  },
+  {
+    "question": "Are both refrigerators positioned at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000850.jpg"
+  },
+  {
+    "question": "What is the maximum distance span observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000850.jpg"
+  }
+]

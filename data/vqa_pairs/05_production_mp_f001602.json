@@ -1,0 +1,86 @@
+[
+  {
+    "question": "What is the average depth of the scene?",
+    "answer": "The mean depth of the scene is approximately 11.17 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "What is the maximum depth detected in the scene?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "What is the minimum depth detected in the scene?",
+    "answer": "The minimum depth detected in the scene is 0.00 metres, indicating a surface or object at or very near the camera position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "What is the depth range (spread) of the scene from nearest to farthest point?",
+    "answer": "The depth range of the scene is 50.00 metres, spanning from 0.00 metres to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Are any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, bulldozer) detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Are there any objects detected in the foreground (within 2 metres of the camera)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Is there any detectable object present beyond 40 metres in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Where in the depth field does the majority of the scene content appear to be concentrated?",
+    "answer": "Based on the mean depth of 11.17 metres and the range of 0.00\u201350.00 metres, the majority of the scene content is concentrated in the near-to-mid range, roughly around 11 metres from the camera, suggesting the primary construction activity or terrain is at a mid-range distance.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Is the scene depth distribution skewed toward near distances or far distances relative to the mean?",
+    "answer": "The scene is skewed toward near distances. The mean depth is 11.17 metres, which is considerably closer to the minimum (0.00 m) than to the maximum (50.00 m), indicating more scene content is concentrated in the nearer portion of the depth range.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Is there an immediate safety concern due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert can be issued at this time because no workers or heavy equipment were detected in the scene. However, the absence of detected objects may be due to detection limitations \u2014 site personnel should perform a manual visual inspection to confirm safety.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  },
+  {
+    "question": "Should safety monitoring be flagged due to unidentified objects near the camera position (0.00 m depth)?",
+    "answer": "A precautionary safety alert is warranted. The minimum depth reading of 0.00 metres suggests something is at or immediately adjacent to the camera. Since no objects were formally detected, this could indicate an unidentified person, equipment, or obstruction in the immediate vicinity. Manual verification is strongly recommended to rule out a hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001602.jpg"
+  }
+]

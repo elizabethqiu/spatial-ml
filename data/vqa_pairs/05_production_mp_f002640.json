@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "cup",
+      "potted plant",
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  },
+  {
+    "question": "What is the mean distance of all objects from the camera?",
+    "answer": "13.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "cup",
+      "potted plant",
+      "bottle",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  },
+  {
+    "question": "Are there more potted plants than cups in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  },
+  {
+    "question": "Is there a bottle visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  },
+  {
+    "question": "Are there any bowls in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  },
+  {
+    "question": "How many potted plants are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  },
+  {
+    "question": "Is the vase closer to the camera than the maximum depth recorded?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002640.jpg"
+  }
+]

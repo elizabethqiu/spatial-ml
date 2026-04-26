@@ -1,0 +1,85 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the depth statistics available, the two persons are estimated to be within the scene depth range of 0.00 to 50.00 metres, with a mean scene depth of approximately 17.58 metres. A precise inter-person distance cannot be determined without individual object depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the cat and the nearest person in the scene?",
+    "answer": "Based on the available depth statistics (mean: 17.58 metres, min: 0.00 metres, max: 50.00 metres), the cat and nearest person are situated within a scene spanning up to 50.00 metres in depth. An exact distance requires per-object depth readings, but both are within the same general depth field averaging 17.58 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  },
+  {
+    "question": "Are there any persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  },
+  {
+    "question": "Is a cat detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  },
+  {
+    "question": "Is the cat in front of or behind the two persons relative to the camera?",
+    "answer": "Without individual per-object depth values, the exact relative depth ordering cannot be confirmed. However, all three objects \u2014 two persons and one cat \u2014 share the same general depth field (mean: 17.58 metres). The cat may be at a similar depth plane as the persons, meaning it could be approximately alongside them rather than clearly in front of or behind them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  },
+  {
+    "question": "Which object is closest to the camera in this scene?",
+    "answer": "The scene minimum depth is 0.00 metres, indicating at least one object is very close to the camera. Without per-object depth assignments, it cannot be definitively stated whether it is a person or the cat, but the object nearest the camera is somewhere in the foreground of this scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected near a worker that poses an immediate safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The only objects present are two persons and one cat. Therefore, no equipment-proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  },
+  {
+    "question": "Does the presence of the cat near the persons pose any indirect safety concern in this construction site context?",
+    "answer": "While no heavy equipment proximity alert (< 2 metres threshold) is triggered between workers and machinery, the presence of an animal (cat) on a construction site can be an indirect hazard. A cat moving unpredictably near workers could cause trips, falls, or distraction. Site supervisors should ensure the animal is safely removed from the work area to prevent accidents.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001568.jpg"
+  }
+]

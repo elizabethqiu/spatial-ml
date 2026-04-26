@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many bicycles are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Are there more bicycles than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001612.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance of objects in this scene in metres?",
+    "answer": "11.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Is the person located closer to the camera than the farthest bicycle?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001612.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the person and bicycles in this scene?",
+    "answer": "Unable to determine - no proximity violations detected (scene lacks detailed spatial positioning data for contact assessment)",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001612.jpg"
+  }
+]

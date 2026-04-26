@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the cup from the first bed?",
+    "answer": "Based on the scene depth statistics, the cup and the first bed are approximately 22.47 metres apart (estimated from mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "The two beds are estimated to be within a range of 0.00 to 50.00 metres of each other, with a mean scene depth of approximately 22.47 metres suggesting they are separated by roughly 22\u201328 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Is the cup located in the same scene as both beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Is the cup positioned closer to the viewer than the maximum depth of 50.00 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the two beds in the scene?",
+    "answer": "The cup is positioned within the scene alongside the two beds. Given the depth range (0.00\u201350.00 metres) and mean depth (~22.47 metres), the cup is likely situated at a mid-range depth relative to the beds, potentially in front of or between them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "How are the two beds positioned relative to each other in the scene?",
+    "answer": "The two beds are positioned within the same scene space. Based on the depth range of 0.00\u201350.00 metres, one bed may be closer to the viewer and the other further away, or they may be side by side at a similar depth around the mean of 22.47 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Is the cup positioned in front of (closer to the viewer than) either of the beds?",
+    "answer": "The depth minimum is 0.00 metres and the mean is 22.47 metres, suggesting the cup could be positioned in front of the beds, though exact relative depth per object is not individually resolved. It is plausible the cup is closer to the viewer than at least one bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Are there any workers in proximity to heavy equipment (within 2 metres) that pose a safety risk in this scene?",
+    "answer": "No workers or heavy equipment are detected in this scene. The objects present are a cup and two beds, so no construction-related safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Does the presence of the cup near the beds present any safety hazard in a construction context?",
+    "answer": "No heavy equipment or workers are detected in this scene. The cup and beds do not constitute a construction safety hazard. However, if this were a site welfare area, loose objects like cups near walkways should still be kept tidy to avoid slip and trip risks.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001240.jpg"
+  }
+]

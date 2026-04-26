@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005080.jpg"
+  },
+  {
+    "question": "Is there a toilet visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005080.jpg"
+  },
+  {
+    "question": "Are there more people than toilets in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005080.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance (in metres) between objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005080.jpg"
+  },
+  {
+    "question": "What is the mean depth distance (in metres) of objects detected in this scene?",
+    "answer": "17.84 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005080.jpg"
+  },
+  {
+    "question": "Are all three people positioned at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005080.jpg"
+  }
+]

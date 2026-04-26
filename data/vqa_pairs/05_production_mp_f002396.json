@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are present in this construction site scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  },
+  {
+    "question": "Is there a bench visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  },
+  {
+    "question": "Are there more people than benches in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "19.77 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  },
+  {
+    "question": "Are all workers positioned at a safe distance (greater than 2 metres) from heavy equipment?",
+    "answer": "No safety alert - no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  },
+  {
+    "question": "Is the bench closer to the camera than the average object distance?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  },
+  {
+    "question": "Are multiple people occupying the same general area near the bench?",
+    "answer": "Likely yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002396.jpg"
+  }
+]

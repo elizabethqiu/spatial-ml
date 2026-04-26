@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "cup",
+      "vase",
+      "bottle",
+      "bowl",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the potted plant?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  },
+  {
+    "question": "Are there more cups than bowls in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  },
+  {
+    "question": "Is the vase positioned between the bottle and the chair?",
+    "answer": "Cannot determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "vase",
+      "bottle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  },
+  {
+    "question": "Which object is nearest to the camera in this scene?",
+    "answer": "potted plant or cup (at minimum depth of 0.00 metres)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "cup",
+      "vase",
+      "bottle",
+      "bowl",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment within 2 metres of the person?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "20.25 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "cup",
+      "vase",
+      "bottle",
+      "bowl",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002044.jpg"
+  }
+]

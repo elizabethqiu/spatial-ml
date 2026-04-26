@@ -1,0 +1,93 @@
+[
+  {
+    "question": "Is the person sitting on a chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Is there a cup on the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Are there two beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Is the chair positioned next to the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the person to the nearest bed in metres?",
+    "answer": "3.5 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the cup to the dining table in metres?",
+    "answer": "0.8 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two beds in metres?",
+    "answer": "12.4 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Is the person closer to the chair or to the first bed?",
+    "answer": "chair",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  },
+  {
+    "question": "Which object is closest to the person: the cup, the chair, or the dining table?",
+    "answer": "chair",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000848.jpg"
+  }
+]

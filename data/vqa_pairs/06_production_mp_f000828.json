@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many refrigerators are present in this scene?",
+    "answer": "3 refrigerators",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  },
+  {
+    "question": "Are there more people or refrigerators in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  },
+  {
+    "question": "Is a car present in this construction scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  },
+  {
+    "question": "Are the two persons positioned closer to the refrigerators or the car?",
+    "answer": "Unable to determine - spatial positioning data for individual objects not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  },
+  {
+    "question": "Is the car located at a greater depth than the mean depth of all objects?",
+    "answer": "Unable to determine - individual object depth positions not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  },
+  {
+    "question": "Are any workers within 2 metres of heavy equipment?",
+    "answer": "Unable to determine - insufficient spatial coordinate data for proximity assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  },
+  {
+    "question": "Could the refrigerators present a safety hazard to the persons in this scene?",
+    "answer": "Unable to determine - precise 3D coordinates required for safety evaluation",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000828.jpg"
+  }
+]

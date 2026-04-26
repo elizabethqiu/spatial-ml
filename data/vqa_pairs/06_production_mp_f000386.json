@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many toilets are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000386.jpg"
+  },
+  {
+    "question": "Is there an umbrella in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000386.jpg"
+  },
+  {
+    "question": "Are there more toilets than umbrellas?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000386.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "11.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000386.jpg"
+  },
+  {
+    "question": "Is the umbrella positioned between the two toilets?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000386.jpg"
+  },
+  {
+    "question": "What is the maximum distance span in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000386.jpg"
+  }
+]

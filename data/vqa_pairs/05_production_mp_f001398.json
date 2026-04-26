@@ -1,0 +1,95 @@
+[
+  {
+    "question": "How far is the skateboard from the nearest person in the scene?",
+    "answer": "Based on the available depth data, the skateboard is approximately 12.83 metres from the mean scene depth, suggesting it is in the mid-range of the scene relative to the persons.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "What is the approximate depth range covered by objects in this scene?",
+    "answer": "The objects in the scene span a depth range of approximately 0.00 metres (nearest point) to 50.00 metres (farthest point), with a mean depth of 12.83 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "Is a skateboard present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "Are any of the persons in the scene in close proximity (less than 2 metres) to heavy construction equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "Where is the skateboard positioned relative to the two persons in the scene?",
+    "answer": "The skateboard appears to be located in the mid-foreground of the scene at approximately the mean scene depth of 12.83 metres. Without precise individual object coordinates, it is likely on or near the ground in front of or between the two persons, which is consistent with a typical skateboarding scenario.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "How are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons are both detected within the same scene. Given the mean depth of 12.83 metres and the depth range of 0\u201350 metres, the persons may be standing at similar or varying distances from the viewer. Without individual bounding-box depth values, they are estimated to be in roughly the same general area of the scene, possibly side by side or one slightly behind the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "Is there any immediate safety hazard involving the persons and the skateboard, such as a collision risk or fall hazard in a construction context?",
+    "answer": "No heavy construction equipment is detected in this scene; however, the presence of a skateboard in a potentially shared space with two persons does present a trip-and-fall hazard. If this scene occurs on or near a construction site, skateboard use should be prohibited, and the skateboard should be removed from the work area to prevent injury. No worker\u2013heavy-equipment proximity alert (< 2 m) is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  },
+  {
+    "question": "Should the use of skateboards be permitted in a construction site environment given the presence of workers?",
+    "answer": "No safety alert for heavy equipment proximity is triggered (no heavy machinery detected within 2 metres of a worker); however, skateboard use constitutes a serious safety violation on construction sites. Skateboards are prohibited in most site safety regulations due to fall, collision, and trip risks. The skateboard should be confiscated and the persons warned immediately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "skateboard",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001398.jpg"
+  }
+]

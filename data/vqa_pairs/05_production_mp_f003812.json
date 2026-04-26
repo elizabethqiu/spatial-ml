@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a dog visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003812.jpg"
+  },
+  {
+    "question": "How many dogs are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003812.jpg"
+  },
+  {
+    "question": "What is the approximate average distance to objects in the scene in metres?",
+    "answer": "18.79 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003812.jpg"
+  },
+  {
+    "question": "Is the dog at the closest point in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003812.jpg"
+  },
+  {
+    "question": "What is the maximum distance visible in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003812.jpg"
+  }
+]

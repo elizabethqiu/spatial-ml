@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "bowl",
+      "spoon",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  },
+  {
+    "question": "Is there a spoon in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  },
+  {
+    "question": "Are there more bowls than chairs in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the maximum depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  },
+  {
+    "question": "Are the cups positioned at a greater average depth than the overall scene mean?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  },
+  {
+    "question": "Is there heavy equipment in close proximity to the person (within 2 metres)?",
+    "answer": "No safety alert - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  },
+  {
+    "question": "Does the scene contain any construction machinery or vehicles?",
+    "answer": "No safety alert - scene contains only dining/kitchen items and one person",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "bowl",
+      "chair",
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002034.jpg"
+  }
+]

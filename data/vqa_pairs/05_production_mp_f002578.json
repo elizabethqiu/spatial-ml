@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many sinks are visible in this scene?",
+    "answer": "7 sinks",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the sinks than to the background of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  },
+  {
+    "question": "Is the hair drier positioned next to any sink?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this bathroom scene?",
+    "answer": "16.09 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "person",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  },
+  {
+    "question": "Is the person located between multiple sinks in this bathroom layout?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  },
+  {
+    "question": "How many household appliances (hair drier or similar devices) are present?",
+    "answer": "1 hair drier",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002578.jpg"
+  }
+]

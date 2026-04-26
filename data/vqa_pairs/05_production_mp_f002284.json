@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Is there a potted plant in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Is the chair closer to the camera than the potted plant?",
+    "answer": "unable to determine",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in this scene in metres?",
+    "answer": "14.81 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Are both persons positioned at a safe distance from each other (greater than 2 metres)?",
+    "answer": "unable to determine",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Is there heavy equipment in close proximity (less than 2 metres) to any worker?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  },
+  {
+    "question": "Are there more persons than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002284.jpg"
+  }
+]

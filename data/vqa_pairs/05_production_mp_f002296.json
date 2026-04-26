@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002296.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance between objects in the scene?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002296.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002296.jpg"
+  },
+  {
+    "question": "Are there more than 2 people in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002296.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the cups?",
+    "answer": "The exact spatial relationship cannot be determined from depth statistics alone; the chair and cups are distributed across the scene at varying distances.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002296.jpg"
+  },
+  {
+    "question": "Are the two people positioned close to each other or far apart in the scene?",
+    "answer": "The depth data suggests objects are distributed across a 50-metre range; without exact coordinates, relative positioning between the two people cannot be precisely determined.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002296.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding worker proximity to equipment on this construction site?",
+    "answer": "No safety alert - no heavy equipment detected in this scene. Only cups, a chair, and two people are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002296.jpg"
+  }
+]

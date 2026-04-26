@@ -1,0 +1,90 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "How many hair driers are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "15.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "Are there more hair driers than persons in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "Is a cell phone closer to the camera than the furthest object?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "Where is the cell phone positioned relative to the persons?",
+    "answer": "The cell phone is located among the persons in the scene at varying depths.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement of the hair driers in relation to the persons.",
+    "answer": "The two hair driers are distributed throughout the scene among the three persons at different depth positions.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003670.jpg"
+  }
+]

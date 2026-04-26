@@ -1,0 +1,59 @@
+[
+  {
+    "question": "Is the chair closer to the camera than the couch?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000948.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment visible in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000948.jpg"
+  },
+  {
+    "question": "What is the approximate average depth distance of objects in this scene?",
+    "answer": "21.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000948.jpg"
+  },
+  {
+    "question": "Is the bed positioned further from the camera than both the chair and couch?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000948.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000948.jpg"
+  },
+  {
+    "question": "Are there any safety hazards related to worker proximity to equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000948.jpg"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many birds are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005522.jpg"
+  },
+  {
+    "question": "Is there a banana in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005522.jpg"
+  },
+  {
+    "question": "Are there more birds than bananas?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005522.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "15.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005522.jpg"
+  },
+  {
+    "question": "Is the banana closer than 10 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005522.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005522.jpg"
+  }
+]

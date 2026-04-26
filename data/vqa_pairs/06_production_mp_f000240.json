@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a suitcase present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000240.jpg"
+  },
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000240.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "19.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000240.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000240.jpg"
+  },
+  {
+    "question": "Is the suitcase located at the minimum depth distance in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000240.jpg"
+  }
+]

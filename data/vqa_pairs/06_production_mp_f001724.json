@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many toothbrushes are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001724.jpg"
+  },
+  {
+    "question": "Is there a knife in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001724.jpg"
+  },
+  {
+    "question": "Are there more toothbrushes than knives in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001724.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "13.75 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001724.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the farthest object?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001724.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001724.jpg"
+  }
+]

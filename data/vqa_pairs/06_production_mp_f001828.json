@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001828.jpg"
+  },
+  {
+    "question": "Is there a parking meter in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001828.jpg"
+  },
+  {
+    "question": "Are the two people standing next to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001828.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in this scene?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001828.jpg"
+  },
+  {
+    "question": "Is the parking meter positioned between the car and the people?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001828.jpg"
+  },
+  {
+    "question": "Are any workers in dangerous proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001828.jpg"
+  }
+]

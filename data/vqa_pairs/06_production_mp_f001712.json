@@ -1,0 +1,65 @@
+[
+  {
+    "question": "How many toothbrushes are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001712.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001712.jpg"
+  },
+  {
+    "question": "Are there more toothbrushes than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001712.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance measured in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001712.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene in metres?",
+    "answer": "14.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001712.jpg"
+  },
+  {
+    "question": "Are the toothbrushes positioned closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001712.jpg"
+  },
+  {
+    "note": "This scene does not contain heavy equipment or hazardous construction conditions. No safety alerts are applicable.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001712.jpg"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  },
+  {
+    "question": "Is there a bus in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  },
+  {
+    "question": "Are there more people than vehicles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth distance of objects in this scene in metres?",
+    "answer": "17.83 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  },
+  {
+    "question": "Are both people positioned at the same depth distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  },
+  {
+    "question": "Is the bus closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  },
+  {
+    "question": "Safety Alert: Is any worker within 2 metres of the bus?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004240.jpg"
+  }
+]

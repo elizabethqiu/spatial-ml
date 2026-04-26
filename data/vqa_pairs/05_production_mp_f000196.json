@@ -1,0 +1,130 @@
+[
+  {
+    "question": "What is the approximate average depth of all detected objects in the scene?",
+    "answer": "The approximate average depth of all detected objects in the scene is 17.73 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "What is the range of depths (minimum to maximum) observed across all objects in the scene?",
+    "answer": "The depth range spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "Are there any persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "Are there more persons than TVs detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "Are there any TVs detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "Where are the TVs positioned relative to the majority of the persons in the scene?",
+    "answer": "Based on depth statistics, objects are distributed across a wide range. The TVs and persons are spread throughout the scene, with some objects potentially near the foreground (close to 0.00 metres) and others toward the background (up to 50.00 metres). Without individual per-object coordinates, the TVs and persons likely share a mid-depth zone around the mean of 17.73 metres, suggesting the TVs are roughly at the same depth plane as several of the persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "tv",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "Are any of the persons located closer to the foreground than the TVs?",
+    "answer": "Given the depth range spans from 0.00 to 50.00 metres and there are five persons and two TVs, it is likely that at least one person is positioned closer to the foreground (nearer to 0.00 metres) than the TVs, which tend to be mounted or placed at a fixed mid-depth location.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene that could pose a safety risk to the workers?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The only objects present are persons and TVs. Therefore, no proximity-based safety alert for heavy equipment is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  },
+  {
+    "question": "Are any persons within a dangerously close range (less than 2 metres) of any heavy equipment in this scene?",
+    "answer": "No. There is no heavy equipment detected in this scene. The detected objects are limited to five persons and two TVs. No safety alert for worker-equipment proximity is required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000196.jpg"
+  }
+]

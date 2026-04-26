@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004464.jpg"
+  },
+  {
+    "question": "Is there a cell phone visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004464.jpg"
+  },
+  {
+    "question": "Is there a TV in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004464.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004464.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "21.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004464.jpg"
+  },
+  {
+    "question": "Are there more people than electronic devices in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004464.jpg"
+  }
+]

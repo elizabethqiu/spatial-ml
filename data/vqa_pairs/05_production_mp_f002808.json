@@ -1,0 +1,102 @@
+[
+  {
+    "question": "How many persons are present in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "How many chairs are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "21.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "Are there more persons than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "Is there at least one clock present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "Are there equal numbers of clocks and chairs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "Do the persons outnumber the clocks in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement: where are the persons positioned relative to the chairs?",
+    "answer": "Persons and chairs are interspersed throughout the scene, with objects distributed across depths ranging from 0.00 to 50.00 metres, indicating varied positioning in the space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  },
+  {
+    "question": "What is the relative positioning of clocks in the scene?",
+    "answer": "Two clocks are distributed throughout the scene at varying depths within the overall 50.00 metre range, positioned among the persons and chairs.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002808.jpg"
+  }
+]

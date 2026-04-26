@@ -1,0 +1,123 @@
+[
+  {
+    "question": "How far apart are the two beds in the scene?",
+    "answer": "Based on the depth statistics, the two beds are approximately 3.50 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the TV and the nearest bed?",
+    "answer": "The TV is approximately 2.80 metres away from the nearest bed.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two people in the scene?",
+    "answer": "The two people are approximately 1.20 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Is there a TV present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Are there more than one bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Are both people in the scene located near a bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Is the TV positioned in front of the beds?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Are the two people located between the two beds?",
+    "answer": "The two people are positioned in the central area of the scene, situated between or alongside the two beds.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Where is the TV located relative to the people in the scene?",
+    "answer": "The TV is positioned in front of and at a distance from the two people, likely mounted on a wall or placed on furniture facing the beds.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Are any workers in dangerous proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The objects present are a TV, two beds, and two people, indicating an indoor residential or hotel environment rather than a construction site. No safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "tv",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  },
+  {
+    "question": "Is any person dangerously close to any large object that could pose a hazard in this scene?",
+    "answer": "No immediate safety hazard is detected. The two people are in proximity to beds and a TV, none of which qualify as heavy or hazardous equipment. However, if the depth reading of 0.00 metres minimum indicates an object extremely close to a person, the scene should be reviewed for fall or entrapment risks near the beds.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001184.jpg"
+  }
+]

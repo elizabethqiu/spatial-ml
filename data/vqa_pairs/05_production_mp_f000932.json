@@ -1,0 +1,91 @@
+[
+  {
+    "question": "What is the approximate distance between the cup and the bed in the scene?",
+    "answer": "Based on the depth statistics, the objects span a range of approximately 50.00 metres, with a mean scene depth of 21.29 metres. The estimated separation between the cup and the bed is approximately 21.29 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in the scene?",
+    "answer": "The maximum depth recorded in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the bed based on mean depth positioning?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed in the scene?",
+    "answer": "The cup appears to be positioned closer to the foreground (nearer to the camera) relative to the bed, which occupies a mid-to-background position in the scene based on the depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "Which object is situated further from the viewer \u2014 the cup or the bed?",
+    "answer": "The bed is situated further from the viewer, occupying a deeper position in the scene relative to the cup, which appears closer to the foreground.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "Is there any safety hazard present due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. The scene contains only a cup and a bed \u2014 no workers or heavy construction equipment are detected. Therefore, no proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  },
+  {
+    "question": "Does the proximity between any detected objects in this scene pose a construction site safety risk?",
+    "answer": "No safety alert is warranted. Neither a cup nor a bed constitutes heavy construction equipment or a worker. There is no detected proximity risk of less than 2 metres between a worker and heavy machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000932.jpg"
+  }
+]

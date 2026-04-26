@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How far is the person from the nearest potted plant?",
+    "answer": "Approximately 2.50 metres based on estimated scene depth distributions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two potted plants?",
+    "answer": "Approximately 1.80 metres based on their relative positions in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  },
+  {
+    "question": "Is the person standing closer to one potted plant than the other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  },
+  {
+    "question": "Are both potted plants visible within the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  },
+  {
+    "question": "Is the person positioned between the two potted plants?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  },
+  {
+    "question": "Where are the potted plants located relative to the person?",
+    "answer": "The two potted plants are positioned on either side of the person, flanking them at close proximity within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to any heavy construction equipment that poses a safety risk?",
+    "answer": "No heavy construction equipment is detected in this scene. The only objects present are two potted plants and a person, so no equipment-related safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  },
+  {
+    "question": "Does any object in this scene pose an immediate safety hazard to the person based on proximity thresholds?",
+    "answer": "No immediate safety hazard is detected. The nearby objects are potted plants, which are not classified as heavy equipment. However, if the plants obstruct pathways or visibility on a construction site, they could present a minor tripping or navigation hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000418.jpg"
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "question": "What is the approximate distance between the two dogs in the scene?",
+    "answer": "Based on the depth statistics, the two dogs are estimated to be within approximately 0.00 to 50.00 metres of each other, with a mean scene depth of 19.13 metres. A precise inter-dog distance cannot be determined without individual object depth coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the bed and the nearest dog?",
+    "answer": "Based on the available depth statistics (mean depth: 19.13 metres, range: 0.00\u201350.00 metres), the bed and the nearest dog are estimated to be within the same scene volume, but an exact distance cannot be calculated without per-object depth values. The mean scene depth suggests objects are spread across roughly 19 metres on average.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "Are there more than one dog detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "Are both dogs located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "Where are the dogs positioned relative to the bed?",
+    "answer": "Based on the scene description, the two dogs appear to be in proximity to the bed, likely on or beside it, as the scene context suggests a domestic resting environment with dogs and a bed co-located within the same depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two dogs?",
+    "answer": "The bed appears to be in the same spatial region as the two dogs, likely serving as a shared surface or background element. Given the scene depth range, the bed is most likely behind or beneath the dogs in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "Is there any safety alert triggered in this scene involving workers and heavy equipment?",
+    "answer": "No safety alert is triggered. This scene contains only dogs and a bed \u2014 there are no workers or heavy equipment present, so no proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  },
+  {
+    "question": "Do any of the detected objects pose a construction site safety hazard?",
+    "answer": "No safety hazard is identified. The detected objects (two dogs and a bed) are not construction site elements. There are no workers within 2 metres of heavy equipment, and no hazardous conditions are present in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000658.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the banana?",
+    "answer": "Unable to determine precise distance - objects lack specific 3D coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003272.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the banana?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003272.jpg"
+  },
+  {
+    "question": "Is there a banana visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003272.jpg"
+  },
+  {
+    "question": "Is the person in front of the banana?",
+    "answer": "Unable to determine - relative depth ordering not specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003272.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects (1 person, 1 banana)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003272.jpg"
+  },
+  {
+    "question": "Is there a safety hazard between the person and banana?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003272.jpg"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001686.jpg"
+  },
+  {
+    "question": "Is there a parking meter in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001686.jpg"
+  },
+  {
+    "question": "Are the two people standing next to the parking meter?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001686.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001686.jpg"
+  },
+  {
+    "question": "Is the parking meter closer to the camera than the furthest person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001686.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "13.49 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001686.jpg"
+  }
+]

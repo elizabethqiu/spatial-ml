@@ -1,0 +1,120 @@
+[
+  {
+    "question": "What is the approximate mean depth of all detected objects in the scene?",
+    "answer": "The approximate mean depth of all detected objects in the scene is 20.47 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "What is the range (minimum to maximum depth) across all objects detected in the scene?",
+    "answer": "The depth range across all detected objects is 0.00 metres (minimum) to 50.00 metres (maximum), giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, bulldozer) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Is there a couch present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Are there more chairs than couches in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Which object type appears most frequently in the scene, and where is it positioned relative to the other furniture?",
+    "answer": "Chairs appear most frequently (3 instances). They are distributed throughout the scene alongside the couch and bed, with all objects spanning a depth range from 0.00 to 50.00 metres relative to the observation point.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the couch in the scene?",
+    "answer": "Based on the available depth statistics, the bed and couch are both located within the same scene spanning 0.00 to 50.00 metres in depth, with an average depth of 20.47 metres. Their exact relative lateral or depth positions cannot be precisely differentiated without individual object depth values, but both are mid-scene furniture items.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Is there a safety alert required due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is required. This scene contains only furniture items (chairs, a couch, and a bed) with no workers or heavy construction equipment detected. There is no proximity hazard present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Does any object in this scene pose a construction site safety risk due to proximity to heavy machinery?",
+    "answer": "No safety risk is detected. The scene contains only indoor furniture (chairs, couch, bed) and no heavy machinery or workers are present. This scene does not appear to represent a construction site environment, and therefore no proximity-based safety alerts are triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000922.jpg"
+  }
+]

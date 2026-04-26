@@ -1,0 +1,54 @@
+[
+  {
+    "question": "How many vases are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005890.jpg"
+  },
+  {
+    "question": "Are there any vases visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005890.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy equipment and workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005890.jpg"
+  },
+  {
+    "question": "What is the approximate maximum depth range of objects in the scene?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005890.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects detected in this scene?",
+    "answer": "22.32 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005890.jpg"
+  },
+  {
+    "question": "Are there any safety hazards related to worker proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005890.jpg"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "question": "How many horses are visible in this scene?",
+    "answer": "4 horses",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003936.jpg"
+  },
+  {
+    "question": "How many chairs are in the scene?",
+    "answer": "2 chairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003936.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003936.jpg"
+  },
+  {
+    "question": "Are there more horses than chairs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "horse",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003936.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "17.70 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003936.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003936.jpg"
+  },
+  {
+    "question": "Is the person positioned at a safe distance from all horses?",
+    "answer": "no safety alert triggered - insufficient spatial coordinate data for proximity assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003936.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a car visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000218.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the car in metres?",
+    "answer": "15.35 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000218.jpg"
+  },
+  {
+    "question": "What is the maximum depth observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000218.jpg"
+  },
+  {
+    "question": "What is the minimum depth measurement in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000218.jpg"
+  },
+  {
+    "question": "Is the car the only object detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000218.jpg"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004702.jpg"
+  },
+  {
+    "question": "Is there a knife visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004702.jpg"
+  },
+  {
+    "question": "Is the knife closer to the camera than the people?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004702.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004702.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with a worker within 2 metres of a sharp object?",
+    "answer": "No safety alert triggered - insufficient proximity data to confirm dangerous proximity",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004702.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in this scene?",
+    "answer": "19.71 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004702.jpg"
+  }
+]

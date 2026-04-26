@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far is the knife from the person?",
+    "answer": "14.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002264.jpg"
+  },
+  {
+    "question": "Is the knife closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002264.jpg"
+  },
+  {
+    "question": "Is the person positioned near the knife?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002264.jpg"
+  },
+  {
+    "question": "Does the knife pose a proximity hazard to the person on this construction site?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002264.jpg"
+  }
+]

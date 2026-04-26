@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How many bowls are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001886.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001886.jpg"
+  },
+  {
+    "question": "Are there more bowls than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001886.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "17.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001886.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any bowl?",
+    "answer": "Unable to determine - no proximity safety concern detected for worker and equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001886.jpg"
+  }
+]

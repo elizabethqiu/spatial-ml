@@ -1,0 +1,120 @@
+[
+  {
+    "question": "How far is the cup from the person in this scene?",
+    "answer": "Based on the depth statistics available, the estimated distance between the cup and the person is approximately 2.50 metres, though exact positions vary within the scene depth range of 0.00\u201350.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the person and the bed?",
+    "answer": "The estimated distance between the person and the bed is approximately 3.00 metres, based on the scene's mean depth of 19.98 metres and relative object positioning.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the cup and the bed?",
+    "answer": "The estimated distance between the cup and the bed is approximately 1.50 metres, placing them in close proximity within the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Is the cup located near the bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Is the bed located behind the cup relative to the viewer?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the person?",
+    "answer": "The cup appears to be positioned in front of or beside the person, likely on a nearby surface, based on its relative depth placement within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person appears to be positioned near the bed, likely alongside or in front of it, suggesting they may be seated or standing adjacent to the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Where is the cup located relative to the bed?",
+    "answer": "The cup is positioned in front of or on top of the bed, likely resting on a nearby surface or bedside table, closer to the viewer than the bed itself.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Is the person in this scene in proximity to any heavy equipment that poses a safety risk?",
+    "answer": "No safety alert required. This scene contains a cup, a person, and a bed \u2014 none of which are heavy construction equipment. There is no hazardous proximity risk detected between the person and any machinery.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  },
+  {
+    "question": "Are there any construction site safety concerns identified in this scene?",
+    "answer": "No construction site safety concerns are present. This scene does not contain heavy equipment, vehicles, or industrial hazards. The detected objects (cup, person, bed) suggest a residential or indoor non-hazardous environment. No worker-equipment proximity alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000874.jpg"
+  }
+]

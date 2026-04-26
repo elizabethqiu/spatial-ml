@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many dogs are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  },
+  {
+    "question": "How many cars are in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  },
+  {
+    "question": "Are there bananas in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  },
+  {
+    "question": "Is the maximum depth of objects greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "car",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  },
+  {
+    "question": "Are there more dogs than cars in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "20.31 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "car",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  },
+  {
+    "question": "Are there any objects within 5 metres of the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "car",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  },
+  {
+    "question": "What is the range of depths observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "car",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005508.jpg"
+  }
+]

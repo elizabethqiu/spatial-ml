@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How far is the wine glass from the dining table?",
+    "answer": "The wine glass is approximately 0.50 metres from the dining table, indicating it is placed directly on or very near the table surface.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the nearest person and the dining table?",
+    "answer": "The nearest person is approximately 1.20 metres from the dining table.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two closest persons in the scene?",
+    "answer": "The two closest persons are approximately 1.80 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Is there a wine glass present on or near the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Are all three persons seated or positioned around the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Is the chair located within 2 metres of the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Where is the wine glass positioned relative to the dining table?",
+    "answer": "The wine glass is positioned on top of or at the near edge of the dining table, centrally placed within the dining area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to the dining table and chairs?",
+    "answer": "The three persons are positioned around the dining table, with at least one person near the chair, suggesting they are seated or standing close to their respective seating positions.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Where is the chair located relative to the dining table?",
+    "answer": "The chair is positioned adjacent to the dining table, likely tucked under or pulled slightly away from one side of the table.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Is there any safety concern involving heavy construction equipment and workers in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The scene depicts an indoor dining environment with persons, a dining table, chairs, and a wine glass. No construction-related safety alerts are applicable. However, note that depth values range up to 50 metres, which may indicate mixed or uncertain depth data; scene verification is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "dining table",
+      "chair",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  },
+  {
+    "question": "Are any persons in the scene within an unsafe proximity (less than 2 metres) of any hazardous heavy equipment?",
+    "answer": "No heavy equipment is present in this scene. All detected objects (wine glass, dining table, chair, and three persons) are consistent with a safe, non-construction indoor dining environment. No safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000886.jpg"
+  }
+]

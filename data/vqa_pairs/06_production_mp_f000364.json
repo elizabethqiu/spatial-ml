@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the umbrella and the car?",
+    "answer": "10.16 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000364.jpg"
+  },
+  {
+    "question": "Is the umbrella closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000364.jpg"
+  },
+  {
+    "question": "Are both the umbrella and car visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000364.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "umbrella",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000364.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between objects in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "umbrella",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000364.jpg"
+  }
+]

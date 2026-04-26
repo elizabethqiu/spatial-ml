@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a tennis racket in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001562.jpg"
+  },
+  {
+    "question": "How many tennis rackets are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001562.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001562.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "10.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001562.jpg"
+  },
+  {
+    "question": "Is the tennis racket at the minimum depth distance in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tennis racket"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001562.jpg"
+  }
+]

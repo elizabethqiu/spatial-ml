@@ -1,0 +1,40 @@
+[
+  {
+    "question": "What is the distance between the chair and the sink?",
+    "answer": "Unable to determine - no coordinate data available",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002570.jpg"
+  },
+  {
+    "question": "Is the cup closer to the sink than to the chair?",
+    "answer": "Unable to determine - no coordinate data available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "sink",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002570.jpg"
+  },
+  {
+    "question": "Is the chair positioned to the left of the sink?",
+    "answer": "Unable to determine - no coordinate data available",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002570.jpg"
+  },
+  {
+    "question": "Are there any safety hazards related to worker proximity to equipment?",
+    "answer": "No safety alert - scene contains only furniture and kitchenware, no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002570.jpg"
+  }
+]

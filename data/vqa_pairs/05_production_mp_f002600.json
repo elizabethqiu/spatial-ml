@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many sinks are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  },
+  {
+    "question": "Is the potted plant closer to the camera than the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  },
+  {
+    "question": "Are both sinks at approximately the same depth from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  },
+  {
+    "question": "Is the person positioned behind the potted plant?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in this indoor scene?",
+    "answer": "15.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  },
+  {
+    "question": "Are the two sinks positioned near the potted plant?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink",
+      "sink",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002600.jpg"
+  }
+]

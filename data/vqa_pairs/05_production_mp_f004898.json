@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many bananas are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the person?",
+    "answer": "Unknown - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  },
+  {
+    "question": "Are there any bananas in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  },
+  {
+    "question": "What is the approximate maximum depth range of objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "23.78 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "banana",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  },
+  {
+    "question": "Is the person within a safe distance (2 metres) from the car?",
+    "answer": "Unknown - insufficient spatial coordinate data for proximity assessment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  },
+  {
+    "question": "Are both bananas positioned at the same depth?",
+    "answer": "Unknown - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004898.jpg"
+  }
+]

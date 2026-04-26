@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the bottle?",
+    "answer": "Unable to determine - insufficient depth data for individual objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003914.jpg"
+  },
+  {
+    "question": "Is the stop sign closer to the camera than the person?",
+    "answer": "Unable to determine - insufficient depth data for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "stop sign",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003914.jpg"
+  },
+  {
+    "question": "Is the bottle positioned to the left of the stop sign?",
+    "answer": "Unable to determine - no spatial coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "stop sign"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003914.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to heavy equipment?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003914.jpg"
+  },
+  {
+    "question": "How many objects are detected in the scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "stop sign",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003914.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any hazardous equipment?",
+    "answer": "No hazardous equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003914.jpg"
+  }
+]

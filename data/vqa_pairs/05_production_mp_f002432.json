@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many beds are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002432.jpg"
+  },
+  {
+    "question": "Is there a laptop in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002432.jpg"
+  },
+  {
+    "question": "Is the person closer to the laptop or to the beds?",
+    "answer": "Cannot determine exact proximity without coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002432.jpg"
+  },
+  {
+    "question": "How many objects are in total within this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "laptop",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002432.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002432.jpg"
+  },
+  {
+    "question": "Are there multiple beds in this bedroom scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002432.jpg"
+  }
+]

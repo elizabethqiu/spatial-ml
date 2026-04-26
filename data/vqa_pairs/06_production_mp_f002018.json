@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002018.jpg"
+  },
+  {
+    "question": "Is there a toothbrush present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002018.jpg"
+  },
+  {
+    "question": "Are both persons closer to the camera than the maximum depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002018.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in this scene in metres?",
+    "answer": "15.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002018.jpg"
+  },
+  {
+    "question": "Is the toothbrush positioned at a greater depth than the average scene depth?",
+    "answer": "Cannot determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002018.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to heavy equipment?",
+    "answer": "No - no heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002018.jpg"
+  }
+]

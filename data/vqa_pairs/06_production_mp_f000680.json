@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How far is the person from the television?",
+    "answer": "17.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000680.jpg"
+  },
+  {
+    "question": "What is the distance between the refrigerator and the television?",
+    "answer": "Unable to determine - insufficient spatial separation data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Is the person closer to the television or the refrigerator?",
+    "answer": "Insufficient depth information to determine relative distances",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Is there a television visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Is the refrigerator located between the person and the television?",
+    "answer": "Unable to determine - insufficient spatial arrangement data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present in this indoor scene?",
+    "answer": "No safety alerts - this is an indoor domestic/office scene with no heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000680.jpg"
+  }
+]

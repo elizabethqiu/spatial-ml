@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the bottle and the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000626.jpg"
+  },
+  {
+    "question": "Is the elephant closer to the camera than the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "elephant",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000626.jpg"
+  },
+  {
+    "question": "Is the bottle positioned to the left of the elephant?",
+    "answer": "Unable to determine - 2D positional data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000626.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity (< 2 metres) to heavy equipment in this scene?",
+    "answer": "No safety concern - no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000626.jpg"
+  },
+  {
+    "question": "How many objects are present in this construction site scene?",
+    "answer": "3 objects detected (bottle, bed, elephant)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000626.jpg"
+  },
+  {
+    "question": "Is the bed positioned between the bottle and the elephant?",
+    "answer": "Unable to determine - 2D/3D coordinate positions not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bed",
+      "elephant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000626.jpg"
+  }
+]

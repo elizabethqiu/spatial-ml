@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many suitcases are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004214.jpg"
+  },
+  {
+    "question": "Is there a suitcase present in the image?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004214.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004214.jpg"
+  },
+  {
+    "question": "What is the mean distance to the suitcase from the camera?",
+    "answer": "18.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004214.jpg"
+  },
+  {
+    "question": "Is the suitcase closer than 2 metres to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004214.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of the suitcase?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004214.jpg"
+  }
+]

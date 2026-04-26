@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "15 chairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any chair in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  },
+  {
+    "question": "What is the minimum distance to the nearest chair?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  },
+  {
+    "question": "What is the average depth of chairs in the scene?",
+    "answer": "25.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  },
+  {
+    "question": "Are all detected objects chairs?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  },
+  {
+    "question": "Is there a chair at a distance greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  },
+  {
+    "question": "Are there more than 10 chairs in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  },
+  {
+    "question": "Is the closest chair within 5 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005138.jpg"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001284.jpg"
+  },
+  {
+    "question": "Is the person standing next to the dining table?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001284.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of furniture in this scene?",
+    "answer": "The scene contains a bed, dining table with 2 chairs, and a person. The mean depth is approximately 22 metres from the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001284.jpg"
+  },
+  {
+    "question": "Is the bed closer to the camera than the dining table?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001284.jpg"
+  },
+  {
+    "question": "What is the maximum distance of any object from the camera in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair",
+      "dining table",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001284.jpg"
+  },
+  {
+    "question": "Are there more chairs than beds in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001284.jpg"
+  }
+]

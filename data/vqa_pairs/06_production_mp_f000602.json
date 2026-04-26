@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the car?",
+    "answer": "18.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the car?",
+    "answer": "The person is at a moderate distance from the car, approximately in the mid-ground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to the car?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000602.jpg"
+  },
+  {
+    "question": "How far is the refrigerator from the camera viewpoint?",
+    "answer": "Between 0.00 and 50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000602.jpg"
+  },
+  {
+    "question": "Is the person between the car and the refrigerator in depth?",
+    "answer": "Cannot be determined from available spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000602.jpg"
+  }
+]

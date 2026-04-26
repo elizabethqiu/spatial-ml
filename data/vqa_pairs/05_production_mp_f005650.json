@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  },
+  {
+    "question": "Are there more cars than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  },
+  {
+    "question": "Is the maximum depth in this scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in this scene?",
+    "answer": "19.38 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  },
+  {
+    "question": "Is the minimum detected depth less than 5 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  },
+  {
+    "question": "What is the range of depths (maximum minus minimum) observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  },
+  {
+    "question": "Are there any persons within 2 metres of the cars in this scene?",
+    "answer": "Unable to determine - individual object positions not provided",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005650.jpg"
+  }
+]

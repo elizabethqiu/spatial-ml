@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  },
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "11.52 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  },
+  {
+    "question": "Are there any bananas in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  },
+  {
+    "question": "Are there more cars than bananas?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  },
+  {
+    "question": "Do the cars outnumber the bananas in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  },
+  {
+    "question": "Is there at least one car visible?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003300.jpg"
+  }
+]

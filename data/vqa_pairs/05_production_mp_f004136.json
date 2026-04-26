@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many cups are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004136.jpg"
+  },
+  {
+    "question": "Are there any cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004136.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004136.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "18.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004136.jpg"
+  },
+  {
+    "question": "Are there any workers present on this construction site?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004136.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004136.jpg"
+  }
+]

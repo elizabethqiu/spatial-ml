@@ -1,0 +1,63 @@
+[
+  {
+    "question": "What is the distance between the person and the car?",
+    "answer": "14.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000518.jpg"
+  },
+  {
+    "question": "How far is the refrigerator from the person?",
+    "answer": "14.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Is the person standing next to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the car?",
+    "answer": "The person is approximately 14.74 metres away from the car in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000518.jpg"
+  },
+  {
+    "question": "Describe the spatial arrangement of the refrigerator in relation to other objects.",
+    "answer": "The refrigerator is located within the scene at a mean depth of 14.74 metres, positioned at a similar distance range as the other objects.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000518.jpg"
+  }
+]

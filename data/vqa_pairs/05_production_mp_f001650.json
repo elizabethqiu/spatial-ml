@@ -1,0 +1,81 @@
+[
+  {
+    "question": "Is the spoon closer to the person than the cake?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon",
+      "person",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Is the cup within 5 metres of the bowl?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001650.jpg"
+  },
+  {
+    "question": "How many objects are positioned at a depth greater than 15 metres from the camera?",
+    "answer": "Unable to determine - individual object depth data not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cake",
+      "cup",
+      "bowl",
+      "spoon",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001650.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of all objects from the camera in metres?",
+    "answer": "20.80 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cake",
+      "cup",
+      "bowl",
+      "spoon",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Is the person positioned between the cake and the cup?",
+    "answer": "Unable to determine - 2D spatial arrangement data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cake",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Are all tableware items (cup, bowl, spoon) located on the same side of the person?",
+    "answer": "Unable to determine - lateral position data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bowl",
+      "spoon",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001650.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity of the person to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001650.jpg"
+  }
+]

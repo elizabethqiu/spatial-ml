@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  },
+  {
+    "question": "Is there a cat present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  },
+  {
+    "question": "Is the television closer to the camera than the maximum depth in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene?",
+    "answer": "17.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  },
+  {
+    "question": "Is the cat positioned between the two people?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  },
+  {
+    "question": "Are both people at a safe distance from each other (more than 2 metres apart)?",
+    "answer": "unknown",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  },
+  {
+    "question": "Is the TV the closest object to the camera?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005558.jpg"
+  }
+]

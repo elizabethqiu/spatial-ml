@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many cell phones are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  },
+  {
+    "question": "How many cups are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  },
+  {
+    "question": "Is there a person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  },
+  {
+    "question": "Are there more cell phones than cups?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "14.31 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  },
+  {
+    "question": "What is the maximum distance range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  },
+  {
+    "question": "Is the person located at the closest point in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  },
+  {
+    "question": "Are there any safety concerns with heavy equipment proximity in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002164.jpg"
+  }
+]

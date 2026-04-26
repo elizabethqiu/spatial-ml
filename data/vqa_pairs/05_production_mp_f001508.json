@@ -1,0 +1,96 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 16.50 metres apart on average, with positions ranging between 0.00 and 50.00 metres in depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "What is the mean depth of all detected objects in the scene?",
+    "answer": "The mean depth of all detected objects in the scene is 16.50 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "Is the cell phone located within the depth range of the persons in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "Where is the cell phone positioned relative to the two persons in the scene?",
+    "answer": "The cell phone is detected within the same general depth range (0.00\u201350.00 metres) as the two persons, suggesting it is in proximity to at least one of the individuals \u2014 likely being held or carried by one of them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "Which object is most likely in the foreground of the scene?",
+    "answer": "Given the depth range spans from 0.00 to 50.00 metres, any object near 0.00 metres would be in the foreground. The cell phone, often held close to the user, is most likely the closest object to the camera and thus in the foreground.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "Is any worker dangerously close (within 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy equipment has been detected in this scene. The detected objects are a cell phone and two persons. Therefore, no safety alert for worker-equipment proximity applies. However, caution is advised if a person is using a cell phone on an active construction site, as distraction hazards may still pose a risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  },
+  {
+    "question": "Does the use of a cell phone by a person in this scene pose any safety concern?",
+    "answer": "Yes. A person using a cell phone on a construction site can be a distraction hazard. If the individual is operating near heavy machinery, moving vehicles, or other workers, reduced situational awareness increases the risk of accidents. Site safety protocols typically prohibit non-essential mobile phone use in active work zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001508.jpg"
+  }
+]

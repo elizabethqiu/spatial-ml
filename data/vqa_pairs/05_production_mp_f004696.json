@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004696.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects in this scene?",
+    "answer": "21.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004696.jpg"
+  },
+  {
+    "question": "Is there a bus present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004696.jpg"
+  },
+  {
+    "question": "Is the detected bus at the closest point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004696.jpg"
+  },
+  {
+    "question": "Where is the bus positioned relative to the camera?",
+    "answer": "The bus is positioned at varying depths, with the closest point at 0.00 metres and extending to approximately 50.00 metres away",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004696.jpg"
+  },
+  {
+    "question": "Is there a safety concern with worker proximity to the bus?",
+    "answer": "Cannot assess - no workers detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004696.jpg"
+  }
+]

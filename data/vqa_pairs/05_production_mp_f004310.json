@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is the distance between the bird and the person?",
+    "answer": "Unable to determine - bird and person positions not precisely localized in 3D space",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004310.jpg"
+  },
+  {
+    "question": "Is the bird closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004310.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of the bird?",
+    "answer": "Unable to determine - relative depth ordering not specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004310.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004310.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004310.jpg"
+  },
+  {
+    "question": "Is the bird present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004310.jpg"
+  }
+]

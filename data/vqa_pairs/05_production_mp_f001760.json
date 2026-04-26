@@ -1,0 +1,112 @@
+[
+  {
+    "question": "How many bottles are visible in this scene?",
+    "answer": "9 bottles",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "bottle",
+      "cup",
+      "train",
+      "suitcase",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "Is the train closer than 2 metres to any worker?",
+    "answer": "No workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "Is the potted plant present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "Is there a suitcase in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "Are there more bottles than cups in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "12.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "bottle",
+      "cup",
+      "train",
+      "suitcase",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "Is the minimum recorded depth at ground level?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "bottle",
+      "cup",
+      "train",
+      "suitcase",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "How many distinct non-bottle objects are in the scene?",
+    "answer": "5 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "cup",
+      "train",
+      "suitcase",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  },
+  {
+    "question": "Is the train the deepest object in the scene?",
+    "answer": "Cannot determine - train depth not individually specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001760.jpg"
+  }
+]

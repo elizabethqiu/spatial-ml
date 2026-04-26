@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the toaster?",
+    "answer": "14.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toaster"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004074.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the toaster?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toaster"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004074.jpg"
+  },
+  {
+    "question": "How many objects are visible in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toaster"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004074.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the worker and equipment?",
+    "answer": "No safety alert. The person is 14.00 metres from the toaster, well above the 2 metre minimum safe distance threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toaster"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004074.jpg"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "The person is approximately 2.5 metres from the bed, based on estimated depth positions within the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the cup and the nearest TV?",
+    "answer": "The cup is approximately 1.8 metres from the nearest TV in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two TVs in the scene?",
+    "answer": "The two TVs are approximately 3.2 metres apart from each other based on their spatial positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Are there more than one TV in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Is the cup located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Is the person closer to the bed or to the TVs?",
+    "answer": "The person is closer to the bed, which appears to be in the same immediate area, while the TVs are positioned further away, likely mounted on or against a wall across the room.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed?",
+    "answer": "The cup appears to be positioned near the bed, likely on a surface such as a nightstand or bedside table adjacent to the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Where are the TVs located relative to the person?",
+    "answer": "Both TVs appear to be positioned in front of or across from the person, likely mounted on a wall or placed on furniture facing the seating or lying area where the person is located.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment near a worker that poses a safety risk?",
+    "answer": "No heavy construction equipment is detected in this scene. The scene appears to be a residential or hospitality indoor environment containing a cup, two TVs, a person, and a bed. No safety alert is warranted for equipment proximity in this context.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "tv",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  },
+  {
+    "question": "Does the person appear to be in any proximity-based danger from objects in the scene?",
+    "answer": "No critical safety hazard is identified. There is no heavy equipment present. The person is near a bed and cup, which pose no significant proximity danger. Standard indoor scene safety appears maintained.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "cup",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001318.jpg"
+  }
+]

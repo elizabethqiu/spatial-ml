@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005160.jpg"
+  },
+  {
+    "question": "Is the person standing next to the parking meter?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005160.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005160.jpg"
+  },
+  {
+    "question": "Is the parking meter positioned in front of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005160.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "19.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005160.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity between the person and parking meter?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005160.jpg"
+  }
+]

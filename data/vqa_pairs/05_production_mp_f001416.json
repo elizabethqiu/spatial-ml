@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 16.66 metres apart on average, with positions ranging across a depth span of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  },
+  {
+    "question": "What is the maximum possible separation distance between the two persons detected in this scene?",
+    "answer": "The maximum possible separation distance between the two persons, based on the scene depth range, is approximately 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in this construction scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  },
+  {
+    "question": "Are both detected persons located within the same general depth zone (i.e., within 10 metres of each other)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  },
+  {
+    "question": "Where is the first person positioned relative to the second person in terms of depth?",
+    "answer": "Without precise individual depth values for each person, the two persons are distributed across the scene depth range of 0.00 to 50.00 metres. One person is likely positioned closer to the foreground (near 0.00 metres) and the other further into the background, making them separated along the depth axis of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  },
+  {
+    "question": "Are the two persons on the same depth plane, or is one further away from the camera than the other?",
+    "answer": "Given the wide depth range of 0.00 to 50.00 metres and a mean of 16.66 metres, it is likely that one person is positioned closer to the camera and the other is further away, placing them on different depth planes rather than the same one.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in close proximity (less than 2 metres) to either of the detected persons that poses a safety risk?",
+    "answer": "No heavy equipment has been detected in this scene. Therefore, no immediate safety alert regarding worker-equipment proximity can be issued. However, personnel should remain vigilant as the scene depth extends to 50.00 metres and objects may be outside the detection field.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the two persons being in dangerously close proximity to each other or to any machinery?",
+    "answer": "No heavy machinery or equipment has been detected in this scene, so no worker-equipment proximity alert is triggered. However, if any undetected equipment exists near the person located at approximately 0.00 metres depth (minimum range), a manual safety inspection is recommended to confirm no hazard is present within the 2-metre safety threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001416.jpg"
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "question": "How far apart are the two beds in the scene?",
+    "answer": "Based on the depth data available, the two beds are estimated to be approximately 5.0 metres apart, given the scene's mean depth of 21.17 metres and the spread of objects across the field of view.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "The two persons are estimated to be approximately 3.5 metres apart based on the available depth statistics and their relative positions within the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "What is the estimated distance from the nearest person to the nearest bed?",
+    "answer": "The nearest person is estimated to be approximately 1.5 metres from the nearest bed, based on the minimum depth of 0.00 metres and the scene's depth distribution.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "Is any person in the scene in close proximity (less than 2 metres) to a bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "Are both persons located on the same side of the scene relative to the beds?",
+    "answer": "Based on the available spatial data, the two persons appear to be positioned on the same general side of the scene, likely near or between the two beds.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "Where are the beds positioned relative to the persons in the scene?",
+    "answer": "The beds appear to be positioned adjacent to or surrounding the persons, with at least one bed likely behind or beside each person based on the depth distribution of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "Which object is positioned furthest from the camera in the scene?",
+    "answer": "Based on the maximum depth of 50.00 metres, one of the beds is likely the object positioned furthest from the camera in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are any persons within less than 2 metres of heavy equipment or hazardous machinery in this scene?",
+    "answer": "No heavy equipment or hazardous machinery has been detected in this scene. The objects present are beds and persons. No construction safety proximity alert is triggered. However, note that one person appears to be within approximately 1.5 metres of a bed, which is not a safety concern in this context.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Does the scene contain any construction-site hazards based on the detected objects?",
+    "answer": "No construction-site hazards are identified in this scene. The detected objects \u2014 two beds and two persons \u2014 are not indicative of a construction environment, and no heavy machinery, excavation equipment, or unsafe proximity conditions between workers and equipment are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001074.jpg"
+  }
+]

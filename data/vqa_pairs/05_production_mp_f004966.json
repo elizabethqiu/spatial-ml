@@ -1,0 +1,44 @@
+[
+  {
+    "question": "What is the distance between the pizza and the bottle?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004966.jpg"
+  },
+  {
+    "question": "Is the dog closer to the pizza than to the bottle?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "pizza",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004966.jpg"
+  },
+  {
+    "question": "Is the pizza positioned to the left of the dog?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004966.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between any objects in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "pizza",
+      "dog",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004966.jpg"
+  }
+]

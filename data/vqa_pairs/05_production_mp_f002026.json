@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bottle",
+      "spoon",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects?",
+    "answer": "19.35 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bottle",
+      "spoon",
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Is there a spoon present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Is a bottle visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Are there more cups than bowls in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Is the person positioned closer than the average depth distance?",
+    "answer": "Cannot determine - insufficient spatial coordinate data for individual objects",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  },
+  {
+    "question": "Are the cups positioned at similar depths in the scene?",
+    "answer": "Cannot determine - insufficient individual object coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002026.jpg"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "question": "Is there a traffic light visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002498.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the traffic light?",
+    "answer": "16.99 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002498.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002498.jpg"
+  },
+  {
+    "question": "Is the traffic light the closest object in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002498.jpg"
+  },
+  {
+    "question": "How far away is the closest point detected in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002498.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in close proximity to a worker in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002498.jpg"
+  }
+]

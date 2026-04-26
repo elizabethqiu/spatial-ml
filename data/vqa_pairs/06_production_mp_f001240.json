@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Is there more than one car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Are both cars at the same depth distance?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any detected object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  },
+  {
+    "question": "What is the minimum distance from the camera to any detected object in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene in metres?",
+    "answer": "17.40 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Is there a car positioned very close to the camera (less than 5 metres away)?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  },
+  {
+    "question": "Are there cars at a considerable distance from the camera (greater than 40 metres)?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001240.jpg"
+  }
+]

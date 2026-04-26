@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a bus visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000170.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000170.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects detected in this scene?",
+    "answer": "14.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000170.jpg"
+  },
+  {
+    "question": "Is the bus closer than 5 metres from the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000170.jpg"
+  },
+  {
+    "question": "What is the closest detected object distance in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000170.jpg"
+  }
+]

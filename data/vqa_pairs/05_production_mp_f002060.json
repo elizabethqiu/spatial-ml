@@ -1,0 +1,88 @@
+[
+  {
+    "question": "Is the chair closer to the camera than the TV?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Are there more potted plants than other objects in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "chair",
+      "tv",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Is the cup located in front of the potted plants?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  },
+  {
+    "question": "How many potted plants are visible in this scene?",
+    "answer": "3 potted plants",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "16.04 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "potted plant",
+      "tv",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "potted plant",
+      "tv",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Are the potted plants positioned between the chair and the TV?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "chair",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the chair?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002060.jpg"
+  }
+]

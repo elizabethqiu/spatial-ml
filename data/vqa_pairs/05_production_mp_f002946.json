@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many refrigerators are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002946.jpg"
+  },
+  {
+    "question": "Is there a person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002946.jpg"
+  },
+  {
+    "question": "Are there more refrigerators than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002946.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002946.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "19.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002946.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the refrigerators?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002946.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to the refrigerators (less than 2 metres)?",
+    "answer": "Cannot determine - insufficient spatial proximity data between person and refrigerators",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002946.jpg"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the cup and the dog?",
+    "answer": "18.86 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004230.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004230.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the dog?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004230.jpg"
+  },
+  {
+    "question": "Are both the cup and dog within 25 metres of the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004230.jpg"
+  },
+  {
+    "question": "What is the relative position of the cup with respect to the dog in depth?",
+    "answer": "The cup and dog are at similar mean depths around 18.86 metres, with the scene spanning from 0 to 50 metres in depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004230.jpg"
+  }
+]

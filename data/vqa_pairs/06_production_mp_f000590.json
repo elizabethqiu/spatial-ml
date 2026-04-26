@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the toilet and the refrigerator?",
+    "answer": "13.39 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000590.jpg"
+  },
+  {
+    "question": "Is the toilet closer than 5 metres to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000590.jpg"
+  },
+  {
+    "question": "Are the toilet and refrigerator in the same room?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000590.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the toilet and refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000590.jpg"
+  }
+]

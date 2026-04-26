@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How far is the scissors from the nearest person in the scene?",
+    "answer": "Based on the available depth statistics, the scissors are approximately 20.04 metres away from the nearest person (estimated from the scene mean depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "The two persons are estimated to be within a range of 0.00 to 50.00 metres apart, with a scene mean depth of approximately 20.04 metres suggesting they are in a similar depth plane and may be within a few metres of each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  },
+  {
+    "question": "Are there any scissors detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  },
+  {
+    "question": "Is the scissors located in front of or behind the persons in the scene?",
+    "answer": "Based on the depth statistics, with a minimum depth of 0.00 metres and a mean of 20.04 metres, the scissors could be in front of, at the same level as, or behind the persons. Without precise per-object depth, the scissors and persons appear to share a similar mid-range depth position, suggesting they are roughly at the same depth plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  },
+  {
+    "question": "Are the two persons positioned close together or far apart relative to the scene?",
+    "answer": "The two persons appear to be at a similar depth within the scene (around the mean depth of 20.04 metres), suggesting they are relatively close together in depth, though their lateral separation cannot be precisely determined from depth statistics alone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  },
+  {
+    "question": "Is any person holding or in dangerously close proximity (less than 2 metres) to the scissors, posing a safety risk?",
+    "answer": "SAFETY ALERT: The minimum depth value of 0.00 metres in the scene indicates that at least one object is extremely close to the camera or another object. If any person is within 2 metres of the scissors, this poses a laceration or puncture hazard. Immediate visual verification is recommended to confirm safe handling practices and ensure no person is within an unsafe proximity of the scissors.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  },
+  {
+    "question": "Are both persons at risk of being near the scissors simultaneously, creating a safety concern?",
+    "answer": "SAFETY ALERT: With two persons detected in the same scene as scissors, there is a potential risk that one or both individuals could be within an unsafe distance (less than 2 metres) of the sharp implement. The scene depth ranges from 0.00 to 50.00 metres, meaning proximity cannot be ruled out. It is advised to enforce safe tool handling protocols and ensure scissors are stored safely when not in controlled use.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "scissors",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000478.jpg"
+  }
+]

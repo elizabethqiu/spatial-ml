@@ -1,0 +1,69 @@
+[
+  {
+    "question": "What is the distance between the backpack and the chair?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003364.jpg"
+  },
+  {
+    "question": "How far is the car from the mouse?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003364.jpg"
+  },
+  {
+    "question": "Is the backpack closer to the camera than the car?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003364.jpg"
+  },
+  {
+    "question": "Is the mouse nearer than the chair?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "mouse",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003364.jpg"
+  },
+  {
+    "question": "Is the chair to the left of the backpack?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003364.jpg"
+  },
+  {
+    "question": "Is the car positioned behind the mouse?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "mouse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003364.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No safety alert - scene contains no workers or heavy equipment",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003364.jpg"
+  }
+]

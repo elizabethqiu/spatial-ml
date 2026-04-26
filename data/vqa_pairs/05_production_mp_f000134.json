@@ -1,0 +1,95 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 15.32 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth range in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "Are there more than two people detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "Is the dog located closer to or farther from the camera than the mean scene depth of 15.32 metres?",
+    "answer": "Based on the scene depth statistics, the dog is among the objects contributing to a mean depth of 15.32 metres. Without individual depth values, the dog may be at, near, or beyond this mean distance from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "Are the two detected persons positioned at a similar depth or at notably different distances from the camera?",
+    "answer": "Given the wide depth range of 0.00 to 50.00 metres and a mean of 15.32 metres, the two persons may be at notably different distances from the camera, suggesting they are not standing side by side at the same depth plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "Is the dog positioned closer to the camera than either of the two detected persons?",
+    "answer": "The depth statistics show objects ranging from 0.00 to 50.00 metres. Without individual per-object depth assignments, it is possible the dog is the closest object (near 0.00 metres), suggesting it may be closer to the camera than one or both persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "Is there a safety alert for any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No heavy equipment is detected in this scene. The detected objects are a dog and two persons. Therefore, no safety alert for worker-equipment proximity is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  },
+  {
+    "question": "Does the presence of a dog near any person in this scene pose a safety concern on what appears to be a non-construction site environment?",
+    "answer": "No critical construction-site safety alert is triggered, as no heavy machinery is present. However, if any person is within 2 metres of the dog and the environment poses animal-related hazards, caution is advised. No hard safety threshold violation is detected based on available data.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000134.jpg"
+  }
+]

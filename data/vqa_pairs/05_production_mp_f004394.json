@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the car and the dog?",
+    "answer": "Unable to determine - specific 3D positions not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004394.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the car?",
+    "answer": "Unable to determine - specific depth coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004394.jpg"
+  },
+  {
+    "question": "Is the dog positioned to the left of the car?",
+    "answer": "Unable to determine - specific spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004394.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between the car and dog that require attention?",
+    "answer": "No workers detected in scene - safety alert not applicable",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004394.jpg"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How far is the cup from the couch?",
+    "answer": "22.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000930.jpg"
+  },
+  {
+    "question": "What is the distance between the bed and the cup?",
+    "answer": "22.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000930.jpg"
+  },
+  {
+    "question": "Is the couch closer than 5 metres to the cup?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000930.jpg"
+  },
+  {
+    "question": "Are the cup and bed at the same depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000930.jpg"
+  },
+  {
+    "question": "Is the cup positioned in front of the couch?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000930.jpg"
+  },
+  {
+    "question": "Which object is furthest from the camera: the cup, couch, or bed?",
+    "answer": "The objects are at approximately equal depths (mean 22.00 metres), indicating they are similarly positioned relative to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000930.jpg"
+  }
+]

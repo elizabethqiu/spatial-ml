@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the person from the chair?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005042.jpg"
+  },
+  {
+    "question": "What is the distance between the banana and the TV?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005042.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005042.jpg"
+  },
+  {
+    "question": "Is the banana next to the TV?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005042.jpg"
+  },
+  {
+    "question": "Is the person closer to the chair or to the banana?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005042.jpg"
+  },
+  {
+    "question": "Which object is positioned in front of the person?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "chair",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005042.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005042.jpg"
+  }
+]

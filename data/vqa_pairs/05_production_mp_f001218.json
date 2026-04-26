@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many beds are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  },
+  {
+    "question": "Is there a dining table in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  },
+  {
+    "question": "Are there more beds than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  },
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  },
+  {
+    "question": "Is the cup positioned closer to the dining table or further away?",
+    "answer": "Cannot determine relative positioning without specific 3D coordinates",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "dining table",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  },
+  {
+    "question": "Is there heavy equipment present that poses a safety risk to workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "18.6 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed",
+      "dining table",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001218.jpg"
+  }
+]

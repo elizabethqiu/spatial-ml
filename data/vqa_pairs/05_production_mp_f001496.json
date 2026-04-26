@@ -1,0 +1,125 @@
+[
+  {
+    "question": "How many birds are present in the scene?",
+    "answer": "There are 3 birds in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "What is the approximate mean depth of objects detected in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 16.60 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bird",
+      "bird",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "What is the range of depths (from nearest to farthest object) observed in the scene?",
+    "answer": "The depth range spans from 0.00 metres (nearest) to 50.00 metres (farthest), a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bird",
+      "bird",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "Are there any persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "Are there any birds present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavators, cranes, forklifts) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bird",
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "Are the persons located closer to the camera than the birds on average?",
+    "answer": "Cannot be determined precisely from aggregate depth statistics alone; however, all detected objects share a common depth distribution with a mean of 16.60 metres, so no definitive foreground/background separation between persons and birds can be confirmed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bird",
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "Are the birds positioned in the same general depth plane as the persons in the scene?",
+    "answer": "Based on the available depth statistics (mean 16.60 m, range 0\u201350 m), birds and persons share a common scene depth distribution, suggesting they may occupy similar or overlapping depth planes, though individual separations are not precisely quantified.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "bird",
+      "bird",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "Is there a safety risk due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (e.g., excavators, bulldozers, cranes) has been detected in the scene. The only objects present are 3 birds and 2 persons, posing no machinery-related proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bird",
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  },
+  {
+    "question": "Could any of the birds flying at low altitude pose a distraction or indirect safety concern for the workers on site?",
+    "answer": "While no direct mechanical hazard exists, birds detected at very close range (minimum depth 0.00 metres) could potentially startle workers, causing loss of footing or distraction. Workers should remain attentive to their surroundings, especially near edges or elevated platforms.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird",
+      "bird",
+      "bird",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001496.jpg"
+  }
+]

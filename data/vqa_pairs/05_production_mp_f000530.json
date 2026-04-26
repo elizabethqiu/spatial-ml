@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the approximate distance between the two dogs in the scene?",
+    "answer": "Based on the available depth statistics, the two dogs are estimated to be within a scene spanning 0.00 to 50.00 metres, with a mean depth of approximately 16.45 metres. The exact separation between the two dogs cannot be precisely determined without individual depth assignments, but they are likely within several metres of each other given the shared scene context.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "What is the mean depth at which the dogs are detected in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 16.45 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "Are there two or more dogs present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "Are there any human workers visible in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "Which dog appears to be positioned closer to the foreground of the scene?",
+    "answer": "Both dogs are detected with the same confidence level (1.00) and the scene depth ranges from 0.00 to 50.00 metres. Without distinct individual depth values assigned to each dog, it is not possible to definitively determine which dog is closer to the foreground. They may be at similar depths or one may be slightly in front of the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "Are the two dogs located in the same general depth plane, or is one significantly farther away than the other?",
+    "answer": "Based on the scene's depth statistics (mean: 16.45 metres, min: 0.00 metres, max: 50.00 metres), both dogs share the same scene but may occupy slightly different depth positions. Without individual depth coordinates, they appear to be within the same general mid-range depth zone of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "Do the two dogs pose any safety risk to construction workers or heavy equipment operators on the site?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: While no human workers or heavy equipment are currently detected in this scene, the presence of animals (dogs) on a construction site is a safety concern. Dogs roaming a construction site could distract workers, wander into hazardous zones, or trigger unexpected reactions from equipment operators. It is recommended to remove the animals from the site immediately and ensure proper perimeter fencing is in place to prevent animal intrusion.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  },
+  {
+    "question": "Should construction site personnel be alerted about the presence of the dogs detected in this scene?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes, site personnel should be alerted. Animals on a construction site represent an uncontrolled variable that can compromise safety. The detected dogs may be near active work zones, heavy machinery paths, or hazardous materials. Site supervisors should be notified to safely remove the animals and review site perimeter security to prevent recurrence.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000530.jpg"
+  }
+]

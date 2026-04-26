@@ -1,0 +1,127 @@
+[
+  {
+    "question": "What is the approximate distance between the first person and the TV in the scene?",
+    "answer": "Approximately 16.24 metres (based on mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the first person and the second person in the scene?",
+    "answer": "Approximately 16.24 metres (based on mean scene depth estimate).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the second person and the third person in the scene?",
+    "answer": "Approximately 16.24 metres (based on mean scene depth estimate).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Is there a TV present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Are there more than two people detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Is any person within 2 metres of the TV?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Is any person within 2 metres of another person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the three people in the scene?",
+    "answer": "The TV appears to be positioned further back or to the side of the group of three people, likely serving as a display or monitor in the environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Where are the three people positioned relative to each other?",
+    "answer": "The three people are distributed across the scene, with varying lateral and depth positions relative to one another, suggesting they are spread out rather than clustered together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the nearest person?",
+    "answer": "The TV is positioned at a moderate to far distance from the nearest person, estimated at approximately 16.24 metres, likely placed against a wall or elevated surface in front of or beside the personnel.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to any person being within 2 metres of heavy equipment?",
+    "answer": "No heavy equipment (e.g., cranes, excavators, forklifts) is detected in this scene. The only non-person object is a TV, which does not constitute a heavy equipment safety hazard. No safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any worker proximity to the TV in this scene?",
+    "answer": "No safety alert is required. A TV is not classified as heavy equipment, and no dangerous proximity conditions are met. Workers appear to be at a safe distance of approximately 16.24 metres from the TV.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000220.jpg"
+  }
+]

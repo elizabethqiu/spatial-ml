@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  },
+  {
+    "question": "Is there a bear in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  },
+  {
+    "question": "Are there more people than bears?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "11.35 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  },
+  {
+    "question": "Is the bear at the minimum depth distance?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is there a dangerous proximity between the bear and any person?",
+    "answer": "Unable to determine - bear proximity to persons requires individual coordinate data. Visual inspection recommended immediately.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bear",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001486.jpg"
+  }
+]

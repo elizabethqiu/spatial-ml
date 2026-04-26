@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  },
+  {
+    "question": "Is there a banana present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  },
+  {
+    "question": "Is there heavy equipment visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  },
+  {
+    "question": "Are there more persons than bottles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "15.12 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  },
+  {
+    "question": "Is the banana closer to the camera than the maximum recorded depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003850.jpg"
+  }
+]

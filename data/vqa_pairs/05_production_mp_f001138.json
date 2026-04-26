@@ -1,0 +1,95 @@
+[
+  {
+    "question": "Is the cup closer to the dining table than to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "Are both persons in this scene at approximately the same depth distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "Is there a person standing near the dining table?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "8.5 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "How far is the cup from the dining table?",
+    "answer": "2.3 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "What is the distance from the closest person to the bed?",
+    "answer": "5.7 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "Is the cup positioned between the two persons?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "Is the bed located behind the dining table from the camera's perspective?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  },
+  {
+    "question": "Are both persons positioned on the same side of the dining table?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001138.jpg"
+  }
+]

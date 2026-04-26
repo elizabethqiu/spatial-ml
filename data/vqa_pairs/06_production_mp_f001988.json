@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "6 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  },
+  {
+    "question": "What is the minimum distance from the camera to the nearest object?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  },
+  {
+    "question": "Is there an umbrella present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "umbrella"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  },
+  {
+    "question": "Are there more than 5 people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  },
+  {
+    "question": "Is the umbrella closer to the camera than the furthest person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  },
+  {
+    "question": "Where is the umbrella positioned relative to the group of people?",
+    "answer": "The umbrella is positioned among the people at a variable depth, with the group distributed across depths from 0 to 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "umbrella",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  },
+  {
+    "question": "Are there any workers in unsafe proximity to heavy equipment?",
+    "answer": "No heavy equipment detected in this scene. Safety assessment not applicable.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001988.jpg"
+  }
+]

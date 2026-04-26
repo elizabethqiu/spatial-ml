@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Is there a television in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Are there more chairs than televisions in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000348.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "14.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000348.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to any object in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Is the television positioned between the two chairs?",
+    "answer": "unknown - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000348.jpg"
+  }
+]

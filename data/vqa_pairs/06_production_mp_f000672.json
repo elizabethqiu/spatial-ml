@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000672.jpg"
+  },
+  {
+    "question": "Is there a car in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000672.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the car?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000672.jpg"
+  },
+  {
+    "question": "How many vehicles are present?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000672.jpg"
+  },
+  {
+    "question": "Is the person standing next to the refrigerator?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000672.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to the car?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000672.jpg"
+  }
+]

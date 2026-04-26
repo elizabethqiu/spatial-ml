@@ -1,0 +1,102 @@
+[
+  {
+    "question": "How far apart are the two people in the scene?",
+    "answer": "Based on the available depth data, the two people are estimated to be approximately 0.00 to 50.00 metres apart, with a mean scene depth of 19.74 metres. A precise inter-person distance cannot be determined without individual depth coordinates for each person.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "What is the approximate depth (distance from camera) of the people in this scene?",
+    "answer": "The people in the scene are located at a mean depth of approximately 19.74 metres from the camera, within a range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Are there two or more people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Are both people detected with high confidence in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Is one person closer to the camera than the other?",
+    "answer": "The depth range in the scene spans 0.00 to 50.00 metres, suggesting it is possible that one person is closer to the camera than the other, but individual depth values per person are not available to confirm definitively.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Where are the two people positioned relative to each other in the scene?",
+    "answer": "Both people are detected within the same scene. Without individual bounding-box depth coordinates, their precise relative positions (e.g., side by side, one in front of the other) cannot be fully determined. The overall scene depth ranges from 0.00 to 50.00 metres, indicating they may be at varying distances from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Are the two people in the scene at roughly the same depth from the camera?",
+    "answer": "The scene depth spans a wide range (0.00 to 50.00 metres), so the two people may not be at the same depth. They could be positioned at significantly different distances from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Is there a safety alert triggered for any worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert is triggered. No heavy equipment (such as excavators, cranes, or forklifts) is detected in this scene \u2014 only two people are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  },
+  {
+    "question": "Should a proximity warning be issued for either person in this scene based on nearby hazardous machinery?",
+    "answer": "No proximity warning is required. There is no heavy equipment detected in the scene. However, site supervisors should ensure both individuals are wearing appropriate PPE and are adhering to site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001448.jpg"
+  }
+]

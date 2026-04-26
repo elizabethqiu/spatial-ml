@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many hair driers are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "How many people are in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "Is there a cell phone in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "Is there a table in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "Are there more chairs or hair driers in the scene?",
+    "answer": "They are equal in quantity (1 chair and 2 hair driers, so more hair driers)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "hair drier"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "Is the couch closer to the camera than the average depth of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "How many seating furniture items are visible?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "Is this a construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  },
+  {
+    "question": "Are there any safety hazards detected between workers and heavy equipment?",
+    "answer": "No hazards detected - this is an indoor residential scene with no heavy equipment present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003672.jpg"
+  }
+]

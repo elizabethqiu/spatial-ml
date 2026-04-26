@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is there a keyboard visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005132.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the keyboard in metres?",
+    "answer": "16.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005132.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005132.jpg"
+  },
+  {
+    "question": "Is the keyboard at the closest point in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005132.jpg"
+  }
+]

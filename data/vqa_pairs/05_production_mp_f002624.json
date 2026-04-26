@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is the distance between the car and the cell phone?",
+    "answer": "15.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002624.jpg"
+  },
+  {
+    "question": "Is the cell phone closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002624.jpg"
+  },
+  {
+    "question": "Is the car present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002624.jpg"
+  },
+  {
+    "question": "What is the maximum depth value observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002624.jpg"
+  },
+  {
+    "question": "Is the cell phone located behind the car?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002624.jpg"
+  },
+  {
+    "question": "Does the scene contain a cell phone?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002624.jpg"
+  }
+]

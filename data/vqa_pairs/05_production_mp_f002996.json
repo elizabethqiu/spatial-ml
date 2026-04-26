@@ -1,0 +1,86 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  },
+  {
+    "question": "Is there a suitcase in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "13.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "tv",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  },
+  {
+    "question": "Is the TV closer to the camera than the maximum depth detected?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  },
+  {
+    "question": "Are there more people than pieces of furniture in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "couch",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "tv",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  },
+  {
+    "question": "Is the suitcase positioned between the closest and farthest objects?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  },
+  {
+    "question": "Are there any objects at zero depth distance in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "tv",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002996.jpg"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "question": "How far apart are the person and the potted plant?",
+    "answer": "17.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001702.jpg"
+  },
+  {
+    "question": "Is the potted plant within 2 metres of the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001702.jpg"
+  },
+  {
+    "question": "Is there a potted plant visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001702.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001702.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to the camera than the potted plant?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001702.jpg"
+  }
+]

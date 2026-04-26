@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the person and the television?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000696.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer to the camera than the television?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000696.jpg"
+  },
+  {
+    "question": "Is the person positioned to the left of the refrigerator?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000696.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to heavy equipment?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000696.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000696.jpg"
+  },
+  {
+    "question": "Is the television positioned behind the person?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000696.jpg"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "How many cell phones are detected in the scene?",
+    "answer": "2 cell phones",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "What is the mean distance of all detected objects from the camera?",
+    "answer": "14.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "Are there any cell phones present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance less than 5 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "Are there more persons than cell phones in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "Are the cell phones positioned closer to the camera than the average depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  },
+  {
+    "question": "Where are the persons distributed relative to the camera's viewing range?",
+    "answer": "distributed across the scene with depths ranging from near to far, centered around a mean distance of 14.24 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002004.jpg"
+  }
+]

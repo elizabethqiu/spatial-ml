@@ -1,0 +1,59 @@
+[
+  {
+    "question": "What is the distance between the cup and the cell phone?",
+    "answer": "Unable to determine from 2D scene - objects lack precise 3D coordinates",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004492.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the cell phone?",
+    "answer": "Unable to determine - insufficient depth data for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004492.jpg"
+  },
+  {
+    "question": "How many objects are visible in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004492.jpg"
+  },
+  {
+    "question": "Is the cell phone positioned to the right of the cup?",
+    "answer": "Unable to determine - spatial relationship not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004492.jpg"
+  },
+  {
+    "question": "Are there any heavy construction equipment or workers present in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004492.jpg"
+  },
+  {
+    "question": "Is this a typical construction site safety scenario?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004492.jpg"
+  }
+]

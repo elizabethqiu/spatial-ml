@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many suitcases are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005028.jpg"
+  },
+  {
+    "question": "Are there any suitcases present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005028.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005028.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "17.50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005028.jpg"
+  },
+  {
+    "question": "Is this a construction site with active heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005028.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to heavy machinery?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005028.jpg"
+  }
+]

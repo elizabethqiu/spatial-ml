@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene based on their estimated depth positions?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be within a range spanning 0.00 to 50.00 metres, with a mean scene depth of approximately 13.88 metres. The relative separation between the two individuals is estimated at approximately 2\u20135 metres, though precise lateral separation requires full 3D coordinate data.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  },
+  {
+    "question": "What is the approximate average depth (distance from the camera) of the persons detected in this scene?",
+    "answer": "The average depth of the scene is approximately 13.88 metres, suggesting the persons are located roughly 13\u201314 metres from the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavators, cranes, forklifts) detected in the scene alongside the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Are the two persons detected at the same depth, or is one closer to the camera than the other?",
+    "answer": "Based on the available depth range (0.00 to 50.00 metres), it is likely that the two persons are at slightly different depths. One person appears closer to the foreground while the other may be further away, though both are within the general mid-range depth of approximately 13.88 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Which person is positioned closer to the camera \u2014 the first detected person or the second?",
+    "answer": "Based on the detection order and depth statistics, one person is estimated to be in the nearer foreground (closer to 0.00 metres side of the range) while the other is slightly further. Without precise per-object depth coordinates, the first detected person (confidence 1.00) is likely positioned at a similar or marginally closer depth than the second.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Is there a safety alert condition due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy equipment (such as excavators, bulldozers, cranes, or forklifts) has been detected in this scene. Only two persons are present, so the proximity-to-heavy-equipment threshold of 2 metres is not applicable here. However, site supervisors should remain vigilant if heavy machinery enters the area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued if one of the detected persons moves into the path of undetected or off-frame machinery given the open depth range up to 50 metres?",
+    "answer": "Yes, a precautionary safety alert is recommended. The scene depth extends up to 50.00 metres, meaning machinery or hazards may exist off-frame or at greater distances. Workers should maintain situational awareness, especially beyond the 13.88-metre mean depth zone, and ensure a minimum safe distance of 2 metres from any heavy equipment that may not yet be within the camera's field of view.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000448.jpg"
+  }
+]

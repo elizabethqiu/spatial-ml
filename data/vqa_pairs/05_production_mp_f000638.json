@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Is the wine glass closer to the camera than the bottle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000638.jpg"
+  },
+  {
+    "question": "Is the person positioned on or near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000638.jpg"
+  },
+  {
+    "question": "Are the bottle and wine glass in close proximity to each other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000638.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the camera to the farthest object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000638.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the camera to the closest object in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000638.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in this scene?",
+    "answer": "18.83 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "wine glass",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000638.jpg"
+  },
+  {
+    "question": "Is there any hazardous proximity between the person and bottle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000638.jpg"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "How many toilets are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Are there any toilets present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Is this a construction site with active safety hazards involving workers and heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000922.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "15.50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000922.jpg"
+  },
+  {
+    "question": "Are both detected toilets at the same location?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000922.jpg"
+  },
+  {
+    "question": "What is the maximum depth range recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000922.jpg"
+  }
+]

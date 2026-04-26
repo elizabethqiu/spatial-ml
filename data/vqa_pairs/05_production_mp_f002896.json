@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a bicycle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002896.jpg"
+  },
+  {
+    "question": "How many bicycles are visible in the scene?",
+    "answer": "1 bicycle",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002896.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the bicycle?",
+    "answer": "15.28 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002896.jpg"
+  },
+  {
+    "question": "Is the bicycle closer than 5 metres to the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002896.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002896.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to heavy equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002896.jpg"
+  }
+]

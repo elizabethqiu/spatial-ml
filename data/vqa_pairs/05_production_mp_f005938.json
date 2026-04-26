@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many beds are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005938.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005938.jpg"
+  },
+  {
+    "question": "Are there more beds than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005938.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "18.84 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005938.jpg"
+  },
+  {
+    "question": "How many furniture items are visible in total?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005938.jpg"
+  },
+  {
+    "question": "Is the maximum depth of the scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005938.jpg"
+  }
+]

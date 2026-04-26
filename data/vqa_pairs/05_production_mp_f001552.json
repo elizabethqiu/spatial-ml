@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many persons are visible in this construction site scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001552.jpg"
+  },
+  {
+    "question": "Are there any workers present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001552.jpg"
+  },
+  {
+    "question": "Is this a multi-person work area?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001552.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects in this scene?",
+    "answer": "18.08 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001552.jpg"
+  },
+  {
+    "question": "What is the maximum recorded depth in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001552.jpg"
+  },
+  {
+    "question": "Are the persons positioned at close proximity to each other (within 2 metres)?",
+    "answer": "Unable to determine - insufficient spatial position data for proximity calculation between individual persons",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001552.jpg"
+  },
+  {
+    "question": "What is the minimum depth value detected in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001552.jpg"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "question": "What is the approximate average depth of objects detected in this scene?",
+    "answer": "The average depth of objects in the scene is approximately 21.25 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth range in the scene spans 50.00 metres, from 0.00 metres (nearest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "Are any persons detected in proximity to the bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "Is this scene consistent with a construction site environment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "Where is the bed located relative to the persons in the scene?",
+    "answer": "The bed is detected within the same scene as the three persons. Based on depth statistics, all objects share a similar depth range centred around a mean of 21.25 metres, suggesting the bed is in close spatial proximity to the persons, likely in the same room or area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "How are the three persons positioned relative to each other in the scene?",
+    "answer": "The three persons are detected within the same scene with a shared depth range of 0.00 to 50.00 metres and a mean depth of 21.25 metres. Without individual depth values, they are estimated to be distributed across a similar spatial plane, potentially around or near the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Are any workers in dangerous proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy equipment is detected in this scene. The detected objects include three persons and a bed. There is no safety-critical proximity hazard between workers and heavy machinery in this scene. However, note that this scene does not appear to be a standard construction site \u2014 the presence of a bed may indicate an inappropriate rest area on-site, which should be reviewed per site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Does the presence of persons near a bed in what may be a construction site context raise any safety or welfare concerns?",
+    "answer": "Yes. If this scene is within or adjacent to a construction site, the presence of a bed and three persons may indicate unauthorized sleeping or rest arrangements in an unsafe area. Construction sites can pose hazards such as falling objects, exposure to hazardous materials, and unstable structures. Workers should only rest in designated, safety-compliant rest areas. Site supervisors should investigate and ensure compliance with welfare and safety regulations.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000936.jpg"
+  }
+]

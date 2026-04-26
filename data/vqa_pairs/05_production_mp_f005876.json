@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How far is the person from the car?",
+    "answer": "approximately 19.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005876.jpg"
+  },
+  {
+    "question": "What is the distance between the parking meter and the person?",
+    "answer": "approximately 19.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005876.jpg"
+  },
+  {
+    "question": "Is the person standing next to the parking meter?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005876.jpg"
+  },
+  {
+    "question": "Is the car closer to the parking meter than the person is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "parking meter",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005876.jpg"
+  },
+  {
+    "question": "Is the person positioned between the car and the parking meter?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005876.jpg"
+  },
+  {
+    "question": "Does the person pose a safety concern due to proximity to the car?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005876.jpg"
+  }
+]

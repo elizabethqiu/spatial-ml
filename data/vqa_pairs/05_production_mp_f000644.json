@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How far is the cup from the person in the scene?",
+    "answer": "Based on the available depth statistics, the estimated distance between the cup and the person is approximately 18.45 metres (scene mean depth), though exact separation depends on their individual depth values which range from 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the person and the bed?",
+    "answer": "The estimated distance between the person and the bed is approximately 18.45 metres based on the mean scene depth, with possible values ranging from 0.00 to 50.00 metres depending on each object's specific depth position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  },
+  {
+    "question": "Is the cup located near the bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the person and the bed?",
+    "answer": "The cup appears to be positioned within the same general scene as the person and the bed. Given the depth range of 0.00 to 50.00 metres, the cup could be on or near the bed, or held by or placed close to the person, suggesting it is likely in the foreground or mid-ground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is positioned within the same scene as the bed. Based on typical scene context and the depth statistics (mean ~18.45 metres), the person is likely adjacent to or near the bed, possibly sitting on or standing beside it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in the scene that poses a safety risk to the worker?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The objects present are a cup, a person, and a bed. No proximity-based safety alert (< 2 metres between worker and heavy equipment) is triggered. This appears to be a non-construction indoor environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  },
+  {
+    "question": "Does the presence of the cup near the person on or around the bed present any immediate safety hazard in a construction context?",
+    "answer": "No immediate construction-site safety alert is triggered. The scene contains a cup, person, and bed \u2014 none of which constitute heavy machinery. However, if this were interpreted as a rest/break area on a construction site, workers should ensure beverages are kept in designated safe areas and that the rest area is located more than 2 metres away from any active heavy equipment zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000644.jpg"
+  }
+]

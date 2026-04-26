@@ -1,0 +1,113 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within approximately 5.00 metres of each other, given the mean scene depth of 19.55 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the cup and the bed?",
+    "answer": "The cup and bed appear to be in close proximity, estimated at approximately 2.00 to 4.00 metres apart based on the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Is the cup located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Are both persons in the scene located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed?",
+    "answer": "The cup appears to be positioned in close proximity to the bed, likely on or beside it, based on the scene layout and detected object positions.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to the bed?",
+    "answer": "Both persons appear to be positioned near or on the bed, suggesting they are in the immediate vicinity of it within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "What is the relative position of the cup with respect to the two persons?",
+    "answer": "The cup is positioned in the general vicinity of both persons, likely on a nearby surface such as the bed or a bedside area, and is relatively close to both individuals.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene does not contain any heavy construction equipment. The detected objects \u2014 cup, bed, and two persons \u2014 do not present a construction site proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  },
+  {
+    "question": "Are any persons dangerously close (less than 2 metres) to a hazardous machine or vehicle in this scene?",
+    "answer": "No hazardous machinery or vehicles are detected in this scene. The environment appears to be an indoor residential or rest area with a bed, cup, and two persons. No safety alert is warranted for construction-related hazards.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000824.jpg"
+  }
+]

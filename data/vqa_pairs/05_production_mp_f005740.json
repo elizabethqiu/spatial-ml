@@ -1,0 +1,48 @@
+[
+  {
+    "question": "How far apart are the bird and the clock?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005740.jpg"
+  },
+  {
+    "question": "Is the bird closer to the camera than the clock?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005740.jpg"
+  },
+  {
+    "question": "Is there a clock visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005740.jpg"
+  },
+  {
+    "question": "Is the bird positioned to the left of the clock?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005740.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005740.jpg"
+  }
+]

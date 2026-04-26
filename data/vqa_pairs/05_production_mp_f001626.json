@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far away is the TV from the camera viewpoint?",
+    "answer": "The TV is approximately 13.79 metres away (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in the scene containing the TV?",
+    "answer": "The minimum depth recorded in the scene is 0.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  },
+  {
+    "question": "Is there a TV present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  },
+  {
+    "question": "Is the TV located within 5 metres of the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the camera in terms of depth?",
+    "answer": "The TV is positioned at a mid-to-far range distance, approximately 13.79 metres from the camera, within a scene depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  },
+  {
+    "question": "Is the TV closer to the near end or far end of the detected depth range in this scene?",
+    "answer": "The TV is closer to the near end of the depth range; its mean position of 13.79 metres is in the lower quarter of the full 0.00\u201350.00 metre depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  },
+  {
+    "question": "Is there a safety concern involving a worker in close proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. The only detected object in the scene is a TV, which is neither a worker nor heavy construction equipment. No hazardous proximity event is present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  },
+  {
+    "question": "Does the presence of a TV in this construction site scene pose any immediate safety risk to nearby workers?",
+    "answer": "No immediate safety alert is warranted based on detected objects. The TV is the sole detected object and is approximately 13.79 metres from the camera. However, any unsecured or elevated TV unit in a construction environment should be assessed for fall or electrical hazards if workers are operating nearby.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001626.jpg"
+  }
+]

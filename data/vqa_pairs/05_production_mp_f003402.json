@@ -1,0 +1,124 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "4 persons",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "How many cups are present in the scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "15.93 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "Is there a television in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "Are there more chairs than cups in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "Is the television closer to the camera than the farthest object in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "Are there any objects at the minimum depth of 0.00 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "Where is the television positioned relative to the persons in the scene?",
+    "answer": "The television is among the objects in the scene at varying depths, with persons distributed throughout at different distances from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "How are the cups spatially distributed compared to the chairs?",
+    "answer": "Both cups and chairs are present in the scene with overlapping depth ranges, distributed across the visible space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of persons in relation to furniture items?",
+    "answer": "The 4 persons are distributed throughout the scene alongside 2 chairs and 3 cups, occupying depths ranging from 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  },
+  {
+    "question": "Note: This appears to be an indoor scene rather than a construction site. Are there any safety hazards detected with workers near heavy equipment?",
+    "answer": "No safety alerts. This is not a construction site scene. No heavy equipment or proximity hazards detected.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003402.jpg"
+  }
+]

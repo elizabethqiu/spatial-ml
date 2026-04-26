@@ -1,0 +1,85 @@
+[
+  {
+    "question": "How far is the first person from the car in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the first person and the car is approximately 12.90 metres (scene mean depth), with individual positions ranging across a 0.00\u201350.00 metre depth span.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "The two persons are positioned within a scene whose depth ranges from 0.00 to 50.00 metres, with a mean depth of 12.90 metres. Their estimated separation, based on available depth data, is approximately 12.90 metres, though exact separation depends on their individual depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  },
+  {
+    "question": "Are both detected persons on the same side of the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  },
+  {
+    "question": "Where is the car positioned relative to the two persons in the scene?",
+    "answer": "The car is positioned between or alongside the two persons in the scene. Given the scene layout described as 'person; car; person', the car appears to be spatially located between the two individuals along the horizontal axis of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other, with the car as a reference point?",
+    "answer": "The two persons are positioned on opposite sides of the car \u2014 one person to the left of the car and one person to the right of the car, based on the sequential scene description 'person; car; person'.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  },
+  {
+    "question": "Is either person dangerously close (within 2 metres) to the car?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: The minimum depth value in the scene is 0.00 metres, indicating at least one object may be extremely close to the camera or to another object. If either person is within 2 metres of the car, this constitutes a hazard. Immediate verification of the persons' proximity to the vehicle is strongly recommended. Workers should maintain at least 2 metres of clearance from any moving or stationary vehicle on site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  },
+  {
+    "question": "Should a safety exclusion zone be enforced around the car given the positions of the two persons?",
+    "answer": "\u26a0\ufe0f SAFETY ALERT: Yes. With two persons detected in close proximity to a car within a scene that has a minimum depth of 0.00 metres, there is a risk that one or both individuals may be within the 2-metre safety exclusion threshold. A safety exclusion zone should be enforced around the vehicle immediately, and all personnel should be directed to maintain a safe distance of at least 2 metres from the car at all times.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001570.jpg"
+  }
+]

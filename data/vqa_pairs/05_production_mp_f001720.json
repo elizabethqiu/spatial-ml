@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "6 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  },
+  {
+    "question": "Is there a horse present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  },
+  {
+    "question": "Are all detected objects people?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  },
+  {
+    "question": "What is the average depth distance across all objects in the scene?",
+    "answer": "16.92 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  },
+  {
+    "question": "Is the horse closer to the camera than the average scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in the scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  },
+  {
+    "question": "Are there more people than horses in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "horse"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001720.jpg"
+  }
+]

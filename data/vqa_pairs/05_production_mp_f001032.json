@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "The estimated distance between the first person and the bed is approximately 5.2 metres, based on their relative depth positions in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "The two persons are approximately 3.1 metres apart from each other based on their detected depth positions.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "Are both persons in the scene located near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "Is the bed located behind the two persons in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the persons in the scene?",
+    "answer": "The bed is positioned behind and between the two persons, appearing further from the camera in the depth field relative to at least one of the persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person?",
+    "answer": "The second person is positioned to the side and at a similar depth plane as the first person, suggesting they are roughly at the same distance from the observer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in the scene that poses a safety risk to the workers?",
+    "answer": "No heavy construction equipment is detected in this scene. The objects present are two persons and a bed. No safety alert for equipment proximity is required. Note: this scene does not appear to be a construction site environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  },
+  {
+    "question": "Are the two persons within a potentially unsafe proximity of less than 2 metres from any hazardous equipment in this scene?",
+    "answer": "No hazardous heavy equipment is detected in this scene. The only objects present are two persons and a bed, so no proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001032.jpg"
+  }
+]

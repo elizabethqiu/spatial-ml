@@ -1,0 +1,107 @@
+[
+  {
+    "question": "What is the approximate distance between the bottle and the bed in the scene?",
+    "answer": "Based on the available depth statistics, the estimated distance between the bottle and the bed is approximately 19.24 metres (mean scene depth), though exact separation depends on their individual depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two dogs in the scene?",
+    "answer": "Given the depth range of 0.00 to 50.00 metres and a mean of 19.24 metres, the two dogs are estimated to be separated by approximately 0 to 50.00 metres, with a likely mid-scene separation near 19.24 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Are both dogs located in the same scene as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the front of the scene (minimum depth) than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two dogs in the scene?",
+    "answer": "The bed appears to be positioned in the background or mid-ground of the scene relative to the two dogs, as the overall depth range spans 0.00 to 50.00 metres. The dogs are likely situated in front of or alongside the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Where is the bottle positioned relative to the bed?",
+    "answer": "The bottle is positioned closer to the foreground relative to the bed, likely in front of or to the side of the bed given the scene's depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Where are the dogs positioned relative to the bed?",
+    "answer": "The dogs appear to be positioned near or on top of the bed, which is a common domestic scene arrangement. Based on scene depth, they likely share a similar depth plane as the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving heavy equipment and workers detected in this scene?",
+    "answer": "No heavy equipment or workers are present in this scene. The detected objects are a bottle, two dogs, and a bed \u2014 none of which constitute a construction safety hazard. No safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "dog",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  },
+  {
+    "question": "Is the bottle within a potentially hazardous proximity (less than 2 metres) to either of the dogs?",
+    "answer": "No safety alert is triggered. While the bottle and dogs may be in close proximity in a domestic setting, no heavy equipment or workers are involved. There is no construction-related safety hazard in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "dog",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000894.jpg"
+  }
+]

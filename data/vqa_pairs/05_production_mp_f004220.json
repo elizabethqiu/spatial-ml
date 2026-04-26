@@ -1,0 +1,59 @@
+[
+  {
+    "question": "What is the distance between the person and the suitcase?",
+    "answer": "Unable to determine - insufficient depth data for individual object positions",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004220.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the suitcase?",
+    "answer": "Unable to determine - specific positions not available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004220.jpg"
+  },
+  {
+    "question": "Is there a suitcase in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004220.jpg"
+  },
+  {
+    "question": "Is a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004220.jpg"
+  },
+  {
+    "question": "How many objects are detected in total?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004220.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment hazards near the worker?",
+    "answer": "No - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004220.jpg"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "question": "How many cars are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004564.jpg"
+  },
+  {
+    "question": "Is there a parking meter in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004564.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004564.jpg"
+  },
+  {
+    "question": "Is the parking meter closer to the camera than the cars?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004564.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in this scene?",
+    "answer": "14.77 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004564.jpg"
+  },
+  {
+    "question": "Are both cars at approximately the same depth distance?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004564.jpg"
+  },
+  {
+    "question": "Is there any safety concern with worker proximity to vehicles in this scene?",
+    "answer": "no workers detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004564.jpg"
+  }
+]

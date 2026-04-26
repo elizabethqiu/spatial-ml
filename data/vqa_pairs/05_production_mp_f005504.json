@@ -1,0 +1,59 @@
+[
+  {
+    "question": "What is the distance between the suitcase and the bird?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005504.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the camera than the bird?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005504.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005504.jpg"
+  },
+  {
+    "question": "Is the bird positioned above the suitcase?",
+    "answer": "Unable to determine - insufficient 3D position data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005504.jpg"
+  },
+  {
+    "question": "How many objects are detected in this construction site scene?",
+    "answer": "2 objects (suitcase and bird)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005504.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment near a worker in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005504.jpg"
+  }
+]

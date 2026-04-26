@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the parking meter?",
+    "answer": "Unable to determine precise distance - spatial coordinates not provided in object list",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003682.jpg"
+  },
+  {
+    "question": "Is the person standing closer to the toilet or the parking meter?",
+    "answer": "Unable to determine - spatial coordinates not provided in object list",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "toilet",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003682.jpg"
+  },
+  {
+    "question": "Is there a person near the parking meter?",
+    "answer": "Unable to determine - spatial coordinates not provided in object list",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003682.jpg"
+  },
+  {
+    "question": "Is the toilet located to the left of the parking meter?",
+    "answer": "Unable to determine - spatial coordinates not provided in object list",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003682.jpg"
+  },
+  {
+    "question": "Are there any safety concerns with worker proximity to heavy equipment in this scene?",
+    "answer": "No - no heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003682.jpg"
+  }
+]

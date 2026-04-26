@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the book?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001864.jpg"
+  },
+  {
+    "question": "Is the person holding or in direct contact with the book?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001864.jpg"
+  },
+  {
+    "question": "Is the book positioned in front of the person?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001864.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding the proximity between the person and book?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001864.jpg"
+  }
+]

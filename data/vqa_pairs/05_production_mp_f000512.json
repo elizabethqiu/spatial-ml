@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected people in the scene?",
+    "answer": "17.26 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  },
+  {
+    "question": "Is there a person positioned at the minimum depth boundary of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  },
+  {
+    "question": "Are all four people within 20 metres depth from the camera viewpoint?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  },
+  {
+    "question": "Is there any person positioned beyond 40 metres depth in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of people across the depth range of this construction site.",
+    "answer": "People are distributed across a wide depth range from 0 to 50 metres, with an average depth of 17.26 metres, indicating personnel at varying distances from the viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  },
+  {
+    "question": "Are there sufficient workers visible to assess potential overcrowding in this construction zone?",
+    "answer": "Four workers detected across a 50-metre depth range suggests distributed positioning with no apparent congestion concerns based on count alone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000512.jpg"
+  }
+]

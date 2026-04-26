@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the construction scene as estimated by the depth sensor?",
+    "answer": "The mean depth of the scene is approximately 14.30 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this construction scene?",
+    "answer": "The maximum depth captured in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Is there any identifiable object present in the foreground of the construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Where is the primary depth mass of this construction scene concentrated relative to the camera?",
+    "answer": "The primary depth mass is concentrated at a mid-to-far range, with a mean depth of 14.30 metres from the camera. The depth range spans from 0.00 metres (immediate foreground) to 50.00 metres (far background), suggesting an open or expansive construction site layout.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Based on the depth data, where does the closest surface or element appear relative to the camera?",
+    "answer": "The closest surface or element is at approximately 0.00 metres from the camera, indicating something may be immediately adjacent to or touching the sensor, though no discrete object was detected by the recognition system.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard involving a worker in close proximity to heavy equipment in this scene?",
+    "answer": "No specific safety hazard can be confirmed at this time because no workers or heavy equipment were detected in the scene. However, the minimum depth reading of 0.00 metres suggests an unidentified element is extremely close to the sensor. Caution is advised: if personnel are present in this construction environment, a manual safety sweep should be conducted to verify no worker is within the 2-metre exclusion zone of any machinery, as the object detection system returned no results and may not be fully reliable under current conditions.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  },
+  {
+    "question": "Should safety personnel be concerned about undetected hazards given that no objects were identified in this construction scene?",
+    "answer": "Yes \u2014 a safety alert is warranted. The object detection system returned no detected objects, yet the depth sensor reports a minimum depth of 0.00 metres and a mean depth of 14.30 metres, indicating real physical structure exists in the scene. The failure to detect any objects could indicate poor lighting, occlusion, sensor noise, or model limitations. On an active construction site, this represents a potential safety risk: workers or heavy equipment may be present but undetected. Site safety officers should perform an immediate visual or manual inspection to ensure no personnel are within a 2-metre radius of any heavy machinery or hazardous equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000348.jpg"
+  }
+]

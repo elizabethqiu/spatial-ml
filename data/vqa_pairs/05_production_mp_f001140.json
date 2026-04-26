@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the person from the nearest bed?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the person and the nearest bed is approximately 21.74 metres (mean scene depth), though exact relative distance requires precise 3D coordinates for each object.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two beds in the scene?",
+    "answer": "The two beds are estimated to be within a range of 0.00 to 50.00 metres apart, with a mean scene depth of 21.74 metres suggesting they are positioned at moderate separation from one another.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Is the person located between the two beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Is the person closer to one bed than the other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two beds?",
+    "answer": "The person is positioned in the general vicinity of the two beds within the scene. Given the shared depth range of 0.00 to 50.00 metres and a mean depth of 21.74 metres, the person is likely situated alongside or between the two beds, suggesting a bedroom or ward-like environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Where are the two beds positioned relative to each other?",
+    "answer": "The two beds appear to be positioned side by side or in close proximity within the same room, as both share similar depth statistics (mean: 21.74 metres, range: 0.00\u201350.00 metres), suggesting they are roughly parallel or adjacent to one another.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (within 2 metres) to any heavy construction equipment?",
+    "answer": "No heavy construction equipment is detected in this scene. The only objects present are two beds and one person, so no construction-related safety alert is applicable.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  },
+  {
+    "question": "Does the scene present any safety hazards related to proximity between a worker and heavy machinery?",
+    "answer": "No safety hazard of this type is present. The scene contains only beds and a person, with no heavy equipment detected. However, if this is a medical or care facility, caregivers should ensure safe clearance around beds to avoid trip or fall hazards, particularly if the person is a patient.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001140.jpg"
+  }
+]

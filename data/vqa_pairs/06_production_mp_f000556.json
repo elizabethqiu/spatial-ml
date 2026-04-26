@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a refrigerator in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000556.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the refrigerator?",
+    "answer": "14.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000556.jpg"
+  },
+  {
+    "question": "Is the refrigerator closer than 5 metres away?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000556.jpg"
+  },
+  {
+    "question": "What is the maximum depth measurement in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000556.jpg"
+  },
+  {
+    "question": "Is the refrigerator located in the foreground of the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000556.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000556.jpg"
+  }
+]

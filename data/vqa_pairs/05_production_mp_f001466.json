@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the approximate distance between the two people in the scene?",
+    "answer": "Based on the depth statistics and scene layout, the two people are approximately 17.85 metres apart on average, with positions ranging across a depth span of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  },
+  {
+    "question": "What is the maximum possible separation distance between the two people in the scene?",
+    "answer": "The maximum possible separation distance between the two people is approximately 50.00 metres, based on the depth range of the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  },
+  {
+    "question": "Are there any people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  },
+  {
+    "question": "Where is the first person located relative to the second person in the scene?",
+    "answer": "Without precise individual coordinates, the two people are distributed across a depth range of 0.00 to 50.00 metres. One person is likely positioned closer to the foreground (nearer to 0.00 metres depth) while the other is positioned further into the scene, with the mean depth of the scene at approximately 17.85 metres suggesting one may be in the near-mid zone and the other further back.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  },
+  {
+    "question": "Are the two people in the scene positioned at a similar depth, or is one significantly further away than the other?",
+    "answer": "The depth range spans from 0.00 to 50.00 metres with a mean of 17.85 metres, suggesting the two people may be at notably different depths within the scene, with one potentially much closer to the observer than the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) has been detected in this scene \u2014 only two people are present. Therefore, no proximity-based safety alert between a worker and heavy machinery is triggered. However, site supervisors should remain vigilant as equipment may be outside the camera's field of view.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any person being dangerously close to construction machinery in this scene?",
+    "answer": "No safety alert is required for person-to-machinery proximity in this scene, as no heavy equipment has been detected. Only two people are identified. Standard site safety protocols should still be followed, and the area should be monitored for any undetected equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001466.jpg"
+  }
+]

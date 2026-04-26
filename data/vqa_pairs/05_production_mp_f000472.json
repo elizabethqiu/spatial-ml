@@ -1,0 +1,101 @@
+[
+  {
+    "question": "How far is the person from cat #1 in the scene?",
+    "answer": "Based on the available depth statistics, the estimated distance between the person and cat #1 is approximately 18.30 metres (scene mean depth), though exact separation requires individual object depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two cats in the scene?",
+    "answer": "The two cats are estimated to be within the scene's depth range of 0.00 to 50.00 metres apart, with a mean scene depth of 18.30 metres suggesting they are likely several metres from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Are there more than one cat detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Is the person closer to the front of the scene (minimum depth) than to the back (maximum depth)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment detected near the person in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Where are the two cats positioned relative to the person in the scene?",
+    "answer": "Both cats are detected within the same scene as the person. Given the scene's depth range (0.00\u201350.00 m) and mean depth (18.30 m), the cats may be positioned at varying distances around the person, potentially one closer to the foreground and one further in the mid-to-background area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Is the person positioned in the foreground, mid-ground, or background of the scene?",
+    "answer": "Based on the scene's depth statistics (min: 0.00 m, mean: 18.30 m, max: 50.00 m), the person is likely positioned somewhere in the mid-ground of the scene, around the mean depth of 18.30 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving heavy equipment and a worker within 2 metres in this scene?",
+    "answer": "No safety alert triggered. The scene contains only a person and two cats \u2014 no heavy construction equipment (e.g., excavators, cranes, forklifts) is detected. There is no proximity hazard between a worker and heavy machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to any object being dangerously close (within 2 metres) to the person in this scene?",
+    "answer": "No safety alert is required. The only objects near the person are two cats, which do not constitute a heavy equipment hazard. No construction machinery is present in the scene to pose a proximity risk to the person.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000472.jpg"
+  }
+]

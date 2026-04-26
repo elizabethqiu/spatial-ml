@@ -1,0 +1,51 @@
+[
+  {
+    "question": "How many birds are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003186.jpg"
+  },
+  {
+    "question": "Are there any birds present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003186.jpg"
+  },
+  {
+    "question": "What is the average distance of detected objects from the camera?",
+    "answer": "15.06 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003186.jpg"
+  },
+  {
+    "question": "Is there any object closer than 5 metres to the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003186.jpg"
+  },
+  {
+    "question": "What is the maximum distance at which objects are detected?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003186.jpg"
+  }
+]

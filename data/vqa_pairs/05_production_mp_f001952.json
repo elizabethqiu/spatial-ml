@@ -1,0 +1,55 @@
+[
+  {
+    "question": "How many cats are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001952.jpg"
+  },
+  {
+    "question": "Are there any cats visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001952.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001952.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "15.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001952.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present involving workers and equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001952.jpg"
+  },
+  {
+    "question": "What is the maximum distance range detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001952.jpg"
+  }
+]

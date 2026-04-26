@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What is the approximate mean depth of the detected persons in the scene?",
+    "answer": "The mean depth of persons in the scene is approximately 18.78 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "What is the range of depths (minimum to maximum) observed across all detected persons in the scene?",
+    "answer": "The depth range spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Are there any persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, bulldozer) detected in the scene alongside the workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera/sensor?",
+    "answer": "Based on the depth statistics, at least one person is located at approximately 0.00 metres from the sensor, making them the closest detected individual in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Which person is positioned farthest from the camera/sensor?",
+    "answer": "The farthest detected person is located at approximately 50.00 metres from the sensor, placing them at the far end of the observed depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Relative to the mean scene depth of 18.78 metres, are any persons positioned in the foreground (closer than the mean)?",
+    "answer": "Yes. Given the minimum depth of 0.00 metres and a mean of 18.78 metres, at least one person is positioned in the foreground, significantly closer than the average scene depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No immediate heavy-equipment proximity alert is triggered because no heavy equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. However, the presence of a person at approximately 0.00 metres depth warrants attention \u2014 if heavy machinery were to enter that zone, it would constitute a critical safety hazard. Continuous monitoring is advised.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  },
+  {
+    "question": "Given that one person appears to be at near-zero depth (0.00 metres), does this pose any potential safety risk on a construction site?",
+    "answer": "Yes. A person detected at approximately 0.00 metres is extremely close to the sensor or camera, which may indicate they are in a high-traffic or restricted zone near site entry/exit points or monitoring equipment. On a construction site, this proximity could be hazardous if vehicles or machinery operate in the same area. Immediate verification of the worker's location and surroundings is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000304.jpg"
+  }
+]

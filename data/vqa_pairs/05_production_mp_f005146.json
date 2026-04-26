@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the cat and the suitcase?",
+    "answer": "Unable to determine - no spatial coordinates provided for objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005146.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the suitcase?",
+    "answer": "Unable to determine - no depth information available for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005146.jpg"
+  },
+  {
+    "question": "Is the cat positioned to the left of the suitcase?",
+    "answer": "Unable to determine - no horizontal position coordinates provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005146.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005146.jpg"
+  }
+]

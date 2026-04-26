@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the bicycle?",
+    "answer": "11.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001636.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the bicycle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001636.jpg"
+  },
+  {
+    "question": "Is the bicycle closer to the camera than the person?",
+    "answer": "Unable to determine - insufficient spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001636.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person and bicycle proximity?",
+    "answer": "No safety alert - person and bicycle are adequately separated (11.72 metres)",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001636.jpg"
+  }
+]

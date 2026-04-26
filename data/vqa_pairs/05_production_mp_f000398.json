@@ -1,0 +1,113 @@
+[
+  {
+    "question": "What is the approximate average depth of all detected persons in the scene?",
+    "answer": "The average depth of the scene is approximately 19.38 metres, which is representative of the persons' positions in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "What is the depth range (from nearest to farthest object) across the entire scene?",
+    "answer": "The depth range spans approximately 50.00 metres, from a minimum of 0.00 metres to a maximum of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cell phone",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "Is there a cell phone detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "Is any person in the scene located at or very near the closest depth point (0.00 metres)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "Is heavy construction equipment (e.g., crane, excavator, forklift) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "Where is the cell phone positioned relative to the persons in the scene?",
+    "answer": "The cell phone is detected within the scene and, given the mean depth of 19.38 metres, it is likely in close proximity to one of the persons, most probably being held or used by the nearest person at the foreground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "How are the four persons distributed relative to each other in terms of depth (near vs. far)?",
+    "answer": "The persons are spread across a depth range of 0.00 to 50.00 metres, with at least one person near the foreground (close range), others positioned around the mean depth of ~19.38 metres (mid-range), and at least one near the far end of the scene (~50.00 metres in the background).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "Is the person at the minimum depth (approximately 0.00 metres) dangerously close to any heavy equipment?",
+    "answer": "No heavy equipment (such as cranes, excavators, or forklifts) is detected in this scene, so no proximity safety alert is triggered. However, the presence of a person at ~0.00 metres depth warrants continued monitoring should any equipment enter the scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any worker-equipment proximity in this scene?",
+    "answer": "No safety alert is required at this time. No heavy construction equipment has been detected in the scene. All detected objects are persons and a cell phone. Nonetheless, workers should remain vigilant, and site supervisors should ensure no unauthorised equipment enters the monitored area, especially near the person at the closest detected depth of ~0.00 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000398.jpg"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many pairs of skis are visible in this scene?",
+    "answer": "3 pairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  },
+  {
+    "question": "Are the skis closer to the camera than the person?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skis",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene in metres?",
+    "answer": "12.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  },
+  {
+    "question": "Is the person positioned among or near the skis?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "skis"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  },
+  {
+    "question": "Are there more skis than people in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skis",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  },
+  {
+    "question": "What is the minimum depth distance recorded in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skis",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002912.jpg"
+  }
+]

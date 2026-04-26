@@ -1,0 +1,76 @@
+[
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "4 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001736.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "car",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001736.jpg"
+  },
+  {
+    "question": "Is the person standing closer than 2 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001736.jpg"
+  },
+  {
+    "question": "Is there a parking meter visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001736.jpg"
+  },
+  {
+    "question": "Is the TV positioned in front of the car?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001736.jpg"
+  },
+  {
+    "question": "Is the person located between the parking meter and the car?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "parking meter",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001736.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding worker proximity to equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001736.jpg"
+  }
+]

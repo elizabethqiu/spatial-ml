@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004978.jpg"
+  },
+  {
+    "question": "Is there a bottle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004978.jpg"
+  },
+  {
+    "question": "Is the pizza closer to the camera than the bottle?",
+    "answer": "Unable to determine from given data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "pizza",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004978.jpg"
+  },
+  {
+    "question": "Are there more people than food items in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004978.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "21.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004978.jpg"
+  },
+  {
+    "question": "Is this a construction site safety scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "pizza",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004978.jpg"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many dogs are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002266.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002266.jpg"
+  },
+  {
+    "question": "Is there at least one dog in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002266.jpg"
+  },
+  {
+    "question": "Are there more dogs than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002266.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene greater than 10 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002266.jpg"
+  },
+  {
+    "question": "Describe the relative positioning of the dogs and people in this scene.",
+    "answer": "The scene contains 2 dogs and 2 people distributed across the depth range of 0 to 50 metres, with an average depth of approximately 14.43 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002266.jpg"
+  },
+  {
+    "question": "What is the maximum distance observable in this scene in metres?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002266.jpg"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many traffic lights are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005010.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005010.jpg"
+  },
+  {
+    "question": "Are there more traffic lights than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "traffic light",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005010.jpg"
+  },
+  {
+    "question": "What is the approximate average depth of objects in the scene in metres?",
+    "answer": "12.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005010.jpg"
+  },
+  {
+    "question": "Is the car closer than 2 metres to any traffic light?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "traffic light"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005010.jpg"
+  },
+  {
+    "question": "What is the maximum distance range detected in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "traffic light",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005010.jpg"
+  }
+]

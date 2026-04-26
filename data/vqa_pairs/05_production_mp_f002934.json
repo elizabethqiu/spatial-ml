@@ -1,0 +1,71 @@
+[
+  {
+    "question": "How far is the person from the train?",
+    "answer": "20.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002934.jpg"
+  },
+  {
+    "question": "What is the maximum distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002934.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the train?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002934.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002934.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of the train?",
+    "answer": "Unable to determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002934.jpg"
+  },
+  {
+    "question": "Where is the person relative to the train in this construction site?",
+    "answer": "The person is approximately 20.11 metres away from the train",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002934.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to the train?",
+    "answer": "No - the person is at a safe distance (20.11 metres) from the train, well above the 2 metre safety threshold",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "train"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002934.jpg"
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "There are 3 people present in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "What is the average depth (distance from camera) of the people detected in the scene?",
+    "answer": "The average depth of the detected people is approximately 15.35 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "What is the range of depths across all detected people in the scene?",
+    "answer": "The depth ranges from approximately 0.00 metres (nearest point) to 50.00 metres (farthest point), giving a range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "Are all detected individuals located within 50 metres of the camera position?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "Is at least one person detected at a very close range (near 0 metres) to the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "Which person is closest to the camera, and approximately how far away are they?",
+    "answer": "Based on the depth statistics, at least one person is located at approximately 0.00 metres from the camera, making them the closest detected individual in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "Which person is farthest from the camera, and approximately how far away are they?",
+    "answer": "The farthest detected person is located at approximately 50.00 metres from the camera, representing the maximum depth in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "How are the three people distributed in terms of depth relative to each other?",
+    "answer": "The three people are spread across a large depth range of 0.00 to 50.00 metres, with the mean depth at 15.35 metres, suggesting one person is very close to the camera, one is at a mid-range distance, and one is far away.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard due to a worker being within 2 metres of heavy equipment?",
+    "answer": "No safety alert for worker-equipment proximity is triggered because no heavy equipment (e.g., excavators, bulldozers, cranes, or forklifts) has been detected in this scene. However, note that one person appears to be at an extremely close range (approximately 0.00 metres), which may warrant verification that the camera placement itself does not pose a hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  },
+  {
+    "question": "Should a safety officer be alerted due to any worker being dangerously close to another hazard in this scene?",
+    "answer": "No critical equipment-proximity safety alert is required since only people are detected. However, the person detected at approximately 0.00 metres depth should be verified \u2014 if the camera is mounted on moving machinery, this individual may be in a hazardous position and a safety officer should confirm their status.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001408.jpg"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "question": "Is the person closer to the bottle than to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002998.jpg"
+  },
+  {
+    "question": "Is the cell phone located on the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002998.jpg"
+  },
+  {
+    "question": "How far is the person from the bottle in metres?",
+    "answer": "Unable to determine - object positions not provided in spatial coordinates",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002998.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bottle and the cell phone in metres?",
+    "answer": "Unable to determine - object positions not provided in spatial coordinates",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002998.jpg"
+  },
+  {
+    "question": "Is the cell phone positioned to the right of the person?",
+    "answer": "Unable to determine - directional coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002998.jpg"
+  },
+  {
+    "question": "Is the bottle located between the person and the bed?",
+    "answer": "Unable to determine - precise 3D coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002998.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between the person and any heavy equipment?",
+    "answer": "No hazard detected - scene contains only domestic objects with no heavy construction equipment",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002998.jpg"
+  }
+]

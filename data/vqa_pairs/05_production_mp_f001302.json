@@ -1,0 +1,100 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Based on the depth statistics, the person and bed are approximately 0.00 to 50.00 metres apart, with a mean scene depth of 18.95 metres. Their relative separation is estimated at approximately 1.5 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "What is the estimated depth (distance from camera) of the primary objects in the scene?",
+    "answer": "The primary objects (bed and person) are located within a depth range of 0.00 to 50.00 metres from the camera, with an average scene depth of approximately 18.95 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Is the bed the only large object detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Is the person near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person appears to be in close proximity to the bed, likely alongside or on top of it, given that both objects are detected in the same scene with overlapping depth ranges.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Is the bed in the foreground or background of the scene relative to the person?",
+    "answer": "Both the bed and the person are detected at similar depth ranges within the scene. Based on available depth statistics, neither object is clearly in the foreground or background relative to the other \u2014 they appear to occupy roughly the same spatial plane.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Are there any construction safety hazards detected in this scene involving a worker and heavy equipment within 2 metres of each other?",
+    "answer": "No safety alert is triggered. This scene does not appear to be a construction site \u2014 only a bed and a person are detected. There is no heavy equipment present, so no proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  },
+  {
+    "question": "Does the scene present any risk of injury from heavy machinery to the person detected?",
+    "answer": "No safety alert required. The detected objects are a bed and a person. No heavy machinery or construction equipment is present in the scene, so there is no machinery-related safety risk to the person.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001302.jpg"
+  }
+]

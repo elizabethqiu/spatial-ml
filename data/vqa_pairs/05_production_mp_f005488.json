@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance to any object in the scene in metres?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  },
+  {
+    "question": "Are there more people than vehicles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  },
+  {
+    "question": "Is the car positioned closest to the camera viewpoint?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene in metres?",
+    "answer": "21.42 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  },
+  {
+    "question": "Are all people positioned at a safe distance (>2m) from the vehicle?",
+    "answer": "unknown - insufficient spatial coordinates",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance in this scene below 1 metre?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005488.jpg"
+  }
+]

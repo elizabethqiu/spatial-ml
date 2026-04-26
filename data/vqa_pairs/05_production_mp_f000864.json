@@ -1,0 +1,118 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in this scene?",
+    "answer": "The mean depth of objects in the scene is approximately 19.89 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Is there a dining table present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Are there more than three persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Are any chairs detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Where are the chairs positioned relative to the dining table in the scene?",
+    "answer": "The two chairs are detected in proximity to the dining table, suggesting they are positioned around or adjacent to the dining table, consistent with a typical seating arrangement.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Where are the persons positioned relative to the beds in the scene?",
+    "answer": "With five persons and two beds detected, some persons appear to be positioned near or on the beds, while others may be situated closer to the dining and seating area of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "How are the two beds spatially distributed relative to each other in the scene?",
+    "answer": "The two beds are detected within the same scene space. Given the depth range of 0.00\u201350.00 metres and mean of 19.89 metres, the beds are likely positioned at different depths, suggesting they are separate resting areas within the environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Is any worker or person within a dangerously close proximity (less than 2 metres) to heavy construction equipment in this scene?",
+    "answer": "No safety alert required. No heavy construction equipment (such as excavators, cranes, or forklifts) has been detected in this scene. The detected objects include persons, beds, a dining table, and chairs, which do not constitute heavy machinery hazards on a construction site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "dining table",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to any person being within 2 metres of a hazardous machine in this scene?",
+    "answer": "No safety alert is triggered. The scene contains only persons, beds, chairs, and a dining table. None of these objects qualify as heavy equipment or construction machinery, so no proximity hazard exists between workers and dangerous machines.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000864.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the cup and the sink?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002590.jpg"
+  },
+  {
+    "question": "Is the potted plant closer to the camera than the sink?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002590.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "potted plant",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002590.jpg"
+  },
+  {
+    "question": "Is the cup located near the sink?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002590.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving workers and heavy equipment?",
+    "answer": "No - this is an indoor domestic scene with no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002590.jpg"
+  },
+  {
+    "question": "Is the potted plant positioned between the cup and the sink?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002590.jpg"
+  }
+]

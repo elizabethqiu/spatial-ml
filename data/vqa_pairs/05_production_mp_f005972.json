@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the bird?",
+    "answer": "24.80 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005972.jpg"
+  },
+  {
+    "question": "Is the bird closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005972.jpg"
+  },
+  {
+    "question": "Is the person in front of the bird or behind it?",
+    "answer": "Unable to determine from spatial data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005972.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between the worker and equipment on this site?",
+    "answer": "No hazards detected. The bird is not heavy equipment and maintains safe distance.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005972.jpg"
+  }
+]

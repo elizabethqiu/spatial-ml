@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the bed?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000704.jpg"
+  },
+  {
+    "question": "Is the person closer to the dining table than to the bed?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "dining table",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000704.jpg"
+  },
+  {
+    "question": "Is the bed positioned to the left of the dining table?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000704.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000704.jpg"
+  },
+  {
+    "question": "How many furniture items are present in this indoor scene?",
+    "answer": "2 items (bed and dining table)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "dining table"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000704.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy machinery?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000704.jpg"
+  }
+]

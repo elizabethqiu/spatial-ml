@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How far is the person from the bus?",
+    "answer": "16.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003178.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bus",
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003178.jpg"
+  },
+  {
+    "question": "Is the person closer to the bus than the bird is?",
+    "answer": "Unable to determine - bird position relative to person/bus not specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bus",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003178.jpg"
+  },
+  {
+    "question": "Is there a safety concern with the person's proximity to the bus?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003178.jpg"
+  },
+  {
+    "question": "Is the bird present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003178.jpg"
+  },
+  {
+    "question": "Are the person and bus within 2 metres of each other?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003178.jpg"
+  }
+]

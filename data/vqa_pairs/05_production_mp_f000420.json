@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the average depth of the construction scene?",
+    "answer": "The mean depth of the scene is approximately 15.16 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this construction scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  },
+  {
+    "question": "Are there any workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  },
+  {
+    "question": "Is any heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  },
+  {
+    "question": "Where are the majority of objects or surfaces located relative to the camera in this scene?",
+    "answer": "Based on the mean depth of 15.16 metres, the dominant scene content is located in the mid-range distance from the camera, neither in the immediate foreground nor the far background.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  },
+  {
+    "question": "Is the foreground area (0\u20132 metres from the camera) likely to contain significant scene elements?",
+    "answer": "Although the minimum depth is 0.00 metres, no specific objects were detected. The mean depth of 15.16 metres suggests most scene content is further away, so the immediate foreground appears relatively sparse.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving workers and heavy equipment in close proximity?",
+    "answer": "No workers or heavy equipment were detected in this scene. Therefore, no proximity-based safety hazards (i.e., worker within 2 metres of heavy equipment) can be confirmed. However, the absence of detections may indicate sensor occlusion, poor visibility, or detection failure \u2014 site supervisors should conduct a manual inspection to verify site safety.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  },
+  {
+    "question": "Should this scene be flagged for further safety review given the lack of object detections?",
+    "answer": "Yes \u2014 while no specific worker-equipment proximity violations can be confirmed, the complete absence of detected objects on an active construction site is itself a safety concern. Detection failure could mask genuine hazards. A manual walkthrough or recalibration of the detection system is strongly recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000420.jpg"
+  }
+]

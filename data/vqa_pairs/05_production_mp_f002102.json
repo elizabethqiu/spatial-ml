@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many vases are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "vase",
+      "potted plant",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  },
+  {
+    "question": "Are there more cups than vases in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  },
+  {
+    "question": "Is there a potted plant in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  },
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in the scene?",
+    "answer": "17.18 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "vase",
+      "bowl",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  },
+  {
+    "question": "Is there a bowl present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  },
+  {
+    "question": "Are there equal numbers of cups and vases?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002102.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many motorcycles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002898.jpg"
+  },
+  {
+    "question": "Are there any motorcycles visible in this construction site scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002898.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "12.55 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002898.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance in the scene greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002898.jpg"
+  },
+  {
+    "question": "What is the range of depth coverage in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002898.jpg"
+  },
+  {
+    "question": "Are both motorcycles positioned at the same depth distance?",
+    "answer": "unknown - insufficient spatial positioning data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002898.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005826.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the person?",
+    "answer": "17.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005826.jpg"
+  },
+  {
+    "question": "What is the closest depth measurement in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005826.jpg"
+  },
+  {
+    "question": "What is the farthest depth measurement in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005826.jpg"
+  },
+  {
+    "question": "Is the person located at the minimum depth point of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005826.jpg"
+  },
+  {
+    "question": "Is the detected person within a critical safety zone (less than 2 metres from heavy equipment)?",
+    "answer": "no hazardous proximity detected - insufficient heavy equipment data",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005826.jpg"
+  }
+]

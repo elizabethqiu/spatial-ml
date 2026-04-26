@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a dog visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001800.jpg"
+  },
+  {
+    "question": "How many dogs are present in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001800.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the dog from the camera?",
+    "answer": "16.16 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001800.jpg"
+  },
+  {
+    "question": "Is the dog closer than 10 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001800.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001800.jpg"
+  }
+]

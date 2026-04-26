@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a potted plant visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003854.jpg"
+  },
+  {
+    "question": "How many potted plants are detected in the scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003854.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003854.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "11.89 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003854.jpg"
+  },
+  {
+    "question": "Is the potted plant located at the minimum depth point of the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003854.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity to the potted plant requiring safety assessment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003854.jpg"
+  }
+]

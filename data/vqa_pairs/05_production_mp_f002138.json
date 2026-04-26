@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the distance between the bottle and the cup?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002138.jpg"
+  },
+  {
+    "question": "Is the potted plant closer to the camera than the bottle?",
+    "answer": "Unable to determine - no relative depth ordering provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002138.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "potted plant",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002138.jpg"
+  },
+  {
+    "question": "Is there a cup in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002138.jpg"
+  },
+  {
+    "question": "Does the scene contain any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002138.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity (< 2 metres) to equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002138.jpg"
+  }
+]

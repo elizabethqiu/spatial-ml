@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the toothbrush and person?",
+    "answer": "14.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002250.jpg"
+  },
+  {
+    "question": "Is the toothbrush closer than 5 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002250.jpg"
+  },
+  {
+    "question": "Is the person holding or very close to the toothbrush?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002250.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toothbrush",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002250.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding proximity between the person and objects?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toothbrush"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002250.jpg"
+  }
+]

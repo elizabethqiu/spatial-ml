@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the bicycle and person in this scene?",
+    "answer": "Unable to determine - position coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004498.jpg"
+  },
+  {
+    "question": "Is the bicycle closer to the camera than the person?",
+    "answer": "Unable to determine - depth coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004498.jpg"
+  },
+  {
+    "question": "Is the person positioned to the left of the bicycle?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004498.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and bicycle?",
+    "answer": "Unable to determine - proximity data not available to assess if distance is less than 2 metres",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004498.jpg"
+  }
+]

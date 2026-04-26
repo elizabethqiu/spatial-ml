@@ -1,0 +1,119 @@
+[
+  {
+    "question": "How far is the bottle from the nearest person in the scene?",
+    "answer": "Approximately 2.3 metres, based on the estimated depth positions of the bottle and the closest detected person.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the tv and the nearest person?",
+    "answer": "Approximately 4.1 metres, based on the mean depth distribution of the tv and the nearest person in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two farthest persons in the scene?",
+    "answer": "Approximately 8.5 metres, based on the spatial spread of the three detected persons across the scene depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "Is there a person located in front of the tv?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the tv than to any of the persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "tv",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "Are all three persons on the same depth plane (within 1 metre of each other in depth)?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "Where is the bottle positioned relative to the tv?",
+    "answer": "The bottle is positioned in front of and to the side of the tv, at a shallower depth, suggesting it is on a surface such as a table between the viewer and the tv.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "Where are the three persons positioned relative to the tv?",
+    "answer": "All three persons appear to be positioned in front of the tv, at varying lateral and depth offsets, suggesting they are seated or standing while facing the screen.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "What is the relative position of the bottle with respect to the nearest person?",
+    "answer": "The bottle is positioned slightly in front of and to the right of the nearest person, likely resting on a nearby surface within arm's reach.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "Is any person within a dangerously close proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No heavy equipment (e.g., excavators, forklifts, cranes) is detected in this scene. The objects present are a tv, a bottle, and three persons. No construction safety hazard alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "tv",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  },
+  {
+    "question": "Does the presence of the bottle near any person pose a trip or slip hazard in this environment?",
+    "answer": "The bottle is estimated to be approximately 2.3 metres from the nearest person. While no immediate collision hazard with heavy machinery exists, if the bottle is on the floor, it could pose a minor slip or trip hazard. Workers should ensure loose objects are stored safely away from walkways.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001012.jpg"
+  }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "3 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  },
+  {
+    "question": "How many chairs are present in the scene?",
+    "answer": "2 chairs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  },
+  {
+    "question": "Is there a potted plant in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  },
+  {
+    "question": "Is there a bowl visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  },
+  {
+    "question": "Are there more cups than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  },
+  {
+    "question": "Is the person closer to the potted plant or farther away?",
+    "answer": "The average depth suggests objects are distributed across 0 to 50 metres, with considerable spacing between the person and potted plant",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  },
+  {
+    "question": "What is the relative position of the bowl in relation to the cups?",
+    "answer": "The bowl is positioned among the cups in the scene with mean depth of approximately 19.86 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment?",
+    "answer": "No safety alerts - this is an indoor domestic scene with no heavy equipment. The person is surrounded by household items (cups, chairs, bowl, potted plant) at safe distances.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "chair",
+      "bowl",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002038.jpg"
+  }
+]

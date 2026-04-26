@@ -1,0 +1,71 @@
+[
+  {
+    "question": "How far apart are the motorcycle and cell phone?",
+    "answer": "13.18 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003484.jpg"
+  },
+  {
+    "question": "Is the cell phone closer than 5 metres to the motorcycle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003484.jpg"
+  },
+  {
+    "question": "What is the maximum distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003484.jpg"
+  },
+  {
+    "question": "Is the motorcycle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003484.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "13.18 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003484.jpg"
+  },
+  {
+    "question": "Are both the motorcycle and cell phone detected with high confidence?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003484.jpg"
+  },
+  {
+    "question": "Note: No workers are present in this scene. Safety assessment: No proximity hazards detected.",
+    "answer": "No safety concerns - no workers present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003484.jpg"
+  }
+]

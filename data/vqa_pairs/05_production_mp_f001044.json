@@ -1,0 +1,94 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the bed is approximately 19.17 metres (mean scene depth), though exact individual distances cannot be precisely determined without per-object depth data.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Given the available depth statistics (mean: 19.17 metres, min: 0.00 metres, max: 50.00 metres), the two persons could be anywhere from 0.00 to 50.00 metres apart; the mean separation is estimated at approximately 19.17 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "Are both detected persons in the same scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "Is any person located near or on the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the persons in the scene?",
+    "answer": "The bed appears to be in the mid-to-far depth range of the scene. At least one person is positioned in proximity to or on the bed, while the second person may be at a greater distance from it, based on the scene's depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "Where is the first person positioned relative to the second person?",
+    "answer": "Without precise per-object 3D coordinates, the two persons are both detected within the same scene. Based on depth statistics, one person may be closer to the foreground (near 0.00 metres) while the other could be further back, making their relative positions front-to-back within the scene depth range of 0.00\u201350.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected in this scene that poses a safety risk to the persons present?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The only objects present are a bed and two persons. Therefore, no construction-site heavy-equipment proximity safety alert is triggered. However, note that this scene does not appear to be a typical construction site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  },
+  {
+    "question": "Are any workers within a dangerous proximity of less than 2 metres to heavy machinery in this scene?",
+    "answer": "No \u2014 there is no heavy machinery detected in this scene. The detected objects are a bed and two persons. No safety alert for worker-equipment proximity is required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001044.jpg"
+  }
+]

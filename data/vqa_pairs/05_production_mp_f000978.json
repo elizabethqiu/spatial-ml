@@ -1,0 +1,101 @@
+[
+  {
+    "question": "Is the bottle closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "Is the cup within arm's reach of the person?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the nearest object to the camera in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cup",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "What is the approximate distance from the farthest object to the camera in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cup",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "How many metres separate the closest and farthest objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "cup",
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "Is the bottle positioned to the left of the person?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "Is the cup on top of the table or bed?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  },
+  {
+    "question": "Is the chair positioned in front of the bed?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000978.jpg"
+  }
+]

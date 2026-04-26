@@ -1,0 +1,105 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the depth statistics and object positions, the two persons are approximately 20.48 metres apart on average, with positions ranging across a depth span of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the handbag and the nearest person?",
+    "answer": "The handbag is estimated to be within approximately 20.48 metres (mean scene depth) of the nearest person, suggesting it is likely in close proximity, possibly carried or placed nearby.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment present in the scene that could pose a safety risk to workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Are both persons visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Is the handbag associated with one of the persons in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Is there any detected object closer than 2 metres to a worker that constitutes a heavy-equipment safety hazard?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Where is the handbag positioned relative to the two persons in the scene?",
+    "answer": "The handbag is positioned in the vicinity of one of the persons, likely in front of or beside them, given the high detection confidence and the shared depth range of 0.00\u201350.00 metres across the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "handbag",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "How are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons are positioned within the same scene depth range (0.00\u201350.00 metres), with one potentially closer to the camera (shallower depth) and the other further away (greater depth), suggesting they are separated along the depth axis.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any worker being dangerously close (within 2 metres) to heavy construction equipment in this scene?",
+    "answer": "No safety alert is required. The scene contains only two persons and a handbag. No heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected, so no proximity hazard of less than 2 metres between a worker and heavy equipment exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Are there any safety concerns related to object proximity that should be flagged in this scene?",
+    "answer": "No critical safety alert is warranted. The detected objects are two persons and a handbag \u2014 none of which constitute heavy machinery. However, site supervisors should verify that neither person is operating in an unsecured area, given the wide depth range (0.00\u201350.00 metres) suggesting a large or open environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "handbag"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001648.jpg"
+  }
+]

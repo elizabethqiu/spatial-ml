@@ -1,0 +1,64 @@
+[
+  {
+    "question": "What is the distance between the parking meter and the teddy bear?",
+    "answer": "Unable to determine - object positions not provided in coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "parking meter",
+      "teddy bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003612.jpg"
+  },
+  {
+    "question": "How far is the toilet from the parking meter?",
+    "answer": "Unable to determine - object positions not provided in coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003612.jpg"
+  },
+  {
+    "question": "Is the teddy bear closer to the parking meter than to the toilet?",
+    "answer": "Unable to determine - object positions not provided in coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "teddy bear",
+      "parking meter",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003612.jpg"
+  },
+  {
+    "question": "Is the parking meter in front of the toilet?",
+    "answer": "Unable to determine - object positions not provided in coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "parking meter",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003612.jpg"
+  },
+  {
+    "question": "Is the teddy bear to the left of the parking meter?",
+    "answer": "Unable to determine - object positions not provided in coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "teddy bear",
+      "parking meter"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003612.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No - no workers or heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "parking meter",
+      "teddy bear",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003612.jpg"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "question": "How far is the person from the nearest chair in the scene?",
+    "answer": "Approximately 18.82 metres (based on mean scene depth; exact distance requires precise 3D coordinates).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in this scene?",
+    "answer": "The depth range of detected objects spans from 0.00 metres to 50.00 metres, with a mean depth of 18.82 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bowl",
+      "person",
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "Are there more than two chairs visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "Is the bowl located in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "Where is the bowl positioned relative to the person in the scene?",
+    "answer": "The bowl appears to be in the vicinity of the person, likely on or near a surface at a similar depth range, suggesting it is in front of or beside the person within the general scene area.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "How are the three chairs arranged relative to each other in the scene?",
+    "answer": "The three chairs are distributed across the scene at varying depths (within the 0\u201350 metre range), suggesting they are spread out rather than clustered, potentially arranged around a common area such as a dining or seating space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the chairs in the scene?",
+    "answer": "The person appears to be positioned among or near the chairs, likely seated at or standing close to one of the chairs, given the shared mean scene depth of approximately 18.82 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "Is the person in this scene at risk due to proximity to heavy construction equipment?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) has been detected in this scene. The objects present are chairs, a bowl, and a person, so no construction-related proximity safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  },
+  {
+    "question": "Are any workers within a dangerous 2-metre proximity to heavy machinery in this scene?",
+    "answer": "No heavy machinery is detected in this scene. The detected objects include only chairs, a bowl, and a person. There is no immediate construction safety hazard to flag based on equipment proximity.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bowl",
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000720.jpg"
+  }
+]

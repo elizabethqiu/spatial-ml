@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  },
+  {
+    "question": "Is there a skateboard in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  },
+  {
+    "question": "Is there a bench visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "bench",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "17.82 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "bench",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  },
+  {
+    "question": "Are there more people than pieces of equipment (skateboard and bench combined)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "skateboard",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance in the scene less than 1 metre?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard",
+      "bench",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  },
+  {
+    "question": "What is the difference between the maximum and minimum depth measurements in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard",
+      "bench",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004290.jpg"
+  }
+]

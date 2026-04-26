@@ -1,0 +1,93 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the depth statistics, the two persons are estimated to be approximately 19.36 metres apart on average, though individual positions may vary within the 0.00\u201350.00 metre depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in this scene?",
+    "answer": "The objects in the scene span a depth range from 0.00 metres (nearest point) to 50.00 metres (farthest point), with a mean depth of approximately 19.36 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "Is there a cell phone present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "Is any person in the scene in close proximity (less than 2 metres) to heavy equipment?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "Where is the cell phone located relative to the persons in the scene?",
+    "answer": "The cell phone is detected within the scene and is likely held by or positioned near one of the two persons, given the shared depth environment with a mean depth of 19.36 metres. It appears to be in close association with at least one person rather than being a standalone object at a distance.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "How are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons are positioned within the same scene environment spanning 0.00 to 50.00 metres in depth. They may be at similar or different depth planes; without precise individual coordinates, they are broadly co-located within the mid-to-far range around the mean depth of 19.36 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only persons and a cell phone \u2014 no heavy equipment (e.g., cranes, excavators, forklifts) has been detected. There is no proximity hazard between workers and heavy machinery in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  },
+  {
+    "question": "Could distracted phone use by a person in this scene pose a safety risk on a construction site?",
+    "answer": "Yes \u2014 a safety concern is flagged. A person is detected alongside a cell phone, which may indicate active phone use. On a construction site, distracted walking or working while using a mobile device can significantly increase the risk of accidents, especially near moving vehicles or heavy equipment. Workers should follow site policies restricting phone use in active work zones.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000130.jpg"
+  }
+]

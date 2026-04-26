@@ -1,0 +1,105 @@
+[
+  {
+    "question": "How far is the person from the dog?",
+    "answer": "Based on the available depth data, the person and dog are estimated to be approximately 0.50 metres apart, suggesting they are in close proximity to each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the person and the bed?",
+    "answer": "The person and the bed are estimated to be approximately 1.20 metres apart based on the scene depth statistics.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Is the dog near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Is the person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Is the dog located closer to the bed than the person is?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the person and the bed?",
+    "answer": "The dog appears to be positioned between the person and the bed, likely resting on or beside the bed while the person is nearby.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is positioned in front of or beside the bed, at an estimated distance of approximately 1.20 metres from it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the bed?",
+    "answer": "The dog appears to be positioned on or very close to the bed, likely resting on its surface or immediately beside it.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Is there any safety concern involving heavy equipment and a worker in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a person, a dog, and a bed \u2014 there is no heavy construction equipment present. The proximity between the person and dog (~0.50 metres) poses no construction safety risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  },
+  {
+    "question": "Are any objects in this scene within a dangerously close range (less than 2 metres) of a worker near heavy machinery?",
+    "answer": "No heavy machinery or construction equipment is detected in this scene. The person is near a dog and a bed, none of which constitute a construction hazard. No safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000980.jpg"
+  }
+]

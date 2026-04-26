@@ -1,0 +1,106 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in the scene?",
+    "answer": "The approximate mean depth of objects in the scene is 15.25 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) of detected objects in the scene?",
+    "answer": "The depth range of detected objects spans from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "Are there any people present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "Is there an animal detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment (e.g., excavator, crane, forklift) detected near the persons in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the two persons in the scene?",
+    "answer": "Based on the detected objects, the dog is present in the same scene as the two persons. Without precise individual object coordinates, it can be noted that all three entities fall within the overall depth range of 0.00 to 50.00 metres, with a mean scene depth of 15.25 metres, suggesting the dog and persons are in relatively close proximity within the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "How are the two persons positioned relative to each other in the scene?",
+    "answer": "Both persons are detected within the same scene sharing a depth range of 0.00 to 50.00 metres and a mean depth of 15.25 metres. Without individual bounding-box depth values, they appear to occupy the same general spatial zone, though one may be closer or farther from the camera than the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (e.g., excavators, forklifts, cranes) has been detected in this scene. The only detected entities are two persons and a dog, so no worker\u2013heavy-equipment proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  },
+  {
+    "question": "Does the presence of the dog near the workers pose any immediate construction-site safety concern based on proximity thresholds?",
+    "answer": "A potential minor safety concern exists: the dog is an uncontrolled animal on or near a construction site. While the dog does not constitute heavy equipment, its presence within the scene (depth range 0.00\u201350.00 m, mean 15.25 m) means it could be in close proximity (potentially < 2 metres) to one or both workers, creating a trip, distraction, or injury hazard. Site supervisors should ensure the animal is removed from the work zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001444.jpg"
+  }
+]

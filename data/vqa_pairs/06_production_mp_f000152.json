@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000152.jpg"
+  },
+  {
+    "question": "How many chairs are visible in this construction scene?",
+    "answer": "1 chair",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000152.jpg"
+  },
+  {
+    "question": "What is the approximate distance to the chair from the camera?",
+    "answer": "13.19 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000152.jpg"
+  },
+  {
+    "question": "Is the chair at the closest point in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000152.jpg"
+  },
+  {
+    "question": "Is the chair located within the maximum depth range of 50 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000152.jpg"
+  }
+]

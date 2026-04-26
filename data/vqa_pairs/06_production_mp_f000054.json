@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the closest object in the scene?",
+    "answer": "train at 0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000054.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Is the train present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Is the average depth of objects in this scene greater than 10 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Where is the train positioned relative to the camera viewpoint?",
+    "answer": "The train ranges from very close (0.00 metres) to far distance (50.00 metres), with a mean depth of 15.57 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000054.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity to heavy equipment?",
+    "answer": "Unable to assess - no workers detected in scene. Only train present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "train"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000054.jpg"
+  }
+]

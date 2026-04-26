@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many animals are visible in this scene?",
+    "answer": "1",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cow"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004552.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004552.jpg"
+  },
+  {
+    "question": "Are there more cows than people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cow",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004552.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cow",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004552.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "22.95 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cow",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004552.jpg"
+  },
+  {
+    "question": "Is the person in close proximity (less than 2 metres) to the cow?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cow"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004552.jpg"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "Is the person closer to the camera than the bird?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004096.jpg"
+  },
+  {
+    "question": "Are there any safety hazards between the worker and equipment in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004096.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of objects from the camera?",
+    "answer": "19.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004096.jpg"
+  },
+  {
+    "question": "Is the bird positioned behind the person relative to the camera?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004096.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004096.jpg"
+  },
+  {
+    "question": "Does the person maintain a safe distance from any heavy machinery?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004096.jpg"
+  }
+]

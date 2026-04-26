@@ -1,0 +1,78 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004902.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana",
+      "dog",
+      "bowl",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004902.jpg"
+  },
+  {
+    "question": "Is there a bowl in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004902.jpg"
+  },
+  {
+    "question": "Are there more dogs than bananas in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004902.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "25.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana",
+      "dog",
+      "bowl",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004902.jpg"
+  },
+  {
+    "question": "Are the bananas closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004902.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance greater than 1 metre?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "banana",
+      "dog",
+      "bowl",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004902.jpg"
+  }
+]

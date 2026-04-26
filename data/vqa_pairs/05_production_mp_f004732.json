@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the banana and the car?",
+    "answer": "18.76 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004732.jpg"
+  },
+  {
+    "question": "Is the banana closer than 5 metres to the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004732.jpg"
+  },
+  {
+    "question": "What is the maximum distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004732.jpg"
+  },
+  {
+    "question": "Are the banana and car within the same proximity zone (< 2 metres)?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "banana",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004732.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How many benches are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "bench",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002448.jpg"
+  },
+  {
+    "question": "Is there at least one bench in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002448.jpg"
+  },
+  {
+    "question": "Are all benches at the same depth from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench",
+      "bench",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002448.jpg"
+  },
+  {
+    "question": "What is the approximate mean distance to the benches in metres?",
+    "answer": "24.33 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "bench",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002448.jpg"
+  },
+  {
+    "question": "Is the furthest bench more than 40 metres away?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002448.jpg"
+  },
+  {
+    "question": "What is the maximum depth range across all benches in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench",
+      "bench",
+      "bench"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002448.jpg"
+  }
+]

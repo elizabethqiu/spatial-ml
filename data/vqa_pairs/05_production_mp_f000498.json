@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within the scene at an average depth of approximately 18.81 metres from the camera, with the scene spanning 0.00 to 50.00 metres. The relative separation between them cannot be precisely determined from depth statistics alone, but they are estimated to be within the same general area at roughly 0\u201350 metres depth range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "What is the mean depth at which the persons are located in the scene?",
+    "answer": "The mean depth of the scene is approximately 18.81 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Are there any persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavator, crane, bulldozer) present near the persons in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Are the two persons in close proximity to each other within the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Where are the persons located relative to the camera in this scene?",
+    "answer": "Both persons are located in the mid-to-far range of the scene, at an average depth of approximately 18.81 metres from the camera, with potential positions ranging from 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Are the persons located in the foreground or background of the scene?",
+    "answer": "The persons are located in the mid-range to background of the scene, given the mean depth of 18.81 metres and a maximum possible depth of 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Is there a safety alert required for any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is required. No heavy equipment has been detected in the scene. Only two persons are present, and no hazardous proximity between a worker and heavy machinery (< 2 metres) has been identified.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued due to the two persons being in dangerously close proximity to each other or any machinery?",
+    "answer": "No immediate safety alert is triggered by heavy equipment proximity, as no machinery is detected. However, site supervisors should verify the persons are wearing appropriate PPE and are operating within safe work zones, especially given the wide depth range (0\u201350 metres) of the scene which may indicate an expansive and potentially hazardous construction environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000498.jpg"
+  }
+]

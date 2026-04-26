@@ -1,0 +1,73 @@
+[
+  {
+    "question": "How far is the person from the sink?",
+    "answer": "15.27 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005438.jpg"
+  },
+  {
+    "question": "What is the distance between the cat and the person?",
+    "answer": "Unable to determine - insufficient depth information for individual object positions",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005438.jpg"
+  },
+  {
+    "question": "Is the cat closer to the sink than the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "sink",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005438.jpg"
+  },
+  {
+    "question": "Is the person standing near the sink?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005438.jpg"
+  },
+  {
+    "question": "Where is the cat positioned relative to the sink?",
+    "answer": "The cat's exact position cannot be determined from available depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005438.jpg"
+  },
+  {
+    "question": "Is the person positioned between the cat and the sink?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cat",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005438.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment?",
+    "answer": "Not applicable - no heavy equipment or workers in designated safety roles detected in this indoor domestic scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005438.jpg"
+  }
+]

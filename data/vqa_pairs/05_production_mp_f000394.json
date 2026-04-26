@@ -1,0 +1,97 @@
+[
+  {
+    "question": "How far is the chair from the first person in the scene?",
+    "answer": "Based on the depth statistics, objects in this scene span from 0.00 metres to 50.00 metres, with a mean depth of approximately 19.62 metres. The chair and first person appear to be within the mid-range depth zone, estimated at approximately 19.62 metres from the observation point, placing them roughly 0\u20135 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons detected in the scene?",
+    "answer": "Both persons are detected within a scene with a mean depth of 19.62 metres and a range of 0.00\u201350.00 metres. Given their co-detection in the same scene frame, the two persons are estimated to be within approximately 0\u201310 metres of each other, with a best estimate of around 5 metres apart.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, forklift) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "Are both detected persons present within the same general area of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "Is the chair located in close proximity (within 2 metres) to either of the persons?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "Where is the chair positioned relative to the persons in the scene?",
+    "answer": "The chair is detected within the same scene as both persons and, based on typical scene composition and the shared mean depth of ~19.62 metres, the chair is likely positioned in front of or adjacent to one of the persons, suggesting a seated or near-seated arrangement.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "Where is the second person positioned relative to the first person and the chair?",
+    "answer": "The second person is likely positioned nearby the first person, with the chair situated between or beside them. Given the scene's depth range (0.00\u201350.00 m) and mean (~19.62 m), both persons and the chair share a similar depth plane, suggesting the second person is in close lateral proximity to both the chair and the first person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (such as excavators, forklifts, cranes, or bulldozers) has been detected in this scene. The only objects present are a chair and two persons, which do not constitute a machinery proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any of the persons detected in this scene based on their proximity to dangerous objects?",
+    "answer": "No safety alert is required. Neither person is within 2 metres of any heavy construction equipment. The only non-human object in the scene is a chair, which poses no immediate machinery-related safety risk to the workers.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000394.jpg"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "question": "What is the distance between the baseball bat and the tv?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "baseball bat",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003694.jpg"
+  },
+  {
+    "question": "Is the baseball bat closer to the camera than the tv?",
+    "answer": "Unable to determine - no precise 3D position coordinates available",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003694.jpg"
+  },
+  {
+    "question": "Are there any workers in proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003694.jpg"
+  },
+  {
+    "question": "Is the tv positioned to the right of the baseball bat?",
+    "answer": "Unable to determine - x,y coordinate data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003694.jpg"
+  }
+]

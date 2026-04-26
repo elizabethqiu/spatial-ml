@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How many bicycles are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  },
+  {
+    "question": "What is the distance in metres between the closest and furthest objects detected?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Are there more toilets than bicycles in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "bicycle"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Is the person positioned closer to any bicycle than to any toilet?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bicycle",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Are there exactly two toilets in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in metres?",
+    "answer": "11.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment?",
+    "answer": "no hazardous equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  },
+  {
+    "question": "How many total objects are detected in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "toilet",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001648.jpg"
+  }
+]

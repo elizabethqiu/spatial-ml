@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the sink and the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data for objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005316.jpg"
+  },
+  {
+    "question": "Is the sink closer to the camera than the bed?",
+    "answer": "Unable to determine - no depth information provided for individual objects",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005316.jpg"
+  },
+  {
+    "question": "How many objects are visible in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005316.jpg"
+  },
+  {
+    "question": "Are both the sink and bed detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005316.jpg"
+  },
+  {
+    "question": "Is there any safety hazard due to proximity between detected objects?",
+    "answer": "No safety alert - no workers or heavy equipment detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "sink",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005316.jpg"
+  }
+]

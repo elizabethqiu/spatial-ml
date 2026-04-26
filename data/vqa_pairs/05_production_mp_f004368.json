@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the cup and the backpack?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004368.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the backpack?",
+    "answer": "Unable to determine - no depth coordinates provided for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004368.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004368.jpg"
+  },
+  {
+    "question": "Is there a heavy equipment safety concern in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004368.jpg"
+  },
+  {
+    "question": "What is the average depth range of all detected objects?",
+    "answer": "11.57 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004368.jpg"
+  },
+  {
+    "question": "Are both detected objects personal items?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004368.jpg"
+  }
+]

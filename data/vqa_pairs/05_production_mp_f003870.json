@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What is the distance between the person and the car?",
+    "answer": "approximately 14.16 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003870.jpg"
+  },
+  {
+    "question": "Is the backpack closer to the person than the car is?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003870.jpg"
+  },
+  {
+    "question": "Where is the car positioned relative to the person?",
+    "answer": "The car is at a considerable distance from the person, approximately in the background of the scene",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003870.jpg"
+  },
+  {
+    "question": "Is the person within a safe distance (2 metres or more) from the car?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003870.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003870.jpg"
+  },
+  {
+    "question": "Is the backpack located between the person and the car?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003870.jpg"
+  }
+]

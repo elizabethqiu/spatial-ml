@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is there a dog in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000998.jpg"
+  },
+  {
+    "question": "How many dogs are visible in this construction site scene?",
+    "answer": "1 dog",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000998.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects detected in this scene?",
+    "answer": "0.00 to 50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000998.jpg"
+  },
+  {
+    "question": "Is the dog a heavy equipment hazard on this construction site?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000998.jpg"
+  }
+]

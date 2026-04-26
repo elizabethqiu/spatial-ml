@@ -1,0 +1,87 @@
+[
+  {
+    "question": "Is there a person in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  },
+  {
+    "question": "Are there more than one person visible?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the tv?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  },
+  {
+    "question": "Is the bed present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  },
+  {
+    "question": "How many distinct objects are visible in total?",
+    "answer": "5 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "tv",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "tv",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "18.48 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "tv",
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  },
+  {
+    "question": "Is a tv located in this indoor space?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001090.jpg"
+  }
+]

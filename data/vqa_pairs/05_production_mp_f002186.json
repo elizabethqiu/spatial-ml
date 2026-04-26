@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the motorcycle?",
+    "answer": "14.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002186.jpg"
+  },
+  {
+    "question": "Is the person standing closer than 2 metres to the motorcycle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002186.jpg"
+  },
+  {
+    "question": "Is the motorcycle positioned in front of the person?",
+    "answer": "Unable to determine - insufficient spatial directional data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002186.jpg"
+  },
+  {
+    "question": "Are there any safety hazards due to proximity between the worker and the motorcycle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002186.jpg"
+  },
+  {
+    "question": "How many objects are present in this construction scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002186.jpg"
+  },
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002186.jpg"
+  }
+]

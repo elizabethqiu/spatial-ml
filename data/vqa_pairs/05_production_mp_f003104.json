@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What is the distance between the person and the vase?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003104.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the vase?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003104.jpg"
+  },
+  {
+    "question": "Is there a vase in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003104.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003104.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003104.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and any equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003104.jpg"
+  }
+]

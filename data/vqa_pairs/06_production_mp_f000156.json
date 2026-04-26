@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many chairs are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Are there any chairs present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Is this a construction site with active heavy equipment and workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000156.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in the scene?",
+    "answer": "14.35 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000156.jpg"
+  },
+  {
+    "question": "Are both chairs at the same depth in the scene?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000156.jpg"
+  },
+  {
+    "question": "What is the maximum distance range captured in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000156.jpg"
+  }
+]

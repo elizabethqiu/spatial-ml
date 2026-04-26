@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a person visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004622.jpg"
+  },
+  {
+    "question": "How far away is the person from the camera on average?",
+    "answer": "18.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004622.jpg"
+  },
+  {
+    "question": "What is the maximum distance to the person in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004622.jpg"
+  },
+  {
+    "question": "What is the minimum recorded depth in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004622.jpg"
+  },
+  {
+    "question": "Is the person located in the foreground of the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004622.jpg"
+  },
+  {
+    "question": "Is there adequate safety distance maintained (greater than 2 metres) from the person to any identified heavy equipment?",
+    "answer": "no hazardous proximity detected - no heavy equipment present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004622.jpg"
+  }
+]

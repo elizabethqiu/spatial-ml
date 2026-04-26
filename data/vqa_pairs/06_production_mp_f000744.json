@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How many cars are present in the scene?",
+    "answer": "4 cars",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "How many people are visible in the scene?",
+    "answer": "2 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "How many refrigerators are in the scene?",
+    "answer": "2 refrigerators",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "Is there a toilet in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "Are there more cars than people?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "Are there any refrigerators present?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "Which objects are closest to the camera in this scene?",
+    "answer": "Objects at minimum depth of 0.00 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "What is the furthest object distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "Are the people positioned near any cars?",
+    "answer": "Cannot determine - insufficient spatial coordinates provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  },
+  {
+    "question": "Is there any proximity hazard between workers and heavy equipment?",
+    "answer": "No safety alert - scene appears to be an indoor/domestic setting with no heavy construction equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000744.jpg"
+  }
+]

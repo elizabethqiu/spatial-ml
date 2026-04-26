@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How far is the person from the TV in this scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the TV is approximately 19.41 metres (mean scene depth), though individual object depths may vary within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bed and the TV?",
+    "answer": "The bed and TV are estimated to be within a depth range of 0.00 to 50.00 metres, with a mean scene depth of approximately 19.41 metres separating objects in this environment.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Is the TV located in the same scene as the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Is the person near the bed in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Where is the TV positioned relative to the bed?",
+    "answer": "The TV is positioned in the same room as the bed, likely facing it or mounted on a wall opposite the bed, which is a typical bedroom arrangement. Based on the scene depth data, both objects share a common spatial environment with depths ranging from 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the TV?",
+    "answer": "The person appears to be positioned in front of or in the vicinity of the TV, likely seated on or near the bed, within the same room environment.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the bed?",
+    "answer": "The person is positioned in close proximity to the bed, likely on top of or beside it, as suggested by the typical indoor bedroom scene layout and the shared depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment near the person that poses a safety risk?",
+    "answer": "No heavy construction equipment (e.g., excavators, cranes, forklifts) is detected in this scene. The detected objects are a TV, a person, and a bed \u2014 consistent with a residential indoor environment. No construction safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose an immediate proximity safety hazard to the person?",
+    "answer": "No construction-related safety hazard is detected. The scene contains only a TV, bed, and person in what appears to be a domestic indoor setting. No heavy machinery or dangerous equipment is present within a hazardous distance (< 2 metres) of the person.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "tv",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001320.jpg"
+  }
+]

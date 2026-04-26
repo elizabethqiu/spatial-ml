@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005140.jpg"
+  },
+  {
+    "question": "Is there a chair in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005140.jpg"
+  },
+  {
+    "question": "Is the bowl closer to the camera than the TV?",
+    "answer": "cannot determine",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bowl",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005140.jpg"
+  },
+  {
+    "question": "How many objects are visible in total?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "person",
+      "person",
+      "chair",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005140.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment objects in proximity to workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005140.jpg"
+  },
+  {
+    "question": "Is the TV present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005140.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How far is the banana from the sink?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004576.jpg"
+  },
+  {
+    "question": "What is the maximum distance between any two objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "airplane",
+      "car",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004576.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the airplane?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "airplane"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004576.jpg"
+  },
+  {
+    "question": "Is the banana positioned between the sink and the car?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "sink",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004576.jpg"
+  },
+  {
+    "question": "Which object is positioned furthest from the camera?",
+    "answer": "Unable to determine - at maximum depth of 50.00 metres, could be airplane, car, or sink",
+    "type": "relative_position",
+    "objects_referenced": [
+      "banana",
+      "airplane",
+      "car",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004576.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding worker proximity to equipment?",
+    "answer": "No workers detected in scene - safety assessment not applicable",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004576.jpg"
+  }
+]

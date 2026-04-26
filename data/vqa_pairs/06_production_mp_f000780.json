@@ -1,0 +1,96 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "4 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "How many refrigerators are present in this scene?",
+    "answer": "3 refrigerators",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "16.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "Are there more people than refrigerators in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "Is there at least one refrigerator visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "Are there exactly 3 people in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "Do refrigerators appear to be scattered throughout the scene based on depth variation?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "Are the people clustered together or spread out across different depth zones?",
+    "answer": "The people appear to be spread across multiple depth zones, given the depth range of 0.00 to 50.00 metres with a mean of 16.02 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding proximity between workers and refrigerators?",
+    "answer": "No safety alert - refrigerators are not classified as heavy equipment and depth variation suggests adequate spacing",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000780.jpg"
+  }
+]

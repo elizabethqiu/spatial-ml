@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the estimated average depth of the construction scene?",
+    "answer": "The estimated average depth of the scene is approximately 10.68 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  },
+  {
+    "question": "What is the maximum depth range captured in this construction scene?",
+    "answer": "The maximum depth captured in the scene is 50.00 metres, with a minimum of 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Are there any identifiable objects present in the current scene frame?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Where is the primary area of depth concentration relative to the scene?",
+    "answer": "Based on the depth statistics, the primary area of depth concentration is in the mid-range zone at approximately 10.68 metres from the camera, suggesting the main scene content is at a mid-field distance rather than in the immediate foreground or far background.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Is there evidence of scene content in the far-field (beyond 25 metres) of this construction site?",
+    "answer": "The maximum depth of 50.00 metres indicates that some scene elements or background structures extend into the far-field beyond 25 metres, though the mean depth of 10.68 metres suggests most detectable content is in the near-to-mid field range.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Is there an immediate safety risk due to worker-equipment proximity in this scene?",
+    "answer": "No safety alert can be issued at this time because no workers or heavy equipment objects were detected in the scene. However, the detection system should be considered unreliable for this frame, and manual site supervision is strongly recommended. Any undetected personnel operating within 2.00 metres of machinery would represent a critical hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  },
+  {
+    "question": "Should site supervisors be concerned about the lack of object detections in this construction scene frame?",
+    "answer": "Yes \u2014 a safety alert is warranted. The absence of any detected objects in an active construction scene may indicate a sensor occlusion, poor lighting, dust, or system failure. If personnel or equipment are present within the 0.00\u20132.00 metre proximity zone and are undetected, this poses a critical safety risk. Immediate manual verification of the site and camera system integrity is advised.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001612.jpg"
+  }
+]

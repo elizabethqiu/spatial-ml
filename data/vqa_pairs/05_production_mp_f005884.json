@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the person and the bed?",
+    "answer": "15.56 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005884.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005884.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the bed?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005884.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person and bed proximity?",
+    "answer": "No safety alert. The person is 15.56 metres from the bed, well above the 2 metre hazard threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005884.jpg"
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "question": "What is the approximate mean depth of the scene?",
+    "answer": "The approximate mean depth of the scene is 13.53 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "What is the maximum depth detected in the scene?",
+    "answer": "The maximum depth detected in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "What is the minimum depth detected in the scene?",
+    "answer": "The minimum depth detected in the scene is 0.00 metres, indicating at least one object is at or very near the camera.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Is there a motorcycle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Is there a heavy construction vehicle or worker present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Is the car detected with high confidence in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Is the motorcycle detected with full confidence in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Where is the motorcycle positioned relative to the car in the scene?",
+    "answer": "Based on the scene description, both the motorcycle and car are present in the scene. Without distinct individual depth coordinates, the motorcycle and car are both located within the depth range of 0.00 to 50.00 metres, with the scene mean at 13.53 metres. Their exact lateral relationship cannot be determined, but they share the same general scene space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Are both the motorcycle and the car located within the mid-range depth zone of the scene (10\u201320 metres)?",
+    "answer": "Based on the mean depth of 13.53 metres, it is likely that both the motorcycle and car are positioned primarily within the mid-range depth zone of 10\u201320 metres, though objects may also exist closer or farther given the full range of 0.00\u201350.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Is there a safety hazard involving a worker in close proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. There are no workers or heavy construction equipment detected in this scene \u2014 only a motorcycle and a car are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  },
+  {
+    "question": "Does the presence of the motorcycle near a car in this scene pose a proximity safety risk?",
+    "answer": "While no construction workers or heavy equipment are detected to trigger a formal safety alert, the minimum scene depth of 0.00 metres suggests at least one object may be extremely close to the observer or camera. If this scene were on a construction site, the motorcycle and car operating in shared space should be monitored, as vehicles in close proximity to each other or to personnel can present a collision risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001352.jpg"
+  }
+]

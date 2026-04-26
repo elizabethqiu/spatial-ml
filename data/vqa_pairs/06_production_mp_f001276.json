@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is there a bench in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001276.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001276.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "18.99 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001276.jpg"
+  },
+  {
+    "question": "Is the bench closer than 10 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bench"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001276.jpg"
+  }
+]

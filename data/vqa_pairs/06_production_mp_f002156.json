@@ -1,0 +1,104 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "car",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "11.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "car",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Are there more clocks than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Is there heavy equipment in close proximity to workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "How many clocks are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Is a car present at this location?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in the scene?",
+    "answer": "0.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "clock",
+      "car",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with workers near the vehicle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002156.jpg"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the person from the camera?",
+    "answer": "The person is approximately 14.68 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  },
+  {
+    "question": "What is the maximum possible depth extent of the scene containing the person?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  },
+  {
+    "question": "Is the person closer than 5 metres to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the camera in terms of depth?",
+    "answer": "The person is positioned at a mid-range depth of approximately 14.68 metres from the camera, roughly in the middle third of the total scene depth (0.00 \u2013 50.00 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  },
+  {
+    "question": "Is the person located in the near, mid, or far zone of the scene?",
+    "answer": "The person is located in the mid zone of the scene, at roughly 14.68 metres, which falls between the near foreground (0\u201316 metres) and the far background (34\u201350 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  },
+  {
+    "question": "Is the person in immediate danger from proximity to heavy equipment?",
+    "answer": "No heavy equipment is detected in the scene, so no proximity-based safety alert can be raised. However, visibility of only one person with a large unoccupied depth range (up to 50.00 metres) suggests other objects or hazards may be present but undetected. Recommend a thorough site sweep to confirm no heavy machinery is operating within 2 metres of the worker.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  },
+  {
+    "question": "Should a safety exclusion zone be enforced around the person given the current scene?",
+    "answer": "No heavy equipment is detected within the scene at this time, so an immediate exclusion-zone alert is not triggered. Nevertheless, because the scene depth extends to 50.00 metres and detection is limited to one person, site supervisors should verify that no undetected heavy equipment is operating within the mandatory 2-metre safety exclusion zone around the worker.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001390.jpg"
+  }
+]

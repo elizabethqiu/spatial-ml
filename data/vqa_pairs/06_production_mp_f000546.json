@@ -1,0 +1,102 @@
+[
+  {
+    "question": "How many refrigerators are present in the scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "Are there more cars than persons in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "Is the chair closer to the camera than the average object depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all objects in the scene?",
+    "answer": "15.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "Are there any persons positioned in the immediate foreground (less than 5 metres depth)?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "How many total vehicles are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "Is there a person located at or near the minimum depth position?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "What is the depth range span in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator",
+      "car",
+      "chair"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  },
+  {
+    "question": "Are all refrigerators positioned at greater depths than 10 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000546.jpg"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  },
+  {
+    "question": "What is the average depth of detected objects?",
+    "answer": "18.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  },
+  {
+    "question": "Is there any person at the minimum depth range in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  },
+  {
+    "question": "Are all detected persons within a 50 metre range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  },
+  {
+    "question": "Is the scene crowded with multiple people in close proximity?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of people in this scene.",
+    "answer": "Three persons are distributed across the scene with depths ranging from 0 to 50 metres, indicating scattered positioning across a wide depth range with an average distance of 18.17 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  },
+  {
+    "question": "Are there any hazardous proximity warnings between detected objects?",
+    "answer": "No safety alerts - no heavy equipment detected in this scene with persons only.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005228.jpg"
+  }
+]

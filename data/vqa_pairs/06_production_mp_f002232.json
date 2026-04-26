@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many persons are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002232.jpg"
+  },
+  {
+    "question": "Is there a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002232.jpg"
+  },
+  {
+    "question": "Are both persons closer than 5 metres to the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002232.jpg"
+  },
+  {
+    "question": "What is the approximate maximum depth range of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002232.jpg"
+  },
+  {
+    "question": "Is the bed positioned between the two persons?",
+    "answer": "Unable to determine - spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002232.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of objects from the camera?",
+    "answer": "12.42 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002232.jpg"
+  }
+]

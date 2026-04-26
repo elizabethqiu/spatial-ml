@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many bananas are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005634.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the bicycle?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005634.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "15.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "banana",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005634.jpg"
+  },
+  {
+    "question": "Are there more bananas than bicycles in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005634.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "banana",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005634.jpg"
+  },
+  {
+    "question": "Is the bicycle located behind the dog?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005634.jpg"
+  },
+  {
+    "question": "Note: This scene contains no construction workers or heavy equipment. Safety alerts are not applicable.",
+    "answer": "No safety concerns detected.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005634.jpg"
+  }
+]

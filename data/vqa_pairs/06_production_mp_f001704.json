@@ -1,0 +1,65 @@
+[
+  {
+    "question": "How far is the person from the stop sign?",
+    "answer": "17.18 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "stop sign"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001704.jpg"
+  },
+  {
+    "question": "What is the distance between the potted plant and the person?",
+    "answer": "17.18 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001704.jpg"
+  },
+  {
+    "question": "Is the person standing next to the stop sign?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "stop sign"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001704.jpg"
+  },
+  {
+    "question": "Is the potted plant closer to the person than the stop sign is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "person",
+      "stop sign"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001704.jpg"
+  },
+  {
+    "question": "Is the potted plant located between the person and the stop sign?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "person",
+      "stop sign"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001704.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of the three objects in the scene?",
+    "answer": "The person, potted plant, and stop sign are distributed across the scene with a mean separation of approximately 17.18 metres, indicating they are relatively distant from one another.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "stop sign"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f001704.jpg"
+  }
+]

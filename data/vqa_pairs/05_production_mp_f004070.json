@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the bus?",
+    "answer": "21.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004070.jpg"
+  },
+  {
+    "question": "Is the person standing directly next to the bus?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004070.jpg"
+  },
+  {
+    "question": "Is there a safe distance (at least 2 metres) between the person and the bus?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004070.jpg"
+  },
+  {
+    "question": "What is the closest distance measured in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004070.jpg"
+  },
+  {
+    "question": "Is the person located in front of or behind the bus?",
+    "answer": "Cannot be determined from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bus"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004070.jpg"
+  }
+]

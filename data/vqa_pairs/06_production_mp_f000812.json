@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many refrigerators are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000812.jpg"
+  },
+  {
+    "question": "Is there a toilet in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000812.jpg"
+  },
+  {
+    "question": "Are there more refrigerators than toilets?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000812.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observable in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000812.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene in metres?",
+    "answer": "14.31 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000812.jpg"
+  },
+  {
+    "question": "Is the toilet positioned closer than 2 metres to any refrigerator?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "toilet",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000812.jpg"
+  }
+]

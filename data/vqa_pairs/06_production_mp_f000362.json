@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a sink visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000362.jpg"
+  },
+  {
+    "question": "How far away is the sink from the camera on average?",
+    "answer": "12.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000362.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000362.jpg"
+  },
+  {
+    "question": "Is the sink positioned closer than 5 metres from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000362.jpg"
+  },
+  {
+    "question": "Where is the sink located relative to the camera viewpoint?",
+    "answer": "The sink is positioned at a mean distance of 12.00 metres from the camera, within a depth range of 0.00 to 50.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000362.jpg"
+  }
+]

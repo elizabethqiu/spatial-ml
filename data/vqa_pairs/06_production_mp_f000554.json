@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the remote and the refrigerator?",
+    "answer": "14.72 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000554.jpg"
+  },
+  {
+    "question": "Is the remote closer to the camera than the refrigerator?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000554.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000554.jpg"
+  },
+  {
+    "question": "Is the refrigerator within arm's reach (less than 2 metres) of the remote?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000554.jpg"
+  }
+]

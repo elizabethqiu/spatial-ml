@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What is the approximate distance between the person and the bed?",
+    "answer": "Based on the depth statistics, the estimated distance between the person and the bed is approximately 19.09 metres (scene mean depth), though the actual separation depends on their individual depth positions within the 0.00\u201350.00 metre range.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the person and the bed?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, crane, bulldozer) present near the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed?",
+    "answer": "The person is detected within the same scene as the bed. Given the mean scene depth of 19.09 metres and a depth range of 0.00\u201350.00 metres, the person could be positioned in front of, beside, or behind the bed. Without individual object depth coordinates, a precise relative position (e.g., in front of or to the side of) cannot be definitively determined, but both objects share the same general scene space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "Is the bed closer to the foreground or background of the scene relative to the person?",
+    "answer": "Without distinct per-object depth coordinates, it cannot be confirmed whether the bed is in the foreground or background relative to the person. Both objects exist within the 0.00\u201350.00 metre depth range of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains a person and a bed \u2014 there is no heavy construction equipment (such as an excavator, crane, forklift, or bulldozer) detected. No proximity hazard between a worker and heavy machinery exists in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  },
+  {
+    "question": "Should a safety officer be alerted about any dangerous proximity between the person and any detected objects in this scene?",
+    "answer": "No safety alert is required. The only objects detected are a person and a bed. A bed does not constitute heavy construction equipment, and therefore the less-than-2-metre proximity safety rule for workers and heavy machinery does not apply here.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000698.jpg"
+  }
+]

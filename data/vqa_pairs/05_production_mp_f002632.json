@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many sinks are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the suitcase?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  },
+  {
+    "question": "Are both sinks at approximately the same depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sink",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "12.38 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  },
+  {
+    "question": "Is there a cup positioned in front of the sinks?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  },
+  {
+    "question": "Are the two sinks located behind the suitcase?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "sink",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  },
+  {
+    "question": "What is the minimum depth measurement recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002632.jpg"
+  }
+]

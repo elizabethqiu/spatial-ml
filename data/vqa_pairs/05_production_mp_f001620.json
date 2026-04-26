@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What is the approximate mean depth of the objects detected in the scene?",
+    "answer": "The mean depth of the scene is approximately 12.98 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in the scene?",
+    "answer": "The minimum depth recorded in the scene is 0.00 metres, indicating at least one object is at or very near the camera position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Are there any cats detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Are there more than two cats detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Are there any human workers detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Which cat is positioned closer to the camera \u2014 the first or the second detected cat?",
+    "answer": "Based on the depth statistics, at least one cat is positioned at or near 0.00 metres from the camera, suggesting one cat is significantly closer to the foreground than the other, which may be further away toward the mean depth of ~12.98 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Are the two detected cats on the same depth plane, or is one in the foreground relative to the other?",
+    "answer": "The two cats are likely on different depth planes. The depth range spans from 0.00 metres to 50.00 metres with a mean of 12.98 metres, suggesting one cat may be in the near foreground while the other is at a mid or far distance.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Is there any safety risk to construction workers due to proximity to heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. The scene contains only two cats and no human workers or heavy construction equipment are detected. There is no worker-equipment proximity hazard to report.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  },
+  {
+    "question": "Do the cats pose any risk of interfering with construction site machinery based on their detected positions?",
+    "answer": "No heavy machinery is detected in this scene. However, note that one cat appears to be at approximately 0.00 metres depth, which is extremely close to the observation point. If this were a construction site, an animal at such close range could be a distraction hazard to operators. No formal safety threshold violation (worker within 2 m of equipment) applies here as no workers or equipment are present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cat",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001620.jpg"
+  }
+]

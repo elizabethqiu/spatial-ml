@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the approximate mean depth of the scene?",
+    "answer": "The mean depth of the scene is approximately 12.78 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "What is the maximum depth recorded in this scene?",
+    "answer": "The maximum depth recorded in this scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "What is the minimum depth recorded in this scene?",
+    "answer": "The minimum depth recorded in this scene is 0.00 metres, indicating at least one object or surface is at or very near the camera position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "Are there any people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "Are there more than two people detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "Are both detected persons located within the mid-range depth zone of the scene (roughly 10\u201320 metres)?",
+    "answer": "Based on the mean scene depth of 12.78 metres, both persons are likely situated in the mid-range depth zone, approximately 10\u201315 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "Which person appears to be closer to the camera \u2014 the first or second detected person?",
+    "answer": "Both persons are detected at similar confidence levels (1.00 each), and without distinct positional offsets provided, they appear to be at a comparable depth relative to the camera, both likely near the mean scene depth of approximately 12.78 metres. Neither can be definitively identified as closer based on available data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for proximity to heavy equipment, as no heavy machinery (e.g., excavators, forklifts, cranes) has been detected in this scene. However, the presence of a depth value of 0.00 metres warrants attention, as it may indicate an object or hazard very close to the camera or a sensor anomaly that should be investigated.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the two detected persons being in dangerously close proximity to each other on a construction site?",
+    "answer": "Based on the scene data, both persons are detected near the mean depth of ~12.78 metres. Without precise lateral (x, y) coordinates, an exact inter-person distance cannot be computed. However, given the scene's depth range and that no specific proximity hazard between persons is flagged, no immediate safety alert is raised solely for person-to-person proximity. Continued monitoring is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000168.jpg"
+  }
+]

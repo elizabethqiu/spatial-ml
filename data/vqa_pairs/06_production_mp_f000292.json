@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How far is the person from the airplane?",
+    "answer": "approximately 11.98 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000292.jpg"
+  },
+  {
+    "question": "Is the person standing directly next to the airplane?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000292.jpg"
+  },
+  {
+    "question": "What is the maximum separation distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000292.jpg"
+  },
+  {
+    "question": "Is there a safety risk due to the person being too close to the airplane?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000292.jpg"
+  },
+  {
+    "question": "Is the person positioned at the minimum depth in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000292.jpg"
+  },
+  {
+    "question": "What is the closest distance between any object and the camera?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "airplane"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000292.jpg"
+  }
+]

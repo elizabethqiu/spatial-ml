@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many chairs are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004834.jpg"
+  },
+  {
+    "question": "Is there a cat in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004834.jpg"
+  },
+  {
+    "question": "Are there more chairs than cats?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004834.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene in metres?",
+    "answer": "29.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004834.jpg"
+  },
+  {
+    "question": "Is the cat positioned closer to the camera than the average scene depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004834.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004834.jpg"
+  }
+]

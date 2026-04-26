@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the bird and the person?",
+    "answer": "12.41 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004324.jpg"
+  },
+  {
+    "question": "Is the bird closer to the camera than the person?",
+    "answer": "Cannot be determined from available data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004324.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and bird?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004324.jpg"
+  },
+  {
+    "question": "What is the maximum depth value recorded in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004324.jpg"
+  },
+  {
+    "question": "Are the bird and person within the same depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004324.jpg"
+  }
+]

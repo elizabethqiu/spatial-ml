@@ -1,0 +1,71 @@
+[
+  {
+    "question": "What is the distance between the person and the car?",
+    "answer": "18.44 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005838.jpg"
+  },
+  {
+    "question": "How far away is the clock from the camera?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005838.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the car?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005838.jpg"
+  },
+  {
+    "question": "Is the clock positioned at the nearest depth in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005838.jpg"
+  },
+  {
+    "question": "What is the relative position of the person with respect to the car?",
+    "answer": "The person is at approximately the same depth as the car, with both located at a mean distance of 18.44 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005838.jpg"
+  },
+  {
+    "question": "Where is the clock located relative to the other objects in the scene?",
+    "answer": "The clock is positioned closest to the camera at 0.00 metres depth, while the person and car are both significantly farther away at approximately 18.44 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock",
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005838.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the person and the car?",
+    "answer": "No safety alert. The person is 18.44 metres away from the car, which exceeds the 2-metre hazard threshold for heavy equipment proximity.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005838.jpg"
+  }
+]

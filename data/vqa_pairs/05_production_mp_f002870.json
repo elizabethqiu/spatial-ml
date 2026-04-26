@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many cell phones are visible in the scene?",
+    "answer": "2 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002870.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002870.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "20.68 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002870.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002870.jpg"
+  },
+  {
+    "question": "Are there more cell phones than dogs in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002870.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance zero metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002870.jpg"
+  }
+]

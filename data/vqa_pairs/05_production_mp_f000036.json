@@ -1,0 +1,58 @@
+[
+  {
+    "question": "What is the estimated mean depth of the construction scene?",
+    "answer": "The estimated mean depth of the scene is approximately 13.60 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  },
+  {
+    "question": "What is the maximum observable depth range captured in this construction site scene?",
+    "answer": "The maximum observable depth in the scene is 50.00 metres, while the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  },
+  {
+    "question": "Are there any workers detected in this construction site scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  },
+  {
+    "question": "Is any heavy equipment currently detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  },
+  {
+    "question": "Where is the primary area of interest concentrated in this scene based on depth data?",
+    "answer": "Based on the mean depth of 13.60 metres, the primary area of interest is concentrated in the mid-range zone of the scene, roughly 13 to 14 metres from the observation point.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  },
+  {
+    "question": "Is the foreground region (0\u20132 metres) of the construction scene occupied by any detected structures or objects?",
+    "answer": "No objects were detected in the scene; however, the depth minimum of 0.00 metres indicates that some surface or element exists at the very near foreground, which could not be classified. The region may include ground surface, debris, or sensor noise very close to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  },
+  {
+    "question": "Is there an immediate safety hazard involving workers and heavy equipment in this scene?",
+    "answer": "No immediate proximity hazard can be confirmed because no workers or heavy equipment were detected in the scene. However, the lack of object detection is itself a safety concern \u2014 the monitoring system may be malfunctioning or occluded, which warrants immediate manual inspection of the site to verify worker and equipment positions.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  },
+  {
+    "question": "Should site supervisors be alerted due to the absence of detected objects in an active construction zone?",
+    "answer": "Yes \u2014 a safety alert is recommended. An active construction site with a depth range of 0\u201350 metres and a mean depth of 13.60 metres suggests a sizable operational area, yet no objects were detected. This anomaly may indicate sensor failure, camera obstruction, poor lighting, or a system error. Site supervisors should be notified to perform a manual walkthrough and verify the integrity of the monitoring system before operations continue.",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000036.jpg"
+  }
+]

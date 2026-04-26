@@ -1,0 +1,94 @@
+[
+  {
+    "question": "What is the approximate mean depth of all detected objects in the scene?",
+    "answer": "The approximate mean depth of all detected objects in the scene is 16.42 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all objects in the scene?",
+    "answer": "The maximum depth range observed across all objects in the scene is 50.00 metres, with objects spanning from 0.00 metres to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  },
+  {
+    "question": "Are all three detected persons present within the same general depth range of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  },
+  {
+    "question": "Is the scissors object located closer to the foreground (near) or background (far) relative to the mean scene depth?",
+    "answer": "Based on the mean depth of 16.42 metres, the scissors could be positioned anywhere between 0.00 metres and 50.00 metres; without individual object depth, it cannot be conclusively determined, but the scene mean suggests it is likely in the mid-range foreground area relative to the full scene extent.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  },
+  {
+    "question": "Where are the three persons positioned relative to the scissors in the scene?",
+    "answer": "All three persons are distributed throughout the scene alongside the scissors, with all objects sharing a mean depth of approximately 16.42 metres. The persons likely surround or are in proximity to the scissors given the shared scene depth context.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  },
+  {
+    "question": "Is there a safety alert triggered due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered for heavy equipment proximity, as no heavy equipment (e.g., excavators, cranes, forklifts) is detected in this scene. However, attention should be given to the presence of scissors near personnel, as sharp tools pose a laceration hazard, especially if any person is within immediate arm's reach (< 0.5 metres) of the scissors.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  },
+  {
+    "question": "Should a safety warning be issued regarding the scissors and the nearby persons in this scene?",
+    "answer": "Yes \u2014 while scissors do not meet the threshold of 'heavy equipment,' their presence among three persons warrants a tool-safety alert. Workers in close proximity to the scissors should ensure proper handling protocols are followed to prevent cuts or puncture injuries. If any person is within 0.5 metres of the scissors without proper protective equipment, a safety intervention is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001482.jpg"
+  }
+]

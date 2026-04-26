@@ -1,0 +1,128 @@
+[
+  {
+    "question": "How many persons are detected in the scene?",
+    "answer": "3 persons are detected in the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in the scene?",
+    "answer": "The mean depth of objects in the scene is 20.34 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "What is the depth range (min to max) observed across all objects in the scene?",
+    "answer": "The depth range spans from 0.00 metres (closest) to 50.00 metres (farthest).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "Is there a cup present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "Are there any persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment (e.g., excavator, forklift, crane) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "Are there more persons than non-person objects in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the persons in the scene?",
+    "answer": "The cup is detected alongside three persons in the scene. Given the shared depth statistics (mean ~20.34 metres), the cup is likely in the near-to-mid vicinity of the persons, possibly on a surface in front of or beside them.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "How are the three persons distributed relative to each other in the scene?",
+    "answer": "The three persons are present within the same scene, spanning a depth range of 0.00 to 50.00 metres with a mean of ~20.34 metres, suggesting they may be spread at varying distances \u2014 some closer to the foreground and others further in the background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "Is there a safety concern due to any worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. No heavy construction equipment (e.g., excavator, crane, forklift, bulldozer) is detected in the scene. The only objects present are three persons and a cup, so there is no proximity hazard to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any object interaction in this scene?",
+    "answer": "No safety alert is required. The scene contains only persons and a cup \u2014 no heavy machinery or hazardous equipment is detected. Workers do not appear to be in danger based on the available object data.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001586.jpg"
+  }
+]

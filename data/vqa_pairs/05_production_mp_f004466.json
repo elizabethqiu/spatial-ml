@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How many surfboards are visible in this scene?",
+    "answer": "4 surfboards",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "surfboard",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  },
+  {
+    "question": "Is the person closer to the camera than the furthest objects in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  },
+  {
+    "question": "Are there more surfboards than chairs in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "surfboard",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  },
+  {
+    "question": "What is the average depth of objects detected in the scene?",
+    "answer": "20.28 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "surfboard",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  },
+  {
+    "question": "Is the chair positioned between the person and the surfboards?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  },
+  {
+    "question": "What is the minimum depth value recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "surfboard",
+      "chair",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  },
+  {
+    "question": "Are all surfboards at approximately the same depth range?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "surfboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004466.jpg"
+  }
+]

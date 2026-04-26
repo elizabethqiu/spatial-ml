@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the approximate mean depth of objects detected in this scene?",
+    "answer": "The approximate mean depth of objects in this scene is 20.33 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected objects in the scene?",
+    "answer": "The maximum depth range observed is 50.00 metres, spanning from 0.00 metres (closest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "Is the couch located within the same scene as the detected person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the couch and the two beds in this scene?",
+    "answer": "The person is detected within the same scene as one couch and two beds. Based on depth statistics, objects range from very close proximity (0.00 m) to far (50.00 m), suggesting the person is likely situated centrally or between the furniture items, though exact lateral positioning requires additional spatial data.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "couch",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "Where are the two beds positioned relative to each other and to the couch in the scene?",
+    "answer": "The two beds are detected within the same scene as the couch. Given the depth range of 0.00 to 50.00 metres and a mean of 20.33 metres, the beds and couch are distributed across varying depths, suggesting they are spread throughout the space rather than clustered together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "Is the person dangerously close (within 2 metres) to any heavy construction equipment in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The objects present are a person, a couch, and two beds \u2014 none of which qualify as heavy equipment. Therefore, no proximity safety alert is triggered for the person.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "couch",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  },
+  {
+    "question": "Does the presence of a person near beds and a couch in this scene indicate any safety concern related to construction site hazards?",
+    "answer": "No immediate construction-site safety alert is warranted. None of the detected objects (beds, couch, person) are heavy machinery or construction equipment. However, if this scene is on or near a construction site, the presence of furniture and a person in an unusual context may indicate an unauthorized rest area, which should be flagged for site management review.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed",
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000918.jpg"
+  }
+]

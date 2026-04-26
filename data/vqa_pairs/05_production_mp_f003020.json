@@ -1,0 +1,89 @@
+[
+  {
+    "question": "Is the banana closer to the camera than the carrot?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "carrot"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  },
+  {
+    "question": "Are there two persons visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  },
+  {
+    "question": "Is the scissors positioned between the two persons?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  },
+  {
+    "question": "How many objects are present in total in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "carrot",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "12.91 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "carrot",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  },
+  {
+    "question": "Is the carrot at a farther depth than the banana?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "carrot",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "carrot",
+      "person",
+      "scissors",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  },
+  {
+    "question": "Is the scissors the closest object to the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "scissors"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003020.jpg"
+  }
+]

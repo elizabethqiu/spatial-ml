@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What is the distance between the cup and the sink?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002602.jpg"
+  },
+  {
+    "question": "Is the potted plant closer to the sink than the cup is?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant",
+      "sink",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002602.jpg"
+  },
+  {
+    "question": "Is the cup positioned to the right of the sink?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002602.jpg"
+  },
+  {
+    "question": "Is the potted plant located behind the sink?",
+    "answer": "Unable to determine - insufficient 3D position data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002602.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene related to worker proximity?",
+    "answer": "No - this is a domestic/office kitchen scene with no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "sink",
+      "cup",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002602.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "question": "What is the distance between the person and the nearest vase?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001880.jpg"
+  },
+  {
+    "question": "Is the person closer to the potted plant than to the bowl?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "potted plant",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001880.jpg"
+  },
+  {
+    "question": "Is the potted plant positioned to the left of the person?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "potted plant",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001880.jpg"
+  },
+  {
+    "question": "Are there any safety concerns regarding worker proximity to equipment in this scene?",
+    "answer": "No - this scene contains household items and a person, not construction equipment. No safety alert triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001880.jpg"
+  },
+  {
+    "question": "How many vases are present in the scene?",
+    "answer": "2 vases",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001880.jpg"
+  },
+  {
+    "question": "Is the bowl positioned between the two vases?",
+    "answer": "Unable to determine - insufficient 3D coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "vase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001880.jpg"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How far apart are the person and the cake?",
+    "answer": "23.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003070.jpg"
+  },
+  {
+    "question": "Is the person closer than 2 metres to the cake?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003070.jpg"
+  },
+  {
+    "question": "What is the maximum distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003070.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the proximity between the person and cake?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003070.jpg"
+  },
+  {
+    "question": "What is the minimum distance recorded in this scene?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003070.jpg"
+  },
+  {
+    "question": "Are the person and cake in the same location?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003070.jpg"
+  }
+]

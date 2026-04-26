@@ -1,0 +1,73 @@
+[
+  {
+    "question": "What is the distance between the person and the refrigerator?",
+    "answer": "15.02 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000706.jpg"
+  },
+  {
+    "question": "How far apart are the remote and the refrigerator?",
+    "answer": "Unable to determine from available data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000706.jpg"
+  },
+  {
+    "question": "Is the person closer to the remote than to the refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000706.jpg"
+  },
+  {
+    "question": "Is the remote present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "remote"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000706.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the refrigerator?",
+    "answer": "The person is approximately 15 metres away from the refrigerator",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000706.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of objects in this scene?",
+    "answer": "The person, remote, and refrigerator are spread across the scene with a mean depth of 15.02 metres and a maximum separation of 50 metres",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "remote",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000706.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person and refrigerator proximity?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000706.jpg"
+  }
+]

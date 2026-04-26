@@ -1,0 +1,68 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000860.jpg"
+  },
+  {
+    "question": "How many toilets are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Are there any workers present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Is this a construction site with heavy machinery?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Are the people closer to the toilets or at a distance?",
+    "answer": "The average depth of objects in the scene is approximately 15.51 metres, indicating the people and toilets are generally at moderate to far distances from the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Is there adequate spacing between the two toilets?",
+    "answer": "Unable to determine precise spacing without exact coordinate data; however, the presence of two distinct toilets suggests they are separate facilities.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000860.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving workers and heavy equipment proximity?",
+    "answer": "No safety alert - this scene contains only personnel and sanitary facilities with no heavy construction equipment present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000860.jpg"
+  }
+]

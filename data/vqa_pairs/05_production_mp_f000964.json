@@ -1,0 +1,111 @@
+[
+  {
+    "question": "What is the approximate distance between the couch and the bed in the scene?",
+    "answer": "Based on the depth statistics available, the estimated separation between the couch and the bed is approximately 20.85 metres (mean scene depth), though exact relative distance requires individual object depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all objects in this scene?",
+    "answer": "The maximum depth range in this scene is 50.00 metres, spanning from 0.00 metres (nearest point) to 50.00 metres (farthest point).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Is there a couch present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the couch?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Are there more than three objects detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the couch in this scene?",
+    "answer": "Based on available scene data, the bed and couch are both detected within the scene. Without precise individual x/y/z coordinates, their exact relative lateral positioning (left/right/in front/behind) cannot be determined with certainty; however, both occupy the same general depth field centred around 20.85 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Which object in the scene is likely closer to the viewer \u2014 the couch or the bed?",
+    "answer": "Insufficient individual depth data is available to definitively determine which object is closer; both the couch and the bed are detected at a mean scene depth of approximately 20.85 metres. Additional per-object depth would be required for a precise answer.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Are any objects in the scene positioned beyond 40 metres depth?",
+    "answer": "The scene's maximum depth reaches 50.00 metres, suggesting at least some portion of the scene extends beyond 40 metres, though it is unclear whether the couch or bed specifically occupies that far depth range.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to a worker being within 2 metres of heavy equipment in this scene?",
+    "answer": "No safety alert is triggered. This scene contains only a couch and a bed \u2014 no workers or heavy construction equipment are detected. Therefore, no proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  },
+  {
+    "question": "Does the presence of furniture items like a couch and bed indicate this is an active construction site requiring safety monitoring?",
+    "answer": "No safety alert is required. The detected objects (couch and bed) suggest a residential or interior setting rather than an active construction site. No workers or heavy machinery are present, so no worker-equipment proximity hazards apply.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "couch",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000964.jpg"
+  }
+]

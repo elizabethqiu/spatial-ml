@@ -1,0 +1,80 @@
+[
+  {
+    "question": "How many people are present in this construction site?",
+    "answer": "7 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  },
+  {
+    "question": "What is the average depth distance of detected objects in the scene?",
+    "answer": "20.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  },
+  {
+    "question": "What is the maximum distance from the camera to the furthest person detected?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  },
+  {
+    "question": "What is the minimum distance from the camera to the nearest person detected?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  },
+  {
+    "question": "Are there any workers visible on this construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  },
+  {
+    "question": "Is there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  },
+  {
+    "question": "Are all detected persons within 25 metres of the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  },
+  {
+    "question": "Is there a person at extremely close proximity (within 1 metre) to the camera?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005344.jpg"
+  }
+]

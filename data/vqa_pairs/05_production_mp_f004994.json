@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004994.jpg"
+  },
+  {
+    "question": "Is the pizza closer to the camera than the bottle?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "pizza",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004994.jpg"
+  },
+  {
+    "question": "Are both people standing near the pizza?",
+    "answer": "unknown",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "pizza"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004994.jpg"
+  },
+  {
+    "question": "What is the maximum depth range visible in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004994.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in immediate proximity to the workers that poses a safety risk?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004994.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "20.60 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "pizza",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004994.jpg"
+  }
+]

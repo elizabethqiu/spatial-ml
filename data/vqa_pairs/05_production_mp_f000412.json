@@ -1,0 +1,83 @@
+[
+  {
+    "question": "How far away is the suitcase from the camera/observer?",
+    "answer": "The suitcase is approximately 12.39 metres away, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "What is the maximum detected depth in the scene containing the suitcase?",
+    "answer": "The maximum detected depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "Is there a suitcase present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "Is the suitcase within 2 metres of the camera or observer?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., crane, excavator, forklift) detected near the suitcase in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "Where is the suitcase positioned relative to the scene depth range (foreground, midground, or background)?",
+    "answer": "The suitcase is located in the midground of the scene. With a mean depth of 12.39 metres and a scene range of 0.00\u201350.00 metres, the suitcase sits roughly in the first quarter of the total depth range, closer to the foreground-midground boundary.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the minimum depth (0.00 m) or the maximum depth (50.00 m) of the scene?",
+    "answer": "The suitcase is considerably closer to the minimum depth. At approximately 12.39 metres mean depth, it is about 12.39 metres from the minimum end and roughly 37.61 metres from the maximum end.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "Safety alert: Does the suitcase pose a trip or obstruction hazard on a construction site that workers should be warned about?",
+    "answer": "SAFETY ALERT: A suitcase detected at approximately 12.39 metres from the observer may represent an unattended or misplaced object on or near the construction site. Unattended baggage can be a trip hazard, may contain prohibited items, or could obstruct emergency egress routes. Site personnel should investigate and remove or secure the suitcase immediately in accordance with site safety protocols. Additionally, verify that no workers are within 2 metres of any associated hazard zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  },
+  {
+    "question": "Safety alert: Is there any immediate proximity hazard (< 2 metres) between a worker and heavy equipment detected in this scene?",
+    "answer": "SAFETY ALERT: No heavy equipment or workers were detected in this scene; therefore, no worker\u2013equipment proximity hazard (< 2 metres threshold) can be confirmed at this time. However, the presence of an unattended suitcase should be investigated as a potential security and safety concern on the construction site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000412.jpg"
+  }
+]

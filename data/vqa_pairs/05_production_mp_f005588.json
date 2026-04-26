@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "15.74 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "Is there a banana present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "Are there more people than bowls in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "Is a bowl visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "What objects are closest to the camera position?",
+    "answer": "Objects at 0.00 metres depth (camera baseline)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "Which object type appears most frequently in this scene?",
+    "answer": "person (5 instances)",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  },
+  {
+    "question": "Note: This scene contains no heavy construction equipment or machinery. Safety alert protocols do not apply.",
+    "answer": "No safety concerns detected - this is an indoor food/domestic scene, not a construction site.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "banana",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005588.jpg"
+  }
+]

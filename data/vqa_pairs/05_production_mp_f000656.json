@@ -1,0 +1,117 @@
+[
+  {
+    "question": "How far is the dog from the nearest bed in the scene?",
+    "answer": "Based on the depth statistics, the estimated distance between the dog and the nearest bed is approximately 19.53 metres (scene mean depth), though the exact separation depends on lateral positioning.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in this scene?",
+    "answer": "The depth range of detected objects spans from 0.00 metres (minimum) to 50.00 metres (maximum), with a mean depth of 19.53 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Are there more than one bed detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Is the dog located between the two beds in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present near a worker in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the two beds in the scene?",
+    "answer": "The dog is positioned between the two beds, as the scene description lists the objects in the order: bed, dog, bed \u2014 suggesting the dog is spatially located in the middle of the two beds.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Where are the two beds positioned relative to each other?",
+    "answer": "The two beds are on opposite sides of the dog in the scene, with one bed to the left/front and the other to the right/back, as inferred from the sequential scene description (bed \u2192 dog \u2192 bed).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Is the dog closer to the first bed or the second bed in the scene?",
+    "answer": "Based on the scene layout described as 'bed \u2192 dog \u2192 bed', the dog appears to be roughly equidistant between both beds, though it may be marginally closer to the first bed depending on exact spatial coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Is there a safety alert required for any worker in proximity to heavy equipment in this scene?",
+    "answer": "No safety alert is required. This scene contains only a dog and two beds \u2014 no workers or heavy construction equipment are present. There are no proximity hazards to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  },
+  {
+    "question": "Does the presence of the dog near the beds pose any construction site safety hazard requiring an alert?",
+    "answer": "No construction site safety hazard is detected. The scene does not contain any workers or heavy machinery. The dog and beds do not constitute a safety risk under the proximity threshold of 2 metres between a worker and heavy equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000656.jpg"
+  }
+]

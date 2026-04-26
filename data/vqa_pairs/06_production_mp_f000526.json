@@ -1,0 +1,69 @@
+[
+  {
+    "question": "How many refrigerators are visible in this scene?",
+    "answer": "4 refrigerators",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000526.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000526.jpg"
+  },
+  {
+    "question": "What is the mean depth distance of all detected objects?",
+    "answer": "14.77 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Is there a car present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Are there more refrigerators than cars in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Is the car closer to the camera than the farthest refrigerator?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000526.jpg"
+  },
+  {
+    "question": "Are the refrigerators positioned at varying depths in the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000526.jpg"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How many beds are visible in this scene?",
+    "answer": "5",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance of objects in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  },
+  {
+    "question": "What is the average depth of all beds in the scene?",
+    "answer": "18.10 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance greater than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  },
+  {
+    "question": "Are all detected objects beds?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  },
+  {
+    "question": "Is there a depth variation of more than 40 metres between the nearest and farthest bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  },
+  {
+    "question": "Do the beds appear to span across a scene with significant depth range?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  },
+  {
+    "question": "Are the beds distributed evenly across the depth range from 0 to 50 metres?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005840.jpg"
+  }
+]

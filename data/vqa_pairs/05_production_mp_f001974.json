@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  },
+  {
+    "question": "Is there a laptop in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  },
+  {
+    "question": "Is there a bed visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  },
+  {
+    "question": "Are there more people than furniture items in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "17.45 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  },
+  {
+    "question": "Is the laptop closer than the maximum depth range?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  },
+  {
+    "question": "How many furniture items are detected in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001974.jpg"
+  }
+]

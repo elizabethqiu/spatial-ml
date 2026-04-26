@@ -1,0 +1,95 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "What is the maximum distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all detected objects?",
+    "answer": "14.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "Is there at least one person visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "Are there more than two people detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "Is the minimum detected distance greater than 5 metres?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "Are all persons located within 20 metres depth?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of detected persons in terms of depth range.",
+    "answer": "Persons are distributed across a wide depth range from 0.00 to 50.00 metres, with an average depth of 14.54 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  },
+  {
+    "question": "Is there any safety concern regarding person proximity in this construction site?",
+    "answer": "No heavy equipment detected; insufficient spatial data to assess inter-person proximity. No safety alert triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001460.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "question": "How many bowls are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002058.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "sink",
+      "dog",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002058.jpg"
+  },
+  {
+    "question": "Is the dog closer to the sink than the average scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002058.jpg"
+  },
+  {
+    "question": "Are there more bowls than cups in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002058.jpg"
+  },
+  {
+    "question": "What is the relative position of the cup with respect to the sink?",
+    "answer": "The cup and sink are present in the same indoor space, likely near each other on a kitchen counter or similar surface.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002058.jpg"
+  },
+  {
+    "question": "Where is the dog positioned relative to the bowls and sink?",
+    "answer": "The dog is located in the vicinity of the bowls and sink, suggesting a kitchen or dining area setting.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "bowl",
+      "sink"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002058.jpg"
+  }
+]

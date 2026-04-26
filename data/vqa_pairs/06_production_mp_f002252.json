@@ -1,0 +1,65 @@
+[
+  {
+    "question": "Is the knife closer to the camera than the cup?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "cup"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002252.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of the knife?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002252.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects in this scene?",
+    "answer": "0 to 50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002252.jpg"
+  },
+  {
+    "question": "Is the cup positioned between the knife and the person?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002252.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "13.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife",
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002252.jpg"
+  },
+  {
+    "question": "Is the person at a safe distance from sharp objects?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "knife"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002252.jpg"
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the cup from the dog in this scene?",
+    "answer": "Based on the available depth data, the cup and dog are approximately 22.70 metres apart (estimated using mean scene depth as reference).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the dog and the bed?",
+    "answer": "The dog and the bed are approximately 22.70 metres apart based on the mean depth estimate of the scene.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "What is the depth range of objects detected in this scene?",
+    "answer": "The depth range of detected objects in this scene spans from 0.00 metres (minimum) to 50.00 metres (maximum).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "Is the cup located on the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "Is the dog closer to the cup or to the bed in this scene?",
+    "answer": "Based on scene depth statistics, the dog, cup, and bed are all distributed across a depth range of 0.00 to 50.00 metres with a mean of 22.70 metres. Without precise per-object depth values, the dog cannot be definitively placed closer to either the cup or the bed; they appear at a similar average depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed?",
+    "answer": "The cup appears to be positioned in front of or separate from the bed, as both objects are distributed within the scene depth range of 0.00 to 50.00 metres. The cup does not appear to be resting directly on the bed based on detected object separation.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "Is there any safety hazard involving a worker in close proximity (less than 2 metres) to heavy equipment in this scene?",
+    "answer": "No safety alert required. This scene contains no workers or heavy construction equipment \u2014 only a cup, a dog, and a bed are detected. There is no proximity hazard to flag.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "dog",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  },
+  {
+    "question": "Does the presence of the dog near any object in this scene constitute a safety concern under construction site proximity rules (less than 2 metres from heavy equipment)?",
+    "answer": "No safety alert required. The dog is not a worker, and neither the cup nor the bed qualifies as heavy construction equipment. No proximity hazard exists in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog",
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000910.jpg"
+  }
+]

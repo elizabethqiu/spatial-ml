@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the person and the bottle?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001288.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001288.jpg"
+  },
+  {
+    "question": "Is the person positioned to the left of the bed?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001288.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "3 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001288.jpg"
+  },
+  {
+    "question": "Is there a safety hazard with the person and any heavy equipment?",
+    "answer": "No - no heavy equipment detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001288.jpg"
+  }
+]

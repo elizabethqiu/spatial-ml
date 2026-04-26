@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Is the person standing closer to the car than to either refrigerator?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "car",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000840.jpg"
+  },
+  {
+    "question": "Are both refrigerators positioned at approximately the same distance from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000840.jpg"
+  },
+  {
+    "question": "What is the approximate distance range of objects in this scene?",
+    "answer": "50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "person",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000840.jpg"
+  },
+  {
+    "question": "Is the car positioned behind the person in this scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000840.jpg"
+  },
+  {
+    "question": "How much farther away is the car compared to the average depth of the scene?",
+    "answer": "Approximately 34.72 metres farther",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000840.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding the person's proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "car"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000840.jpg"
+  }
+]

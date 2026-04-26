@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What is the approximate mean depth of the detected persons in the scene?",
+    "answer": "The approximate mean depth of the detected persons in the scene is 20.40 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "What is the depth range (minimum to maximum) across all detected persons in the scene?",
+    "answer": "The depth range across all detected persons spans from 0.00 metres (closest) to 50.00 metres (farthest).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "Are there three or more persons detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "Is any detected person located beyond 40 metres from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "Is any detected person located at or very near 0 metres from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "Which detected person is positioned closest to the camera relative to the others?",
+    "answer": "One of the detected persons is positioned closest to the camera, at approximately 0.00 metres depth, placing them in the extreme foreground of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "Which detected person is positioned farthest from the camera relative to the others?",
+    "answer": "One of the detected persons is positioned farthest from the camera, at approximately 50.00 metres depth, placing them in the far background of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "How are the three detected persons distributed in depth relative to one another?",
+    "answer": "The three persons are spread across a wide depth range. One is in the extreme foreground (near 0.00 metres), one is at a mid-range depth around the scene mean of 20.40 metres, and one is in the far background near 50.00 metres, indicating they are distributed at very different distances from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment detected near any of the persons that would pose an immediate safety hazard?",
+    "answer": "No heavy equipment (e.g., excavators, cranes, forklifts) is detected in this scene. Therefore, no proximity-based safety alert between a worker and heavy machinery is triggered at this time. However, the person detected at approximately 0.00 metres depth should be monitored closely if equipment enters the scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  },
+  {
+    "question": "Does the scene present any worker-to-worker crowding safety concern based on the detected persons' positions?",
+    "answer": "Based on the depth spread from 0.00 metres to 50.00 metres with a mean of 20.40 metres, the persons appear to be distributed at significantly different depths, suggesting they are not crowded together. No immediate worker-to-worker crowding safety concern is flagged. However, the person at 0.00 metres depth warrants attention as their exact lateral position relative to others cannot be confirmed from depth alone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000468.jpg"
+  }
+]

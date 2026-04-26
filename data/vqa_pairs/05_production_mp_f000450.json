@@ -1,0 +1,106 @@
+[
+  {
+    "question": "What is the approximate mean depth of the detected persons in the scene?",
+    "answer": "The mean depth of the persons in the scene is approximately 19.12 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed across all detected persons in the scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, while the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "Are there any persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "Are there more than two persons present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment (e.g., excavators, cranes, forklifts) detected within close proximity of the workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "Which person is positioned closest to the camera or scene entry point?",
+    "answer": "One of the detected persons is positioned at the minimum observed depth of approximately 0.00 metres, making them the closest individual to the camera or scene entry point.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "How are the three detected persons distributed relative to the camera \u2014 are they clustered together or spread across different depths?",
+    "answer": "The persons are spread across a wide depth range (0.00 m to 50.00 m) with a mean depth of 19.12 metres, suggesting they are distributed at varying distances from the camera rather than clustered closely together.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "Which detected person is farthest from the camera, and at approximately what depth?",
+    "answer": "One of the detected persons is positioned at the farthest observed depth of approximately 50.00 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "Is any worker in this scene at risk due to proximity to heavy machinery or equipment?",
+    "answer": "No heavy equipment has been detected in this scene, so no worker is currently flagged as being within the critical 2-metre safety threshold relative to machinery. However, the worker positioned at approximately 0.00 metres depth should be monitored closely if equipment enters the scene, as they are nearest to the camera vantage point and may be in an active traffic or work zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised for any of the three detected workers based on their current positions relative to other hazards in the scene?",
+    "answer": "No immediate safety alert is triggered by heavy equipment proximity, as no such equipment is detected. However, the wide depth spread (0.00 m to 50.00 m) among the three workers suggests some may be operating in isolation far from others (~50.00 m away), which warrants attention for lone-worker safety protocols. The worker at 0.00 m depth may also be at the scene boundary, requiring verification that they are not in a vehicle pathway.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000450.jpg"
+  }
+]

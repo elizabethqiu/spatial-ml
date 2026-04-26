@@ -1,0 +1,63 @@
+[
+  {
+    "question": "What is the distance between the person and the bottle?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003578.jpg"
+  },
+  {
+    "question": "Is the hair drier closer to the person than the bottle?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier",
+      "person",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003578.jpg"
+  },
+  {
+    "question": "Is there a safety hazard between the person and any heavy equipment?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003578.jpg"
+  },
+  {
+    "question": "Are there three distinct objects visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003578.jpg"
+  },
+  {
+    "question": "Is the bottle within 2 metres of the person?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003578.jpg"
+  },
+  {
+    "question": "Is the hair drier positioned above the person?",
+    "answer": "Unable to determine - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hair drier",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003578.jpg"
+  }
+]

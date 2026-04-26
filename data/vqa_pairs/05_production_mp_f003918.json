@@ -1,0 +1,81 @@
+[
+  {
+    "question": "How many persons are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  },
+  {
+    "question": "Is there a knife present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  },
+  {
+    "question": "Is the bottle located between the two persons?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  },
+  {
+    "question": "Are there any sharp objects on the construction site?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "17.62 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  },
+  {
+    "question": "Is the knife within 2 metres of any worker, posing a safety hazard?",
+    "answer": "unknown - insufficient spatial coordinates",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "knife",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bottle",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  },
+  {
+    "question": "Is the knife positioned closer to the camera than the bottle?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003918.jpg"
+  }
+]

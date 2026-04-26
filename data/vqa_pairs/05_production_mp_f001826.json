@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many forks are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "How many bottles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "What is the total count of knives in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "Is there at least one fork in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "Are there any knives present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "Do the bottles outnumber the forks?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "fork"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "Are there more knives than bottles in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene in metres?",
+    "answer": "17.12 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fork",
+      "bottle",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "fork",
+      "bottle",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001826.jpg"
+  }
+]

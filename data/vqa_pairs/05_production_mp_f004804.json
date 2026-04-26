@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a bear in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004804.jpg"
+  },
+  {
+    "question": "What is the maximum distance to objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004804.jpg"
+  },
+  {
+    "question": "What is the minimum distance to objects in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004804.jpg"
+  },
+  {
+    "question": "What is the average distance to objects in this scene in metres?",
+    "answer": "35.60 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004804.jpg"
+  },
+  {
+    "question": "Is the bear within close proximity (less than 2 metres) to any workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bear"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004804.jpg"
+  }
+]

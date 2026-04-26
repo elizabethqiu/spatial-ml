@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many bowls are visible in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "potted plant",
+      "spoon",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Is the spoon closer to the camera than the potted plant?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "spoon",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Are there more cups than bowls in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Is the person positioned in front of the potted plant?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Which object is closest to the camera?",
+    "answer": "spoon",
+    "type": "relative_position",
+    "objects_referenced": [
+      "spoon",
+      "cup",
+      "bowl",
+      "person",
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene?",
+    "answer": "19.73 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bowl",
+      "potted plant",
+      "spoon",
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any equipment or objects?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001882.jpg"
+  }
+]

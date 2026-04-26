@@ -1,0 +1,74 @@
+[
+  {
+    "question": "How far is the car from the camera?",
+    "answer": "The car is approximately 19.24 metres from the camera, based on the mean scene depth.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  },
+  {
+    "question": "What is the maximum observed depth in the scene?",
+    "answer": "The maximum depth in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  },
+  {
+    "question": "Is there a car present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  },
+  {
+    "question": "Is the car within 5 metres of the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  },
+  {
+    "question": "Where is the car positioned relative to the camera?",
+    "answer": "The car is in the mid-to-far range of the scene, positioned approximately 19.24 metres ahead of the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  },
+  {
+    "question": "Is the car located in the near, mid, or far zone of the scene?",
+    "answer": "The car is located in the mid zone of the scene, at a mean depth of 19.24 metres out of a total scene range of 0.00\u201350.00 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  },
+  {
+    "question": "Does the car pose an immediate safety risk to any nearby workers based on its proximity?",
+    "answer": "No immediate safety alert is triggered for workers in this scene, as no workers are detected. However, the car's minimum possible depth reaches 0.00 metres, indicating caution should be exercised \u2014 if any worker were present at close range, a safety review would be mandatory given the <2 m threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  },
+  {
+    "question": "Should construction site personnel be alerted about the car's position relative to active work zones?",
+    "answer": "A precautionary alert is advised: the scene depth minimum of 0.00 metres suggests the car could be extremely close to the camera or work zone boundary. Site supervisors should verify no workers are within 2 metres of the vehicle, in accordance with proximity safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000154.jpg"
+  }
+]

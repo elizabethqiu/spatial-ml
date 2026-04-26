@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the suitcase and the bicycle?",
+    "answer": "Unable to determine - object coordinates not provided in scene data",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003984.jpg"
+  },
+  {
+    "question": "Is the suitcase closer to the camera than the bicycle?",
+    "answer": "Unable to determine - relative depth positions not specified",
+    "type": "relative_position",
+    "objects_referenced": [
+      "suitcase",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003984.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "suitcase",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003984.jpg"
+  },
+  {
+    "question": "Are there any heavy construction equipment items visible in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003984.jpg"
+  },
+  {
+    "question": "Is this a construction site with active equipment and workers?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "suitcase",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003984.jpg"
+  },
+  {
+    "question": "Do both detected objects have high confidence detection scores?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003984.jpg"
+  }
+]

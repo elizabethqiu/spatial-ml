@@ -1,0 +1,59 @@
+[
+  {
+    "question": "How many cats are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004800.jpg"
+  },
+  {
+    "question": "Is there a knife in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004800.jpg"
+  },
+  {
+    "question": "Are there more cats than knives in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004800.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in the scene?",
+    "answer": "36.96 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004800.jpg"
+  },
+  {
+    "question": "What is the maximum depth range in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004800.jpg"
+  },
+  {
+    "question": "Is the knife closer to the camera than the average scene depth?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "knife"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004800.jpg"
+  }
+]

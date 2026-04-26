@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "spoon",
+      "cup",
+      "bottle",
+      "bowl",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  },
+  {
+    "question": "Is the person sitting on the chair?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  },
+  {
+    "question": "Is there a bottle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  },
+  {
+    "question": "Where is the spoon positioned relative to the bowl?",
+    "answer": "The spoon is near the bowl, likely intended for use with it",
+    "type": "relative_position",
+    "objects_referenced": [
+      "spoon",
+      "bowl"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  },
+  {
+    "question": "What is the spatial arrangement of the cup and bottle?",
+    "answer": "Both cup and bottle are on the table surface, typical tableware arrangement",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in close proximity to the person?",
+    "answer": "No safety alert - this is a domestic kitchen scene with no heavy equipment present",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  },
+  {
+    "question": "Are there any workers operating machinery within 2 metres of each other?",
+    "answer": "No safety concerns - no construction equipment or heavy machinery detected in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002046.jpg"
+  }
+]

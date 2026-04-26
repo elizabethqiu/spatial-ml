@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How many people are visible in this scene?",
+    "answer": "5 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "How many skateboards are present in the scene?",
+    "answer": "3 skateboards",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "What is the approximate average distance of objects from the camera?",
+    "answer": "18.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "Is there at least one skateboard in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "Are there more people than skateboards in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "Is the maximum depth distance greater than 40 metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "Are there any people positioned at the very foreground (closer than 5 metres)?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "Are the skateboards distributed throughout the depth range of the scene?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "skateboard",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  },
+  {
+    "question": "What is the range of depths observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "skateboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001522.jpg"
+  }
+]

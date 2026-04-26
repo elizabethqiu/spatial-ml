@@ -1,0 +1,116 @@
+[
+  {
+    "question": "How far is the person from the nearest chair?",
+    "answer": "Approximately 17.17 metres (estimated from mean scene depth; precise separation requires full 3D coordinates).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the bed and the person?",
+    "answer": "Approximately 17.17 metres (based on mean scene depth distribution).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two chairs in the scene?",
+    "answer": "Approximately 17.17 metres (estimated from mean scene depth; exact separation requires individual object coordinates).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Are there more than one chair detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the person?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is the person closer to the bed or to the chairs in the scene?",
+    "answer": "Based on available depth data, the person, bed, and chairs share a similar mean depth of approximately 17.17 metres, so no definitive closer relationship can be established without individual 3D coordinates. They appear roughly equidistant.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Are the two chairs positioned on the same side of the bed, or on opposite sides?",
+    "answer": "Insufficient individual 3D position data to determine exact lateral placement; however, based on scene depth statistics both chairs share a similar depth range (mean ~17.17 metres), suggesting they may be at comparable distances from the bed rather than clearly on opposite sides.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is the person positioned between the bed and the chairs?",
+    "answer": "Based on the available depth statistics (mean 17.17 m, range 0\u201350 m), it is possible the person occupies a middle position, but precise intermediate positioning cannot be confirmed without individual object 3D coordinates.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Is there any safety alert involving heavy construction equipment and a worker in close proximity (less than 2 metres)?",
+    "answer": "No safety alert is triggered. This scene contains a bed, two chairs, and a person \u2014 no heavy construction equipment is present. No worker-equipment proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  },
+  {
+    "question": "Does any object in the scene pose an immediate proximity hazard (within 2 metres) to the person?",
+    "answer": "No immediate proximity hazard is detected. The objects present (bed and two chairs) are not heavy construction equipment, and available depth data does not indicate any object is dangerously within 2 metres of the person in a construction-safety context.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000570.jpg"
+  }
+]

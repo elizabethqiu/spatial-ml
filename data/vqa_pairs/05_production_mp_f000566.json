@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How far is the first person from the bed?",
+    "answer": "Based on the scene depth statistics, the estimated distance between the first person and the bed is approximately 18.00 metres (mean scene depth).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "The estimated distance between the two persons is approximately 18.00 metres, based on the mean scene depth of 18.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "The maximum depth range in this scene is 50.00 metres, spanning from 0.00 metres to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Is there a bed present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment (e.g., excavator, crane, bulldozer) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Where is the bed positioned relative to the two persons in the scene?",
+    "answer": "The bed appears to be positioned within the central depth range of the scene (mean depth ~18.00 metres). Both persons are detected in proximity to the bed, suggesting the bed is likely between or near the two persons in the spatial layout of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other in the scene?",
+    "answer": "The two persons are detected as separate objects within the scene. Given the depth range of 0.00 to 50.00 metres and a mean of 18.00 metres, they are likely positioned at varying depths \u2014 one may be closer to the foreground and the other further into the scene, or they may be side by side at similar depths near the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Is either person in dangerously close proximity (less than 2 metres) to any heavy equipment on site?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment (such as excavators, cranes, or bulldozers) detected in this scene. The only objects present are a bed and two persons, so no worker-equipment proximity hazard exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  },
+  {
+    "question": "Are any workers at risk due to proximity to moving machinery or hazardous equipment in this scene?",
+    "answer": "No immediate machinery hazard is detected. The scene contains only a bed and two persons with no heavy equipment identified. However, if this is a construction dormitory or rest area, site supervisors should ensure workers are not resting in areas adjacent to active construction zones where equipment operates within 2 metres.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000566.jpg"
+  }
+]

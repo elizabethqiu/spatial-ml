@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the distance between the toilet and the TV?",
+    "answer": "10.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "toilet",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000384.jpg"
+  },
+  {
+    "question": "Is the toilet closer than 5 metres to the TV?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000384.jpg"
+  },
+  {
+    "question": "Are both the toilet and TV present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000384.jpg"
+  },
+  {
+    "question": "Which object has a greater maximum depth from the camera: the toilet or the TV?",
+    "answer": "The maximum depth in the scene is 50.00 metres, which could apply to either object depending on their positions",
+    "type": "relative_position",
+    "objects_referenced": [
+      "toilet",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000384.jpg"
+  },
+  {
+    "question": "Is there a safety concern with workers near heavy equipment in this scene?",
+    "answer": "No safety alert - this is an indoor residential scene with no workers or heavy construction equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "toilet",
+      "tv"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000384.jpg"
+  }
+]

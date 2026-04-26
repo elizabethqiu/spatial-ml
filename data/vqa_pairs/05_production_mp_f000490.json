@@ -1,0 +1,95 @@
+[
+  {
+    "question": "What is the approximate distance between the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be within a range of 0.00 to 50.00 metres apart, with a mean scene depth of approximately 19.67 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects detected in the scene?",
+    "answer": "The mean depth of objects in the scene is approximately 19.67 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "Is there a book present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "Are there more than one person detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "Where is the book positioned relative to the two persons in the scene?",
+    "answer": "The book appears to be located between or in proximity to the two persons in the scene, likely being held or placed near one of them, given the shared depth range of all detected objects.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "book",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "Which object is closest to the minimum depth (foreground) of the scene?",
+    "answer": "Based on the minimum depth value of 0.00 metres, at least one of the detected objects \u2014 a person or the book \u2014 is positioned in the very foreground of the scene, closest to the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "book",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "Is either person in the scene in a potentially unsafe proximity (less than 2 metres) to heavy construction equipment?",
+    "answer": "No safety alert is triggered. There is no heavy construction equipment detected in this scene. The objects present are two persons and a book, which do not pose a machinery-related proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  },
+  {
+    "question": "Does the scene contain any worker-equipment proximity hazard requiring immediate safety intervention?",
+    "answer": "No immediate safety alert is required. No heavy equipment such as cranes, forklifts, or excavators has been detected. The scene consists only of two persons and a book, presenting no critical machinery proximity risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "book"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000490.jpg"
+  }
+]

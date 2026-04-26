@@ -1,0 +1,100 @@
+[
+  {
+    "question": "What is the approximate distance between the wine glass and the dog in the scene?",
+    "answer": "Based on the available depth statistics, both objects are located within a scene spanning 0.00 to 50.00 metres, with a mean depth of 18.91 metres. Without precise per-object depth coordinates, the estimated scene-average separation is approximately 18.91 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "What is the maximum possible distance any object in this scene could be from the camera?",
+    "answer": "The maximum depth recorded in the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "wine glass",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Is there a dog present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Is the wine glass closer to the camera than the dog on average?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Are both the wine glass and the dog detected with high confidence?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "wine glass",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Where is the wine glass positioned relative to the dog in the scene?",
+    "answer": "Based on scene depth statistics, both the wine glass and the dog are positioned at a similar average depth of approximately 18.91 metres from the camera. Without distinct per-object coordinates, they appear to be at roughly the same depth plane, though their lateral (left/right) relationship cannot be determined from depth data alone.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "wine glass",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Is the dog located in the foreground or background of the scene relative to the wine glass?",
+    "answer": "With both objects sharing a mean scene depth of approximately 18.91 metres and no distinct per-object depth offset available, the dog and wine glass appear to occupy a similar depth plane \u2014 neither is clearly in the foreground nor background relative to the other.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "dog",
+      "wine glass"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Does this construction site scene present any worker-equipment proximity safety alerts?",
+    "answer": "No safety alert is triggered. This scene does not contain any workers or heavy equipment \u2014 only a wine glass and a dog are detected. No proximity hazard under the 2-metre threshold applies. However, the presence of a dog and a wine glass on a construction site should be flagged as an environmental control concern: animals should be kept clear of active work zones, and glass objects pose a laceration and contamination hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "wine glass",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  },
+  {
+    "question": "Should the dog be flagged as a safety concern in a construction site environment?",
+    "answer": "Yes \u2014 while no heavy equipment is present in this scene, a dog on a construction site is a safety concern. Animals can cause distractions for workers, may be injured by equipment or materials, and are generally prohibited from active construction zones per standard site safety protocols. The site manager should be alerted to remove the animal from the area.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000604.jpg"
+  }
+]

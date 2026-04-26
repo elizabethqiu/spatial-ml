@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How far is the cell phone from the nearest person in the scene?",
+    "answer": "Based on the depth statistics, the cell phone and nearest person are approximately 0.50 metres apart, suggesting the phone is being held or used by one of the individuals.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 1.50 to 3.00 metres apart from each other.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "Is a cell phone visible and being used in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "Are both persons located within close proximity (less than 5 metres) of each other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the foreground or background of the scene?",
+    "answer": "The cell phone appears to be in the mid-to-foreground of the scene, at a depth significantly closer than the scene mean of 16.53 metres, likely within arm's reach of one of the persons.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "Which person is positioned closer to the camera \u2014 the first or second person detected?",
+    "answer": "Based on depth estimates, one person appears to be in the near foreground while the second person is slightly further back, though both are within the mid-range depth of the scene (mean: 16.53 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "Where is the cell phone positioned relative to the two persons in the scene?",
+    "answer": "The cell phone is positioned very close to one of the persons, likely held in front of or adjacent to that individual, placing it between the person and the camera viewpoint.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Is any worker distracted by cell phone use near heavy equipment on this construction site?",
+    "answer": "No heavy equipment is detected in this scene. However, a safety concern is noted: one person appears to be actively using a cell phone, which can cause distraction. If this individual is near an active work zone, cell phone use should be restricted per site safety protocols.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  },
+  {
+    "question": "SAFETY ALERT: Does the use of a cell phone by a worker on-site represent a potential safety hazard?",
+    "answer": "yes \u2014 A person is detected using a cell phone on what appears to be a construction site. Cell phone distraction increases accident risk. Site supervisors should enforce a no-phone policy in active work zones and ensure workers remain alert to their surroundings at all times.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cell phone",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001454.jpg"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Is there a bird visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003092.jpg"
+  },
+  {
+    "question": "How many birds are detected in the scene?",
+    "answer": "1 bird",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003092.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in this scene?",
+    "answer": "20.85 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003092.jpg"
+  },
+  {
+    "question": "Is the bird within the construction site hazard zone (closer than 2 metres)?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003092.jpg"
+  },
+  {
+    "question": "What is the maximum distance to the detected objects?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003092.jpg"
+  }
+]

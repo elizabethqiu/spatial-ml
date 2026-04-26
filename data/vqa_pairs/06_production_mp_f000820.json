@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a refrigerator visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000820.jpg"
+  },
+  {
+    "question": "How far away is the refrigerator from the camera on average?",
+    "answer": "15.67 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000820.jpg"
+  },
+  {
+    "question": "What is the maximum distance to any object in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000820.jpg"
+  },
+  {
+    "question": "What is the closest detected object to the camera?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000820.jpg"
+  },
+  {
+    "question": "Is the refrigerator positioned in the foreground of the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000820.jpg"
+  },
+  {
+    "question": "Are there any safety concerns with workers in proximity to heavy equipment in this scene?",
+    "answer": "No workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000820.jpg"
+  }
+]

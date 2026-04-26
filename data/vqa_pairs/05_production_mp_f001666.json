@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How far apart are the cat and keyboard?",
+    "answer": "24.75 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001666.jpg"
+  },
+  {
+    "question": "Is the cat closer than 5 metres to the keyboard?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001666.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001666.jpg"
+  },
+  {
+    "question": "Is the keyboard positioned between the camera and the cat?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "keyboard"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001666.jpg"
+  }
+]

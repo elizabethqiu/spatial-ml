@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How many motorcycles are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004726.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004726.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "25.39 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004726.jpg"
+  },
+  {
+    "question": "Are there any workers in close proximity (less than 2 metres) to the motorcycles?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004726.jpg"
+  },
+  {
+    "question": "Do both motorcycles appear at the same depth in the scene?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004726.jpg"
+  },
+  {
+    "question": "Are the motorcycles detected with high confidence?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004726.jpg"
+  }
+]

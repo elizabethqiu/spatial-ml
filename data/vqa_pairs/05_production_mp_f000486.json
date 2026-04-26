@@ -1,0 +1,109 @@
+[
+  {
+    "question": "How far is the hot dog from the nearest person on average, given the mean scene depth?",
+    "answer": "The mean depth across the scene is approximately 19.17 metres, suggesting the hot dog and nearby persons are at a mid-range distance of roughly 19 metres from the camera reference point.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hot dog",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "What is the maximum depth range observed in this scene?",
+    "answer": "The maximum depth observed in the scene is 50.00 metres, while the minimum is 0.00 metres, giving a total depth range of 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "hot dog",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Is there a person present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Are there more than two persons detected in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Is any heavy construction equipment (e.g., excavator, crane, bulldozer) present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Where is the hot dog positioned relative to the group of persons in this scene?",
+    "answer": "Based on the detected objects, the hot dog appears to be situated within the general area occupied by the group of four persons, likely in the foreground or mid-ground of the scene given the depth distribution (mean ~19.17 metres).",
+    "type": "relative_position",
+    "objects_referenced": [
+      "hot dog",
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "How are the four persons spatially distributed relative to each other in the scene?",
+    "answer": "The four persons are distributed across a depth range of 0.00 to 50.00 metres with a mean of ~19.17 metres, suggesting they are spread at varying distances from the camera \u2014 some potentially in the near foreground and others further in the background.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Is any worker within a dangerous proximity (less than 2 metres) of heavy equipment in this scene?",
+    "answer": "No heavy construction equipment is detected in this scene. The only non-person object is a hot dog, which poses no mechanical safety risk. No safety alert is triggered for proximity to heavy equipment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person",
+      "hot dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  },
+  {
+    "question": "Given that the minimum depth in the scene is 0.00 metres, is there a risk that any person is dangerously close to an undetected hazard or the scene boundary?",
+    "answer": "A minimum depth of 0.00 metres indicates at least one object or person may be at the immediate foreground of the scene. While no heavy equipment is detected, site supervisors should verify that no undetected machinery or hazard exists at that near-zero depth range, as workers within less than 2 metres of heavy equipment would constitute a safety risk.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000486.jpg"
+  }
+]

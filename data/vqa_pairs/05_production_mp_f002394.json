@@ -1,0 +1,89 @@
+[
+  {
+    "question": "How many people are visible in this construction site scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  },
+  {
+    "question": "What is the average distance from the camera to detected persons?",
+    "answer": "17.95 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  },
+  {
+    "question": "Are there any workers present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  },
+  {
+    "question": "Is there at least one person closer than 10 metres to the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  },
+  {
+    "question": "Are all four people at approximately the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  },
+  {
+    "question": "Describe the spatial distribution of the workers in this scene.",
+    "answer": "Four people are spread across the scene with varying depths, ranging from 0 to 50 metres from the camera, with an average distance of 17.95 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  },
+  {
+    "question": "Are there any workers in immediate proximity to each other that might pose a collision risk?",
+    "answer": "No heavy equipment is detected in this scene. Four workers are present at varying distances. Without specific proximity measurements between individual workers, general spacing appears adequate.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002394.jpg"
+  }
+]

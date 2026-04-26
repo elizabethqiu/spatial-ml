@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What is the distance between the dog and the bird?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005718.jpg"
+  },
+  {
+    "question": "Is the clock closer to the dog or the bird?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "clock",
+      "dog",
+      "bird"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005718.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005718.jpg"
+  },
+  {
+    "question": "Is the dog positioned to the left of the clock?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005718.jpg"
+  },
+  {
+    "question": "Does the bird appear in front of the clock?",
+    "answer": "Unable to determine - insufficient spatial coordinate data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bird",
+      "clock"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005718.jpg"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many dogs are visible in this scene?",
+    "answer": "4 dogs",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004816.jpg"
+  },
+  {
+    "question": "How many bananas are present in the scene?",
+    "answer": "2 bananas",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004816.jpg"
+  },
+  {
+    "question": "Is there a chair in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004816.jpg"
+  },
+  {
+    "question": "Are there more dogs than bananas?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004816.jpg"
+  },
+  {
+    "question": "Is the chair positioned closer to the camera than the dogs?",
+    "answer": "Unknown - insufficient spatial coordinate data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004816.jpg"
+  },
+  {
+    "question": "What is the average depth distance of objects in this scene?",
+    "answer": "31.46 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog",
+      "banana",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004816.jpg"
+  }
+]

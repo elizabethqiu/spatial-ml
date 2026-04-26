@@ -1,0 +1,103 @@
+[
+  {
+    "question": "How far is the person from the nearest chair in the scene?",
+    "answer": "Approximately 18.90 metres (based on mean scene depth; exact distance depends on precise 3D coordinates).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "What is the approximate depth range of objects detected in this scene?",
+    "answer": "The depth range spans from 0.00 metres (minimum) to 50.00 metres (maximum), with a mean depth of 18.90 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Are there more than two chairs detected in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Is the bed located in the scene alongside at least one chair?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the bed in the scene?",
+    "answer": "Based on the detected objects, the person and the bed share a similar depth range in the scene. Without precise X/Y coordinates, the person appears to be in the general vicinity of the bed, likely nearby or alongside it within the same room space.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Where are the chairs positioned relative to the bed?",
+    "answer": "The three chairs are distributed across the scene at varying depths. They are likely positioned around or near the bed, consistent with a bedroom or resting-area layout, with some chairs potentially closer to the foreground than the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the chairs in the scene?",
+    "answer": "The person is positioned within the same spatial zone as the chairs, sharing a similar mean depth of approximately 18.90 metres. The person may be seated near or standing between the chairs based on the scene layout.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Is the person within a dangerous proximity (less than 2 metres) of any heavy construction equipment in the scene?",
+    "answer": "No safety alert required. This scene contains no heavy construction equipment (e.g., excavators, cranes, forklifts). The detected objects are a person, a bed, and three chairs, which pose no construction-related proximity hazard.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  },
+  {
+    "question": "Does the presence of the person near any of the detected objects in this scene constitute a construction site safety hazard?",
+    "answer": "No safety alert triggered. None of the objects in this scene (chairs, bed) qualify as heavy construction equipment. There is no worker\u2013machinery proximity risk to flag. This appears to be an indoor residential or rest-area environment, not an active construction zone.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000712.jpg"
+  }
+]

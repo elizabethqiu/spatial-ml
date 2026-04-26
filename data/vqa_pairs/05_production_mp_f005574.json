@@ -1,0 +1,104 @@
+[
+  {
+    "question": "How many cups are visible in this scene?",
+    "answer": "6 cups",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "How many people are present in the scene?",
+    "answer": "3 people",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "What is the average depth of objects in the scene?",
+    "answer": "21.70 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "cell phone",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "Is there a cell phone in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "Is there a baseball bat visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "Are there more cups than people in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "Is there any heavy equipment in proximity to workers that poses a safety risk?",
+    "answer": "No safety hazard detected. Scene contains cups, people, cell phone, and baseball bat. No heavy construction equipment is present.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "baseball bat",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "What is the maximum depth range of objects in the scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "cell phone",
+      "baseball bat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "Is the baseball bat in close proximity to any person?",
+    "answer": "Cannot determine from spatial data provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "baseball bat",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  },
+  {
+    "question": "Is the cell phone closer to the scene than the farthest cup?",
+    "answer": "Cannot determine exact individual positions from aggregate depth statistics",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005574.jpg"
+  }
+]

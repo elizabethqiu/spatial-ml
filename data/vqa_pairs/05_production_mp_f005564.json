@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  },
+  {
+    "question": "Is there a motorcycle in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  },
+  {
+    "question": "Is there a cup visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance from the camera to any object in the scene?",
+    "answer": "50.0 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  },
+  {
+    "question": "Are any people positioned closer than 2 metres to the motorcycle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "22.26 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the motorcycle?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  },
+  {
+    "question": "How many objects total are detected in this scene?",
+    "answer": "4",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "motorcycle",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005564.jpg"
+  }
+]

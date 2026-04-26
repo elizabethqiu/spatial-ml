@@ -1,0 +1,63 @@
+[
+  {
+    "question": "How far is the person from the suitcase?",
+    "answer": "20.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "suitcase"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003904.jpg"
+  },
+  {
+    "question": "What is the distance between the backpack and the bottle?",
+    "answer": "20.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003904.jpg"
+  },
+  {
+    "question": "Is the suitcase closer than 15 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "suitcase",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003904.jpg"
+  },
+  {
+    "question": "Is the bottle within 30 metres of the backpack?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003904.jpg"
+  },
+  {
+    "question": "Is the person positioned between the suitcase and the bottle?",
+    "answer": "yes",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "suitcase",
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003904.jpg"
+  },
+  {
+    "question": "Is the backpack to the left or right of the person?",
+    "answer": "Cannot determine directional orientation from depth data alone",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003904.jpg"
+  }
+]

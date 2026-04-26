@@ -1,0 +1,101 @@
+[
+  {
+    "question": "What is the approximate distance between the cup and the bed in this scene?",
+    "answer": "Based on the depth statistics available, the objects span a range of up to 50.00 metres, with a mean scene depth of 20.25 metres. The estimated distance between the cup and the bed is approximately 20.25 metres, though precise inter-object distance cannot be fully determined without individual object coordinates.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "What is the minimum depth (closest point) recorded in this scene?",
+    "answer": "The minimum depth recorded in this scene is 0.00 metres, indicating at least one object or surface is at or very near the camera/sensor position.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Is the cup present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment detected in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Is the bed located within the scene alongside another object?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Is the cup closer to the camera than the bed based on scene depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed in this scene?",
+    "answer": "The cup appears to be positioned in the foreground or at a shallower depth relative to the bed, which is likely located further back in the scene. The cup is generally in front of or beside the bed based on typical scene depth distribution.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Which object is positioned deeper (further from the camera) in the scene \u2014 the cup or the bed?",
+    "answer": "The bed is most likely positioned deeper (further from the camera) in the scene, as beds are typically large background objects, while the cup would commonly be placed in the foreground at a closer depth.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Are there any workers or heavy equipment detected in this scene that could pose a safety risk?",
+    "answer": "No workers or heavy construction equipment have been detected in this scene. The scene contains only a cup and a bed, so no proximity-based safety alert is triggered. This scene does not appear to represent a construction site environment.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  },
+  {
+    "question": "Is any detected object within a dangerously close proximity (less than 2 metres) to a worker or heavy equipment?",
+    "answer": "No safety alert is warranted for this scene. Neither a worker nor any heavy equipment has been detected. The only objects present are a cup and a bed, and no hazardous proximity condition of less than 2 metres between a worker and heavy equipment exists.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000898.jpg"
+  }
+]

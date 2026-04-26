@@ -1,0 +1,79 @@
+[
+  {
+    "question": "How many persons are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Is there a microwave in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "microwave"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Are there more persons than appliances in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "microwave"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in this scene in metres?",
+    "answer": "17.18 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "microwave"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Is the microwave positioned closer to the camera than the average object depth?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "microwave"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  },
+  {
+    "question": "What is the maximum depth range detected in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "microwave"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Are all persons positioned at a safe distance (greater than 2 metres) from the microwave?",
+    "answer": "yes",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "microwave"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  },
+  {
+    "question": "Is the minimum detected object distance at ground level?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "microwave"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f002060.jpg"
+  }
+]

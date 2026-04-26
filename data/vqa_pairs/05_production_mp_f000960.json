@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How far apart are the two persons detected in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 0.50 metres apart, both positioned near the mean scene depth of 20.55 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  },
+  {
+    "question": "What is the approximate distance between the nearest person and the chair?",
+    "answer": "The nearest person and the chair are estimated to be approximately 1.20 metres apart, based on the scene depth statistics centred around 20.55 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  },
+  {
+    "question": "Is there a chair present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  },
+  {
+    "question": "Are both detected persons within the same general depth range in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  },
+  {
+    "question": "Is the chair located closer to or farther from the camera than the two persons?",
+    "answer": "The chair appears to be at a similar depth to the persons, all clustered near the mean scene depth of approximately 20.55 metres. The chair is neither significantly closer nor farther relative to the persons in this scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "chair",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  },
+  {
+    "question": "Are the two persons positioned on the same side of the chair, or on opposite sides?",
+    "answer": "Based on the scene layout, the two persons appear to be positioned on the same side of the chair, both occupying roughly the same depth plane at approximately 20.55 metres from the camera.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  },
+  {
+    "question": "Is either person dangerously close to any heavy equipment in this scene?",
+    "answer": "No heavy equipment (e.g., excavators, forklifts, cranes) has been detected in this scene. The only objects present are two persons and a chair. No safety alert regarding proximity to heavy machinery is warranted at this time.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  },
+  {
+    "question": "Are the two persons within an unsafe proximity of less than 2 metres of each other that could indicate a crowding or collision risk in a work environment?",
+    "answer": "Based on the estimated inter-person distance of approximately 0.50 metres, the two persons are within 2 metres of each other. While no heavy equipment is present, supervisors should be aware of this close proximity, especially if this is an active construction or industrial zone where movement hazards exist.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000960.jpg"
+  }
+]

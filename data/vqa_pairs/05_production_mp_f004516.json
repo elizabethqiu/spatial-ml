@@ -1,0 +1,94 @@
+[
+  {
+    "question": "How many televisions are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "tv",
+      "potted plant",
+      "bowl",
+      "bowl",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  },
+  {
+    "question": "Are there more bowls than televisions in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  },
+  {
+    "question": "Is a potted plant present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "potted plant"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  },
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in this scene?",
+    "answer": "14.23 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "tv",
+      "tv",
+      "potted plant",
+      "bowl",
+      "bowl",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  },
+  {
+    "question": "Are there an equal number of bowls and televisions?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bowl",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  },
+  {
+    "question": "Is the minimum depth distance zero metres?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv",
+      "tv",
+      "potted plant",
+      "bowl",
+      "bowl",
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004516.jpg"
+  }
+]

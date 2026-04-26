@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the backpack and the motorcycle?",
+    "answer": "19.15 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005242.jpg"
+  },
+  {
+    "question": "Is the backpack closer than 5 metres to the motorcycle?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005242.jpg"
+  },
+  {
+    "question": "How many objects are present in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005242.jpg"
+  },
+  {
+    "question": "Is there a safety concern regarding proximity between the backpack and motorcycle?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005242.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005242.jpg"
+  },
+  {
+    "question": "Are both the backpack and motorcycle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "motorcycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005242.jpg"
+  }
+]

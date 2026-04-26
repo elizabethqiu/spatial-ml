@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the bicycle and the chair?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004512.jpg"
+  },
+  {
+    "question": "Is the bicycle closer to the camera than the chair?",
+    "answer": "Unable to determine - depth coordinates not provided for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004512.jpg"
+  },
+  {
+    "question": "Is the chair positioned to the right of the bicycle?",
+    "answer": "Unable to determine - lateral position coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bicycle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004512.jpg"
+  },
+  {
+    "question": "Are there any workers within 2 metres of heavy equipment in this scene?",
+    "answer": "No - this scene contains only a bicycle and chair; no workers or heavy equipment detected",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bicycle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004512.jpg"
+  },
+  {
+    "question": "Does this scene present any construction site safety hazards?",
+    "answer": "No - no workers, machinery, or hazardous equipment are present in this scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bicycle",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f004512.jpg"
+  }
+]

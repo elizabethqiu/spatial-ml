@@ -1,0 +1,52 @@
+[
+  {
+    "question": "How far apart are the person and the toilet?",
+    "answer": "16.66 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005236.jpg"
+  },
+  {
+    "question": "Is the person standing next to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005236.jpg"
+  },
+  {
+    "question": "Is the toilet positioned in front of the person?",
+    "answer": "unknown",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005236.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005236.jpg"
+  },
+  {
+    "question": "Is there a safety hazard due to proximity between the person and toilet?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005236.jpg"
+  }
+]

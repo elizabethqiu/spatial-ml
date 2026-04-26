@@ -1,0 +1,91 @@
+[
+  {
+    "question": "What is the approximate distance between the bottle and the bed?",
+    "answer": "Based on the depth statistics available, the objects span a scene with a mean depth of approximately 18.58 metres; the estimated distance between the bottle and the bed is approximately 18.58 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "What is the maximum depth extent of the scene containing the bottle and bed?",
+    "answer": "The maximum depth extent of the scene is 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Is there a bottle present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Is the bed located in the same scene as the bottle?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the bed on average?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Where is the bottle positioned relative to the bed?",
+    "answer": "The bottle appears to be positioned in front of or near the bed, likely resting on or beside it given the typical domestic context of these two objects sharing the same scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Is the bed in the foreground or background of the scene relative to the bottle?",
+    "answer": "The bed is likely in the background relative to the bottle, as the bottle (a smaller object) typically appears in the near-to-mid foreground when placed on or beside a bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Are there any heavy equipment or workers present in this scene that pose a safety risk?",
+    "answer": "No heavy equipment or workers are detected in this scene. The scene contains only a bottle and a bed, so no construction-related proximity safety alerts are applicable.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  },
+  {
+    "question": "Does the proximity between any objects in this scene trigger a safety alert based on the 2-metre rule for workers and heavy equipment?",
+    "answer": "No safety alert is triggered. Neither a worker nor heavy equipment is present in this scene; only a bottle and a bed are detected, so the 2-metre proximity safety rule does not apply.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000680.jpg"
+  }
+]

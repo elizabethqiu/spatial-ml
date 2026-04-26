@@ -1,0 +1,117 @@
+[
+  {
+    "question": "How far is the person from the bed?",
+    "answer": "Approximately 2.50 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "What is the distance between the cup and the backpack?",
+    "answer": "Approximately 1.80 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "What is the estimated distance from the person to the cup?",
+    "answer": "Approximately 3.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is the person near the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is the backpack on or adjacent to the bed?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "backpack",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is the cup closer to the person than the backpack is?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the bed?",
+    "answer": "The cup is positioned to the side of the bed, likely on a nearby surface such as a nightstand or floor, at a slightly closer depth than the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Where is the person located relative to the backpack?",
+    "answer": "The person is located in front of and slightly to the side of the backpack, appearing closer in depth to the camera than the backpack.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Where is the backpack positioned relative to the person?",
+    "answer": "The backpack is positioned behind and to the side of the person, suggesting it has been set down near the bed.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "backpack",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is there any safety concern involving heavy equipment and a worker in this scene?",
+    "answer": "No heavy equipment or construction machinery is present in this scene. The scene depicts a person in an indoor residential environment with a bed, cup, and backpack. No construction safety alert is warranted.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "cup",
+      "backpack"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  },
+  {
+    "question": "Is the person within a potentially hazardous proximity (less than 2 metres) to any dangerous object in this scene?",
+    "answer": "No hazardous objects such as heavy equipment are detected in this scene. The person is in a non-construction indoor environment, and no safety alert is triggered.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "backpack",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001326.jpg"
+  }
+]

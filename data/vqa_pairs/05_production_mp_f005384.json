@@ -1,0 +1,56 @@
+[
+  {
+    "question": "How many sheep are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005384.jpg"
+  },
+  {
+    "question": "Are there any sheep present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005384.jpg"
+  },
+  {
+    "question": "Is there heavy equipment operating near workers in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005384.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005384.jpg"
+  },
+  {
+    "question": "What is the mean depth of objects in this scene?",
+    "answer": "21.20 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005384.jpg"
+  },
+  {
+    "question": "Are all detected objects within a construction site equipment safety zone?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "sheep"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005384.jpg"
+  }
+]

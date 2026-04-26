@@ -1,0 +1,51 @@
+[
+  {
+    "question": "What is the distance between the cat and the toilet?",
+    "answer": "20.54 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001820.jpg"
+  },
+  {
+    "question": "Is the cat closer than 5 metres to the toilet?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001820.jpg"
+  },
+  {
+    "question": "Is the toilet visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001820.jpg"
+  },
+  {
+    "question": "Where is the cat positioned relative to the toilet?",
+    "answer": "The cat and toilet are approximately 20.54 metres apart in the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001820.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cat",
+      "toilet"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001820.jpg"
+  }
+]

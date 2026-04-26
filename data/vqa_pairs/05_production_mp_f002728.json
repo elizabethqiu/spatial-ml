@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the person and the cup?",
+    "answer": "14.17 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002728.jpg"
+  },
+  {
+    "question": "Is the cup closer than 2 metres to the person?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002728.jpg"
+  },
+  {
+    "question": "Is the person positioned near the cup?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002728.jpg"
+  },
+  {
+    "question": "Are there any safety hazards involving the person and cup at this proximity?",
+    "answer": "No hazard detected. The person and cup are separated by 14.17 metres, well above the safety threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002728.jpg"
+  }
+]

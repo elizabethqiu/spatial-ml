@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the chair and the cat?",
+    "answer": "Unable to determine - exact 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003420.jpg"
+  },
+  {
+    "question": "Is the cat closer to the camera than the chair?",
+    "answer": "Unable to determine - exact depth positions not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003420.jpg"
+  },
+  {
+    "question": "Is the cat positioned to the left of the chair?",
+    "answer": "Unable to determine - horizontal position data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cat",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003420.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "chair",
+      "cat"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f003420.jpg"
+  }
+]

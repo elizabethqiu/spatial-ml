@@ -1,0 +1,106 @@
+[
+  {
+    "question": "What is the approximate distance between the cup and the person in the scene?",
+    "answer": "Based on the depth statistics available, the cup and person are estimated to be within the scene's depth range of 0.00 to 50.00 metres, with a mean scene depth of approximately 19.31 metres. Precise relative distance cannot be determined without individual object depth values.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "What is the estimated distance between the two beds in the scene?",
+    "answer": "The two beds are located within a scene spanning a depth range of 0.00 to 50.00 metres (mean: 19.31 metres). Without individual depth coordinates for each bed, the separation is estimated to be within that overall range, likely within the same room context (under 10 metres apart).",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Is there a person present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Is the cup located on or near a bed in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Are there more than one bed visible in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Where is the cup positioned relative to the person in the scene?",
+    "answer": "The cup appears to be in proximity to the person, likely placed on or beside one of the beds nearby the person, suggesting the cup is within arm's reach or on an adjacent surface relative to the person's position.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Where is the person positioned relative to the two beds?",
+    "answer": "The person appears to be positioned between or alongside the two beds, likely resting on or seated near one of the beds, given the bedroom context of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Where is the cup located relative to the beds in the scene?",
+    "answer": "The cup is positioned on or near one of the beds, likely placed on a bedside surface or directly on the bed closest to the person.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cup",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Is there any heavy construction equipment present near the person that poses a safety risk?",
+    "answer": "No heavy construction equipment (such as excavators, cranes, or forklifts) is detected in this scene. The scene contains only a cup, two beds, and a person, presenting no construction-site proximity hazard. No safety alert is required.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "cup",
+      "bed",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  },
+  {
+    "question": "Does the presence of the person near the beds and cup present any immediate safety concern in this scene?",
+    "answer": "No immediate safety alert is triggered. There is no heavy equipment detected within the scene. The person is in a bedroom environment with beds and a cup nearby, none of which constitute a proximity hazard under the < 2 metre heavy equipment safety threshold.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "bed",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000752.jpg"
+  }
+]

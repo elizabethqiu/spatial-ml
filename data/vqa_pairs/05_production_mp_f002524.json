@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How many people are present in this scene?",
+    "answer": "3",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "What is the mean depth of all objects in the scene?",
+    "answer": "24.36 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "Is there a laptop present in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "Are all detected objects people?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "Is there heavy equipment present in this scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "Describe the relative positions of the three people in the scene.",
+    "answer": "Three people are distributed across the scene with varying depths ranging from 0 to 50 metres, with an average depth of 24.36 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "Where is the laptop positioned relative to the people?",
+    "answer": "The laptop is present in the scene among the people, with depth varying within the observed range of 0 to 50 metres.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "laptop"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  },
+  {
+    "question": "Are there any safety hazards from heavy machinery near workers?",
+    "answer": "No safety alert - no heavy equipment detected in this scene.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002524.jpg"
+  }
+]

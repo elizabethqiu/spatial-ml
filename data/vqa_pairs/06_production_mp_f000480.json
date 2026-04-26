@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Is there a refrigerator visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000480.jpg"
+  },
+  {
+    "question": "What is the approximate maximum distance to objects in this scene in metres?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000480.jpg"
+  },
+  {
+    "question": "What is the average depth distance to objects in this scene in metres?",
+    "answer": "16.22 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000480.jpg"
+  },
+  {
+    "question": "Is the refrigerator at the minimum depth point of the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000480.jpg"
+  },
+  {
+    "question": "What is the approximate closest distance to any object in this scene in metres?",
+    "answer": "0.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000480.jpg"
+  },
+  {
+    "question": "Are there any workers detected near the refrigerator at unsafe proximity?",
+    "answer": "No workers detected in scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000480.jpg"
+  }
+]

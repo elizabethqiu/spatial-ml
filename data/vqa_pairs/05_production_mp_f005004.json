@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How many dogs are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005004.jpg"
+  },
+  {
+    "question": "Is there a cake in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005004.jpg"
+  },
+  {
+    "question": "Are there more dogs than cakes in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "cake"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005004.jpg"
+  },
+  {
+    "question": "What is the average depth of all detected objects in the scene?",
+    "answer": "18.87 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cake",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005004.jpg"
+  },
+  {
+    "question": "What is the maximum distance span in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cake",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005004.jpg"
+  },
+  {
+    "question": "Is the cake closer than 2 metres to any dog?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cake",
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005004.jpg"
+  }
+]

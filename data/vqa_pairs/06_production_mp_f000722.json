@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the distance between the bottle and the refrigerator?",
+    "answer": "Unable to determine - insufficient spatial coordinates provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Is the bottle closer to the camera than the refrigerator?",
+    "answer": "Unable to determine - insufficient positional data",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Is the bottle positioned to the left of the refrigerator?",
+    "answer": "Unable to determine - 2D spatial coordinates not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000722.jpg"
+  },
+  {
+    "question": "Are there any safety hazards present in this scene?",
+    "answer": "No",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "bottle",
+      "refrigerator"
+    ],
+    "image_path": "data/frames/06_production_mp/06_production_mp_f000722.jpg"
+  }
+]

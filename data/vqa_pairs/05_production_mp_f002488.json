@@ -1,0 +1,59 @@
+[
+  {
+    "question": "What is the distance between the chair and the bed?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002488.jpg"
+  },
+  {
+    "question": "Is the chair closer to the camera than the bed?",
+    "answer": "Unable to determine - specific depth values not provided for individual objects",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002488.jpg"
+  },
+  {
+    "question": "Are there any workers in proximity to heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002488.jpg"
+  },
+  {
+    "question": "Is the bed positioned to the left of the chair?",
+    "answer": "Unable to determine - lateral position data not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bed",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002488.jpg"
+  },
+  {
+    "question": "How many objects are detected in this scene?",
+    "answer": "2 objects",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002488.jpg"
+  },
+  {
+    "question": "Are both the chair and bed within the visible scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "chair",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002488.jpg"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How far is the person from the TV?",
+    "answer": "18.24 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001192.jpg"
+  },
+  {
+    "question": "What is the distance between the bed and the TV?",
+    "answer": "Unable to determine - insufficient spatial data for precise bed-TV distance",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001192.jpg"
+  },
+  {
+    "question": "Is the person closer to the bed or the TV?",
+    "answer": "Unable to determine - insufficient spatial positioning data",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "bed",
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001192.jpg"
+  },
+  {
+    "question": "Is the person standing next to the bed?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "bed"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001192.jpg"
+  },
+  {
+    "question": "Is the TV visible in this room?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "tv"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001192.jpg"
+  },
+  {
+    "question": "Are there any safety hazards with the person's proximity to heavy equipment?",
+    "answer": "Not applicable - no heavy construction equipment detected in this residential scene",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f001192.jpg"
+  }
+]

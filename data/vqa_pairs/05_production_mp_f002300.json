@@ -1,0 +1,70 @@
+[
+  {
+    "question": "How many cell phones are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002300.jpg"
+  },
+  {
+    "question": "Is there a cup in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002300.jpg"
+  },
+  {
+    "question": "Are there more cell phones than cups in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "cell phone",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002300.jpg"
+  },
+  {
+    "question": "Is the person positioned near the cup?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "cup"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002300.jpg"
+  },
+  {
+    "question": "Are the two cell phones in close proximity to each other?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "cell phone",
+      "cell phone"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002300.jpg"
+  },
+  {
+    "question": "Is the person within 2 metres of any heavy equipment?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002300.jpg"
+  },
+  {
+    "question": "What is the average depth of all objects in the scene in metres?",
+    "answer": "15.11 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "cup",
+      "cell phone",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f002300.jpg"
+  }
+]

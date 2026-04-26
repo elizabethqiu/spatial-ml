@@ -1,0 +1,61 @@
+[
+  {
+    "question": "How many bananas are present in the scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005446.jpg"
+  },
+  {
+    "question": "Are there any bananas visible in this scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005446.jpg"
+  },
+  {
+    "question": "What is the maximum depth at which objects are detected in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005446.jpg"
+  },
+  {
+    "question": "What is the average depth of detected objects?",
+    "answer": "12.58 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005446.jpg"
+  },
+  {
+    "question": "Is this a typical construction site scene with heavy equipment and workers?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005446.jpg"
+  },
+  {
+    "question": "Are there any safety hazards from workers near heavy equipment detected?",
+    "answer": "no",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "banana",
+      "banana"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005446.jpg"
+  }
+]

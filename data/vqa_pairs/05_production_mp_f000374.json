@@ -1,0 +1,92 @@
+[
+  {
+    "question": "How far apart are the two persons in the scene?",
+    "answer": "Based on the available depth data, the two persons are estimated to be approximately 16.29 metres apart on average within the scene depth range of 0.00 to 50.00 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "What is the approximate depth range within which the persons are located?",
+    "answer": "The persons are located within a depth range of approximately 0.00 metres (nearest point) to 50.00 metres (farthest point), with a mean scene depth of 16.29 metres.",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "Are there two or more persons present in the scene?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "Is any heavy equipment (e.g., excavator, crane, forklift) present in the scene?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "Is either person closer to the camera than the other?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "Where are the two persons positioned relative to each other in the scene?",
+    "answer": "One person is positioned closer to the camera (nearer depth) while the other is positioned farther from the camera (greater depth), placing them at different distances along the depth axis of the scene.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "Are both persons located within the mid-range depth zone of the scene?",
+    "answer": "Based on the mean depth of 16.29 metres against a maximum of 50.00 metres, both persons are generally concentrated in the near-to-mid range of the scene rather than at the far end.",
+    "type": "relative_position",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "Is any worker within a dangerous proximity (less than 2 metres) of heavy equipment?",
+    "answer": "No heavy equipment such as excavators, cranes, forklifts, or bulldozers has been detected in this scene. Therefore, no safety alert regarding worker-equipment proximity is triggered. However, site supervisors should remain vigilant as equipment may be outside the camera's field of view.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  },
+  {
+    "question": "Should a safety alert be raised due to the proximity of the two persons to each other or to any machinery?",
+    "answer": "No immediate safety alert is warranted based on detected objects alone, as no heavy machinery is present in the scene. The two persons do not themselves constitute a machine-worker hazard. Nevertheless, if the scene depth minimum of 0.00 metres indicates a person is at the very foreground near undetected equipment, a precautionary review is recommended.",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "person",
+      "person"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f000374.jpg"
+  }
+]

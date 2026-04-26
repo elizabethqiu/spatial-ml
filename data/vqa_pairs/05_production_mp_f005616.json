@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the distance between the car and the bicycle?",
+    "answer": "Unable to determine - specific 3D positions not provided",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005616.jpg"
+  },
+  {
+    "question": "Is the bicycle closer to the camera than the car?",
+    "answer": "Unable to determine - specific 3D coordinates not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005616.jpg"
+  },
+  {
+    "question": "How many vehicles are present in this scene?",
+    "answer": "2 vehicles (1 car and 1 bicycle)",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "car",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005616.jpg"
+  },
+  {
+    "question": "Is the car positioned to the right of the bicycle?",
+    "answer": "Unable to determine - specific 3D positions not provided",
+    "type": "relative_position",
+    "objects_referenced": [
+      "car",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005616.jpg"
+  },
+  {
+    "question": "Are there any safety hazards in this scene?",
+    "answer": "No workers detected - no immediate safety alerts",
+    "type": "safety_alert",
+    "objects_referenced": [
+      "car",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005616.jpg"
+  },
+  {
+    "question": "Is there adequate separation between the car and bicycle for safe passage?",
+    "answer": "Unable to determine - specific 3D positions not provided",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "car",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005616.jpg"
+  }
+]

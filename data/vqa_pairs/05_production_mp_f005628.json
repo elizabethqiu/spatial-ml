@@ -1,0 +1,85 @@
+[
+  {
+    "question": "How many bicycles are visible in this scene?",
+    "answer": "2",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  },
+  {
+    "question": "What is the maximum depth distance observed in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bottle",
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  },
+  {
+    "question": "Is the dog closer to the camera than the chair?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog",
+      "chair"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  },
+  {
+    "question": "Are both bicycles at the same distance from the camera?",
+    "answer": "no",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  },
+  {
+    "question": "Is the bottle positioned between the two bicycles?",
+    "answer": "no",
+    "type": "relative_position",
+    "objects_referenced": [
+      "bottle",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  },
+  {
+    "question": "What is the average depth distance of all objects in the scene?",
+    "answer": "15.63 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bottle",
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  },
+  {
+    "question": "Is the dog positioned closer than 5 metres from the camera?",
+    "answer": "yes",
+    "type": "binary_predicate",
+    "objects_referenced": [
+      "dog"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  },
+  {
+    "question": "What is the distance range in this scene?",
+    "answer": "50.00 metres",
+    "type": "quantitative_distance",
+    "objects_referenced": [
+      "chair",
+      "bottle",
+      "dog",
+      "bicycle"
+    ],
+    "image_path": "data/frames/05_production_mp/05_production_mp_f005628.jpg"
+  }
+]
